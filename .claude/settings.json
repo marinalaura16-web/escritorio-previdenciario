@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Read", "Write", "Edit", "Glob", "Grep",
+      "Bash(pdftotext:*)", "Bash(tesseract:*)", "Bash(python:*)", "Bash(pip:*)"
+    ],
+    "deny": [
+      "Bash(rm:*)", "Bash(curl:*)", "Bash(wget:*)",
+      "WebFetch"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/anti-alucinacao.py"
+          }
+        ]
+      }
+    ]
+  }
+}

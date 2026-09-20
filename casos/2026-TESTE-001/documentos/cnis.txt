@@ -1,0 +1,22 @@
+CNIS - Cadastro Nacional de Informacoes Sociais
+Nome: MARIA APARECIDA DA SILVA
+NIT: 123.45678.90-1
+Data de nascimento: 12/05/1968
+
+Vinculos:
+01) CONFECCOES ALFA LTDA - CNPJ 12.345.678/0001-90
+    Admissao: 03/1988
+    Demissao: 12/1995
+    Funcao: Costureira
+
+02) TEXTEIS BETA S.A. - CNPJ 98.765.432/0001-10
+    Admissao: 01/1998
+    Demissao: 06/2005
+    Funcao: Costureira
+
+03) MODAS GAMA ME - CNPJ 11.222.333/0001-44
+    Admissao: 08/2010
+    Demissao: 12/2024
+    Funcao: Costureira
+
+Contribuicoes como autonoma: 03/2006 a 07/2010 (comprovadas por carne)

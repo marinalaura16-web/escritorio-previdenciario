@@ -1,0 +1,17 @@
+CTPS - Carteira de Trabalho e Previdencia Social
+Nome: MARIA APARECIDA DA SILVA
+Serie: 12345
+
+Anotacoes:
+1) CONFECCOES ALFA LTDA - CNPJ 12.345.678/0001-90
+   Admissao: 02/1988 / Demissao: 12/1995 / Costureira
+
+2) TEXTEIS BETA S.A. - CNPJ 98.765.432/0001-10
+   Admissao: 01/1998 / Demissao: 06/2005 / Costureira
+
+3) CONFECCOES DELTA ME - CNPJ 55.666.777/0001-88
+   Admissao: 07/2005 / Demissao: 12/2005 / Costureira
+   OBS: Periodo NAO consta no CNIS
+
+4) MODAS GAMA ME - CNPJ 11.222.333/0001-44
+   Admissao: 08/2010 / Demissao: 12/2024 / Costureira
