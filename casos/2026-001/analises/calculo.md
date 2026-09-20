@@ -76,6 +76,32 @@ Seção 4, não um problema de legibilidade).
    foram extraídas e somadas por competência (tratando concomitância de vínculos por soma de
    valores no mesmo mês, não por soma de tempo).
 
+### 2.1 ATUALIZAÇÃO (pós-cálculo) — bug de concomitância na skill corrigido
+
+O bug descrito no item 3 acima (`cruza_cnis_ctps.py` somava vínculos sem excluir
+concomitância) **foi corrigido** após a emissão deste relatório — ver
+`.claude/skills/calculo-tempo-contribuicao/scripts/cruza_cnis_ctps.py`, função
+`unir_periodos()`. O script agora une intervalos sobrepostos antes de somar.
+
+Testado com os 10 vínculos reais deste caso, o script corrigido apurou o tempo comum
+total (união, sem duplicar concomitância) em **29a 6m** (dado curado manualmente) e em
+**29a 2m** (rodando direto sobre o texto extraído do CNIS/CTPS Digital, usando a última
+competência do próprio extrato — 05/2026 — como referência para os vínculos ainda
+ativos). Nenhum dos dois bate exatamente com os **29a 5m 10d** apurados manualmente
+neste documento (Seção 4, dia a dia).
+
+> ⚠️ **PENDENTE DE RECONCILIAÇÃO ANTES DA PETIÇÃO.** Diferença de aproximadamente
+> **20 dias** entre a apuração manual (29a5m10d, precisão de dia, referência 20/09/2026)
+> e a saída do script (29a6m ou 29a2m, precisão de mês, referência variável conforme
+> execução). Hipóteses prováveis, ainda não verificadas uma a uma: (a) o script trabalha
+> em granularidade de **mês** (MM/AAAA), enquanto a apuração manual usa **dia exato**
+> (DD/MM/AAAA) — arredondamentos de início/fim de mês podem explicar até ~30 dias de
+> diferença por si só; (b) a data de referência para os vínculos ativos difere entre as
+> duas execuções (20/09/2026 na apuração manual vs. 05/2026, última competência do CNIS,
+> na execução direta do script). **Antes de usar qualquer um dos dois números em petição
+> ou requerimento, refazer a conferência linha a linha** (script vs. manual, competência
+> a competência) e registrar aqui qual apuração prevalece e por quê.
+
 ---
 
 ## 3. CRUZAMENTO CNIS × CTPS × PPP — CONFIRMAÇÃO PRÓPRIA
@@ -421,6 +447,13 @@ não quantidade adicional de tempo.
 1. **Documento é RASCUNHO** sujeito a revisão do advogado responsável (CLAUDE.md, regra 1).
 2. Nenhuma jurisprudência é afirmada como definitiva; o Tema 1.231 do STF é tratado como
    premissa herdada da triagem, não confirmada por este agente.
+   **ATUALIZAÇÃO:** tentativa de confirmação na fonte oficial encontrou indício de que a
+   citação correta é **ADI 6.309/DF** (não "Tema 1.231"), e que a **modulação de efeitos
+   ainda não foi definida** pelo STF — ver `triagem.md`, Seção 9.2, para o detalhamento e as
+   fontes consultadas. Marca-se **[JURISPRUDÊNCIA A CONFIRMAR NA FONTE OFICIAL]**; este
+   cálculo não precisa ser refeito por conta disso (a data de referência, 03/06/2026, e o
+   efeito jurídico — idade mínima afastada — permanecem os mesmos), mas a **citação usada em
+   qualquer petição deve aguardar essa confirmação**.
 3. Nenhum diagnóstico médico é mencionado (não é matéria deste cálculo).
 4. Todos os números de tempo (comum, especial, conversão, pontos) foram recalculados de forma
    independente, competência a competência/dia a dia, e **conferem** com as estimativas da

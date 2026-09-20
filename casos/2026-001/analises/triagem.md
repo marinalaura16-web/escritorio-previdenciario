@@ -419,6 +419,43 @@ ortopédica / gesseiro em ambiente hospitalar**. A base `legislacao/` **ainda n�
 textos integrais** (v. "Pendências desta base", item 1) — **não citar de memória**.
 
 ### 9.2 Risco do Tema 1.231 do STF
+
+**ATUALIZAÇÃO (tentativa de confirmação na fonte oficial, pós-emissão deste relatório):**
+Tentou-se confirmar a citação "STF, Tema 1.231" diretamente no portal do STF
+(portal.stf.jus.br → Jurisprudência → Temas de Repercussão Geral → buscar 1231), conforme
+solicitado. **Não há, neste ambiente, ferramenta de navegação/download de página web** (sem
+WebFetch e sem acesso de rede via `curl` liberado) — não foi possível abrir a página
+interativa de busca do portal. Usando apenas busca textual (que retorna trechos indexados
+de páginas, inclusive do próprio domínio `portal.stf.jus.br` e de `noticias.stf.jus.br`),
+encontrou-se um **indício forte de que a citação "Tema 1.231" está incorreta**:
+
+- Um trecho indexado da própria página de acompanhamento processual do
+  `portal.stf.jus.br` para "Tema 1231" (RE 1.359.139) descreve o objeto como
+  **teto de Requisição de Pequeno Valor (RPV) municipal** — matéria de direito financeiro,
+  **sem relação com aposentadoria especial ou idade mínima**.
+- Múltiplas fontes, incluindo o **canal oficial de notícias do STF** (`noticias.stf.jus.br`,
+  matéria "STF invalida idade mínima para aposentadoria especial em atividades insalubres"),
+  atribuem a invalidação da idade mínima (55/58/60 anos, art. 19, §1º, I, da EC 103/2019) à
+  **ADI 6.309/DF** (Ação Direta de Inconstitucionalidade, não Recurso Extraordinário com
+  repercussão geral), julgada em **03/06/2026**, por **6 votos a 5**, com o **Ministro André
+  Mendonça como redator do acórdão**. Isso é consistente com a data (03/06/2026) já registrada
+  em `legislacao/INDICE.md`, item 8 — sugerindo que o número do "Tema" foi trocado/mal atribuído
+  ao se registrar essa atualização na base, mas o **fato jurídico em si (idade mínima derrubada
+  nessa data) parece correto**.
+- **Ponto adicional de risco, não capturado antes:** as mesmas fontes indicam que, até a data
+  das buscas, **o acórdão ainda não havia sido publicado e o STF não havia definido a
+  modulação de efeitos** — ou seja, o risco tratado abaixo ("se houver modulação... a
+  estratégia muda") não é hipotético, é uma **lacuna real e atual** na informação disponível.
+
+**Isso NÃO substitui a conferência na fonte oficial.** Marca-se
+**[JURISPRUDÊNCIA A CONFIRMAR NA FONTE OFICIAL]** — permanece pendente: (a) confirmar se a
+referência correta é mesmo **ADI 6.309/DF** (e não Tema 1.231) diretamente no portal do STF;
+(b) **trânsito em julgado**; (c) **modulação de efeitos**, ainda indefinida nas fontes
+consultadas. **Recomenda-se fortemente que o advogado corrija a citação em
+`legislacao/INDICE.md` (item 8) e em `CLAUDE.md` para ADI 6.309/DF, condicionado à
+confirmação direta no portal do STF**, já que o número errado está hoje replicado em toda a
+base de conhecimento do escritório, não apenas neste caso.
+
 A viabilidade **ALTA** depende do afastamento da idade mínima de 60 anos. Conferir na fonte
 oficial (portal do STF): (a) **trânsito em julgado**; (b) **modulação de efeitos** — se houver
 modulação a partir da publicação da ata, ou restrição a quem já tinha requerimento protocolado,
