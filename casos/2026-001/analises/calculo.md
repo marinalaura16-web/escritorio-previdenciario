@@ -25,7 +25,7 @@ Isso é especialmente sensível em dois pontos:
    "tempo de contribuição total" ou "tempo de efetiva exposição" — sinalizado como
    **[BASE NORMATIVA A CONFIRMAR]** na Seção 5.2.
 
-Nenhuma jurisprudência é citada como certa neste documento (Tema 1.231 do STF é tratado apenas
+Nenhuma jurisprudência é citada como certa neste documento (STF, ADI 6309/DF, é tratada apenas
 como premissa herdada da triagem, cujo trânsito em julgado e modulação **não foram
 reexaminados por este agente** — ver `triagem.md`, item 9.2, ainda pendente de confirmação).
 
@@ -229,7 +229,7 @@ documentalmente cobertos**, mesmo que a função e o ambiente de trabalho aparen
 tenham mudado (mesma matéria de risco 9.4 da triagem — L1/L2 seguem sendo prioridade máxima
 antes de qualquer DER).
 
-### 5.2 Simulação da regra de transição de 86 pontos (EC 103/2019, art. 21) — caso o Tema 1.231 não seja aplicável
+### 5.2 Simulação da regra de transição de 86 pontos (EC 103/2019, art. 21) — caso a ADI 6309/DF não seja aplicável ou seja modulada desfavoravelmente
 
 **[BASE NORMATIVA A CONFIRMAR]** — o `INDICE.md` registra que essa regra soma "idade + tempo
 de contribuição" (não deixa claro se é o tempo de contribuição *total* do segurado ou apenas o
@@ -274,7 +274,7 @@ Consistente com a estimativa da triagem (≈31a7m e ≈38a6m).
 Consistente com a estimativa da triagem (≈abril/2034). **Confirma-se a conclusão da triagem:
 mesmo no cenário mais favorável de tempo de contribuição comum (com conversão), essa rota
 chega ~4 anos depois da rota da aposentadoria especial (86 pontos, ≈2030) e muitos anos depois
-da tese central do caso (especial sem idade mínima, via Tema 1.231, potencialmente já
+da tese central do caso (especial sem idade mínima, via ADI 6309/DF, potencialmente já
 disponível hoje).**
 
 Demais regras de tempo de contribuição (pedágio 50%, pedágio 100%, idade mínima progressiva,
@@ -435,7 +435,7 @@ não quantidade adicional de tempo.
    bônus de 2% para a aposentadoria especial (Seção 8.1) e do art. 21 quanto à composição dos
    pontos da transição especial (Seção 5.2) — a base `legislacao/` não contém o texto
    integral.
-7. Este cálculo **não reexamina** o Tema 1.231 do STF (trânsito em julgado/modulação); essa
+7. Este cálculo **não reexamina** a ADI 6309/DF do STF (trânsito em julgado/modulação); essa
    verificação, já sinalizada como prioritária pela triagem (item 9.2), condiciona qual das
    três rotas simuladas (especial imediata / 86 pontos em 2030 / 103 pontos com conversão em
    2034) é a que efetivamente está disponível hoje.
@@ -445,15 +445,17 @@ não quantidade adicional de tempo.
 ## 11. RESSALVAS FINAIS
 
 1. **Documento é RASCUNHO** sujeito a revisão do advogado responsável (CLAUDE.md, regra 1).
-2. Nenhuma jurisprudência é afirmada como definitiva; o Tema 1.231 do STF é tratado como
-   premissa herdada da triagem, não confirmada por este agente.
-   **ATUALIZAÇÃO:** tentativa de confirmação na fonte oficial encontrou indício de que a
-   citação correta é **ADI 6.309/DF** (não "Tema 1.231"), e que a **modulação de efeitos
-   ainda não foi definida** pelo STF — ver `triagem.md`, Seção 9.2, para o detalhamento e as
-   fontes consultadas. Marca-se **[JURISPRUDÊNCIA A CONFIRMAR NA FONTE OFICIAL]**; este
-   cálculo não precisa ser refeito por conta disso (a data de referência, 03/06/2026, e o
-   efeito jurídico — idade mínima afastada — permanecem os mesmos), mas a **citação usada em
-   qualquer petição deve aguardar essa confirmação**.
+2. Nenhuma jurisprudência é afirmada como definitiva; a **ADI 6309/DF do STF** é tratada como
+   premissa herdada da triagem, não reexaminada quanto a trânsito em julgado/modulação por
+   este agente.
+   **ATUALIZAÇÃO:** a citação foi corrigida de "Tema 1.231" para **ADI 6.309/DF**, confirmada
+   por certidão de julgamento oficial (`legislacao/jurisprudencia-vinculante/`); a
+   **modulação de efeitos ainda não foi definida** pelo STF — ver `triagem.md`, Seção 9.2, e
+   "Observação sobre a ADI 6309" ao final deste documento. Marca-se
+   **[JURISPRUDÊNCIA A CONFIRMAR NA FONTE OFICIAL]** quanto à ementa/DJe, modulação e trânsito
+   em julgado; este cálculo não precisa ser refeito por conta disso (a data de referência,
+   03/06/2026, e o efeito jurídico — idade mínima afastada — permanecem os mesmos), mas a
+   **citação usada em qualquer petição deve aguardar essa confirmação**.
 3. Nenhum diagnóstico médico é mencionado (não é matéria deste cálculo).
 4. Todos os números de tempo (comum, especial, conversão, pontos) foram recalculados de forma
    independente, competência a competência/dia a dia, e **conferem** com as estimativas da
@@ -466,6 +468,18 @@ não quantidade adicional de tempo.
    dependem de confirmação do texto integral da EC 103/2019 antes de uso em petição.
 7. `practice-profile.md` contém dados de teste ("Escritório: Teste", "OAB: Teste") — substituir
    antes de qualquer uso em produção.
+
+---
+
+## Observação sobre a ADI 6309
+
+- A decisão da ADI 6309/DF (03/06/2026) declarou inconstitucional APENAS a idade mínima para
+  aposentadoria especial (art. 19, § 1º, I, a, b, c, EC 103/2019).
+- Permanecem válidas: a vedação à conversão de tempo especial em comum (art. 25, § 2º) e os
+  novos critérios de cálculo (art. 26, § 2º, IV).
+- O placar "6x5" é inferência baseada na contagem nominal — aguardar acórdão oficial para
+  confirmar.
+- Modulação de efeitos e trânsito em julgado ainda pendentes.
 
 ---
 *Relatório gerado pelo agente `calculo-previdenciario` · Caso 2026-001 · 20/09/2026*

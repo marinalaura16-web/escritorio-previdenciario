@@ -78,9 +78,11 @@ requerimento administrativo ou da ação.
   contribuição), observado o mínimo de 25 anos de efetiva exposição.
 - **EC 103/2019, art. 25, §2º** — veda a conversão de tempo especial em comum para períodos
   posteriores a 13/11/2019 (tempo anterior permanece conversível).
-- **STF, Tema 1.231** — conforme `INDICE.md`, item 8: o STF **considerou inconstitucional a
-  idade mínima (55/58/60 anos)** da aposentadoria especial, em 03/06/2026. **Norma decisiva
-  neste caso** (v. item 8.1).
+- **STF, ADI 6309/DF** — conforme `INDICE.md`, item 8: o STF **considerou inconstitucional
+  apenas a idade mínima (55/58/60 anos)** da aposentadoria especial (art. 19, §1º, I, a, b, c,
+  EC 103/2019), em 03/06/2026. **Norma decisiva neste caso** (v. item 8.1). *(Citação
+  corrigida — anteriormente referida como "Tema 1.231"; ver Seção 9.2 e "Observação sobre a
+  ADI 6309" ao final deste documento.)*
 
 ### 3.2 Benefício subsidiário: APOSENTADORIA POR TEMPO DE CONTRIBUIÇÃO
 - **CF/1988, art. 201, §7º, II**; **Lei 8.213/1991, arts. 52 a 56**.
@@ -335,14 +337,14 @@ esteja incongruente com o CNIS.
 - **Lei 8.213/1991, art. 25, II** — carência de 180 contribuições. **CUMPRIDO com folga**
   (≈315 competências).
 - **EC 103/2019, art. 19, §1º, I** — exigiria 60 anos de idade. **O cliente tem 49 anos.**
-  **→ Requisito afastado pelo STF, Tema 1.231**, que, conforme `legislacao/INDICE.md` (item 8),
-  **declarou inconstitucional a idade mínima da aposentadoria especial em 03/06/2026**.
+  **→ Requisito afastado pelo STF, ADI 6309/DF**, que, conforme `legislacao/INDICE.md` (item 8),
+  **declarou inconstitucional apenas a idade mínima da aposentadoria especial em 03/06/2026**.
   **Este é o fundamento que torna o caso viável desde já.**
 
-**Consequência prática:** com o Tema 1.231, restam apenas os requisitos de **25 anos de efetiva
+**Consequência prática:** com a ADI 6309/DF, restam apenas os requisitos de **25 anos de efetiva
 exposição** e **carência** — ambos satisfeitos. O cliente **já reúne os requisitos**.
 
-**Rota alternativa, caso o Tema 1.231 seja modulado desfavoravelmente:**
+**Rota alternativa, caso a ADI 6309/DF seja modulada desfavoravelmente:**
 **EC 103/2019, art. 21** (transição da especial) — **86 pontos** + 25 anos de exposição.
 Hoje: 49,38 (idade) + 29,45 (TC) = **78,8 pontos**. Os 86 pontos seriam alcançados por volta de
 **maio/2030** (idade ≈53 anos). Ou seja: **mesmo no pior cenário jurisprudencial, o benefício
@@ -418,7 +420,7 @@ para agentes não mensuráveis; (ii) enunciado da TNU sobre agentes biológicos 
 ortopédica / gesseiro em ambiente hospitalar**. A base `legislacao/` **ainda não possui os
 textos integrais** (v. "Pendências desta base", item 1) — **não citar de memória**.
 
-### 9.2 Risco do Tema 1.231 do STF
+### 9.2 Risco da citação da jurisprudência sobre idade mínima (ADI 6309/DF, ex-"Tema 1.231")
 
 **ATUALIZAÇÃO (tentativa de confirmação na fonte oficial, pós-emissão deste relatório):**
 Tentou-se confirmar a citação "STF, Tema 1.231" diretamente no portal do STF
@@ -455,6 +457,17 @@ consultadas. **Recomenda-se fortemente que o advogado corrija a citação em
 `legislacao/INDICE.md` (item 8) e em `CLAUDE.md` para ADI 6.309/DF, condicionado à
 confirmação direta no portal do STF**, já que o número errado está hoje replicado em toda a
 base de conhecimento do escritório, não apenas neste caso.
+
+**ATUALIZAÇÃO 2 (confirmação por documento oficial):** o advogado forneceu o andamento
+processual oficial da ADI 6.309/DF e o voto do Relator Min. Luís Roberto Barroso, obtidos
+diretamente do portal do STF, além da certidão de julgamento (03/06/2026). Ambos foram salvos
+em `legislacao/jurisprudencia-vinculante/` (`adi-6309-2026-andamento.pdf`,
+`adi-6309-2026-voto-barroso.pdf`, `adi-6309-2026-certidao-julgamento.md`,
+`adi-6309-2026-resumo.md`). **A citação correta é confirmada: ADI 6.309/DF**, não Tema 1.231
+(que trata de RPV municipal, sem relação com este caso). `legislacao/INDICE.md` e `CLAUDE.md`
+já foram corrigidos. **Continuam pendentes:** ementa oficial (DJe), modulação de efeitos e
+trânsito em julgado — ver "Observação sobre a ADI 6309" ao final deste documento e
+`adi-6309-2026-resumo.md` para o estado atual dessas pendências.
 
 A viabilidade **ALTA** depende do afastamento da idade mínima de 60 anos. Conferir na fonte
 oficial (portal do STF): (a) **trânsito em julgado**; (b) **modulação de efeitos** — se houver
@@ -503,7 +516,7 @@ DER** — o cliente precisa decidir sobre o desligamento ou a remoção para fun
 
 ### 10.1 Conclusão da triagem
 **ACEITAR O CASO.** Trata-se de caso de **viabilidade ALTA para APOSENTADORIA ESPECIAL**
-(Lei 8.213/1991, art. 57, c/c Anexo IV, cód. 3.0.1 do Decreto 3.048/1999, c/c STF, Tema 1.231),
+(Lei 8.213/1991, art. 57, c/c Anexo IV, cód. 3.0.1 do Decreto 3.048/1999, c/c STF, ADI 6309/DF),
 com **≈27 anos e 8 meses de tempo especial já documentado por PPP** — muito acima dos 25 anos
 exigidos — e carência amplamente cumprida.
 
@@ -516,8 +529,8 @@ empresarial expressa de que o EPI não elide o agente nocivo**.
 ### 10.2 Providências imediatas (ordem de execução)
 1. **Confirmar com o cliente se já houve requerimento administrativo anterior** (L11). Se houver,
    suspender esta estratégia e acionar o agente `analise-indeferimento`.
-2. **Confirmar na fonte oficial o STF, Tema 1.231** — trânsito em julgado e modulação (risco 9.2).
-   Sem essa confirmação, **nenhuma peça deve ser protocolada**.
+2. **Confirmar na fonte oficial (DJe) a ementa, o trânsito em julgado e a modulação de efeitos
+   da ADI 6309/DF** (risco 9.2). Sem essa confirmação, **nenhuma peça deve ser protocolada**.
 3. **Requerer os PPP atualizados** (L1, L2) e o **PPP retificado da COOPSERSA** (L4).
 4. **Requerer LTCAT/PGR** dos Hospitais Associados e do FMS Ipojuca (L5) — munição contra o
    risco 9.1.
@@ -550,9 +563,10 @@ empresarial expressa de que o EPI não elide o agente nocivo**.
 ## 11. RESSALVAS OBRIGATÓRIAS
 1. **Este documento é RASCUNHO** sujeito a revisão do advogado responsável (CLAUDE.md, regra 1).
 2. **Nenhuma jurisprudência foi citada como certa.** Todas as referências jurisprudenciais estão
-   marcadas **[JURISPRUDÊNCIA A CONFIRMAR]**, salvo o **Tema 1.231 do STF**, extraído de
-   `legislacao/INDICE.md` (item 8) e de `CLAUDE.md` — que **ainda assim deve ser conferido na
-   fonte oficial** quanto a trânsito em julgado e modulação.
+   marcadas **[JURISPRUDÊNCIA A CONFIRMAR]**, salvo a **ADI 6309/DF (STF)**, confirmada por
+   certidão de julgamento oficial (ver `legislacao/jurisprudencia-vinculante/`) e extraída de
+   `legislacao/INDICE.md` (item 8) e de `CLAUDE.md` — que **ainda assim deve ser conferida na
+   fonte oficial (DJe)** quanto a ementa, trânsito em julgado e modulação de efeitos.
 3. **Nenhum diagnóstico médico foi afirmado.** Não há laudo nem CID nos autos (CLAUDE.md, regra 3).
 4. **Nenhum período de contribuição foi inventado.** Todo período citado tem indicação expressa
    de fonte (CNIS / CTPS 1 / CTPS 2 / CTPS Digital / PPP), com a página ou o número de sequência.
@@ -563,6 +577,18 @@ empresarial expressa de que o EPI não elide o agente nocivo**.
    vigente antes de qualquer protocolo.
 7. O `practice-profile.md` está preenchido com dados de teste ("Escritório: Teste", "OAB: Teste").
    **Substituir pelos dados reais antes de qualquer uso em produção.**
+
+---
+
+## Observação sobre a ADI 6309
+
+- A decisão da ADI 6309/DF (03/06/2026) declarou inconstitucional APENAS a idade mínima para
+  aposentadoria especial (art. 19, § 1º, I, a, b, c, EC 103/2019).
+- Permanecem válidas: a vedação à conversão de tempo especial em comum (art. 25, § 2º) e os
+  novos critérios de cálculo (art. 26, § 2º, IV).
+- O placar "6x5" é inferência baseada na contagem nominal — aguardar acórdão oficial para
+  confirmar.
+- Modulação de efeitos e trânsito em julgado ainda pendentes.
 
 ---
 *Relatório gerado pelo agente `triagem-viabilidade` · Caso 2026-001 · 20/09/2026*
