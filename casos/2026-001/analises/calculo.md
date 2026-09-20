@@ -471,6 +471,78 @@ não quantidade adicional de tempo.
 
 ---
 
+## Reanálise Pós-ADI 6309 (04/09/2026)
+
+> Data desta reanálise: 20/09/2026. Base: dados já apurados nas Seções 4-9 deste documento
+> (nenhum número de tempo foi recalculado; esta seção interpreta os números existentes à luz
+> da ADI 6309/DF).
+
+### a) A cliente já pode requerer aposentadoria especial?
+
+**Sim, quanto ao requisito de tempo.** Tempo especial documentado (Seção 5.1): **27 anos e
+8 meses**, até 10/12/2024 — acima do exigido. Enquadramento por agente biológico em ambiente
+hospitalar (Decreto 3.048/1999, Anexo IV, cód. 3.0.1) corresponde à categoria de **25 anos de
+efetiva exposição**, ou seja, **art. 19, § 1º, I, alínea "c"** da EC 103/2019 (não "a", 15
+anos, nem "b", 20 anos). Marco de conclusão dos 25 anos: **entre 09 e 10/04/2022** (Seção 5.1).
+
+### b) A idade mínima ainda era obstáculo?
+
+**Idade atual (20/09/2026): 49 anos, 4 meses e 17 dias** (nascido 04/05/1977). A alínea "c"
+exigiria **60 anos de idade** — o cliente está **10,6 anos abaixo** desse patamar. Sem a
+ADI 6309/DF, a idade mínima seria óbice **intransponível até aproximadamente 2037**. Com a
+ADI 6309/DF, a idade mínima **deixa de ser exigida** — **desde que a modulação de efeitos
+(ainda pendente) não a restabeleça** para casos como este (ver ressalva abaixo).
+
+### c) Data em que os requisitos foram cumpridos pela primeira vez (DIB potencial)
+
+A carência (314-350 competências, Seção 7.1) já estava superada desde o início dos anos 2000.
+O único requisito pendente era o tempo de exposição, cumprido em **≈09-10/04/2022**. Essa é a
+data-marco material, mas a data que efetivamente pode ser usada como DIB **depende do teor da
+modulação de efeitos do STF, ainda não definida**:
+
+| Cenário de modulação | DIB provável | Observação |
+|---|---|---|
+| Sem modulação (efeito retroativo pleno) | **≈09-10/04/2022** | Sujeito a prescrição quinquenal das parcelas (Lei 8.213/1991, art. 103) — parcelas anteriores a 5 anos do requerimento não seriam pagas, mas o direito ao benefício desde essa data seria reconhecido |
+| Modulação a partir do julgamento | **03/06/2026** | Ainda assim posterior ao marco de 04/2022 — o cliente já cumpria os requisitos nessa data |
+| Sem reconhecimento de efeito retroativo (via administrativa padrão) | **Data do requerimento administrativo (DER)** | Cenário mais provável na prática administrativa até que haja determinação judicial em contrário |
+
+**Em qualquer um dos três cenários, o cliente já cumpre os requisitos hoje (20/09/2026)** —
+a diferença entre eles está apenas em quanto da retroatividade será reconhecida, não em se
+o benefício está ou não ao alcance agora.
+
+### d) Comparativo de rotas
+
+| Rota | Base legal | Disponibilidade | Coeficiente RMI (Seção 8.3) | Depende da ADI 6309? |
+|---|---|---|---|---|
+| **Especial via ADI 6309** | Art. 19, §1º, I, "c" | Potencialmente já disponível (marco ≈04/2022) | ≈65,3% | **Sim — é o fundamento que a viabiliza sem idade mínima** |
+| **Especial por pontos (86)** | Art. 21, EC 103/2019 | ≈05/2030 (idade ≈52,9) | Não calculado nesta apuração — usaria a fórmula da especial (mín. 25 anos), com excedente maior que o da rota acima | **Não** — rota alternativa que nunca exigiu idade mínima, disponível independentemente do resultado da ADI |
+| **Comum com conversão (103 pontos)** | Arts. 52-56, Lei 8.213/1991, c/c EC 103/2019 | ≈04/2034 (idade ≈56,9) | **≈97,0%** (o mais alto das três rotas calculadas) | **Não** — rota independente |
+| **Idade pura (65 anos)** | CF, art. 201, §7º, I | ≈2042 | Não calculado (classificada BAIXA na triagem, Seção 8.2) | Não |
+
+[DISPOSITIVO A CONFIRMAR] — a citação de CF, art. 201, §7º, I acima segue a mesma referência
+já usada em `triagem.md` (Seção 8.2), mas o texto integral da Constituição não está na base
+`legislacao/` (ver Seção 0 deste documento); confirmar a redação exata antes de uso em petição.
+
+**Mais vantajosa em RMI:** a rota de tempo comum com conversão (103 pontos) tem o maior
+coeficiente calculado (**97,0%**), mas só fica disponível em **~2034** — quase 8 anos depois
+da rota especial via ADI 6309. Isso cria uma tensão real, não apenas numérica: esperar mais
+tempo aumenta o coeficiente da RMI, mas exige que o cliente permaneça exposto ao agente
+nocivo por quase mais uma década — precisamente o cenário que a fundamentação da própria
+ADI 6309/DF (Min. André Mendonça) qualificou como incompatível com a finalidade protetiva da
+aposentadoria especial (ver `adi-6309-2026-resumo.md`). **A maximização de RMI não deve ser
+usada como critério isolado de recomendação** — cabe ao advogado apresentar esse trade-off
+(valor do benefício × tempo de exposição a agente nocivo) ao cliente, e não decidi-lo por ele.
+
+### Ressalva desta reanálise
+
+Nenhum número de tempo, carência ou coeficiente foi recalculado — todos vêm das Seções 4 a 9
+já auditadas. Esta seção apenas interpreta esses números à luz da ADI 6309/DF. A conclusão de
+viabilidade **permanece condicionada** à confirmação, na fonte oficial (DJe), de: ementa,
+trânsito em julgado e, sobretudo, **modulação de efeitos** — que decide qual das três datas de
+DIB do item (c) acima efetivamente se aplica.
+
+---
+
 ## Observação sobre a ADI 6309
 
 - A decisão da ADI 6309/DF (03/06/2026) declarou inconstitucional APENAS a idade mínima para
