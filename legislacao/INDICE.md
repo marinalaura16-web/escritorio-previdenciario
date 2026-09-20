@@ -118,7 +118,22 @@ Artigos-chave:
   - Súmula 416: Pensão por morte — qualidade de segurado
 - Súmulas TNU — jurisprudencia-vinculante/sumulas-tnu.md
 - Temas de Repercussão Geral STF — jurisprudencia-vinculante/temas-repercussao-geral-stf.md
-  - Tema 1.231: Aposentadoria especial — STF considerou inconstitucional a idade mínima (55/58/60 anos) em 03/06/2026
+- Ações Diretas de Inconstitucionalidade STF
+  - **ADI 6309/DF** — jurisprudencia-vinculante/adi-6309-2026-resumo.md
+    (com adi-6309-2026-andamento.pdf, adi-6309-2026-voto-barroso.pdf e
+    adi-6309-2026-certidao-julgamento.md): Aposentadoria especial — STF
+    declarou inconstitucional APENAS a idade mínima (55/58/60 anos) do
+    art. 19, § 1º, I, alíneas a, b e c, da EC 103/2019, j. 03/06/2026, por
+    maioria (Red. p/ acórdão Min. André Mendonça). Vedação à conversão de
+    tempo especial em comum (art. 25, §2º) e novos critérios de cálculo
+    (art. 26, §2º, IV) foram MANTIDOS. Ementa oficial ainda pendente de
+    publicação no DJe; modulação de efeitos e trânsito em julgado ainda não
+    confirmados.
+    **CORREÇÃO (20/09/2026):** esta ação era anteriormente citada nesta base,
+    e nos relatórios do caso 2026-001, como "STF, Tema 1.231" — número
+    incorreto. Tema 1.231 de Repercussão Geral do STF trata de matéria
+    distinta (teto de Requisição de Pequeno Valor municipal), sem relação
+    com aposentadoria especial. A referência correta é ADI 6309/DF.
 
 ## 9. Tabelas de Cálculo
 - `tabelas/inpc-historico.csv` — série histórica do INPC por competência (para

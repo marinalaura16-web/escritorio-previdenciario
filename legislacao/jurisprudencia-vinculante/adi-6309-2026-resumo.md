@@ -36,3 +36,23 @@ Citar como:
 - [ ] Verificar modulação de efeitos (crítico)
 - [ ] Verificar trânsito em julgado
 - [ ] Baixar voto vencedor do Min. André Mendonça quando disponível
+
+## Fonte de Confirmação
+- **Certidão de julgamento** (documento oficial do STF, salvo localmente em
+  `adi-6309-2026-certidao-julgamento.md`) — confirma processo, data do
+  julgamento (03/06/2026), o dispositivo declarado inconstitucional (art. 19,
+  § 1º, I, alíneas a, b e c, da EC 103/2019) e a votação nominal dos
+  ministros.
+- **Andamento processual** (documento oficial do STF, salvo localmente em
+  `adi-6309-2026-andamento.pdf`) — confirma número único do processo
+  (0085758-57.2020.1.00.0000), partes, relator e redator do acórdão.
+- **Observação:** a ementa oficial do acórdão ainda não foi publicada no DJe.
+  Este resumo é baseado na certidão de julgamento e no andamento processual,
+  não no acórdão completo — não citar tese ou fundamentação além do que
+  consta nesses dois documentos até a publicação.
+
+## ⚠️ Alerta de Documento Incorreto
+O arquivo "inteiro_teor_ADI_6309.pdf" que estava no projeto NÃO era da
+ADI 6309 — é do ARE 1.588.735/RS (reestruturação de cargos públicos de
+Porto Alegre). Foi descartado. O inteiro teor oficial da ADI 6309
+(voto vencedor do Min. André Mendonça) ainda precisa ser obtido.

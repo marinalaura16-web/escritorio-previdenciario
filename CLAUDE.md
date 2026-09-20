@@ -29,7 +29,9 @@ A pasta legislacao/ contém toda a base normativa. Consulte sempre antes de redi
 - Portaria MPS/MF 13/2026: reajuste de 3,90%, teto R$ 8.475,55
 - Portaria DIRBEN 1.347/2026: biometria obrigatória
 - IN 208/2026: altera regras de benefícios por incapacidade
-- STF Tema 1.231: derruba idade mínima para aposentadoria especial
+- STF ADI 6309/DF (03/06/2026, 6x5): declara inconstitucional APENAS
+  a idade mínima para aposentadoria especial (art. 19, § 1º, I, a, b, c,
+  EC 103/2019). Vedação à conversão e novo cálculo foram mantidos.
 - EC 103/2019 (2026): pontos 93 M / 103 H; idade progressiva 59,5 M / 64,5 H
 
 ## Estrutura de Casos
