@@ -120,7 +120,18 @@ Artigos-chave:
 - Temas de Repercussão Geral STF — jurisprudencia-vinculante/temas-repercussao-geral-stf.md
   - Tema 1.231: Aposentadoria especial — STF considerou inconstitucional a idade mínima (55/58/60 anos) em 03/06/2026
 
+## 9. Tabelas de Cálculo
+- `tabelas/inpc-historico.csv` — série histórica do INPC por competência (para
+  correção monetária de salários-de-contribuição)
+- `tabelas/tetos-rgps-historico.csv` — teto e piso (salário mínimo) do RGPS
+  por competência
+- `tabelas/FONTES.md` — fontes oficiais, critério de qual índice usar (CJF x
+  INSS), referência para conferência manual e instruções de validação
+
 ## Pendências desta base
 1. Textos integrais (.html/.pdf) de cada norma ainda não populados
 2. IN 128/2022: PDF integral (244 páginas) a ser adicionado em instrucoes-normativas/in-128-2022.pdf
 3. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
+4. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` criados
+   só com cabeçalho — dados numéricos pendentes de preenchimento manual
+   (ver `tabelas/FONTES.md`)

@@ -4,10 +4,109 @@ Calcula cenarios de aposentadoria a partir do resultado do cruzamento CNIS x CTP
 
 Uso:
     python calcula_tempo.py --input divergencias.json --output resultado.json --nascimento 15/03/1965 --sexo M
+
+Validacao das tabelas de calculo (INPC e teto do RGPS), sem rodar nenhum
+calculo de caso:
+    python calcula_tempo.py --validar-tabelas
 """
 import argparse
+import csv
 import json
+import os
+import re
 from datetime import datetime
+
+
+# Raiz do repositorio, calculada a partir da localizacao deste script
+# (.claude/skills/calculo-tempo-contribuicao/scripts/calcula_tempo.py),
+# para que --validar-tabelas funcione independente do diretorio atual.
+RAIZ_REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
+TABELA_INPC_PADRAO = os.path.join(RAIZ_REPO, "legislacao", "tabelas", "inpc-historico.csv")
+TABELA_TETO_PADRAO = os.path.join(RAIZ_REPO, "legislacao", "tabelas", "tetos-rgps-historico.csv")
+
+PADRAO_COMPETENCIA = re.compile(r'^(0[1-9]|1[0-2])/\d{4}$')
+
+
+def _competencia_para_indice(competencia):
+    mes, ano = competencia.split('/')
+    return int(ano) * 12 + int(mes)
+
+
+def validar_tabela(caminho, colunas_esperadas):
+    """Valida uma tabela CSV de calculo: colunas, formato de competencia,
+    valores numericos e lacunas na serie mensal.
+
+    Retorna (ok: bool, mensagens: list[str]).
+    """
+    mensagens = []
+
+    if not os.path.isfile(caminho):
+        return False, [f"Arquivo nao encontrado: {caminho}"]
+
+    with open(caminho, 'r', encoding='utf-8', newline='') as f:
+        leitor = csv.DictReader(f)
+        colunas = leitor.fieldnames or []
+        if colunas != colunas_esperadas:
+            mensagens.append(
+                f"Colunas incorretas. Esperado {colunas_esperadas}, encontrado {colunas}"
+            )
+            return False, mensagens
+
+        linhas = list(leitor)
+
+    if not linhas:
+        mensagens.append("Tabela vazia (so tem cabecalho) — dados ainda nao preenchidos")
+        return False, mensagens
+
+    competencias = []
+    for i, linha in enumerate(linhas, start=2):  # linha 1 e o cabecalho
+        competencia = linha.get("competencia", "")
+        if not PADRAO_COMPETENCIA.match(competencia):
+            mensagens.append(f"Linha {i}: competencia invalida ou fora do formato MM/AAAA: '{competencia}'")
+            continue
+
+        for coluna in colunas_esperadas[1:]:
+            valor = linha.get(coluna, "")
+            try:
+                float(valor.replace(",", "."))
+            except (ValueError, AttributeError):
+                mensagens.append(f"Linha {i}: valor nao numerico em '{coluna}': '{valor}'")
+
+        competencias.append(_competencia_para_indice(competencia))
+
+    competencias.sort()
+    for anterior, atual in zip(competencias, competencias[1:]):
+        if atual - anterior > 1:
+            mensagens.append(
+                f"Lacuna na serie: faltam competencias entre indice {anterior} e {atual}"
+            )
+
+    ok = len(mensagens) == 0
+    if ok:
+        mensagens.append(f"OK: {len(linhas)} competencias, sem lacunas, todas as colunas validas")
+    return ok, mensagens
+
+
+def validar_tabelas(caminho_inpc=TABELA_INPC_PADRAO, caminho_teto=TABELA_TETO_PADRAO):
+    """Valida as duas tabelas de calculo. Nao executa nenhum calculo de caso."""
+    tudo_ok = True
+
+    print(f"--- {caminho_inpc} ---")
+    ok, mensagens = validar_tabela(caminho_inpc, ["competencia", "indice_inpc", "variacao_mensal"])
+    tudo_ok = tudo_ok and ok
+    for m in mensagens:
+        print(m)
+
+    print()
+    print(f"--- {caminho_teto} ---")
+    ok, mensagens = validar_tabela(caminho_teto, ["competencia", "teto_rgps", "piso_salario_minimo"])
+    tudo_ok = tudo_ok and ok
+    for m in mensagens:
+        print(m)
+
+    print()
+    print("RESULTADO: tabelas validas" if tudo_ok else "RESULTADO: ha problemas nas tabelas — veja acima")
+    return tudo_ok
 
 
 REGRAS_TRANSICAO = {
@@ -85,12 +184,29 @@ def simular_aposentadoria_idade(idade_atual, carencia_anos, sexo):
 
 def main():
     parser = argparse.ArgumentParser(description="Calcula cenarios de aposentadoria")
-    parser.add_argument("--input", required=True, help="JSON do cruza_cnis_ctps.py")
-    parser.add_argument("--output", required=True, help="JSON de saida")
-    parser.add_argument("--nascimento", required=True, help="Data DD/MM/AAAA")
-    parser.add_argument("--sexo", required=True, choices=["M", "F"])
+    parser.add_argument("--input", help="JSON do cruza_cnis_ctps.py")
+    parser.add_argument("--output", help="JSON de saida")
+    parser.add_argument("--nascimento", help="Data DD/MM/AAAA")
+    parser.add_argument("--sexo", choices=["M", "F"])
     parser.add_argument("--tempo-cnis-anos", type=float, default=0, help="Tempo de contribuicao apurado no CNIS em anos")
+    parser.add_argument(
+        "--validar-tabelas", action="store_true",
+        help="Valida legislacao/tabelas/inpc-historico.csv e tetos-rgps-historico.csv "
+             "(colunas, formato de competencia, valores numericos, lacunas). "
+             "Nao roda calculo de nenhum caso."
+    )
     args = parser.parse_args()
+
+    if args.validar_tabelas:
+        tudo_ok = validar_tabelas()
+        raise SystemExit(0 if tudo_ok else 1)
+
+    faltando = [nome for nome, valor in [
+        ("--input", args.input), ("--output", args.output),
+        ("--nascimento", args.nascimento), ("--sexo", args.sexo)
+    ] if not valor]
+    if faltando:
+        parser.error(f"argumentos obrigatorios ausentes: {', '.join(faltando)}")
 
     with open(args.input, 'r', encoding='utf-8') as f:
         dados = json.load(f)
