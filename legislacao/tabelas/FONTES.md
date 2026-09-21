@@ -1,8 +1,10 @@
 # Fontes das Tabelas de Cálculo
 
 Este documento registra a origem oficial dos dados usados em `inpc-historico.csv`
-e `tetos-rgps-historico.csv`. Os CSVs ainda estão **vazios (só cabeçalho)** —
-os dados numéricos serão preenchidos manualmente a partir das fontes abaixo.
+e `tetos-rgps-historico.csv`.
+
+**Status atual:** `inpc-historico.csv` **populado** (ver Seção 3 e Registro de
+atualização). `tetos-rgps-historico.csv` ainda está **vazio (só cabeçalho)**.
 
 ## 1. Qual índice usar — CJF (SICOM), não a tabela administrativa do INSS
 
@@ -33,13 +35,29 @@ metodologia oficial de atualização monetária adotada pela Justiça Federal
 
 ## 3. Série bruta do INPC — IBGE/SIDRA Tabela 1736
 
-Fonte primária do índice, caso seja necessário reconstruir ou conferir a série
-usada pelo CJF/SICOM. Série histórica com número-índice, variação mensal e
-variações acumuladas, a partir de abril/1979 (base dezembro/1993 = 100).
+Fonte primária do índice, usada para popular `inpc-historico.csv`.
 
-- IBGE/SIDRA — Tabela 1736: https://sidra.ibge.gov.br/tabela/1736
+- Fonte: IBGE/SIDRA — Tabela 1736, variável 2289 (INPC — Número-índice, base
+  dezembro/1993 = 100)
+- URL: https://apisidra.ibge.gov.br/values/t/1736/n1/all/v/2289/p/all/h/y/f/a/d/m
+- Data do download: 21/09/2026
+- Período coberto: **março/1979 a agosto/2026** (570 competências, série
+  mensal completa, sem lacunas)
+- Observação: os valores da coluna `indice_inpc` são número-índice (base
+  dez/1993=100), exatamente como publicados pelo IBGE — inclusive a
+  competência 12/1993, cujo valor no CSV é exatamente `100`, confirmando a
+  integridade da série. A coluna `variacao_mensal` **não veio da API**; foi
+  **calculada** por este escritório a partir de dois índices consecutivos
+  (`((índice_atual / índice_anterior) - 1) × 100`). A competência inicial
+  (03/1979) não tem mês anterior na série baixada — `variacao_mensal` foi
+  gravada como `0.0000` por convenção, e não deve ser interpretada como uma
+  variação real.
+- **Conferência:** os dois últimos meses da série foram cruzados com a
+  divulgação oficial do IBGE — julho/2026: -0,01% (oficial) vs. -0,0100%
+  (calculado); agosto/2026: -0,32% (oficial) vs. -0,3200% (calculado).
+  Ambos batem exatamente.
 
-**Status:** URL registrada. Dados ainda não baixados.
+**Status:** ✅ Populado e conferido contra a divulgação oficial do IBGE.
 
 ## 4. Teto e piso do RGPS por período
 
@@ -86,7 +104,7 @@ serve só para validar a integridade dos dados antes de usá-los.
 
 | Tabela | Data de download | Fonte usada | Responsável |
 |---|---|---|---|
-| inpc-historico.csv | _pendente_ | _pendente_ | _pendente_ |
+| inpc-historico.csv | 21/09/2026 | IBGE/SIDRA, Tabela 1736, variável 2289 | Advogada (upload manual do XML) |
 | tetos-rgps-historico.csv | _pendente_ | _pendente_ | _pendente_ |
 
 Atualize esta tabela toda vez que os CSVs forem repopulados, para que o
