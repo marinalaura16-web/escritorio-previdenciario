@@ -144,9 +144,12 @@ Artigos-chave:
   INSS), referência para conferência manual e instruções de validação
 
 ## Pendências desta base
-1. Textos integrais (.html/.pdf) de cada norma ainda não populados
+1. Textos integrais (.html/.pdf) da maioria das normas ainda não populados.
+   Exceção parcial: `emendas-constitucionais/ec-103-2019.md` (art. 26 —
+   regra de cálculo do salário de benefício) já populado, mas **a partir
+   de fontes secundárias**, não de download verificado da fonte primária
+   (Planalto) — ver aviso de proveniência no topo do próprio arquivo.
 2. IN 128/2022: PDF integral (244 páginas) a ser adicionado em instrucoes-normativas/in-128-2022.pdf
 3. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
-4. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` criados
-   só com cabeçalho — dados numéricos pendentes de preenchimento manual
-   (ver `tabelas/FONTES.md`)
+4. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
+   populados (ver `tabelas/FONTES.md` para fontes e datas de download)

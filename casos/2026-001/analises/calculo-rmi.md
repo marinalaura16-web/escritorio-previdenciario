@@ -167,57 +167,59 @@ aplicável à modalidade.
 
 | Cenário de piso | Piso (anos) | Excedente sobre o piso | Coeficiente | Fonte / status |
 |---|---|---|---|---|
-| **Original — `calculo.md`, Seção 8.1** | 25 anos | 2,667 anos (27a8m − 25a) | **≈ 65,33%** | Piso adotado por ser "o piso da modalidade efetivamente pleiteada" (agente biológico, Anexo IV, 3.0.1); marcado desde então como **[BASE NORMATIVA A CONFIRMAR]** |
-| **Instrução da advogada responsável para este caso (nova, desta apuração)** | 20 anos | 7,667 anos (27a8m − 20a) | **≈ 75,33%** | Ver ressalva abaixo — **[DISPOSITIVO A CONFIRMAR]** |
+| Original — `calculo.md`, Seção 8.1 (**superado**, mantido só para rastreabilidade) | 25 anos | 2,667 anos (27a8m − 25a) | ≈ 65,33% | Piso provisório, adotado por ser "o piso da modalidade efetivamente pleiteada"; estava marcado **[BASE NORMATIVA A CONFIRMAR]** |
+| **Adotado nesta apuração — confirmado pela advogada com base em texto legal** | **20 anos** | **7,667 anos (27a8m − 20a)** | **≈ 75,33%** | **EC 103/2019, art. 26, § 2º, IV c/c § 5º** (ver Seção 4.1) — `legislacao/emendas-constitucionais/ec-103-2019.md` |
 
-### 4.1 Ressalva obrigatória sobre o piso de 20 vs. 25 anos
+### 4.1 Piso do bônus de 2% — confirmado em 20 anos (EC 103/2019, art. 26, § 2º, IV c/c § 5º)
 
-A advogada responsável por este caso orientou que, para a categoria de 25 anos de efetiva
-exposição (a deste cliente), o piso do bônus de 2% ao ano seria de **20 anos**, e não de 25 —
-raciocínio de que o bônus da aposentadoria especial usaria sempre o piso "imediatamente
-inferior" da tabela de categorias (15/20/25 anos).
+**Atualização (21/09/2026):** a advogada responsável confirmou a base legal do piso de 20 anos,
+citando expressamente:
 
-**[DISPOSITIVO A CONFIRMAR — regra informada pela advogada responsável; o art. 26, § 2º da
-EC 103/2019 não consta em texto integral na base `legislacao/`, que só tem
-`legislacao/INDICE.md`.]** O próprio `INDICE.md` (item 2) registra a fórmula "60% da média +
-2% por ano acima de 20/15 anos" no contexto da **aposentadoria por tempo de contribuição**
-(regra permanente do art. 19, caput: 20 anos homem / 15 anos mulher) — não fica claro, sem o
-texto integral do art. 26, § 2º, se essa mesma referência de "20/15" se aplica **também** ao
-bônus da aposentadoria **especial** de 25 anos, ou se a especial de 25 anos usa piso próprio de
-25 anos (como `calculo.md` havia adotado provisoriamente).
+- **EC 103/2019, art. 26, § 2º, IV** — o acréscimo de 2 pontos percentuais para cada ano que
+  exceder **20 anos de contribuição** aplica-se à aposentadoria especial de que trata o
+  art. 19, § 1º, I, alíneas "a", "b" e "c" (ou seja, às três categorias — 15, 20 e 25 anos —,
+  salvo a exceção do § 5º abaixo).
+- **EC 103/2019, art. 26, § 5º** — cria a **única exceção**: o piso de **15 anos** (em vez de
+  20) vale exclusivamente para os segurados da **alínea "a"** (categoria de 15 anos de efetiva
+  exposição). **Não se aplica a este cliente**, que está na alínea "c" (25 anos).
 
-**Isto diverge do que `calculo.md` (Seção 8.1) assumiu provisoriamente** (piso de 25 anos,
-coeficiente ≈65,3%, excedente de 2,67 anos). **O número antigo não foi apagado** — está mantido
-na tabela acima e em `calculo.md` — apenas passa a conviver, nesta apuração, com o número
-alternativo de 75,33%, calculado por instrução da advogada e **sujeito a confirmação no texto
-legal antes de qualquer uso em petição, requerimento administrativo ou comunicação ao
-cliente sobre valor de benefício.**
+Conclusão: para as alíneas "b" (20 anos) e "c" (25 anos) — inclusive, portanto, para o cliente
+deste caso —, **o piso do bônus é 20 anos**, não 25. O texto do art. 26 foi adicionado a
+`legislacao/emendas-constitucionais/ec-103-2019.md`, **com um aviso de proveniência**: foi
+reconstruído a partir de fontes secundárias (jusbrasil, legjur.com, modeloinicial.com.br),
+já que este ambiente não tem ferramenta de navegação web para baixar e conferir byte a byte a
+fonte primária (planalto.gov.br). **A marcação [DISPOSITIVO A CONFIRMAR] é removida desta
+seção do cálculo** por instrução expressa da advogada, mas **permanece válida a recomendação
+de conferir a redação exata do art. 26 no Planalto antes do protocolo** — não por dúvida sobre
+qual piso se aplica (isso está resolvido), mas porque o texto na base ainda não foi baixado da
+fonte primária.
 
-Enquanto não houver essa confirmação, a RMI deste caso deve ser tratada como uma **faixa**,
-não como um número único (Seção 5).
+**O número de 65,33%/R$2.148,17 (piso de 25 anos) não foi apagado** — está mantido acima e em
+`calculo.md`, Seção 8.1, exclusivamente para rastreabilidade de como o cálculo evoluiu. **O
+valor adotado para este caso, a partir desta apuração, é o de piso 20 anos** (Seção 5).
 
 ---
 
 ## 5. RMI final
 
-| Cenário de coeficiente | Coeficiente | SB | **RMI** |
+| Cenário de coeficiente | Coeficiente | SB | RMI |
 |---|---|---|---|
-| Piso 25 anos (original, `calculo.md` 8.1) | 65,33% | R$ 3.288,02 | **R$ 2.148,17** |
-| Piso 20 anos (instrução da advogada — a confirmar) | 75,33% | R$ 3.288,02 | **R$ 2.476,98** |
+| Piso 25 anos (superado — `calculo.md` 8.1, mantido só para rastreabilidade) | 65,33% | R$ 3.288,02 | R$ 2.148,17 |
+| **Piso 20 anos — ADOTADO (EC 103/2019, art. 26, § 2º, IV c/c § 5º)** | **75,33%** | **R$ 3.288,02** | **R$ 2.476,98** |
 
-**RMI estimada: entre R$ 2.148,17 e R$ 2.476,98**, a depender da confirmação do piso do bônus
-de 2% (Seção 4.1). **Nenhum dos dois valores deve ser comunicado ao cliente ou usado em peça
-como número definitivo** até essa confirmação — mas ambos aplicam corretamente a fórmula
-legal, variando apenas o parâmetro do piso.
+**RMI adotada para o caso 2026-001: R$ 2.476,98** (coeficiente de 75,33% sobre o SB corrigido
+de R$ 3.288,02), conforme confirmação da base legal na Seção 4.1. O valor de R$ 2.148,17
+(piso de 25 anos) é mantido no histórico como o número anterior, superado, não como alternativa
+em aberto.
 
 ### 5.1 Comparação com o teto e com o salário mínimo
 
 - **Teto vigente (Portaria MPS/MF 13/2026, `legislacao/INDICE.md` item 7 e última linha de
-  `tetos-rgps-historico.csv`): R$ 8.475,55.** Ambos os cenários de RMI (R$2.148,17 e
-  R$2.476,98) estão **muito abaixo do teto** — o teto não é fator limitante neste caso,
-  confirmando a observação já feita na triagem e em `calculo.md`.
-- **Salário mínimo vigente: R$ 1.621,00.** Ambos os cenários de RMI estão **acima** do salário
-  mínimo — não se aplica a regra de elevação da RMI ao piso do salário mínimo.
+  `tetos-rgps-historico.csv`): R$ 8.475,55.** A RMI adotada (R$2.476,98) está **muito abaixo do
+  teto** — o teto não é fator limitante neste caso, confirmando a observação já feita na
+  triagem e em `calculo.md`.
+- **Salário mínimo vigente: R$ 1.621,00.** A RMI adotada está **acima** do salário mínimo — não
+  se aplica a regra de elevação da RMI ao piso do salário mínimo.
 
 ---
 
@@ -246,11 +248,11 @@ mês a mês de cada parcela vencida (que teria seu próprio valor real na época
 juros de mora — cálculo fora do escopo desta apuração, a ser feito com o simulador oficial
 (PRISMA/Meu INSS) ou planilha própria do escritório antes de qualquer execução.
 
-| Cenário DIB | Meses decorridos até hoje (aprox.) | Retroativos aprox. — RMI piso 25 (R$2.148,17) | Retroativos aprox. — RMI piso 20 (R$2.476,98) |
+| Cenário DIB | Meses decorridos até hoje (aprox.) | Retroativos aprox. — RMI adotada, piso 20 (R$2.476,98) | Retroativos aprox. — RMI piso 25 (R$2.148,17), só histórico |
 |---|---|---|---|
-| 1 — ≈10/04/2022 (sem modulação) | ≈ 53 meses | **≈ R$ 113.853** | **≈ R$ 131.280** |
-| 2 — 03/06/2026 (modulação no julgamento) | ≈ 3 meses | **≈ R$ 6.445** | **≈ R$ 7.431** |
-| 3 — data do requerimento (sem retroação) | 0 (benefício só passa a ser devido a partir da DER futura) | **R$ 0** de retroativo — apenas parcelas mensais a partir da concessão | **R$ 0** de retroativo — idem |
+| 1 — ≈10/04/2022 (sem modulação) | ≈ 53 meses | **≈ R$ 131.280** | ≈ R$ 113.853 |
+| 2 — 03/06/2026 (modulação no julgamento) | ≈ 3 meses | **≈ R$ 7.431** | ≈ R$ 6.445 |
+| 3 — data do requerimento (sem retroação) | 0 (benefício só passa a ser devido a partir da DER futura) | **R$ 0** de retroativo — apenas parcelas mensais a partir da concessão | R$ 0 — idem |
 
 Nenhum dos três cenários é afetado pela prescrição quinquenal na data de hoje (Seção 6).
 
@@ -261,24 +263,25 @@ Nenhum dos três cenários é afetado pela prescrição quinquenal na data de ho
 1. **Este documento é RASCUNHO**, sujeito a revisão do advogado responsável (CLAUDE.md, regra 1;
    protocolo do agente `calculo-previdenciario`). Nenhum número aqui autoriza protocolo de
    requerimento ou peça processual.
-2. **A RMI não é um número único nesta apuração** — é uma faixa (R$2.148,17 a R$2.476,98),
-   porque um dos dois parâmetros da fórmula (piso do bônus de 2% para a aposentadoria especial:
-   20 ou 25 anos) está marcado **[DISPOSITIVO A CONFIRMAR]**, por falta de texto integral do
-   art. 26, §2º da EC 103/2019 na base `legislacao/` (que só contém `INDICE.md`). **Antes de
-   qualquer petição, requerimento administrativo ou comunicação de valor ao cliente, o
-   advogado deve confirmar essa redação na fonte oficial e optar por um dos dois cenários** (ou
-   obter ambos os pareceres, se a estratégia comportar impugnação do critério adotado pelo
-   INSS).
+2. **RMI adotada: R$ 2.476,98** (piso de 20 anos, coeficiente 75,33%), confirmada pela advogada
+   com base em EC 103/2019, art. 26, § 2º, IV c/c § 5º (Seção 4.1). O valor de R$ 2.148,17
+   (piso de 25 anos) permanece registrado apenas como histórico do cálculo, não como alternativa
+   em aberto. **Ainda assim, recomenda-se conferir a redação exata do art. 26 na fonte primária
+   (planalto.gov.br) antes do protocolo**, já que o texto na base `legislacao/` foi reconstruído
+   a partir de fontes secundárias, não baixado diretamente do Planalto (ver aviso de
+   proveniência em `legislacao/emendas-constitucionais/ec-103-2019.md`).
 3. **Nenhuma jurisprudência é afirmada como definitiva.** A ADI 6309/DF segue com trânsito em
    julgado e modulação de efeitos pendentes de confirmação oficial (ver `calculo.md` e
    `triagem.md`, Seção 9.2) — os três cenários de DIB e retroativos (Seções 6-7) dependem
    dessa confirmação.
 4. **Nenhum diagnóstico médico é mencionado** — não é matéria deste cálculo.
-5. **Achado novo desta apuração:** indicador **PREM-BLOQ-EC103** no vínculo Hospital de Ávila
-   (11 competências, 02-12/2020) já está sendo **excluído pelo próprio sistema do INSS** dos
-   "Valores Consolidados" do CNIS, pendente de ajuste manual. Impacto no SB é pequeno (≈2%,
-   R$66,37) mas deve ser resolvido/retificado no CNIS antes de qualquer simulação oficial, para
-   que o valor usado na concessão não surpreenda o escritório.
+5. **Pendência administrativa — item pré-protocolo:** indicador **PREM-BLOQ-EC103** no vínculo
+   Hospital de Ávila (11 competências, 02-12/2020) já está sendo **excluído pelo próprio
+   sistema do INSS** dos "Valores Consolidados" do CNIS, pendente de ajuste manual. Impacto
+   estimado no SB: **-2% (≈R$66,37)**. **Ação requerida: requerer a regularização
+   administrativa dessas 11 competências junto ao INSS ANTES do ajuizamento**, para que o SB
+   usado na concessão (ou na ação judicial) não seja contestado por divergência não sanada.
+   Incluída como item pré-protocolo em `casos/2026-001/minutas/peticao-inicial-DRAFT.md`.
 6. Os retroativos da Seção 7 são **estimativa de ordem de grandeza** (RMI atual × meses), não
    valor de execução. O valor real exigiria atualização monetária mês a mês de cada parcela
    vencida (pelo índice vigente à época de cada competência em atraso) mais juros de mora —

@@ -387,19 +387,27 @@ conforme convenções do escritório registradas em `practice-profile.md`
 
 ## V. DO VALOR DA CAUSA
 
-**[CALCULAR APÓS TABELAS INPC]**
+Dá-se à causa o valor de **R$ 29.723,76** (12 parcelas de R$ 2.476,98), nos
+termos do art. 292 do CPC **[DISPOSITIVO A CONFIRMAR]**.
 
-*Observação: as tabelas `legislacao/tabelas/inpc-historico.csv` e
-`legislacao/tabelas/tetos-rgps-historico.csv` existem na base do escritório,
-mas ainda estão vazias (apenas cabeçalho), conforme
-`legislacao/INDICE.md`, "Pendências desta base", item 4. O salário de
-benefício (SB) do autor não pôde ser fechado em valor monetário corrigido
-(ver `calculo.md`, Seção 8.2); os coeficientes de RMI já apurados (≈65,3%
-para a rota especial de 25 anos; ≈78,8% para tempo comum sem conversão;
-≈97,0% para tempo comum com conversão) estão prontos para aplicação assim
-que o SB corrigido estiver disponível. O valor da causa deverá corresponder
-a 12 (doze) parcelas do benefício pretendido, na forma do art. 292 do CPC
-[DISPOSITIVO A CONFIRMAR], ou a critério que o advogado responsável definir.*
+*Observação: `legislacao/tabelas/inpc-historico.csv` e
+`legislacao/tabelas/tetos-rgps-historico.csv` foram populadas e validadas
+(ver `legislacao/tabelas/FONTES.md`), permitindo o fechamento do salário de
+benefício (SB) em valor monetário corrigido —
+`casos/2026-001/analises/calculo-rmi.md`. RMI adotada:
+**R$ 2.476,98** (SB corrigido de R$ 3.288,02 × coeficiente de 75,33%,
+piso de 20 anos, EC 103/2019, art. 26, § 2º, IV c/c § 5º — ver Seção 4.1 de
+`calculo-rmi.md`). O valor de R$ 2.148,17 (piso de 25 anos) consta em
+`calculo-rmi.md` apenas como registro histórico do cálculo, superado pela
+confirmação da base legal. **Retroativos, cenário de DIB mais favorável
+(≈10/04/2022, sem modulação da ADI 6309/DF): ≈R$ 131.280** — valor de
+ordem de grandeza (RMI atual × meses decorridos), não de execução; ver
+`calculo-rmi.md`, Seção 7, para a ressalva completa e os demais cenários de
+DIB. **Este valor está sujeito à confirmação da modulação de efeitos da
+ADI 6309/DF [AGUARDANDO PUBLICAÇÃO DO ACÓRDÃO]** — se a modulação afastar
+a retroação a 04/2022, o valor da causa e os retroativos pleiteados devem
+ser recalculados pelo cenário de DIB que prevalecer (Seção I.6/IV desta
+minuta).*
 
 ---
 
@@ -441,6 +449,7 @@ listadas, sem prejuízo de outras que se façam necessárias.
 | L9 | Declaração do Município de Ipojuca sobre o regime previdenciário do vínculo (RGPS × RPPS) | Complementar |
 | L10 | Comprovação de cadastro biométrico do autor (Portaria DIRBEN/INSS 1.347/2026, exigível para este benefício) | Complementar |
 | L11 | Confirmação de eventual requerimento administrativo pretérito e, se houver, cópia integral do processo administrativo (ver item I.6 desta minuta) | **Impeditiva até esclarecimento** |
+| L12 | **Regularização administrativa, junto ao INSS, das 11 competências (02-12/2020, vínculo Hospital de Ávila) excluídas dos "Valores Consolidados" do CNIS pelo indicador PREM-BLOQ-EC103** — achado de `casos/2026-001/analises/calculo-rmi.md`, Seção 8, item 5. Impacto estimado: -2% no salário de benefício (≈R$66,37). **Requerer a regularização ANTES do ajuizamento**, para que o SB usado não seja contestado por divergência não sanada no CNIS | **Alta — item pré-protocolo** |
 
 Termos em que, pede deferimento.
 
