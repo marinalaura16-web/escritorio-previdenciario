@@ -36,3 +36,39 @@ A pasta legislacao/ contém toda a base normativa. Consulte sempre antes de redi
 
 ## Estrutura de Casos
 casos/{numero}/documentos, casos/{numero}/analises, casos/{numero}/minutas
+
+## Sessão de 21/09/2026
+
+**Blocos concluídos:**
+1. Correção do hook `.claude/hooks/anti-alucinacao.py` — passou a reconhecer
+   também o formato "art. N da NORMA" (além de "NORMA, art. N"); testes de
+   sanidade adicionados (rodam com `python3 anti-alucinacao.py < /dev/null`).
+2. Base de jurisprudência vinculante criada em `legislacao/jurisprudencia-vinculante/`:
+   súmulas STF, STJ, TNU e temas de repercussão geral do STF, todos com
+   verificação por busca (várias correções de número/tema encontradas —
+   ver os próprios arquivos).
+3. IN PRES/INSS 128/2022 completa (244 páginas, PDF anexado) resumida em
+   `legislacao/instrucoes-normativas/in-128-2022.md`, Livros I-VI.
+4. Lei 8.213/1991 resumida em `legislacao/leis-ordinarias/lei-8.213-1991.md`,
+   ≈93% de cobertura (76 de ~82 artigos do escopo), fontes majoritariamente
+   secundárias (sem WebFetch/curl neste ambiente).
+
+**Pendências — Lei 8.213/1991, artigos não localizados:**
+Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
+
+**Achados a verificar antes de uso em petição:**
+- **ADI 6096** — possível fonte da inconstitucionalidade da extensão do
+  prazo decadencial a indeferimento/cancelamento/cessação (art. 103 da
+  Lei 8.213/91, trazida pela MP 871/2019/Lei 13.846/2019). Não incorporado
+  à jurisprudência vinculante — falta ler o acórdão oficial do STF.
+- Toda a base populada nesta sessão (Lei 8.213, IN 128, súmulas, temas,
+  EC 103 art. 26) foi montada **sem acesso a WebFetch/curl** — fontes
+  majoritariamente secundárias. Conferir na fonte oficial antes de citar
+  em petição real.
+
+**Próximos blocos:**
+5. Completar demais leis (Lei 8.212/1991 — Custeio; Lei 8.742/1993 — LOAS/BPC;
+   textos integrais de Lei 13.846/2019, Lei 15.327/2026, Lei 15.371/2026;
+   decretos 3.048/1999, 6.214/2007, 10.410/2020).
+6. Substituir os dados de teste em `practice-profile.md` ("Escritório: Teste",
+   "OAB: Teste") pelos dados reais do escritório.
