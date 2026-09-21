@@ -59,11 +59,75 @@ def tem_marcacao_confirmar(texto):
     return any(m in texto for m in marcadores)
 
 
+# Reconhece dois formatos de citacao legislativa:
+#   1) "NORMA, art. N"      (ex.: "Lei 8.213, art. 48")   -> grupos 1,2
+#   2) "art. N da/do NORMA" (ex.: "art. 48 da Lei 8.213")  -> grupos 3,4 (invertidos)
+PADRAO_CITACAO = re.compile(
+    r'(?:'
+    r'(CF|LEI\s+[\d.]+|DECRETO\s+[\d.]+|EC\s+\d+|IN\s+\d+)[,\s]+art\.?\s*(\d+)'
+    r'|'
+    r'art\.?\s*(\d+)[,\s]+d[ao]\s+(CF|LEI\s+[\d.]+|DECRETO\s+[\d.]+|EC\s+\d+|IN\s+\d+)'
+    r')',
+    re.IGNORECASE
+)
+
+
+def extrair_citacoes(texto):
+    """Retorna lista de tuplas (norma, artigo) presentes no texto, em
+    qualquer um dos dois formatos aceitos por PADRAO_CITACAO."""
+    citacoes = []
+    for m in PADRAO_CITACAO.finditer(texto):
+        if m.group(1) and m.group(2):
+            citacoes.append((m.group(1), m.group(2)))
+        elif m.group(3) and m.group(4):
+            citacoes.append((m.group(4), m.group(3)))
+    return citacoes
+
+
+def rodar_testes():
+    """Testes de sanidade do parser de citacoes. Roda quando o script e
+    executado diretamente sem um JSON valido no stdin (ex.: stdin vazio)."""
+    casos = [
+        ("Lei 8.213, art. 48", "LEI 8.213", "48"),
+        ("art. 48 da Lei 8.213", "LEI 8.213", "48"),
+        ("CF, art. 201", "CF", "201"),
+        ("art. 201 da CF", "CF", "201"),
+    ]
+    todos_ok = True
+    print("Testes de extrair_citacoes():")
+    for texto, norma_esperada, artigo_esperado in casos:
+        citacoes = extrair_citacoes(texto)
+        if len(citacoes) != 1:
+            print(f"  FALHA: {texto!r} -> esperada 1 citacao, obtidas {citacoes}")
+            todos_ok = False
+            continue
+        norma, artigo = citacoes[0]
+        norma_norm = re.sub(r'\s+', ' ', norma.upper().strip())
+        if norma_norm == norma_esperada and artigo == artigo_esperado:
+            print(f"  OK: {texto!r} -> norma={norma_norm}, artigo={artigo}")
+        else:
+            print(
+                f"  FALHA: {texto!r} -> esperado (norma={norma_esperada}, "
+                f"artigo={artigo_esperado}), obtido (norma={norma_norm}, artigo={artigo})"
+            )
+            todos_ok = False
+    print("TODOS OS TESTES PASSARAM" if todos_ok else "HA TESTES COM FALHA")
+    return todos_ok
+
+
 def main():
+    stdin_bruto = sys.stdin.read()
     try:
-        input_data = json.load(sys.stdin)
+        if not stdin_bruto.strip():
+            raise ValueError("stdin vazio")
+        input_data = json.loads(stdin_bruto)
     except Exception:
-        sys.exit(0)
+        # Sem JSON valido no stdin: execucao direta do script (ex.: stdin
+        # redirecionado de /dev/null) -> roda os testes de sanidade em vez
+        # de simplesmente sair, para que `python anti-alucinacao.py < /dev/null`
+        # sirva tanto de smoke test do hook quanto de teste do parser.
+        ok = rodar_testes()
+        sys.exit(0 if ok else 1)
 
     tool_name = input_data.get("tool_name", "")
     tool_input = input_data.get("tool_input", {})
@@ -78,8 +142,7 @@ def main():
     # Se o texto tem marcacao de confirmar, permite com aviso
     tem_marcador = tem_marcacao_confirmar(content)
 
-    padrao = r'(CF|LEI\s+[\d.]+|DECRETO\s+[\d.]+|EC\s+\d+|IN\s+\d+)[,\s]+art\.?\s*(\d+)'
-    citacoes = re.findall(padrao, content, re.IGNORECASE)
+    citacoes = extrair_citacoes(content)
 
     dispositivos_faltando = []
     for norma, artigo in citacoes:
