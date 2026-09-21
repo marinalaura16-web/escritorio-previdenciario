@@ -32,9 +32,13 @@ def _competencia_para_indice(competencia):
     return int(ano) * 12 + int(mes)
 
 
-def validar_tabela(caminho, colunas_esperadas):
+def validar_tabela(caminho, colunas_esperadas, colunas_texto=frozenset()):
     """Valida uma tabela CSV de calculo: colunas, formato de competencia,
     valores numericos e lacunas na serie mensal.
+
+    colunas_texto: colunas dentre colunas_esperadas[1:] que sao texto livre
+    (ex.: observacao com o simbolo da moeda) e por isso ficam isentas da
+    checagem numerica — podem inclusive estar vazias.
 
     Retorna (ok: bool, mensagens: list[str]).
     """
@@ -66,6 +70,8 @@ def validar_tabela(caminho, colunas_esperadas):
             continue
 
         for coluna in colunas_esperadas[1:]:
+            if coluna in colunas_texto:
+                continue
             valor = linha.get(coluna, "")
             try:
                 float(valor.replace(",", "."))
@@ -99,7 +105,11 @@ def validar_tabelas(caminho_inpc=TABELA_INPC_PADRAO, caminho_teto=TABELA_TETO_PA
 
     print()
     print(f"--- {caminho_teto} ---")
-    ok, mensagens = validar_tabela(caminho_teto, ["competencia", "teto_rgps", "piso_salario_minimo"])
+    ok, mensagens = validar_tabela(
+        caminho_teto,
+        ["competencia", "teto_rgps", "piso_salario_minimo", "observacao"],
+        colunas_texto={"observacao"}
+    )
     tudo_ok = tudo_ok and ok
     for m in mensagens:
         print(m)

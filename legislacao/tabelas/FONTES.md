@@ -61,12 +61,35 @@ Fonte primária do índice, usada para popular `inpc-historico.csv`.
 
 ## 4. Teto e piso do RGPS por período
 
-- INSS — Tabela de contribuição – histórico: https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal/tabela-de-contribuicao-historico
+- Fonte: tabela de tetos previdenciários fornecida pela advogada (originada
+  de calculojuridico.com.br), competência a competência, 01/1990 a 12/2026
+- Data do recebimento/normalização: 21/09/2026
+- Período coberto: **01/1990 a 12/2026** (444 competências, série mensal
+  completa, sem lacunas)
+- Referência cruzada: INSS — Tabela de contribuição – histórico:
+  https://www.gov.br/inss/pt-br/direitos-e-deveres/inscricao-e-contribuicao/tabela-de-contribuicao-mensal/tabela-de-contribuicao-historico
 - Valor vigente em 2026 (já registrado em `legislacao/INDICE.md`, seção 7):
   Portaria Interministerial MPS/MF 13/2026 — teto R$ 8.475,55, piso (salário
-  mínimo) R$ 1.621,00.
+  mínimo) R$ 1.621,00 — **confere** com a última linha do CSV (12/2026).
+- **Moedas históricas:** entre 01/1990 e 06/1994 os valores passaram por
+  quatro padrões monetários diferentes (NCz$, Cr$, CR$, URV), refletindo as
+  trocas de moeda do período pré-Real. Cada linha do CSV anterior a
+  07/1994 tem a moeda original registrada na coluna `observacao`
+  (`NCz$`: 01/1990-02/1990 · `Cr$`: 03/1990-07/1993 · `CR$`: 08/1993-02/1994
+  · `URV`: 03/1994-06/1994). A partir de 07/1994 (Real), `observacao` fica
+  vazia. Os valores numéricos de `teto_rgps`/`piso_salario_minimo` são os
+  valores **na moeda da época**, não convertidos para Real — qualquer uso
+  desses períodos antigos em cálculo exige conversão manual adicional pelas
+  regras de conversão cambial de cada troca de moeda, o que este CSV **não
+  faz**.
+- **Conferência:** teto de 2005 (R$ 2.668,15) e teto de 1996 (R$ 957,56) no
+  CSV batem com os valores já levantados via busca na web ao pesquisar as
+  fontes deste documento (ver Seção 3 do histórico desta conversa/commit
+  anterior). Teto de 12/2026 (R$ 8.475,55) e piso de 12/2026 (R$ 1.621,00)
+  conferem com `legislacao/INDICE.md`, item 7 (Portaria MPS/MF 13/2026).
 
-**Status:** URL registrada. Série histórica completa (1994–hoje) ainda não baixada.
+**Status:** ✅ Populado. Conferido por amostragem (2005, 1996, 2026); não foi
+feita conferência competência a competência de toda a série 1990-2026.
 
 ## Como preencher os CSVs
 
@@ -78,11 +101,13 @@ competencia,indice_inpc,variacao_mensal
 
 `tetos-rgps-historico.csv` — uma linha por competência (o teto/piso só muda
 quando há reajuste, mas registre competência a competência para permitir
-lookup direto sem lógica de "vigência entre datas"):
+lookup direto sem lógica de "vigência entre datas"). Colunas:
 ```
-competencia,teto_rgps,piso_salario_minimo
-04/1997,<teto-vigente>,<piso-vigente>
+competencia,teto_rgps,piso_salario_minimo,observacao
+04/1997,<teto-vigente>,<piso-vigente>,
 ```
+`observacao` registra a moeda original (`NCz$`, `Cr$`, `CR$`, `URV`) para
+competências anteriores a 07/1994; vazia a partir do Real.
 
 Formato de `competencia`: sempre `MM/AAAA`, mesmo padrão usado em
 `cruza_cnis_ctps.py`.
@@ -96,16 +121,22 @@ python3 .claude/skills/calculo-tempo-contribuicao/scripts/calcula_tempo.py --val
 ```
 
 Isso confere, para cada tabela: presença das colunas esperadas, formato de
-`competencia` (MM/AAAA), valores numéricos válidos nas demais colunas, e se
-há lacunas (meses faltantes) na série. Não gera nenhum cálculo de caso —
-serve só para validar a integridade dos dados antes de usá-los.
+`competencia` (MM/AAAA), valores numéricos válidos nas demais colunas
+(a coluna `observacao` de `tetos-rgps-historico.csv` é texto livre e fica
+isenta dessa checagem), e se há lacunas (meses faltantes) na série. Não
+gera nenhum cálculo de caso — serve só para validar a integridade dos
+dados antes de usá-los.
+
+**Última execução (21/09/2026):** ambas as tabelas passaram —
+`inpc-historico.csv` com 570 competências e `tetos-rgps-historico.csv` com
+444 competências, nenhuma lacuna em nenhuma das duas.
 
 ## Registro de atualização
 
 | Tabela | Data de download | Fonte usada | Responsável |
 |---|---|---|---|
 | inpc-historico.csv | 21/09/2026 | IBGE/SIDRA, Tabela 1736, variável 2289 | Advogada (upload manual do XML) |
-| tetos-rgps-historico.csv | _pendente_ | _pendente_ | _pendente_ |
+| tetos-rgps-historico.csv | 21/09/2026 | calculojuridico.com.br (tabela fornecida pela advogada) | Advogada (colagem manual da tabela) |
 
 Atualize esta tabela toda vez que os CSVs forem repopulados, para que o
 advogado saiba a validade/data-base de cada número usado em um cálculo.
