@@ -62,26 +62,50 @@ Artigos-chave:
     diretamente.** Nenhum artigo deve ser citado em petição sem conferência
     prévia na fonte oficial — ver aviso de proveniência no topo do próprio
     arquivo (mesmo padrão já usado em `ec-103-2019.md`).
-  - Faixas cobertas no arquivo: arts. 1-10 (finalidade/princípios), 9-15
-    (segurados/período de graça), 16-17 (dependentes), 18 (elenco de
-    prestações), 19-23 (acidente do trabalho — **correção**: não são
-    dependentes/prestações gerais como se presumia antes), 24-27-A
-    (carência), 28-33 (salário-de-benefício/RMI — art. 30 sinalizado como
+  - **Cobertura (atualizada em 21/09/2026):** cerca de **76 de ~82
+    artigos/dispositivos do escopo (≈ 93%)** têm algum conteúdo registrado
+    (marcado `[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]` ou
+    `[A CONFIRMAR NA FONTE OFICIAL]`, conforme o caso). Isso é uma revisão
+    para cima em relação ao estado anterior (~45-50 artigos parcialmente
+    cobertos) — ver seção "Status de Cobertura desta Apuração" ao final do
+    próprio arquivo para o detalhamento completo. Continuam **totalmente
+    sem conteúdo** (`[NÃO LOCALIZADO - PENDENTE]`): **arts. 4º, 5º, 9º, 12,
+    78 e 79**; os **arts. 54-56** seguem sem pesquisa dedicada.
+  - Faixas cobertas no arquivo: arts. 1-10 (finalidade/princípios/conceitos
+    — inclui agora conteúdo para os arts. 3, 6, 7, 8 e 10, além dos já
+    existentes 1-2), 9-15 (segurados/período de graça — inclui agora arts.
+    13 e 14; art. 12 permanece pendente), 16-17 (dependentes — inclui agora
+    o art. 17, inscrição), 18-23 (elenco de prestações e acidente do
+    trabalho — inclui agora o art. 23), 24-27-A (carência — art. 24
+    detalhado, incluindo o parágrafo único e sua distinção do art. 27-A),
+    28-33 (salário-de-benefício/RMI — inclui agora arts. 28, 31 e 33, e
+    revisão do art. 32 com maior confiança; art. 30 sinalizado como
     `[REVOGADO]` pela Lei 9.032/1995, a confirmar), 42-47 (aposentadoria por
-    invalidez/incapacidade permanente), 48-51 (aposentadoria por idade),
-    52-56 (aposentadoria por tempo de contribuição — extinta como regra
-    autônoma p/ novos segurados pela EC 103/2019), 57-58 (aposentadoria
-    especial — ver nota cruzada com a ADI 6309/DF abaixo), 59-63 (auxílio
-    por incapacidade temporária/auxílio-doença), 65 (salário-família),
-    71-73 e 71-A (salário-maternidade), 74-79 (pensão por morte), 80-85
-    (auxílio-reclusão), 86 (auxílio-acidente), 89-92 (**correção**:
-    habilitação e reabilitação profissional, não "cálculo dos benefícios"),
-    103 (prescrição/decadência — **achado a confirmar**: fontes secundárias
-    mencionam possível declaração de inconstitucionalidade pelo STF de uma
-    redação ligada à MP 871/2019/Lei 13.846/2019; não incorporado à
-    jurisprudência vinculante desta base até localização do acórdão
-    oficial), 115-117 (descontos — cruzamento com a Lei 15.327/2026, ver
-    abaixo).
+    invalidez/incapacidade permanente — inclui agora arts. 43, 44, 46 e
+    47), 48-51 (aposentadoria por idade), 52-56 (aposentadoria por tempo de
+    contribuição — extinta como regra autônoma p/ novos segurados pela EC
+    103/2019; **arts. 54-56 ainda sem pesquisa dedicada**), 57-58
+    (aposentadoria especial — ver nota cruzada com a ADI 6309/DF abaixo),
+    59-63 (auxílio por incapacidade temporária/auxílio-doença — inclui
+    agora o art. 63), 65 (salário-família), 71-73 e 71-A
+    (salário-maternidade), 74-79 (pensão por morte — inclui agora arts. 75
+    e 76; **arts. 78 e 79 permanecem pendentes**), 80 e 89-92
+    (**correção de escopo, arts. 81-85**: NÃO são continuação do
+    auxílio-reclusão — o auxílio-reclusão está inteiro no art. 80; os arts.
+    81-85 tratavam de **pecúlios**, benefício hoje **extinto** pela Lei nº
+    9.129/1995 — ver arquivo), 86 (auxílio-acidente), 89-92 (**correção**:
+    habilitação e reabilitação profissional, não "cálculo dos benefícios" —
+    inclui agora o art. 92), 103 (prescrição/decadência — **achado
+    atualizado**: fontes secundárias convergem em torno da **ADI 6096**
+    como a ação em que o STF teria declarado inconstitucional a extensão da
+    decadência a indeferimento/cancelamento/cessação, trazida pela MP
+    871/2019/Lei 13.846/2019; número da ADI identificado nesta sessão, mas
+    **não incorporado à jurisprudência vinculante desta base até
+    localização e leitura do acórdão oficial no site do STF**), 115-117
+    (descontos — cruzamento com a Lei 15.327/2026; art. 117 revisado:
+    trata de Acordo de Cooperação Técnica para requerimento eletrônico de
+    benefícios, com incisos e parágrafo único revogados pela Lei
+    14.020/2020).
   - Confirmado no novo arquivo: Lei 13.846/2019 restabeleceu a exigência de
     12 contribuições de carência para auxílio-doença/aposentadoria por
     invalidez (art. 25, I); Lei 15.327/2026 veda descontos associativos

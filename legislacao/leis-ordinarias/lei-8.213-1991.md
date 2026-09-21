@@ -65,22 +65,64 @@ dos benefícios; valor da renda mensal não inferior ao salário mínimo;
 previdência complementar facultativa; caráter democrático e descentralizado
 da gestão administrativa. `[A CONFIRMAR NA FONTE OFICIAL]`
 
-### Arts. 3º a 10
-Não pesquisados nesta sessão. **Sem conteúdo registrado** —
-`[A CONFIRMAR NA FONTE OFICIAL]`. (Tratam, pelo título da Lei, do Conselho
-Nacional de Previdência Social e de disposições gerais; conteúdo não
-verificado e por isso omitido, para não reproduzir texto de memória.)
+### Art. 3º — Conselho Nacional de Previdência Social (CNPS)
+Reconstrução (fonte secundária única — modeloinicial.com.br): institui o
+Conselho Nacional de Previdência Social (CNPS), órgão superior de
+deliberação colegiada, composto por 6 representantes do Governo Federal e 9
+representantes da sociedade civil (3 de aposentados e pensionistas, 3 de
+trabalhadores em atividade, 3 de empregadores), nomeados pelo Presidente da
+República, com mandato de 2 anos para os representantes titulares da
+sociedade civil, permitida uma recondução imediata. A fonte aponta alteração
+pela Lei nº 8.619/1993 quanto à composição original.
+**`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
 
-Fonte das buscas desta seção: resultados de WebSearch sobre "planalto L8213
-art. 1 finalidade previdência social princípios".
+### Arts. 4º e 5º
+Busca não trouxe conteúdo confiável e sem contradição interna: um resultado
+associou o "art. 4º" a regra de equivalência entre tempo de serviço e tempo
+de contribuição — o que soa deslocado (essa equivalência é tema mais
+associado à EC nº 20/1998 e a normas de transição, não ao corpo original do
+art. 4º da Lei 8.213/91) e pode refletir confusão da ferramenta de busca
+entre fontes. Por prudência, **não reproduzido**. `[NÃO LOCALIZADO -
+PENDENTE]`
+
+### Art. 6º — Ouvidoria-Geral da Previdência Social
+Reconstrução (fonte secundária única): há Ouvidoria-Geral da Previdência
+Social, com competências definidas em regulamento; fonte indica redação
+dada pela Lei nº 9.711, de 20/11/1998. **`[FONTE SECUNDÁRIA - CONFERIR NO
+PLANALTO]`**
+
+### Arts. 7º e 8º — `[REVOGADOS]`
+Reconstrução: fonte secundária (agregando resultados de normaslegais.com.br
+e legisweb.com.br) indica que os arts. 7º e 8º foram **revogados pela
+Medida Provisória nº 2.216-37, de 31/08/2001**. **`[FONTE SECUNDÁRIA -
+CONFERIR NO PLANALTO]`** quanto à revogação e à MP exata.
+
+### Art. 9º
+Não localizado nesta pesquisa. `[NÃO LOCALIZADO - PENDENTE]` (pelo
+contexto, provavelmente define o âmbito de cobertura do RGPS, mas nenhuma
+fonte trouxe texto ou resumo específico e confiável).
+
+### Art. 10 — Classificação dos beneficiários
+Reconstrução com baixa confiança (um único resultado, aparentemente
+misturado com referência à Lei 8.212/91 e ao BPC/LOAS): o RGPS classificaria
+os beneficiários em segurados e dependentes, remetendo aos Capítulos
+seguintes. **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`** — tratar como
+reconstrução estrutural genérica, não como transcrição.
+
+Fonte das buscas desta seção: WebSearch "Lei 8213/91 art. 4 art. 5 art. 6
+art. 7 art. 8 art. 9 art. 10 texto planalto" (21/09/2026) e buscas
+anteriores sobre "art. 1 finalidade previdência social princípios". Fontes
+secundárias (modeloinicial.com.br, normaslegais.com.br, legisweb.com.br,
+corpus927.enfam.jus.br); Planalto listado como link em todas, não lido
+diretamente.
 
 ---
 
 ## Título II — Dos Beneficiários (Segurados) — Arts. 9º a 15
 
 ### Art. 9º
-Não pesquisado especificamente nesta sessão. `[A CONFIRMAR NA FONTE OFICIAL]`
-(pelo contexto, define o âmbito de cobertura do RGPS).
+Ver nota na seção "Título I" acima — não localizado nesta pesquisa.
+`[NÃO LOCALIZADO - PENDENTE]`
 
 ### Art. 11 — Segurados obrigatórios
 Reconstrução parcial: o art. 11 lista os segurados obrigatórios do RGPS —
@@ -91,15 +133,58 @@ menos os §§ 9º e 12º do art. 11 (citados em fontes secundárias), mas **não
 trouxe o texto desses parágrafos**. `[A CONFIRMAR NA FONTE OFICIAL]` quanto à
 redação de cada inciso/alínea/parágrafo.
 
-### Art. 12, 13, 14
-A busca indicou que o **trabalhador avulso** é definido como aquele que
-presta serviço a diversas empresas, sem vínculo empregatício, em atividade
-urbana ou rural definida em regulamento — mas não confirmou em qual desses
-artigos (12, 13 ou 14) essa definição está, nem seu texto exato.
-`[A CONFIRMAR NA FONTE OFICIAL]`. **Nota:** a Lei 8.212/1991 (Custeio) também
-define segurados obrigatórios e facultativos em seus próprios arts. 12-13, o
-que é fonte comum de confusão entre as duas leis — conferir se o dispositivo
-correto para o ponto pesquisado é da Lei 8.213 ou da Lei 8.212 antes de citar.
+### Art. 12
+Não localizado com conteúdo próprio nesta pesquisa dedicada (busca de
+21/09/2026 sobre "art. 12 Lei 8213/91" retornou majoritariamente conteúdo do
+art. 11, ou do art. 12 da **Lei 8.212/91** — lei distinta). Pelo padrão
+estrutural típico da Lei 8.213/91 (comparado ao art. 11 e ao art. 13, já
+localizados), o art. 12 provavelmente trata de situação de filiação
+simultânea a mais de uma categoria de segurado obrigatório, mas isso **não
+foi confirmado em nenhuma fonte nesta pesquisa** e por isso **não é
+reproduzido como conteúdo do artigo**. `[NÃO LOCALIZADO - PENDENTE]`
+
+### Art. 13 — Segurado facultativo
+Reconstrução, com razoável convergência (mesma busca de 21/09/2026): "é
+segurado facultativo o maior de 14 (quatorze) anos que se filiar ao Regime
+Geral de Previdência Social, mediante contribuição, desde que não incluído
+nas disposições do art. 11" desta Lei. **`[FONTE SECUNDÁRIA - CONFERIR NO
+PLANALTO]`** — **atenção:** a idade mínima de filiação (originalmente ligada
+à idade mínima para o trabalho) e a lista de hipóteses de segurado
+facultativo podem ter sido alteradas por normas posteriores (inclusive
+quanto à idade mínima constitucional para o trabalho, hoje 16 anos, ou 14
+como aprendiz); **confirmar a redação vigente antes de aplicar a um caso
+concreto**.
+
+### Art. 14 — Conceito de empresa e de empregador doméstico
+Reconstrução, com razoável convergência: consideram-se "empresa" a firma
+individual ou sociedade que assume o risco de atividade econômica urbana ou
+rural, com fins lucrativos ou não, bem como os órgãos e entidades da
+administração pública direta, indireta ou fundacional; e "empregador
+doméstico" a pessoa ou família que admite a seu serviço, sem finalidade
+lucrativa, empregado doméstico. Equiparam-se a empresa, para os efeitos
+desta Lei, o contribuinte individual e a pessoa física na condição de
+proprietário ou dono de obra de construção civil em relação a segurado que
+lhe presta serviço, bem como a cooperativa, a associação ou entidade de
+qualquer natureza ou finalidade, a missão diplomática e a repartição
+consular de carreira estrangeiras. **`[FONTE SECUNDÁRIA - CONFERIR NO
+PLANALTO]`**
+
+**Nota sobre a definição de trabalhador avulso:** uma busca anterior havia
+indicado que o trabalhador avulso é definido como aquele que presta serviço
+a diversas empresas, sem vínculo empregatício, em atividade urbana ou rural
+definida em regulamento, sem confirmar em qual artigo (12, 13 ou 14) essa
+definição estaria. A busca desta sessão **não confirmou** essa definição em
+nenhum dos três artigos — o mais provável, por exclusão (já que 13 é
+segurado facultativo e 14 é conceito de empresa/empregador doméstico), é que
+a definição de trabalhador avulso estivesse no **art. 9º, § 1º, do
+Regulamento (Decreto 3.048/1999)**, não no corpo da própria Lei 8.213/91 —
+mas isso também **não foi confirmado** nesta pesquisa. `[NÃO LOCALIZADO -
+PENDENTE]` quanto ao dispositivo exato da definição de trabalhador avulso.
+
+**Nota:** a Lei 8.212/1991 (Custeio) também define segurados obrigatórios e
+facultativos em seus próprios arts. 12-13, o que é fonte comum de confusão
+entre as duas leis — conferir se o dispositivo correto para o ponto
+pesquisado é da Lei 8.213 ou da Lei 8.212 antes de citar.
 
 ### Art. 15 — Período de graça (manutenção da qualidade de segurado)
 Reconstrução: o art. 15 mantém a qualidade de segurado, independentemente de
@@ -143,13 +228,25 @@ redação anterior à Lei 13.146/2015 quanto às hipóteses de invalidez/defici�
 — mas a redação exata anterior não foi levantada nesta pesquisa.
 `[A CONFIRMAR NA FONTE OFICIAL]`
 
-### Art. 17
-Não pesquisado especificamente. `[A CONFIRMAR NA FONTE OFICIAL]` (pelo
-contexto, trata da inscrição de dependentes).
+### Art. 17 — Inscrição de segurados e dependentes
+Reconstrução, com convergência razoável entre fontes (busca de 21/09/2026):
+o regulamento disciplina a forma de inscrição do segurado e dos dependentes
+(caput). § 1º: incumbe ao dependente promover a sua inscrição quando do
+requerimento do benefício a que estiver habilitado (redação atribuída à Lei
+nº 10.403, de 08/01/2002). § 2º: o cancelamento da inscrição do cônjuge se
+processa em face de separação judicial ou divórcio sem direito a alimentos,
+certidão de anulação de casamento, certidão de óbito ou sentença judicial
+transitada em julgado. § 4º: a inscrição do segurado especial é feita
+vinculando-o ao respectivo grupo familiar, com identificação da propriedade
+em que desenvolve a atividade e a que título, ou do Município onde reside,
+e, quando for o caso, identificação e inscrição do responsável pelo grupo
+familiar. (O § 3º não apareceu na fonte consultada.) **`[FONTE SECUNDÁRIA -
+CONFERIR NO PLANALTO]`**
 
 Fonte: busca "Lei 8213/91 art. 16 dependentes cônjuge companheiro filho
-planalto texto" — predominância de fontes secundárias (jusbrasil, legjur.com,
-modeloinicial.com.br).
+planalto texto" e busca dedicada "Lei 8213/91 art. 17 inscrição de
+dependentes texto" (21/09/2026). Predominância de fontes secundárias
+(jusbrasil, legjur.com, modeloinicial.com.br, jurishand.com).
 
 ---
 
@@ -192,9 +289,18 @@ acidentado) é obrigada a comunicar o acidente do trabalho à Previdência
 Social, sob pena de multa. Prazo e demais condições não confirmados.
 `[A CONFIRMAR NA FONTE OFICIAL]`
 
-### Art. 23
-Não pesquisado (conceito de "acidente-tipo"/dia do acidente para fins de
-salário-de-contribuição). `[A CONFIRMAR NA FONTE OFICIAL]`
+### Art. 23 — Data/conceito do acidente em caso de doença ocupacional
+Reconstrução: considera-se como dia do acidente, no caso de doença
+profissional ou do trabalho, a data do início da incapacidade laborativa
+para o exercício da atividade habitual, ou o dia da constatação médica ou
+da segregação compulsória, ou o dia em que ficar comprovada a doença,
+valendo o que ocorrer primeiro. **`[FONTE SECUNDÁRIA - CONFERIR NO
+PLANALTO]`** — a busca também trouxe, misturado ao mesmo resultado, um ponto
+sobre integração do valor do auxílio-acidente ao salário-de-contribuição
+para fins de cálculo do salário-de-benefício de qualquer aposentadoria; esse
+segundo ponto **parece ser, na verdade, conteúdo do art. 31** (já tratado na
+seção de Salário-de-Benefício abaixo), não do art. 23 — não confundir os
+dois ao citar.
 
 Fontes: buscas "Lei 8213/91 art. 18 prestações RGPS" e "art. 19 a 23 acidente
 do trabalho CAT". Fontes secundárias predominantes (jusbrasil, eabsaude.com.br,
@@ -205,7 +311,25 @@ sistemaeso.com.br); Planalto listado como link, não lido diretamente.
 ## Carência — Arts. 24 a 27-A
 
 ### Art. 24 — Conceito de carência
-Não pesquisado especificamente nesta sessão. `[A CONFIRMAR NA FONTE OFICIAL]`
+Reconstrução, com boa convergência entre fontes (busca de 21/09/2026):
+período de carência é o número mínimo de contribuições mensais indispensáveis
+para que o beneficiário faça jus ao benefício, consideradas a partir do
+transcurso do primeiro dia dos meses de suas respectivas competências.
+**`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
+
+**Parágrafo único:** havendo perda da qualidade de segurado, as
+contribuições anteriores a essa perda só serão computadas para efeito de
+carência depois que o segurado contar, a partir da nova filiação à
+Previdência Social, com, no mínimo, 1/3 (um terço) do número de
+contribuições exigidas para o cumprimento da carência definida para o
+benefício a ser requerido. **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
+— **atenção:** este parágrafo único trata da regra **geral** de perda de
+qualidade de segurado para fins de carência; não confundir com o art. 27-A
+desta Lei (já tratado abaixo), que traz uma regra **específica** (metade da
+carência) para os benefícios por incapacidade, salário-maternidade e
+auxílio-reclusão — os dois dispositivos coexistem e têm requisitos e
+frações diferentes (1/3 no art. 24, parágrafo único; 1/2 no art. 27-A);
+verificar qual se aplica ao benefício concreto antes de peticionar.
 
 ### Art. 25 — Períodos de carência por benefício
 Reconstrução com boa convergência entre fontes: o acesso às prestações
@@ -267,10 +391,22 @@ conteudojuridico.com.br); Planalto listado, não lido diretamente.
 
 ## Salário-de-Contribuição, Salário-de-Benefício e RMI — Arts. 28 a 33
 
-### Art. 28
-Não pesquisado (conceito de salário-de-contribuição — matéria também tratada
-na Lei 8.212/91, cuidado para não confundir as duas leis).
-`[A CONFIRMAR NA FONTE OFICIAL]`
+### Art. 28 — Valor do benefício calculado com base no salário-de-benefício
+Reconstrução, com convergência entre fontes (busca de 21/09/2026): "o valor
+do benefício de prestação continuada, inclusive o regido por norma especial
+e o decorrente de acidente do trabalho, exceto o salário-família e o
+salário-maternidade, será calculado com base no salário-de-benefício."
+**`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`** — fonte indica que este
+dispositivo recebeu nova redação pela **Lei nº 9.032, de 28/04/1995**
+(mesma lei que revogou o art. 30, conforme já registrado abaixo).
+
+**Atenção — não confundir com o conceito de salário-de-contribuição:** o
+art. 28 da Lei 8.212/1991 (Custeio) `[DISPOSITIVO A CONFIRMAR]` é que
+define "salário-de-contribuição" propriamente dito (base de cálculo das
+contribuições), matéria distinta do art. 28 da Lei 8.213/91 acima. As duas
+leis compartilham a mesma numeração de artigo para institutos diferentes —
+fonte comum de confusão já sinalizada alhures neste arquivo (arts. 12-13).
+Conferir sempre qual das duas leis está sendo citada.
 
 ### Art. 29 — Cálculo do salário-de-benefício
 Reconstrução: desde a Lei nº 9.876/1999, os benefícios de aposentadoria por
@@ -300,16 +436,46 @@ Reconstrução: fonte secundária indica que o art. 30 foi **revogado pela Lei
 nº 9.032, de 28/04/1995**. `[A CONFIRMAR NA FONTE OFICIAL]` — confirmar na
 fonte primária antes de assumir a revogação como fato.
 
-### Art. 31 — 33
-Não pesquisados em detalhe. Uma fonte secundária menciona que os **incisos
-I a III do art. 32** foram revogados pela **Lei nº 13.846/2019**, mas isso
-não foi confirmado na fonte primária. `[REVOGADO?]` `[A CONFIRMAR NA FONTE
-OFICIAL]` quanto ao art. 32; arts. 31 e 33 sem conteúdo levantado —
-`[A CONFIRMAR NA FONTE OFICIAL]`.
+### Art. 31 — Integração do auxílio-acidente ao salário-de-contribuição
+Reconstrução, com convergência entre fontes (busca de 21/09/2026): "o valor
+mensal do auxílio-acidente integra o salário-de-contribuição, para fins de
+cálculo do salário-de-benefício de qualquer aposentadoria, observado, no
+que couber, o disposto no art. 29 e no art. 86, § 5º, desta Lei."
+**`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
 
-Fontes: buscas "art. 28/29 salário-de-benefício RMI" e busca dedicada sobre
-artigos revogados da Lei 8.213/91. Fontes secundárias (previdenciarista.com,
-conjur.com, jusbrasil); Planalto listado, não lido diretamente.
+### Art. 32 — Atividades concomitantes
+Reconstrução revisada nesta sessão (busca dedicada de 21/09/2026, com
+melhor convergência do que a apuração anterior): o **caput** do art. 32
+dispõe que "o salário-de-benefício do segurado que contribuir em razão de
+atividades concomitantes será calculado com base na soma dos
+salários-de-contribuição das atividades exercidas na data do requerimento
+ou do óbito, ou no período básico de cálculo, observado o disposto no art.
+29 desta Lei" — **redação atribuída à Lei nº 13.846, de 2019**. Os
+**incisos I, II (alíneas "a" e "b") e III**, que antes traziam regras
+específicas e mais complexas de proporcionalização entre as atividades
+concomitantes, foram **revogados** por essa mesma alteração, permanecendo
+apenas o caput reescrito e os parágrafos. O **§ 1º** mantido dispõe que "o
+disposto neste artigo não se aplica ao segurado que, em obediência ao
+limite máximo do salário-de-contribuição, contribuiu apenas por uma das
+atividades concomitantes." **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
+— confiança **maior** do que na apuração anterior (que havia marcado
+`[REVOGADO?]` com interrogação), mas ainda não confirmado byte a byte.
+
+### Art. 33 — Limites da renda mensal (piso e teto)
+Reconstrução, com convergência entre fontes: "a renda mensal do benefício
+de prestação continuada que substituir o salário-de-contribuição ou o
+rendimento do trabalho do segurado não terá valor inferior ao do
+salário-mínimo, nem superior ao do limite máximo do salário-de-contribuição,
+ressalvado o disposto no art. 45 desta Lei." **`[FONTE SECUNDÁRIA - CONFERIR
+NO PLANALTO]`**
+
+Fontes: buscas "art. 28/29 salário-de-benefício RMI", busca dedicada sobre
+artigos revogados da Lei 8.213/91, e buscas de 21/09/2026 "art. 28
+planalto", "art. 31 art. 33 salário-de-benefício texto" e "art. 32 incisos
+revogados Lei 13.846/2019 texto atual". Fontes secundárias
+(previdenciarista.com, conjur.com, jusbrasil, legjur.com,
+oguiaprevidenciario.com.br, projuris.com.br); Planalto listado, não lido
+diretamente.
 
 ---
 
@@ -337,15 +503,62 @@ podendo o segurado fazer-se acompanhar de médico de sua confiança. Fontes
 mencionam também a ponderação de aspectos socioeconômicos, profissionais e
 culturais do segurado. `[A CONFIRMAR NA FONTE OFICIAL]`
 
-### Arts. 43, 44, 46 e 47
-**Não pesquisados especificamente nesta sessão** (mesmo o tema de cada um —
-data de início do benefício, valor de 100% do salário-de-benefício, vedação
-de retorno ao trabalho/conversão, e recuperação parcial da capacidade — vem
-de conhecimento geral prévio, não de busca confirmada nesta rodada).
-Deliberadamente **não reproduzido** nenhum conteúdo substantivo aqui, para
-não violar a regra de não citar de memória sem checar via WebSearch.
-`[A CONFIRMAR NA FONTE OFICIAL]` — pendente de pesquisa dedicada antes de
-uso.
+### Art. 43 — Data de início do benefício
+Reconstrução (busca dedicada de 21/09/2026): a aposentadoria por invalidez
+(incapacidade permanente) será devida a partir do dia imediato ao da
+cessação do auxílio-doença (auxílio por incapacidade temporária), ressalvado
+o disposto nos §§ 1º, 2º e 3º. § 1º: concluindo a perícia médica inicial
+pela existência de incapacidade total e definitiva para o trabalho, a
+aposentadoria será devida: a) ao segurado empregado, a contar do 16º dia do
+afastamento da atividade, ou a partir da entrada do requerimento, se entre o
+afastamento e a entrada do requerimento decorrerem mais de 30 dias (demais
+alíneas do § 1º, e os §§ 2º e 3º, não confirmados). **`[FONTE SECUNDÁRIA -
+CONFERIR NO PLANALTO]`**
+
+### Art. 44 — Valor (percentuais sobre o salário-de-benefício)
+Reconstrução (mesma busca): "a aposentadoria por incapacidade permanente
+será devida a partir do dia imediato ao da cessação do auxílio por
+incapacidade temporária, ressalvado o disposto no § 1º, e consistirá em
+renda mensal decorrente da aplicação dos seguintes percentuais incidentes
+sobre o salário-de-benefício: I — sessenta por cento, com acréscimo de dois
+pontos percentuais para cada ano de contribuição que exceder o tempo de
+vinte anos de contribuição, para os homens, ou quinze anos de contribuição,
+para as mulheres." **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`** —
+**atenção:** esta fórmula (60% + 2 p.p./ano) é a mesma introduzida pela EC
+103/2019 para outros benefícios (ex.: aposentadoria por idade, art. 26 da
+EC 103/2019) — sugere que a redação atual do art. 44 já foi conformada à
+reforma de 2019; **não confundir com eventual redação anterior** (100% do
+salário-de-benefício, mais associada ao regime pré-reforma) sem confirmar a
+data de filiação/fato gerador aplicável. Demais incisos e §§ (inclusive
+regra de transição) `[A CONFIRMAR NA FONTE OFICIAL]`.
+
+### Art. 46 — Retorno voluntário à atividade
+Reconstrução (busca dedicada): "o aposentado por invalidez que retornar
+voluntariamente à atividade terá sua aposentadoria automaticamente
+cancelada, a partir da data do retorno." **`[FONTE SECUNDÁRIA - CONFERIR NO
+PLANALTO]`**
+
+### Art. 47 — Recuperação da capacidade de trabalho
+Reconstrução (busca dedicada): havendo recuperação da capacidade de
+trabalho do aposentado por invalidez, aplicam-se regras diferentes conforme
+o momento da recuperação (dentro ou fora de 5 anos contados do início da
+aposentadoria) e sua extensão (total ou parcial). Quando a recuperação for
+parcial, ou ocorrer após o período de 5 anos, ou ainda quando o segurado for
+declarado apto para atividade diversa da habitual, a aposentadoria é
+mantida, sem prejuízo da volta à atividade: a) em valor integral, por 6
+meses contados da data em que for verificada a recuperação; b) com redução
+de 50%, no período seguinte de 6 meses; c) com redução de 75%, por igual
+período de 6 meses, ao término do qual cessará definitivamente (a
+denominada "mensalidade de recuperação"). Regra distinta se aplicaria à
+recuperação total dentro de 5 anos (cessação mais imediata do benefício),
+mas essa hipótese específica **não foi confirmada** nesta pesquisa.
+**`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
+
+Fontes destes quatro artigos: buscas "art. 43 art. 44 aposentadoria por
+invalidez data início valor texto" e "art. 46 art. 47 aposentadoria por
+invalidez volta ao trabalho recuperação capacidade texto" (21/09/2026).
+Fontes secundárias (jusbrasil, modeloinicial.com.br, trf2.jus.br,
+direitonet.com.br).
 
 ### Art. 45 — Acréscimo de 25% (grande invalidez)
 Reconstrução: o valor da aposentadoria por invalidez do segurado que
@@ -548,8 +761,14 @@ reabilitação profissional para o exercício de outra atividade. O benefício �
 mantido até que o segurado seja considerado reabilitado ou, se não
 recuperável, seja aposentado por invalidez. `[A CONFIRMAR NA FONTE OFICIAL]`
 
-### Art. 63
-Não pesquisado. `[A CONFIRMAR NA FONTE OFICIAL]`
+### Art. 63 — Segurado empregado em gozo de auxílio-doença considerado licenciado
+Reconstrução (busca dedicada de 21/09/2026): "o segurado empregado,
+inclusive o doméstico, em gozo de auxílio-doença será considerado pela
+empresa e pelo empregador doméstico como licenciado." Parágrafo único: "a
+empresa que garantir ao segurado licença remunerada ficará obrigada a
+pagar-lhe, durante o período de auxílio-doença, a eventual diferença entre
+o valor deste e a importância garantida pela licença." **`[FONTE
+SECUNDÁRIA - CONFERIR NO PLANALTO]`**
 
 **Cruzamento com a carência (art. 25, I) e Lei 13.846/2019:** ver seção
 "Carência" acima — a exigência atual de 12 contribuições para este benefício
@@ -646,8 +865,40 @@ nº 13.135/2015 (que também tratou de outros artigos da pensão por morte,
 como carência e cotas). Teor exato de ambas as alterações
 `[A CONFIRMAR NA FONTE OFICIAL]`.
 
-### Arts. 75, 76 e 78
-Não pesquisados. `[A CONFIRMAR NA FONTE OFICIAL]`
+### Art. 75 — Valor da pensão por morte
+Reconstrução (busca de 21/09/2026): "o valor mensal da pensão por morte será
+de cem por cento do valor da aposentadoria que o segurado recebia ou daquela
+a que teria direito se estivesse aposentado por invalidez (incapacidade
+permanente) na data de seu falecimento, observado o disposto no art. 33
+desta Lei." **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
+
+**Redação vigente x pretérita:** para óbitos ocorridos a partir de
+13/11/2019, aplica-se em regra a fórmula de cota familiar trazida pela EC
+103/2019 (50% do valor da aposentadoria recebida ou que seria devida ao
+segurado, acrescida de cotas de 10 pontos percentuais por dependente, até o
+máximo de 100%), e não mais os 100% do caput do art. 75 acima — cruzar com
+`legislacao/emendas-constitucionais/ec-103-2019.md` antes de calcular RMI de
+pensão por morte. **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
+
+### Art. 76 — Habilitação posterior de dependente
+Reconstrução (busca dedicada): "a concessão da pensão por morte não será
+protelada pela falta de habilitação de outro possível dependente, e
+qualquer inscrição ou habilitação posterior que importe em exclusão ou
+inclusão de dependente só produzirá efeito a contar da data da inscrição ou
+habilitação." **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
+
+### Art. 78
+Não localizado nesta pesquisa. `[NÃO LOCALIZADO - PENDENTE]` — uma busca
+retornou, de forma pouco clara, um trecho sobre morte presumida (6 meses de
+ausência declarada por autoridade judicial; pensão provisória; dispensa do
+prazo em caso de desaparecimento por acidente, desastre ou catástrofe;
+cessação do pagamento em caso de reaparecimento, sem obrigação de devolução
+dos valores salvo má-fé) atribuído ao "art. 78", mas a mesma busca também
+associou conteúdo de rateio/reversão de cotas a esta região de artigos sem
+precisão suficiente para saber se pertence ao art. 77 (já coberto abaixo) ou
+a outro dispositivo. Por prudência, **não reproduzido como conteúdo
+confirmado do art. 78** especificamente — tratar como pendente até
+confirmação artigo por artigo na fonte oficial.
 
 ### Art. 77 — Cessação da cota individual
 Reconstrução: o direito à percepção de cada cota individual cessa: pela
@@ -658,15 +909,30 @@ deficiência intelectual, mental ou grave, pelo afastamento da deficiência.
 `[A CONFIRMAR NA FONTE OFICIAL]`
 
 ### Art. 79
-Não pesquisado. `[A CONFIRMAR NA FONTE OFICIAL]`
+Não localizado nesta pesquisa (nenhuma fonte consultada trouxe conteúdo
+específico e atribuível com segurança a este artigo, distinto do art. 78 —
+morte presumida — e do art. 80 — auxílio-reclusão, que abre a subseção
+seguinte). `[NÃO LOCALIZADO - PENDENTE]`
 
-Fonte: busca "art. 74/75/77 pensão por morte Lei 13.135 13.846". Fontes
-secundárias predominantes (modeloinicial.com.br, legjur.com, jurishand.com,
-otonnasser.adv.br); Planalto listado, não lido diretamente.
+Fonte: busca "art. 74/75/77 pensão por morte Lei 13.135 13.846" e buscas
+dedicadas de 21/09/2026 "art. 75 art. 76 pensão por morte valor rateio cotas
+texto", "art. 78 art. 79 pensão por morte reversão de cota extinção texto" e
+"art. 76 pensão morte ... texto integral". Fontes secundárias predominantes
+(modeloinicial.com.br, legjur.com, jurishand.com, otonnasser.adv.br,
+juridico.ai, ajufe.org.br).
 
 ---
 
-## Auxílio-Reclusão — Arts. 80 a 85
+## Auxílio-Reclusão (Art. 80) e Pecúlios — Arts. 81 a 85 (extintos)
+
+> **Correção de escopo (igual em espírito às já feitas para os arts. 19-23
+> e 89-92):** a pesquisa desta sessão indica que os **arts. 81 a 85 NÃO
+> continuam tratando de auxílio-reclusão** — o auxílio-reclusão está
+> **inteiramente no art. 80** (e em seus parágrafos). Os arts. 81 a 85
+> compunham, na redação original de 1991, uma **Subseção autônoma sobre
+> pecúlios** (benefício de pagamento único, distinto do auxílio-reclusão),
+> **hoje extinta**. Corrigir o `INDICE.md` e qualquer peça que presuma que
+> "arts. 80-85 = auxílio-reclusão".
 
 ### Art. 80 — Requisitos
 Reconstrução, com trecho que aparenta redação mais próxima do texto legal:
@@ -685,13 +951,38 @@ ocorrer pela média dos salários-de-contribuição apurados nos 12 meses
 anteriores ao mês de recolhimento à prisão, por alteração trazida pela MP
 871/2019, convertida na Lei nº 13.846/2019. `[A CONFIRMAR NA FONTE OFICIAL]`
 
-### Arts. 81 a 85
-Não pesquisados. `[A CONFIRMAR NA FONTE OFICIAL]`
+### Arts. 81 a 85 — Pecúlios (benefício extinto)
+Reconstrução (buscas dedicadas de 21/09/2026): na redação original da Lei
+8.213/91, os arts. 81 a 85 previam o **pecúlio**, benefício de pagamento
+único, com pelo menos três hipóteses no art. 81: I — devido ao segurado que
+se tornasse incapacitado para o trabalho antes de completar a carência
+(consistindo em pagamento único correspondente à soma das importâncias
+relativas às contribuições do segurado, remuneradas de acordo com o índice
+de remuneração básica dos depósitos de poupança); II — devido ao segurado
+aposentado por idade ou por tempo de serviço/contribuição pelo RGPS que
+retornasse a exercer atividade abrangida pelo RGPS, quando dela se
+afastasse; III — devido ao segurado ou a seus dependentes em caso de
+invalidez ou morte decorrente de acidente do trabalho. **`[FONTE
+SECUNDÁRIA - CONFERIR NO PLANALTO]`**
 
-Fonte: busca "art. 80 auxílio-reclusão baixa renda EC 103". Fontes
-secundárias (previdenciarista.com, fabiosantos.adv.br, senado.leg.br —
-portal de ideias, não texto de lei); Planalto não apareceu diretamente nos
-resultados desta busca.
+**Histórico de extinção (relevante para casos antigos, mas não para novos
+requerimentos):** o inciso II do art. 81 foi revogado pela **Lei nº 8.870,
+de 15/04/1994** (art. 29). O remanescente do benefício (demais hipóteses do
+art. 81 e os arts. 82 a 85) teria sido extinto pela **Lei nº 9.129, de
+20/11/1995** (art. 7º), que revogou o art. 81 da Lei 8.213/91. **`[FONTE
+SECUNDÁRIA - CONFERIR NO PLANALTO]`** — como o benefício está extinto há
+décadas, seu interesse prático hoje é quase exclusivamente para eventuais
+pedidos de reconhecimento de direito adquirido ou cálculo de valores
+pretéritos não pagos (com atenção à prescrição do art. 103); não citar como
+benefício atualmente concedível.
+
+Fonte: busca "art. 80 auxílio-reclusão baixa renda EC 103" e buscas
+dedicadas "Art. 81 Lei 8213/91 auxílio-reclusão cessação texto jusbrasil" e
+"pecúlio art. 81 a 85 extinto revogado Lei 8870/1994 texto" (21/09/2026).
+Fontes secundárias (previdenciarista.com, fabiosantos.adv.br,
+legisweb.com.br, jus.com.br, trf-3.jusbrasil.com.br — este último citando
+acórdão do TRF-3, não o texto de lei); Planalto não apareceu diretamente
+nos resultados destas buscas.
 
 ---
 
@@ -740,13 +1031,20 @@ profissional, auxílio para tratamento ou exame fora do domicílio do
 beneficiário, conforme dispuser o Regulamento. `[A CONFIRMAR NA FONTE
 OFICIAL]`
 
-### Art. 92
-Não pesquisado. `[A CONFIRMAR NA FONTE OFICIAL]`
+### Art. 92 — Certificado de habilitação/reabilitação
+Reconstrução (busca dedicada de 21/09/2026): "concluído o processo de
+habilitação ou reabilitação social e profissional, a Previdência Social
+emitirá certificado individual, indicando as atividades que poderão ser
+exercidas pelo beneficiário, nada impedindo que este exerça outra atividade
+para a qual se capacitar." **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`**
 
 Fonte: busca "art. 89/90/91 cálculo renda mensal benefício" (que revelou,
 na verdade, tratar-se de reabilitação profissional, não de cálculo).
 Fontes secundárias exclusivamente nesta busca (não houve link direto ao
-Planalto nos resultados específicos destes três artigos).
+Planalto nos resultados específicos destes três artigos), acrescida da
+busca dedicada "Lei 8213/91 art. 92 habilitação reabilitação certificado
+individual capacidade texto" (21/09/2026; fonte: oguiaprevidenciario.com.br,
+jusbrasil).
 
 ---
 
@@ -762,27 +1060,44 @@ concessão, indeferimento, cancelamento ou cessação de benefício, contado do
 recebimento da primeira prestação ou da ciência da decisão indeferitória
 definitiva. `[A CONFIRMAR NA FONTE OFICIAL]`
 
-**[JURISPRUDÊNCIA A CONFIRMAR] — achado que exige verificação antes de
-qualquer uso:** fontes secundárias (jornalcontabil.com.br, saberalei.com.br,
-icdsconnect.com.br) mencionam que o STF teria declarado **inconstitucional**
-uma redação do art. 103 (associada a alteração feita pela MP 871/2019,
-convertida na Lei 13.846/2019, que teria ampliado o prazo decadencial em
-prejuízo do segurado), fazendo prevalecer a redação anterior, mais
-favorável. **Esta informação NÃO consta em nenhum arquivo da pasta
-`legislacao/jurisprudencia-vinculante/` desta base** (não há ADI, Tema de
-Repercussão Geral ou súmula sobre o art. 103 já catalogados) e **não foi
-confirmada em fonte primária (STF) nesta pesquisa**. Antes de citar
-qualquer inconstitucionalidade do art. 103 em petição ou parecer,
-**localizar o acórdão/decisão oficial do STF, seu número de processo e data
-de julgamento**, e só então incorporar à base de jurisprudência vinculante
-com o mesmo rigor usado para a ADI 6309/DF. Até lá, tratar como boato
-processual a confirmar, não como tese firmada.
+**[JURISPRUDÊNCIA A CONFIRMAR] — achado atualizado nesta sessão, mas ainda
+exige verificação em fonte oficial do STF antes de qualquer uso em peça:**
+uma busca dedicada de 21/09/2026 trouxe **maior convergência entre fontes
+secundárias** (jornalcontabil.com.br, emagis.com.br, previdenciarista.com,
+saberalei.com.br, alteridade.com.br, icdsconnect.com.br) do que a apuração
+anterior, agora **identificando o número da ação: ADI 6096**. Segundo essas
+fontes, o STF teria julgado a **ADI 6096** (ajuizada contra a MP 871/2019,
+posteriormente convertida na Lei nº 13.846/2019) e declarado
+**inconstitucional** a extensão do prazo decadencial do art. 103, caput, da
+Lei 8.213/91 às hipóteses de **indeferimento, cancelamento ou cessação** de
+benefício — extensão que a Lei 13.846/2019 teria introduzido, sob o
+fundamento de violação ao direito fundamental à previdência social (art. 6º
+da CF). O efeito seria a **restauração da redação anterior**, mais
+favorável, limitando a decadência apenas à **revisão de ato de concessão**
+de benefício já deferido.
 
-Fonte: busca "art. 103 prescrição decadência cinco anos dez anos" e busca
-dedicada sobre artigos revogados/EC 103. Fontes exclusivamente secundárias
-(jornalcontabil.com.br, jus.com.br, ambitojuridico.com.br,
-buscadordizerodireito.com.br); nenhuma fonte oficial do STF foi localizada
-ou lida nesta pesquisa para este ponto específico.
+**Mesmo com essa convergência maior e a identificação do número da ADI, este
+achado permanece `[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]` quanto à
+redação exata resultante, e não foi lido o acórdão do STF na ADI 6096
+diretamente (fonte oficial: portal do STF, processo ADI 6096).** Esta
+informação **ainda NÃO consta em nenhum arquivo da pasta
+`legislacao/jurisprudencia-vinculante/` desta base**. Antes de citar essa
+inconstitucionalidade em petição ou parecer, **confirmar no site do STF
+(www.stf.jus.br, consulta processual ADI 6096) a data de julgamento, o
+relator, o resultado exato do dispositivo e se já há trânsito em
+julgado/modulação de efeitos**, e só então incorporar à base de
+jurisprudência vinculante com o mesmo rigor usado para a ADI 6309/DF. Até
+lá, tratar como **achado consistente entre múltiplas fontes secundárias,
+mas não como tese oficialmente confirmada por este escritório**.
+
+Fonte: busca "art. 103 prescrição decadência cinco anos dez anos", busca
+dedicada sobre artigos revogados/EC 103, e busca dedicada de 21/09/2026 "STF
+inconstitucional decadência art. 103 Lei 8213/91 MP 871 Lei 13.846/2019
+acórdão". Fontes exclusivamente secundárias (jornalcontabil.com.br,
+jus.com.br, ambitojuridico.com.br, buscadordizerodireito.com.br,
+emagis.com.br, previdenciarista.com, saberalei.com.br, alteridade.com.br,
+icdsconnect.com.br); nenhuma fonte oficial do STF foi lida diretamente
+nesta pesquisa para este ponto específico.
 
 ---
 
@@ -829,18 +1144,36 @@ Reconstrução: deve ser fornecido ao beneficiário demonstrativo discriminando
 os valores pagos, eventuais diferenças e o período a que se referem, e os
 descontos efetuados. `[A CONFIRMAR NA FONTE OFICIAL]`
 
-### Art. 117
-Reconstrução incerta: uma fonte secundária associa o art. 117 à celebração
-de "ACT" (Acordo de Cooperação Técnica) como condição para descontos — este
-achado tem baixa confiança e pode refletir erro de síntese da própria
-ferramenta de busca. `[A CONFIRMAR NA FONTE OFICIAL]` — **tratar como não
-verificado mesmo em relação ao tema do artigo**, não apenas à redação.
+### Art. 117 — Acordo de Cooperação Técnica (ACT) para requerimento eletrônico
+Reconstrução revisada nesta sessão (busca dedicada de 21/09/2026, que
+confirma e detalha — em vez de contradizer — o achado de baixa confiança da
+apuração anterior sobre "ACT"): o art. 117 permite que empresas, sindicatos
+e entidades fechadas de previdência complementar, mediante celebração de
+Acordo de Cooperação Técnica (ACT) com o INSS, fiquem responsáveis por
+requerer benefícios previdenciários por via eletrônica em nome de seus
+empregados, associados ou beneficiários, preparando-os e instruindo-os nos
+termos do acordo. **`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`** — fonte
+indica que os incisos I, II e III originais, bem como o parágrafo único do
+art. 117, foram **revogados pela Lei nº 14.020, de 2020**. **`[FONTE
+SECUNDÁRIA - CONFERIR NO PLANALTO]`** quanto a essa revogação.
 
-Fonte: busca "art. 115/116/117 descontos Lei 15.327/2026". Mistura de
-fonte primária listada (câmara dos deputados — texto da própria Lei
-15.327/2026 publicada) e fontes secundárias (migalhas.com.br,
-cassiusmarques.adv.br, normaslegais.com.br, legjur.com, jurishand.com);
-Planalto não apareceu diretamente nesta busca.
+**Correção em relação à apuração anterior:** o achado de baixa confiança
+anterior ("ACT como condição para descontos") estava **parcialmente
+correto quanto à sigla e ao tema geral** (Acordo de Cooperação Técnica),
+mas **impreciso quanto ao objeto** — o ACT do art. 117 trata de
+requerimento eletrônico de benefícios por empresas/sindicatos/entidades em
+nome de terceiros, **não** de condição para descontos sobre benefícios
+(tema dos arts. 115-116, tratados acima). Não relacionar os dois temas em
+petições ou pareceres.
+
+Fonte: busca "art. 115/116/117 descontos Lei 15.327/2026" e busca dedicada
+de 21/09/2026 "Lei 8213/91 art. 117 acordo internacional convênio texto
+planalto" (que revelou tratar-se de Acordo de Cooperação Técnica para
+requerimento eletrônico, não de acordo internacional). Mistura de fonte
+primária listada (câmara dos deputados — texto da própria Lei 15.327/2026
+publicada) e fontes secundárias (migalhas.com.br, cassiusmarques.adv.br,
+normaslegais.com.br, legjur.com, jurishand.com, peticoesonline.com.br,
+conjur.com.br); Planalto não apareceu diretamente nesta busca.
 
 ---
 
@@ -852,13 +1185,15 @@ Planalto não apareceu diretamente nesta busca.
 | Art. 26, I | Alteração pontual (natureza exata não confirmada) | Lei 13.846/2019 | `[A CONFIRMAR NA FONTE OFICIAL]` |
 | Art. 29 | Regra de 80%/desprezo dos 20% menores; parcialmente substituída, enquanto não sobrevier lei, pelo art. 26 da EC 103/2019 (100% da média) | Lei 9.876/1999; EC 103/2019 | Cruzado com `ec-103-2019.md` (fonte já com aviso de proveniência) |
 | Art. 30 | `[REVOGADO]` | Lei 9.032/1995 | `[A CONFIRMAR NA FONTE OFICIAL]` |
-| Art. 32, I-III | Possivelmente `[REVOGADO]` | Lei 13.846/2019 | `[A CONFIRMAR NA FONTE OFICIAL]` — baixa confiança |
+| Art. 32, I-III | `[REVOGADOS]` (caput reescrito; confiança maior após busca dedicada) | Lei 13.846/2019 | `[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]` |
+| Arts. 81-85 | Pecúlios — inciso II do art. 81 revogado; remanescente extinto | Lei 8.870/1994 (art. 29); Lei 9.129/1995 (art. 7º) | `[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]` — benefício extinto, sem efeito prático em novos casos |
+| Art. 117 | Incisos I-III e parágrafo único revogados | Lei 14.020/2020 | `[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]` |
 | Art. 48 | Idade mínima 65/62 (transição) para filiados anteriores à reforma | EC 103/2019, art. 18 | Já registrado no `INDICE.md` |
 | Arts. 52-56 | Extinção como regra autônoma para novos segurados; só via transição/direito adquirido | EC 103/2019 | Estrutural, `[A CONFIRMAR NA FONTE OFICIAL]` quanto à redação remanescente |
 | Arts. 57-58 | **NÃO alterados pela ADI 6309/DF** — a idade mínima que caiu estava no art. 19, §1º, I, da EC 103/2019 | Ver `adi-6309-2026-resumo.md` e `ec-103-2019.md` | Fonte oficial (certidão de julgamento do STF) via arquivos já existentes na base |
 | Art. 74 | Acréscimo de § 6º e outras regras de habilitação provisória/perda por fraude | Lei 13.846/2019; Lei 13.135/2015 | `[A CONFIRMAR NA FONTE OFICIAL]` |
 | Art. 80 | Redação do caput e aferição de baixa renda | Lei 13.846/2019 (conversão da MP 871/2019) | `[A CONFIRMAR NA FONTE OFICIAL]` |
-| Art. 103 | **Possível declaração de inconstitucionalidade pelo STF de redação dada por lei ligada à MP 871/2019** | Achado não confirmado — ver seção específica | **`[JURISPRUDÊNCIA A CONFIRMAR]` — não incorporar sem localizar o acórdão oficial** |
+| Art. 103 | **Provável declaração de inconstitucionalidade pelo STF (ADI 6096) da extensão da decadência a indeferimento/cancelamento/cessação** | MP 871/2019 → Lei 13.846/2019; ADI 6096 (STF) | **`[JURISPRUDÊNCIA A CONFIRMAR]` — número da ADI identificado nesta sessão, mas acórdão não lido; não incorporar à jurisprudência vinculante sem localizar o processo no site do STF** |
 | Art. 115, §§ 8º/9º/13 | Vedação de descontos associativos; regras de consignado biométrico | Lei 15.327/2026 (parcialmente; atribuição exata incerta) | `[A CONFIRMAR NA FONTE OFICIAL]` |
 
 ---
@@ -878,3 +1213,70 @@ Planalto não apareceu diretamente nesta busca.
   os artigos citados aqui carregam, implicitamente, a marcação
   `[A CONFIRMAR NA FONTE OFICIAL]` do aviso de proveniência no topo, ainda
   que repetida em cada seção para reforço.
+
+---
+
+## Status de Cobertura desta Apuração
+
+**Sessão de trabalho: 21/09/2026. Feita inteiramente com WebSearch; WebFetch
+e `curl` não foram usados nem estão disponíveis neste ambiente (limitação
+permanente, não falha temporária) — nenhum conteúdo abaixo, nem o já
+existente antes desta sessão, foi lido diretamente da fonte primária.**
+
+### Cobertura aproximada
+
+Considerando o escopo do resumo (faixas indicadas no `INDICE.md` e neste
+arquivo: arts. 1-33, 42-63, 65, 71 a 71-A/72-73, 74-86, 89-92, 103, 115-117
+— aproximadamente **82 artigos/dispositivos numerados** distintos dentro
+dessas faixas), este trabalho preencheu o conteúdo dos artigos que estavam
+**totalmente ausentes** na apuração anterior (3, 4\*, 5\*, 6, 7, 8, 9\*, 10,
+12\*, 13, 14, 17, 23, 24 [detalhado], 28, 31, 32 [revisado], 33, 43, 44, 46,
+47, 63, 75, 76, 78\*, 79\*, 81-85, 92, 117 [revisado]) e revisou os
+marcados como baixa confiança (24, 32, 117).
+
+(\* = permanecem `[NÃO LOCALIZADO - PENDENTE]` mesmo após a busca desta
+sessão — ver lista abaixo. Os arts. 54-56 continuam **sem pesquisa
+dedicada nesta sessão**, por não constarem no topo da lista de prioridades
+do usuário além do já registrado para 52-53; a seção correspondente no
+corpo do arquivo não foi alterada e mantém o aviso `[A CONFIRMAR NA FONTE
+OFICIAL]` original.)
+
+Estimativa de cobertura: **cerca de 76 de ~82 artigos/dispositivos do
+escopo (≈ 93%) têm algum conteúdo registrado** (ainda que como
+`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`, `[A CONFIRMAR NA FONTE
+OFICIAL]`, ou explicitamente como `[REVOGADO]`/benefício extinto). Antes
+desta sessão, a cobertura estimada no `INDICE.md` era de aproximadamente
+45-50 artigos.
+
+### Artigos que CONTINUAM sem nenhum conteúdo (`[NÃO LOCALIZADO - PENDENTE]`)
+
+- **Art. 4º** e **Art. 5º** — busca retornou apenas um resultado de baixa
+  confiança e aparentemente deslocado (confundido com regra de EC 20/1998);
+  não reproduzido por prudência.
+- **Art. 9º** — nenhuma fonte trouxe conteúdo específico.
+- **Art. 12** — buscas retornaram conteúdo do art. 11 (mesma Lei, já
+  coberto) ou de um artigo de mesmo número de outra lei previdenciária
+  correlata `[DISPOSITIVO A CONFIRMAR]`, não do art. 12 da própria Lei
+  8.213/91.
+- **Art. 78** — uma fonte trouxe um resumo sobre morte presumida atribuído
+  a este artigo, mas sem confiança suficiente para reproduzir como
+  conteúdo confirmado (risco de ser, na verdade, outro dispositivo).
+- **Art. 79** — nenhuma fonte trouxe conteúdo atribuível com segurança.
+
+Também seguem **sem pesquisa dedicada nesta sessão** (não eram o foco da
+lista de prioridades e não houve tempo hábil): **arts. 54, 55 e 56**
+(aposentadoria por tempo de contribuição — permanecem com o aviso
+`[A CONFIRMAR NA FONTE OFICIAL]` já existente, sem conteúdo textual
+específico).
+
+### Recomendação
+
+**O advogado deve baixar o PDF oficial do Planalto
+(`planalto.gov.br/ccivil_03/leis/l8213compilado.htm` ou `l8213cons.htm`) e
+anexar ao repositório antes de qualquer citação crítica em petição, tal
+como já foi feito com a IN 128/2022 e a ADI 6309/DF.** Nenhum trecho deste
+arquivo — incluindo os preenchidos nesta sessão, mesmo quando formatados
+como citação entre aspas — substitui a conferência byte a byte na fonte
+primária. O achado sobre a ADI 6096 (art. 103, decadência) merece atenção
+prioritária para confirmação, por seu potencial impacto prático em casos de
+indeferimento/cancelamento/cessação de benefício.
