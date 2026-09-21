@@ -51,22 +51,47 @@ Artigos-chave:
   - Arts. 20-30: Contribuições e arrecadação
 
 - Lei 8.213/1991 — Planos de Benefícios
-  - Arts. 11-16: Segurados
-  - Art. 18: Prestações do RGPS
-  - Arts. 24-26: Carência
-  - Art. 27: Período de graça
-  - Arts. 28-33: Salário-de-benefício e RMI
-  - Arts. 42-47: Aposentadoria por invalidez
-  - Arts. 48-51: Aposentadoria por idade
-  - Arts. 52-56: Aposentadoria por tempo de contribuição
-  - Arts. 57-58: Aposentadoria especial
-  - Arts. 59-63: Auxílio-doença
-  - Art. 65: Salário-família
-  - Arts. 71-73: Salário-maternidade
-  - Arts. 74-79: Pensão por morte
-  - Arts. 80-85: Auxílio-reclusão
-  - Art. 86: Auxílio-acidente
-  - Art. 103: Prescrição quinquenal
+  - Resumo navegável artigo a artigo (arts. 1-117, faixas indicadas abaixo)
+    em `leis-ordinarias/lei-8.213-1991.md` — montado **sem WebFetch/curl**
+    (ambiente sem acesso de rede para download de página), só com snippets
+    de WebSearch já sintetizados pela própria ferramenta. **Nível de
+    verificação: reconstrução estrutural a partir de fontes majoritariamente
+    secundárias (jusbrasil, modeloinicial.com.br, legjur.com,
+    previdenciarista.com e outras); planalto.gov.br apareceu como link nos
+    resultados de quase toda busca, mas seu conteúdo não foi lido
+    diretamente.** Nenhum artigo deve ser citado em petição sem conferência
+    prévia na fonte oficial — ver aviso de proveniência no topo do próprio
+    arquivo (mesmo padrão já usado em `ec-103-2019.md`).
+  - Faixas cobertas no arquivo: arts. 1-10 (finalidade/princípios), 9-15
+    (segurados/período de graça), 16-17 (dependentes), 18 (elenco de
+    prestações), 19-23 (acidente do trabalho — **correção**: não são
+    dependentes/prestações gerais como se presumia antes), 24-27-A
+    (carência), 28-33 (salário-de-benefício/RMI — art. 30 sinalizado como
+    `[REVOGADO]` pela Lei 9.032/1995, a confirmar), 42-47 (aposentadoria por
+    invalidez/incapacidade permanente), 48-51 (aposentadoria por idade),
+    52-56 (aposentadoria por tempo de contribuição — extinta como regra
+    autônoma p/ novos segurados pela EC 103/2019), 57-58 (aposentadoria
+    especial — ver nota cruzada com a ADI 6309/DF abaixo), 59-63 (auxílio
+    por incapacidade temporária/auxílio-doença), 65 (salário-família),
+    71-73 e 71-A (salário-maternidade), 74-79 (pensão por morte), 80-85
+    (auxílio-reclusão), 86 (auxílio-acidente), 89-92 (**correção**:
+    habilitação e reabilitação profissional, não "cálculo dos benefícios"),
+    103 (prescrição/decadência — **achado a confirmar**: fontes secundárias
+    mencionam possível declaração de inconstitucionalidade pelo STF de uma
+    redação ligada à MP 871/2019/Lei 13.846/2019; não incorporado à
+    jurisprudência vinculante desta base até localização do acórdão
+    oficial), 115-117 (descontos — cruzamento com a Lei 15.327/2026, ver
+    abaixo).
+  - Confirmado no novo arquivo: Lei 13.846/2019 restabeleceu a exigência de
+    12 contribuições de carência para auxílio-doença/aposentadoria por
+    invalidez (art. 25, I); Lei 15.327/2026 veda descontos associativos
+    (art. 115, §§ 8º/9º/13, atribuição exata do parágrafo ainda a
+    confirmar).
+  - Aposentadoria especial (arts. 57-58): o texto desses artigos **não foi
+    alterado pela ADI 6309/DF** — a idade mínima invalidada pelo STF estava
+    no art. 19, § 1º, I, da EC 103/2019, não na Lei 8.213/91. Ver nota
+    cruzada no próprio arquivo e em `adi-6309-2026-resumo.md` /
+    `ec-103-2019.md`.
 
 - Lei 8.742/1993 — LOAS/BPC
   - Art. 20: BPC (idoso 65+ ou pessoa com deficiência)
@@ -174,10 +199,19 @@ Artigos-chave:
 
 ## Pendências desta base
 1. Textos integrais (.html/.pdf) da maioria das normas ainda não populados.
-   Exceção parcial: `emendas-constitucionais/ec-103-2019.md` (art. 26 —
-   regra de cálculo do salário de benefício) já populado, mas **a partir
-   de fontes secundárias**, não de download verificado da fonte primária
-   (Planalto) — ver aviso de proveniência no topo do próprio arquivo.
+   Exceções parciais, ambas **a partir de fontes secundárias/reconstrução
+   por busca textual**, não de download verificado da fonte primária
+   (Planalto) — ver aviso de proveniência no topo de cada arquivo:
+   - `emendas-constitucionais/ec-103-2019.md` (art. 26 — regra de cálculo
+     do salário de benefício);
+   - `leis-ordinarias/lei-8.213-1991.md` (resumo artigo a artigo, arts.
+     1-117 nas faixas indicadas na seção 4 acima; vários artigos dentro
+     dessas faixas ficaram sem conteúdo por falta de resultado de busca,
+     registrados como lacuna em vez de presumidos).
+   Ainda pendentes de população: Lei 8.212/1991, Lei 8.742/1993 (LOAS),
+   Lei 13.846/2019 (texto integral, além dos pontos já cruzados no resumo
+   da Lei 8.213/91), Lei 15.327/2026 e Lei 15.371/2026 (textos integrais),
+   Decreto 3.048/1999 e demais decretos.
 2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
 3. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
    populados (ver `tabelas/FONTES.md` para fontes e datas de download)
