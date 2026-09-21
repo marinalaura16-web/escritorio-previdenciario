@@ -114,10 +114,25 @@ Artigos-chave:
 
 ## 8. Jurisprudência Vinculante
 - Súmulas STF — jurisprudencia-vinculante/sumulas-stf.md
+  (consolidado em 21/09/2026 — inclui alerta: Súmula 33 do STF NÃO trata de
+  contagem recíproca, Súmula 368 do STF NÃO trata de descontos do INSS, e
+  Súmula Vinculante 2 NÃO trata de prioridade de idosos; ver o próprio
+  arquivo para o texto verificado de cada uma)
 - Súmulas STJ — jurisprudencia-vinculante/sumulas-stj.md
   - Súmula 416: Pensão por morte — qualidade de segurado
+  (consolidado em 21/09/2026 — inclui Súmulas 7, 148, 149, 272, 340, 416,
+  507 e 557 confirmadas como relevantes, e tabela de números pesquisados e
+  descartados por não terem relação com Direito Previdenciário)
 - Súmulas TNU — jurisprudencia-vinculante/sumulas-tnu.md
+  (consolidado em 21/09/2026 — Súmulas 5, 6, 22, 24, 30, 33, 34, 46 e 72;
+  Súmula 85 marcada como divergente entre fontes, a confirmar na fonte
+  oficial)
 - Temas de Repercussão Geral STF — jurisprudencia-vinculante/temas-repercussao-geral-stf.md
+  (consolidado em 21/09/2026 — inclui alerta: a revisão da vida toda é o
+  **Tema 1.102** (não o Tema 1.125, que trata de outro assunto), e o Tema
+  1.302 é sobre anuidades da OAB, **não sobre BPC** — o tema correto de BPC
+  é o Tema 27; Tema 1.231 documentado ali apenas para deixar claro que é
+  RPV municipal, sem relação com aposentadoria especial)
 - Ações Diretas de Inconstitucionalidade STF
   - **ADI 6309/DF** — jurisprudencia-vinculante/adi-6309-2026-resumo.md
     (com adi-6309-2026-andamento.pdf, adi-6309-2026-voto-barroso.pdf e
