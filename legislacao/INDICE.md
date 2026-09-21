@@ -91,6 +91,20 @@ Artigos-chave:
 
 ## 6. Instruções Normativas
 - IN PRES/INSS 128/2022 — Norma Central
+  - Resumo navegável artigo a artigo em
+    `instrucoes-normativas/in-128-2022.md`, cobrindo a estrutura real da IN
+    (mapeada por leitura integral do PDF de 244 páginas, não a estrutura
+    originalmente presumida): Livro I Dos Beneficiários (arts. 1-188, mapeado
+    apenas estruturalmente), **Livro II Dos Benefícios e Serviços (arts.
+    189-510, detalhado artigo a artigo — inclui Título IV Acordos
+    Internacionais, arts. 393-414)**, **Livro III Da Contagem Recíproca (arts.
+    511-522 — CTC e compensação previdenciária; NÃO é "Custeio" em sentido
+    amplo)**, Livro IV Do Processo Administrativo Previdenciário (arts.
+    523-602, visão geral), Livro V Da Manutenção dos Benefícios (arts.
+    603-638, visão geral) e Livro VI Das Disposições Diversas e Finais (arts.
+    639-674, visão geral)
+  - BPC/LOAS: a IN 128/2022 não regula o benefício em detalhe — art. 670 apenas
+    remete a aplicação subsidiária até norma específica
   - Arts. 340 e 346: Prazo de 30 dias para novo requerimento de benefício por incapacidade
   - Art. 576-A: Vedação de novo requerimento enquanto houver processo em curso (alterado pela IN 208/2026)
 - IN PRES/INSS 141/2022
@@ -164,7 +178,6 @@ Artigos-chave:
    regra de cálculo do salário de benefício) já populado, mas **a partir
    de fontes secundárias**, não de download verificado da fonte primária
    (Planalto) — ver aviso de proveniência no topo do próprio arquivo.
-2. IN 128/2022: PDF integral (244 páginas) a ser adicionado em instrucoes-normativas/in-128-2022.pdf
-3. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
-4. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
+2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
+3. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
    populados (ver `tabelas/FONTES.md` para fontes e datas de download)
