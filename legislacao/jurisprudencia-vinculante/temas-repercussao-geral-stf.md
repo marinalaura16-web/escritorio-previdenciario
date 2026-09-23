@@ -12,12 +12,12 @@
 
 ---
 
-## ⚠️ Leia primeiro: dois números que NÃO são o que parecem
+## ⚠️ Leia primeiro: números que NÃO são o que parecem
 
-A pesquisa para este arquivo revelou **dois casos adicionais** do mesmo
-padrão de erro já corrigido para "STF, Tema 1.231" (que não é sobre
-aposentadoria especial — ver seção final). Documentar isso aqui,
-explicitamente, é a única forma de evitar que o erro se repita:
+A pesquisa para este arquivo revelou **casos adicionais** do mesmo padrão
+de erro já corrigido para "STF, Tema 1.231" (que não é sobre aposentadoria
+especial — ver seção final). Documentar isso aqui, explicitamente, é a
+única forma de evitar que o erro se repita:
 
 1. **"Tema 1.125" NÃO é a revisão da vida toda.** O tema de repercussão
    geral correto para a revisão da vida toda é o **Tema 1.102** (RE
@@ -30,6 +30,35 @@ explicitamente, é a única forma de evitar que o erro se repita:
    cobrança de anuidades devidas por advogados à OAB (natureza tributária
    ou não da contribuição). O tema correto sobre o critério de renda per
    capita do BPC/LOAS é o **Tema 27** (RE 567.985). Ambos tratados abaixo.
+3. **"RE 611.601 = Tema 32" é uma associação equivocada** (hipótese
+   levantada, com dúvida assumida, pelo próprio usuário ao pedir esta
+   pesquisa — dúvida correta em duvidar, pois os números não coincidem).
+   Pesquisando cada um individualmente (23/09/2026):
+   - O **RE 611.601** tem repercussão geral reconhecida, mas sob o
+     **Tema 281**, não o Tema 32. Seu objeto é a **constitucionalidade da
+     contribuição substitutiva da agroindústria** (art. 22-A da Lei
+     8.212/91) — nada a ver com entidades beneficentes ou imunidade.
+   - O **Tema 32** de fato existe, mas é sobre matéria totalmente diferente
+     da do RE 611.601: é o **RE 566.622**, Rel. Min. Marco Aurélio, sobre a
+     **reserva de lei complementar para fixar os requisitos da imunidade
+     de contribuições sociais das entidades beneficentes de assistência
+     social**, tema que se relaciona ao dispositivo de isenção/imunidade
+     dessas entidades já registrado (e já anotado como revogado por lei
+     posterior) em `leis-ordinarias/lei-8.212-1991.md`.
+     **`[JURISPRUDÊNCIA A CONFIRMAR]`** — Tema 32/RE 566.622 identificado
+     apenas por busca nesta sessão, não lido no acórdão oficial, e **não
+     documentado como entrada própria nesta tarefa** (fora do escopo
+     pedido, que era apenas RE 595.838 e RE 611.601). Fica registrado aqui
+     como achado a incorporar em sessão futura.
+   - **Coincidentemente, é esse Tema 32/RE 566.622 — não o RE 611.601 —
+     que corresponde ao objeto que o usuário originalmente associava a
+     "CEBAS/imunidade de entidades beneficentes".** Conclusão desta
+     apuração: **nem o RE 595.838 nem o RE 611.601 tratam de imunidade ou
+     CEBAS de entidades beneficentes.** Ambos são sobre bases de cálculo de
+     contribuições patronais/substitutivas específicas (cooperativas de
+     trabalho e agroindústria, respectivamente) — ver entradas completas
+     na seção "Recursos Extraordinários com Repercussão Geral — Custeio
+     (Lei 8.212/1991)" abaixo.
 
 ---
 
@@ -173,6 +202,112 @@ explicitamente, é a única forma de evitar que o erro se repita:
   objetivo de 1/4 do salário mínimo.
 - **Fonte:** https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2569060&numeroProcesso=567985&classeProcesso=RE&numeroTema=27
 - **Data de consulta:** 21/09/2026.
+
+---
+
+## Recursos Extraordinários com Repercussão Geral — Custeio (Lei 8.212/1991)
+
+> Pesquisados em 23/09/2026, a pedido do bloco de trabalho sobre a Lei
+> 8.212/1991 (`leis-ordinarias/lei-8.212-1991.md`), que já citava os dois
+> precedentes abaixo como pendência a incorporar (arts. 22, IV e 22-A). Ver
+> também o alerta no topo deste arquivo sobre a associação equivocada
+> "RE 611.601 = Tema 32" — **nenhum dos dois REs abaixo trata de imunidade
+> ou CEBAS de entidades beneficentes**; essa é matéria de outro precedente
+> (Tema 32/RE 566.622, ainda não incorporado a esta base).
+
+### Tema 166 — Inconstitucionalidade da contribuição de 15% sobre cooperativas de trabalho (art. 22, IV, da Lei 8.212/91)
+
+- **Processo paradigma:** RE 595.838 (origem: SP).
+- **Repercussão geral:** reconhecida — **Tema 166**. Confirmado por URL
+  direta do portal STF encontrada na busca
+  (`numeroProcesso=595838&classeProcesso=RE&numeroTema=166`), o que dá
+  confiança razoavelmente alta a essa associação RE↔Tema, mesmo sem leitura
+  direta da página (sem WebFetch/curl neste ambiente).
+- **Relator:** Min. Dias Toffoli (múltiplas fontes convergentes).
+- **Data do julgamento:** 23/04/2014, Tribunal Pleno.
+- **Objeto:** constitucionalidade do art. 22, IV, da Lei 8.212/1991 (com a
+  redação dada pela Lei nº 9.876/1999), que instituía contribuição de 15%
+  sobre o valor bruto da nota fiscal ou fatura de prestação de serviços por
+  cooperativas de trabalho.
+- **Tese firmada (boa convergência entre múltiplas fontes independentes,
+  incluindo notícia oficial em noticias.stf.jus.br):** "É inconstitucional
+  a contribuição previdenciária prevista no art. 22, IV, da Lei 8.212/1991,
+  com redação dada pela Lei 9.876/1999, que incide sobre o valor bruto da
+  nota fiscal ou fatura referente a serviços prestados por cooperados por
+  intermédio de cooperativas de trabalho." **`[A CONFIRMAR NA FONTE
+  OFICIAL]`** quanto à redação byte a byte (não lida diretamente do
+  portal.stf.jus.br).
+- **Fundamento (resumo):** a contribuição incidia sobre o faturamento da
+  cooperativa (valor bruto da nota fiscal), extrapolando a base econômica
+  do art. 195, I, "a", da CF (folha de salários), e representaria nova
+  fonte de custeio da Seguridade Social não instituída por lei
+  complementar (art. 195, § 4º, c/c art. 154, I, da CF). Resumo elaborado a
+  partir de fontes secundárias — **`[JURISPRUDÊNCIA A CONFIRMAR]`** quanto
+  à fundamentação exata do voto condutor.
+- **Efeito vinculante:** repercussão geral reconhecida — aplicável a todos
+  os processos análogos.
+- **Relação com esta base:** confirma e formaliza o achado já registrado em
+  `leis-ordinarias/lei-8.212-1991.md` (nota ao art. 22, IV) e em
+  `legislacao/INDICE.md`.
+- **Correção de enquadramento em relação à hipótese do usuário:** este RE
+  **não trata de imunidade/CEBAS de entidades beneficentes** — trata da
+  base de cálculo da contribuição patronal sobre serviços de cooperativas
+  de trabalho.
+- **Fonte:** busca via WebSearch, 23/09/2026 — convergência entre
+  noticias.stf.jus.br ("STF declara inconstitucional contribuição sobre
+  serviços de cooperativas de trabalho"), a URL de andamento processual do
+  próprio portal.stf.jus.br (parâmetros numeroProcesso=595838,
+  numeroTema=166) e fontes secundárias (jusbrasil.com.br, modeloinicial.com.br,
+  boletimjuridico.com.br, trilhante.com.br). **Nenhuma página foi lida
+  diretamente (sem WebFetch/curl) — apenas resumos/snippets do buscador.**
+- **Data de consulta:** 23/09/2026.
+
+### Tema 281 — Constitucionalidade da contribuição substitutiva da agroindústria (art. 22-A da Lei 8.212/91)
+
+- **Processo paradigma:** RE 611.601 (origem: RS).
+- **Repercussão geral:** reconhecida — **Tema 281**. Confirmado por URL
+  direta do portal STF encontrada na busca
+  (`numeroProcesso=611601&classeProcesso=RE&numeroTema=281`).
+- **Relator:** Min. Dias Toffoli (mesmo relator do Tema 166 — coincidência
+  confirmada por múltiplas fontes, não presumida por analogia).
+- **Data do julgamento:** Sessão Virtual de 09/12/2022 a 16/12/2022,
+  Plenário, por maioria, vencidos os Ministros Edson Fachin e Rosa Weber
+  (então Presidente). **`[A CONFIRMAR NA FONTE OFICIAL]`** quanto à data
+  exata de proclamação do resultado (sessão virtual tem início e fim de
+  votação, não uma única data de "julgamento" no sentido de sessão
+  presencial).
+- **Objeto:** constitucionalidade do art. 22-A da Lei 8.212/1991 (incluído
+  pela Lei nº 10.256/2001), que instituiu contribuição da agroindústria
+  incidente sobre a receita bruta da comercialização da produção, em
+  substituição à contribuição sobre a folha de salários (art. 22, I e II).
+- **Tese firmada (boa convergência entre múltiplas fontes independentes):**
+  "É constitucional o art. 22-A da Lei nº 8.212/1991, com a redação da Lei
+  nº 10.256/2001, no que instituiu contribuição previdenciária incidente
+  sobre a receita bruta proveniente da comercialização da produção, em
+  substituição ao regime anterior da contribuição incidente sobre a folha
+  de salários." **`[A CONFIRMAR NA FONTE OFICIAL]`** quanto à redação byte
+  a byte.
+- **Efeito vinculante:** repercussão geral reconhecida — aplicável a todos
+  os processos análogos; decisão **de mérito favorável à validade da
+  contribuição** (resultado oposto ao do Tema 166, que invalidou a
+  contribuição das cooperativas — não confundir os dois sentidos).
+- **Relação com esta base:** confirma e formaliza o achado já registrado em
+  `leis-ordinarias/lei-8.212-1991.md` (nota ao art. 22-A) e em
+  `legislacao/INDICE.md`.
+- **Correção de enquadramento em relação à hipótese do usuário:** este RE
+  **não trata de imunidade/CEBAS de entidades beneficentes nem é o Tema
+  32** — trata da base de cálculo da contribuição substitutiva da
+  agroindústria. Ver alerta no topo deste arquivo para o detalhamento
+  completo dessa correção.
+- **Fonte:** busca via WebSearch, 23/09/2026 — convergência entre a URL de
+  andamento processual do próprio portal.stf.jus.br (parâmetros
+  numeroProcesso=611601, numeroTema=281), revistacultivar.com.br,
+  conjur.com.br, buscadordizerodireito.com.br e trf1.jus.br (boletim de
+  jurisprudência do próprio tribunal federal). **Nenhuma página foi lida
+  diretamente (sem WebFetch/curl) — apenas resumos/snippets do buscador.**
+- **Data de consulta:** 23/09/2026.
+
+---
 
 ## Tema 503 — Desaposentação (inviabilidade sem lei específica)
 

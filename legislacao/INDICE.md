@@ -213,8 +213,38 @@ Artigos-chave:
     `ec-103-2019.md`.
 
 - Lei 8.742/1993 — LOAS/BPC
-  - Art. 20: BPC (idoso 65+ ou pessoa com deficiência)
-  - Renda per capita < 1/4 do salário mínimo
+  - Resumo navegável em `leis-ordinarias/lei-8.742-1993.md` (**novo, Bloco
+    5D, 23/09/2026**), montado **sem WebFetch/curl** (mesma limitação de
+    ambiente das demais normas desta base) — fontes majoritariamente
+    secundárias; ver aviso de proveniência no topo do próprio arquivo.
+  - **Cobertura:** 7 artigos com conteúdo individualizado e atribuído ao
+    número correto — arts. **1-4** (conceitos e princípios da assistência
+    social), **20** (BPC — o mais detalhado do arquivo: caput, definição
+    de pessoa com deficiência pós-LBI, critério de renda com evolução
+    legislativa completa até a Lei 14.176/2021, impedimento de longo prazo
+    de 2 anos, avaliação biopsicossocial/CIF, vedação de acumulação),
+    **21** (revisão bienal do BPC) e **22** (benefícios eventuais). Arts.
+    23-40 (organização da assistência social/SUAS/CNAS) cobertos apenas em
+    **resumo temático**, sem segmentação artigo a artigo, por decisão
+    expressa de escopo (nível de detalhe intencionalmente mais raso nessa
+    faixa).
+  - **Correção de escopo (23/09/2026):** o **art. 21** desta Lei **NÃO** é
+    "benefícios eventuais" (premissa original) — é a **revisão bienal do
+    BPC**. Os **benefícios eventuais estão no art. 22**.
+  - **Critério de renda do BPC (art. 20, § 3º):** renda familiar per
+    capita **igual ou inferior a 1/4 do salário-mínimo** (redação com
+    "igual ou inferior" trazida pela Lei nº 14.176/2021, que também
+    introduziu o **art. 20-B**, permitindo ampliação condicionada até
+    **1/2 salário-mínimo** mediante avaliação biopsicossocial). O **STF,
+    Tema 27 de Repercussão Geral (RE 567.985)** — já em
+    `jurisprudencia-vinculante/temas-repercussao-geral-stf.md` — afasta a
+    exclusividade desse critério objetivo, permitindo prova da
+    miserabilidade por outros meios. **`[JURISPRUDÊNCIA A CONFIRMAR]`** —
+    indícios (não confirmados com segurança) de tema repetitivo do STJ e
+    de prática de tribunais aplicando 1/2 SM como parâmetro por construção
+    jurisprudencial, ainda não incorporados como entrada própria à base de
+    jurisprudência vinculante — ver "Status de Cobertura" no próprio
+    arquivo.
 
 - Lei 13.846/2019 — Combate a fraudes
   - Art. 25 da Lei 8.213/91: voltou a exigir 12 contribuições para auxílio-doença
@@ -329,6 +359,23 @@ Artigos-chave:
   1.302 é sobre anuidades da OAB, **não sobre BPC** — o tema correto de BPC
   é o Tema 27; Tema 1.231 documentado ali apenas para deixar claro que é
   RPV municipal, sem relação com aposentadoria especial)
+  - **Ampliado em 23/09/2026 (Bloco 5D/5E) com 2 novos REs de custeio (Lei
+    8.212/1991), pesquisados individualmente a pedido do usuário, que
+    corretamente **suspeitou** de uma associação equivocada
+    ("RE 611.601 = Tema 32"):
+    - **Tema 166 (RE 595.838)** — inconstitucionalidade da contribuição de
+      15% sobre serviços de cooperativas de trabalho (art. 22, IV, da Lei
+      8.212/91), Rel. Min. Dias Toffoli, j. 23/04/2014.
+    - **Tema 281 (RE 611.601)** — constitucionalidade da contribuição
+      substitutiva da agroindústria (art. 22-A da Lei 8.212/91), Rel. Min.
+      Dias Toffoli, j. Sessão Virtual 09-16/12/2022.
+    - **Nenhum dos dois é sobre imunidade/CEBAS de entidades
+      beneficentes.** Esse objeto pertence a um terceiro precedente,
+      identificado incidentalmente: **Tema 32 (RE 566.622)**, sobre
+      reserva de lei complementar para requisitos de imunidade de
+      entidades beneficentes — **ainda não incorporado como entrada
+      própria a esta base** (pendência registrada no próprio arquivo e em
+      "Pendências desta base" abaixo).
 - Ações Diretas de Inconstitucionalidade STF
   - **ADI 6309/DF** — jurisprudencia-vinculante/adi-6309-2026-resumo.md
     (com adi-6309-2026-andamento.pdf, adi-6309-2026-voto-barroso.pdf e
@@ -375,14 +422,34 @@ Artigos-chave:
      23 artigos/dispositivos com conteúdo, pendências em 27, 29, 34-37 —
      ver seção 4 acima para o detalhamento e as correções de escopo
      encontradas).
-   Ainda pendentes de população: Lei 8.742/1993 (LOAS),
-   Lei 13.846/2019 (texto integral, além dos pontos já cruzados no resumo
-   da Lei 8.213/91), Lei 15.327/2026 e Lei 15.371/2026 (textos integrais),
-   Lei 12.101/2009 (CEBAS — necessária para completar o regime de
-   imunidade que sucedeu o art. 55, revogado, da Lei 8.212/91), e os
-   decretos 6.214/2007 e 10.410/2020 (o Decreto 3.048/1999 já tem
-   resumo navegável parcial em `decretos/decreto-3.048-1999.md`, ver seção
-   5 acima).
+   - `leis-ordinarias/lei-8.742-1993.md` (**novo, 23/09/2026** — Bloco 5D:
+     resumo dos arts. 1-4, 20 (BPC, mais detalhado), 21 (revisão bienal —
+     correção: não é "benefícios eventuais") e 22 (benefícios eventuais —
+     correção: é este o artigo, não o 21); arts. 23-40 cobertos só em
+     resumo temático — ver seção 4 acima e "Status de Cobertura" no
+     próprio arquivo).
+   Ainda pendentes de população: Lei 13.846/2019 (texto integral, além dos
+   pontos já cruzados no resumo da Lei 8.213/91), Lei 15.327/2026 e Lei
+   15.371/2026 (textos integrais), Lei 12.101/2009 (CEBAS — necessária
+   para completar o regime de imunidade que sucedeu o art. 55, revogado,
+   da Lei 8.212/91), e os decretos 6.214/2007 (Regulamento do BPC — mais
+   relevante agora que a Lei 8.742/1993 já tem resumo navegável) e
+   10.410/2020 (o Decreto 3.048/1999 já tem resumo navegável parcial em
+   `decretos/decreto-3.048-1999.md`, ver seção 5 acima).
 2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
 3. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
    populados (ver `tabelas/FONTES.md` para fontes e datas de download)
+4. Jurisprudência a incorporar formalmente à base vinculante (identificada
+   incidentalmente em apurações de outras normas, ainda sem entrada
+   própria em `jurisprudencia-vinculante/`):
+   - Súmula Vinculante 8 do STF (arts. 45-46 da Lei 8.212/91 — decadência/
+     prescrição de contribuições, ver seção 4 acima).
+   - **Tema 32/RE 566.622** (reserva de lei complementar para requisitos
+     de imunidade de contribuições de entidades beneficentes de
+     assistência social) — identificado durante a pesquisa dos Temas
+     166/281 (RE 595.838/611.601), ver seção 8 acima e o alerta em
+     `jurisprudencia-vinculante/temas-repercussao-geral-stf.md`.
+   - Possível tema repetitivo do STJ (indicado por fonte secundária como
+     Tema 185, **não confirmado**) sobre a possibilidade de comprovar
+     miserabilidade do BPC por outros meios além do critério de renda —
+     ver `leis-ordinarias/lei-8.742-1993.md`, Bloco 2.

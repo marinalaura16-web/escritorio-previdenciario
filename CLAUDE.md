@@ -128,11 +128,53 @@ Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
     - Art. 55 confirmado como **revogado** pela Lei 12.101/2009 (CEBAS).
     - Pendências de conteúdo: arts. 27, 29, 34, 35, 36 e 37.
 
+5E. Jurisprudência — RE 595.838 e RE 611.601 (`legislacao/jurisprudencia-
+    vinculante/temas-repercussao-geral-stf.md`) e Lei 8.742/1993 —
+    LOAS/BPC (`legislacao/leis-ordinarias/lei-8.742-1993.md`, **novo**) —
+    **concluído** nesta sessão:
+    - **RE 595.838 = Tema 166** (Rel. Min. Dias Toffoli, j. 23/04/2014):
+      inconstitucionalidade da contribuição de 15% sobre serviços de
+      cooperativas de trabalho (art. 22, IV, Lei 8.212/91). **RE 611.601 =
+      Tema 281** (mesmo relator, Sessão Virtual 09-16/12/2022):
+      constitucionalidade da contribuição substitutiva da agroindústria
+      (art. 22-A, Lei 8.212/91). **Nenhum dos dois é Tema 32 nem trata de
+      imunidade/CEBAS de entidades beneficentes** — o usuário havia
+      levantado essa dúvida corretamente; a matéria de imunidade/CEBAS
+      pertence a um terceiro precedente, identificado incidentalmente:
+      **Tema 32/RE 566.622** (reserva de lei complementar para requisitos
+      de imunidade de entidades beneficentes), **não incorporado** como
+      entrada própria (fora do escopo desta tarefa) — fica como pendência.
+    - Lei 8.742/1993: 7 artigos cobertos com conteúdo individualizado
+      (1-4, 20, 21, 22). Art. 20 (BPC) é o mais detalhado do arquivo:
+      caput, definição de pessoa com deficiência pós-LBI, critério de
+      renda com evolução legislativa completa até a Lei 14.176/2021,
+      impedimento de longo prazo (2 anos), avaliação biopsicossocial/CIF,
+      vedação de acumulação. Arts. 23-40 cobertos só em resumo temático
+      (fora de escopo prioritário).
+    - **Correção de escopo:** o **art. 21** da Lei 8.742/93 **NÃO** é
+      "benefícios eventuais" (premissa original da tarefa) — é a
+      **revisão bienal do BPC**; benefícios eventuais estão no **art.
+      22**.
+    - **Achado a verificar:** critério legal de renda do BPC é 1/4 do
+      salário-mínimo (art. 20, § 3º; "igual ou inferior" desde a Lei
+      14.176/2021), com ampliação condicionada a 1/2 SM pelo art. 20-B
+      (mesma lei). O STF, Tema 27 (RE 567.985, já na base), afasta a
+      exclusividade desse critério objetivo. Há indícios **não
+      confirmados** de tema repetitivo do STJ (possivelmente Tema 185) e
+      de prática de tribunais aplicando 1/2 SM por construção
+      jurisprudencial — `[JURISPRUDÊNCIA A CONFIRMAR]`, não incorporado
+      como entrada própria à base vinculante.
+
 **Próximos blocos:**
-5D (restante do bloco 5). Lei 8.742/1993 (LOAS/BPC); textos integrais de
-    Lei 13.846/2019, Lei 15.327/2026, Lei 15.371/2026, Lei 12.101/2009
-    (CEBAS); decretos 6.214/2007 e 10.410/2020; completar lacunas do
-    Decreto 3.048/1999 e da Lei 8.212/1991 (arts. 27, 29, 34-37) sob
-    demanda.
-6. Substituir os dados de teste em `practice-profile.md` pelos dados reais
+6. Textos integrais de Lei 13.846/2019, Lei 15.327/2026, Lei 15.371/2026,
+   Lei 12.101/2009 (CEBAS); decretos 6.214/2007 (Regulamento do BPC — mais
+   relevante agora que a Lei 8.742/1993 já tem resumo) e 10.410/2020;
+   completar lacunas do Decreto 3.048/1999 e da Lei 8.212/1991 (arts. 27,
+   29, 34-37), e da Lei 8.742/1993 (arts. 23-40 artigo a artigo, art. 25,
+   demais parágrafos do art. 20) sob demanda.
+7. Incorporar formalmente à jurisprudência vinculante: Súmula Vinculante 8
+   do STF (Lei 8.212/91, arts. 45-46), Tema 32/RE 566.622 (imunidade de
+   entidades beneficentes) e, se confirmado, o tema do STJ sobre o
+   critério de renda do BPC (1/4 x 1/2 SM).
+8. Substituir os dados de teste em `practice-profile.md` pelos dados reais
    do escritório.
