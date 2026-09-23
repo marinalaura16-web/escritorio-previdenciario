@@ -170,7 +170,45 @@ Artigos-chave:
   - Vigência a partir de 1º de janeiro de 2027
 
 ## 5. Decretos
-- Decreto 3.048/1999 — Regulamento da Previdência Social
+- Decreto 3.048/1999 — Regulamento da Previdência Social (RPS)
+  - Resumo navegável artigo a artigo em
+    `decretos/decreto-3.048-1999.md`, montado **sem WebFetch/curl** (mesma
+    limitação de ambiente das demais normas desta base) — nível de
+    verificação: reconstrução por busca textual (WebSearch), fontes
+    majoritariamente secundárias (jusbrasil, modeloinicial.com.br,
+    legjur.com, jus.com.br); planalto.gov.br listado como link em quase
+    toda busca, não lido diretamente. Nenhum artigo deve ser citado em
+    petição sem conferência prévia na fonte oficial — ver aviso de
+    proveniência no topo do próprio arquivo.
+  - **Correção de escopo (23/09/2026):** a numeração do Decreto **não
+    replica** a da Lei 8.213/91. O cálculo do salário-de-benefício está nos
+    **arts. 32-33** (não 100-120), e decadência/prescrição estão nos
+    **arts. 347-348** (não 100-120) — a faixa 100-120 do Decreto contém, na
+    verdade, pensão por morte e o início do auxílio-reclusão. Ver nota
+    detalhada no início do próprio arquivo.
+  - **Cobertura (sessão de 23/09/2026):** 30 artigos/dispositivos com algum
+    conteúdo registrado, dentro de ~90 números nas faixas pesquisadas
+    (arts. 9-32, 42-86, 100-120): segurados/dependentes (arts. 9, 11, 16,
+    17, 19/19-B/19-C — CNIS, 32-33 — salário-de-benefício); todos os 8
+    benefícios pedidos têm ao menos um dispositivo central coberto —
+    aposentadoria por incapacidade permanente (43-44), aposentadoria por
+    idade (51, já refletindo a regra pós-EC 103/2019), aposentadoria
+    especial (64-66, 68 — **Decreto não tocado pela ADI 6309/DF**, idade
+    mínima inconstitucional estava só na EC 103/2019), auxílio por
+    incapacidade temporária (71-72), pensão por morte (105, 106, 108, 111,
+    já refletindo cota familiar da EC 103/2019), auxílio-reclusão (116-118),
+    auxílio-acidente (104), salário-família (81) e salário-maternidade
+    (93); decadência (347, cruzada com a pendência sobre a ADI 6096 já
+    registrada em `lei-8.213-1991.md`) e prescrição (348, `[NÃO LOCALIZADO
+    - PENDENTE]` quanto à redação literal). Estrutura geral dos 4 anexos
+    mapeada (Anexo II: agentes de risco/doença ocupacional; Anexo III:
+    situações exemplificativas de auxílio-acidente; Anexo IV: agentes
+    nocivos p/ aposentadoria especial) e **código 3.0.1 do Anexo IV
+    (agentes biológicos) confirmado por busca** — usado ativamente em
+    `casos/2026-001/`, mas ainda `[FONTE SECUNDÁRIA - CONFERIR NO
+    PLANALTO]`. Permanecem sem pesquisa dedicada nesta sessão: arts. 12-15,
+    18, 20-31, 45-50, 52-63, 67, 69-70, 73-80, 82-92, 94-103, 107, 109-110,
+    112-115, 119-120, e o detalhamento linha a linha dos Anexos I-IV.
 - Decreto 6.214/2007 — Regulamento do BPC
 - Decreto 10.410/2020 — Regulamento do RPPS
 
@@ -276,7 +314,9 @@ Artigos-chave:
    Ainda pendentes de população: Lei 8.212/1991, Lei 8.742/1993 (LOAS),
    Lei 13.846/2019 (texto integral, além dos pontos já cruzados no resumo
    da Lei 8.213/91), Lei 15.327/2026 e Lei 15.371/2026 (textos integrais),
-   Decreto 3.048/1999 e demais decretos.
+   e os decretos 6.214/2007 e 10.410/2020 (o Decreto 3.048/1999 já tem
+   resumo navegável parcial em `decretos/decreto-3.048-1999.md`, ver seção
+   5 acima).
 2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
 3. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
    populados (ver `tabelas/FONTES.md` para fontes e datas de download)
