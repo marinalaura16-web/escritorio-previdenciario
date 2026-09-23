@@ -103,10 +103,36 @@ Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
       conteúdo real está nos arts. 32-33 (cálculo) e 347-348
       (decadência/prescrição, 348 só estrutural).
 
+5C. Lei 8.212/1991 (Custeio) — **concluído** nesta sessão
+    (`legislacao/leis-ordinarias/lei-8.212-1991.md`, **novo**):
+    - Cobertura: 23 artigos/dispositivos com conteúdo nas 5 faixas
+      priorizadas — segurados/empresa (arts. 12-15 completos; art. 11 tem
+      conteúdo, mas de tema diverso — ver correção de escopo abaixo),
+      contribuições (20, 21, 22, 22-A, 23, 24, 25, 26, 28, 30 — pendentes
+      27 e 29), fiscalização/obrigações acessórias (32-33 — pendentes
+      34-37), arrecadação e recolhimento (43-47, completo) e isenções
+      (55-56, completo).
+    - **Correções de escopo (o stub anterior do `INDICE.md` estava
+      incorreto):** art. 11 não é sobre segurados (é orçamento da
+      Seguridade Social); art. 13 não é "segurados facultativos" (é
+      exclusão de servidor/militar do RGPS por RPPS); art. 14 não é
+      "dependentes" (é o segurado facultativo — Lei 8.212/91 não regula
+      dependentes); arts. 32-37 não são "salário-de-contribuição" (essa
+      definição está no art. 28) — são fiscalização/obrigações acessórias.
+    - **Achado relevante:** arts. 45-46 (decadência/prescrição de 10 anos
+      das contribuições) têm eficácia **afastada pelo STF, Súmula
+      Vinculante 8** — aplicam-se os prazos de 5 anos do CTN (arts.
+      173/174). Não incorporado ainda à jurisprudência vinculante da base
+      (pendência, junto com RE 595.838 — art. 22, IV, cooperativas — e RE
+      611.601 — art. 22-A, agroindústria).
+    - Art. 55 confirmado como **revogado** pela Lei 12.101/2009 (CEBAS).
+    - Pendências de conteúdo: arts. 27, 29, 34, 35, 36 e 37.
+
 **Próximos blocos:**
-5C. Lei 8.212/1991 (Custeio) — em andamento nesta sessão.
 5D (restante do bloco 5). Lei 8.742/1993 (LOAS/BPC); textos integrais de
-    Lei 13.846/2019, Lei 15.327/2026, Lei 15.371/2026; decretos 6.214/2007
-    e 10.410/2020; completar lacunas do Decreto 3.048/1999 sob demanda.
+    Lei 13.846/2019, Lei 15.327/2026, Lei 15.371/2026, Lei 12.101/2009
+    (CEBAS); decretos 6.214/2007 e 10.410/2020; completar lacunas do
+    Decreto 3.048/1999 e da Lei 8.212/1991 (arts. 27, 29, 34-37) sob
+    demanda.
 6. Substituir os dados de teste em `practice-profile.md` pelos dados reais
    do escritório.

@@ -80,11 +80,70 @@ Artigos-chave:
 - LC 150/2015 — Empregado Doméstico
 
 ## 4. Leis Ordinárias
-- Lei 8.212/1991 — Custeio da Seguridade Social
-  - Art. 12: Segurados obrigatórios
-  - Art. 13: Segurados facultativos
-  - Art. 14: Dependentes
-  - Arts. 20-30: Contribuições e arrecadação
+- Lei 8.212/1991 — Lei Orgânica da Seguridade Social (Custeio)
+  - Resumo navegável artigo a artigo em
+    `leis-ordinarias/lei-8.212-1991.md` (**novo, Bloco 5C, 23/09/2026**),
+    montado **sem WebFetch/curl** (mesma limitação de ambiente das demais
+    normas desta base) — fontes majoritariamente secundárias (jusbrasil,
+    modeloinicial.com.br, buscadordizerodireito.com.br, legjur.com);
+    planalto.gov.br listado como link em quase toda busca, não lido
+    diretamente. Nenhum artigo deve ser citado em petição sem conferência
+    prévia na fonte oficial — ver aviso de proveniência no topo do
+    próprio arquivo.
+  - **Correção de escopo (23/09/2026) — o stub anterior deste índice
+    estava incorreto quanto a três dispositivos:** o **art. 11** não trata
+    de segurados (trata do orçamento da Seguridade Social); o **art. 13**
+    não é "segurados facultativos" (é a exclusão de servidor
+    efetivo/militar amparado por RPPS do RGPS); e o **art. 14** não é
+    "dependentes" (é o **segurado facultativo** — a Lei 8.212/91 não
+    regula dependentes, matéria da Lei 8.213/91 art. 16 e do Decreto
+    3.048/1999 art. 16). Os **segurados obrigatórios** estão no **art.
+    12** (incisos I-VII: empregado, empregado doméstico, contribuinte
+    individual, trabalhador avulso, segurado especial — incisos III/IV
+    com achado conflitante entre fontes, não confirmado). Ver nota
+    detalhada no início do próprio arquivo.
+  - **Cobertura (sessão de 23/09/2026):** 23 artigos/dispositivos com
+    conteúdo registrado, nas 5 faixas priorizadas pela tarefa:
+    - **Segurados e conceito de empresa/empregador (arts. 11-15):**
+      cobertos 12 (segurados obrigatórios), 13 (exclusão RPPS), 14
+      (segurado facultativo) e 15 (conceito de empresa/empregador
+      doméstico e equiparados); 11 tem conteúdo, mas de tema diverso do
+      esperado (ver correção de escopo acima). Cruzamento com Decreto
+      3.048/1999 (arts. 9, 11, 16) e Lei 8.213/91 (art. 11) já registrado
+      no próprio arquivo.
+    - **Contribuições (arts. 20-30):** cobertos 20 (segurado empregado),
+      21 (contribuinte individual/facultativo), 22 (empresa — incisos
+      I-IV, com o inciso IV declarado inconstitucional pelo STF em 2014,
+      RE 595.838), 22-A (agroindústria, incluído pela Lei 10.256/2001),
+      23 (empregador rural pessoa física), 24 (empregador doméstico —
+      LC 150/2015), 25 (segurado especial), 26 (concursos de
+      prognósticos), **28** (definição de **salário-de-contribuição** —
+      note-se: não está nos arts. 32-37, ver correção de escopo abaixo) e
+      30 (arrecadação/recolhimento, texto não literal). Pendentes: 27, 29.
+    - **Fiscalização e obrigações acessórias (arts. 32-37 — correção de
+      escopo: NÃO é "salário-de-contribuição", que está no art. 28):**
+      cobertos 32 (obrigações acessórias/GFIP) e 33 (competência de
+      fiscalização, hoje da Receita Federal, Lei 11.941/2009). Pendentes:
+      34-37.
+    - **Arrecadação e recolhimento (arts. 43-47):** todos os 5 artigos
+      cobertos — 43-44 (recolhimento em ação trabalhista), **45-46
+      (decadência/prescrição de 10 anos — declarados inconstitucionais
+      pelo STF, Súmula Vinculante 8; aplicam-se os prazos de 5 anos do
+      CTN, arts. 173/174)**, 47 (Certidão Negativa de Débito).
+    - **Isenções (arts. 55-56):** ambos cobertos — **art. 55 revogado
+      pela Lei 12.101/2009** (CEBAS/imunidade de entidades beneficentes,
+      art. 29 daquela lei); art. 56 (condicionamento de repasses
+      FPE/FPM à quitação de débitos previdenciários), vigência prática
+      não confirmada.
+  - **Pendências de artigos sem conteúdo confiável:** arts. **27, 29, 34,
+    35, 36, 37**. Arts. 50-54 (procedimentos administrativos) e 60+
+    (estrutura administrativa do INSS) ficaram fora do escopo desta
+    tarefa por decisão expressa, não pesquisados.
+  - **Achados de jurisprudência a incorporar futuramente à base
+    vinculante** (ainda não estão em `jurisprudencia-vinculante/`):
+    Súmula Vinculante 8 do STF (arts. 45-46 desta Lei); RE 595.838/SP
+    (inconstitucionalidade do art. 22, IV — cooperativas de trabalho);
+    RE 611.601 (constitucionalidade do art. 22-A — agroindústria).
 
 - Lei 8.213/1991 — Planos de Benefícios
   - Resumo navegável artigo a artigo (arts. 1-117, faixas indicadas abaixo)
@@ -311,10 +370,17 @@ Artigos-chave:
      1-117 nas faixas indicadas na seção 4 acima; vários artigos dentro
      dessas faixas ficaram sem conteúdo por falta de resultado de busca,
      registrados como lacuna em vez de presumidos).
-   Ainda pendentes de população: Lei 8.212/1991, Lei 8.742/1993 (LOAS),
+   - `leis-ordinarias/lei-8.212-1991.md` (**novo, 23/09/2026** — Bloco 5C:
+     resumo artigo a artigo nas faixas 11-15, 20-30, 32-37, 43-47 e 55-56;
+     23 artigos/dispositivos com conteúdo, pendências em 27, 29, 34-37 —
+     ver seção 4 acima para o detalhamento e as correções de escopo
+     encontradas).
+   Ainda pendentes de população: Lei 8.742/1993 (LOAS),
    Lei 13.846/2019 (texto integral, além dos pontos já cruzados no resumo
    da Lei 8.213/91), Lei 15.327/2026 e Lei 15.371/2026 (textos integrais),
-   e os decretos 6.214/2007 e 10.410/2020 (o Decreto 3.048/1999 já tem
+   Lei 12.101/2009 (CEBAS — necessária para completar o regime de
+   imunidade que sucedeu o art. 55, revogado, da Lei 8.212/91), e os
+   decretos 6.214/2007 e 10.410/2020 (o Decreto 3.048/1999 já tem
    resumo navegável parcial em `decretos/decreto-3.048-1999.md`, ver seção
    5 acima).
 2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
