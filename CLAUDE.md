@@ -72,3 +72,41 @@ Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
    decretos 3.048/1999, 6.214/2007, 10.410/2020).
 6. Substituir os dados de teste em `practice-profile.md` ("Escritório: Teste",
    "OAB: Teste") pelos dados reais do escritório.
+
+## Sessão de 23/09/2026
+
+**Blocos concluídos:**
+5A. EC 103/2019 ampliada (`legislacao/emendas-constitucionais/ec-103-2019.md`):
+    arts. 19 (especial, com nota `[INCONSTITUCIONAL - ADI 6309]` restrita às
+    alíneas a/b/c do §1º,I), 15-18/20-21 (regras de transição, numeração
+    corrigida — não é bloco contínuo), 22-25 (pensão por morte, conversão de
+    tempo especial), 27/35/36. Pendentes: arts. 4º-8º, 28-34, segmentação
+    fina de 1-3/9-18.
+5B. Decreto 3.048/1999 (`legislacao/decretos/decreto-3.048-1999.md`) — **novo**:
+    - Cobertura: esqueleto presente nos 8 benefícios pedidos (incapacidade
+      permanente, idade, especial, incapacidade temporária, pensão por
+      morte, auxílio-reclusão, auxílio-acidente, salário-família,
+      salário-maternidade) + segurados/dependentes (arts. 9-33).
+    - Lacunas (parágrafos/incisos complementares, não os artigos-âncora):
+      arts. 12-15, 18, 20-31, 45-50, 52-63, 67, 69-70, 73-80, 82-92, 94-103,
+      107, 109-115, 119-120, além do detalhamento linha a linha dos
+      Anexos I-IV (só a estrutura geral foi mapeada).
+    - **Status: aceitável para v1 — completar sob demanda**, não bloqueia uso.
+    - **Anexo IV, código 3.0.1 (agentes biológicos): CONFIRMADO** por múltiplas
+      fontes secundárias, consistente com o uso ativo em `casos/2026-001/`.
+    - **Nenhuma marcação `[INCONSTITUCIONAL - ADI 6309]` se aplica ao
+      Decreto** — a ADI 6309/DF atingiu apenas o art. 19, §1º, I, da
+      EC 103/2019 (idade mínima); os arts. 64-70 do Decreto (especial) não
+      têm exigência própria de idade mínima.
+    - Numeração "100-120" pedida originalmente para cálculo/decadência/
+      prescrição **não corresponde à estrutura real do Decreto** — o
+      conteúdo real está nos arts. 32-33 (cálculo) e 347-348
+      (decadência/prescrição, 348 só estrutural).
+
+**Próximos blocos:**
+5C. Lei 8.212/1991 (Custeio) — em andamento nesta sessão.
+5D (restante do bloco 5). Lei 8.742/1993 (LOAS/BPC); textos integrais de
+    Lei 13.846/2019, Lei 15.327/2026, Lei 15.371/2026; decretos 6.214/2007
+    e 10.410/2020; completar lacunas do Decreto 3.048/1999 sob demanda.
+6. Substituir os dados de teste em `practice-profile.md` pelos dados reais
+   do escritório.
