@@ -33,11 +33,47 @@ Artigos-chave:
   - Idade mínima: 65 H / 62 M
   - Tempo de contribuição: 20 H / 15 M
   - Regras de transição (2026):
-    - Pedágio 50%: contribuir pelo tempo que faltava + 50%. Sem idade mínima
-    - Pedágio 100%: dobrar o tempo que faltava. Idade mínima: 57 M / 60 H
-    - Pontos: 93 pontos M / 103 pontos H + tempo mínimo (30 M / 35 H)
-    - Idade mínima progressiva: 59 anos e 6 meses M / 64 anos e 6 meses H
-  - Cálculo RMI: 60% da média + 2% por ano acima de 20/15 anos
+    - Pedágio 50% (art. 17): contribuir pelo tempo que faltava + 50%. Sem idade mínima
+    - Pedágio 100% (art. 20): dobrar o tempo que faltava. Idade mínima: 57 M / 60 H
+    - Pontos (art. 15): 93 pontos M / 103 pontos H + tempo mínimo (30 M / 35 H)
+    - Idade mínima progressiva (art. 16): 59 anos e 6 meses M / 64 anos e 6 meses H
+    - Transição da aposentadoria por idade urbana: art. 18
+    - Transição específica da aposentadoria especial (pontos 66/76/86): art. 21
+  - Cálculo RMI: 60% da média + 2% por ano acima de 20/15 anos (art. 26, já detalhado)
+  - **Cobertura ampliada em 23/09/2026** (ver `emendas-constitucionais/ec-103-2019.md`,
+    seção "Demais Artigos" ao final do arquivo — **fontes secundárias via
+    WebSearch, sem WebFetch/curl, conferir no Planalto antes de citar**):
+    - **Art. 19 — aposentadoria especial (dispositivo crítico):** caput,
+      § 1º, I (alíneas a/b/c — idade mínima 55/58/60 anos) e § 1º, II
+      (professores), § 2º (remete ao art. 26). **As alíneas "a", "b" e "c"
+      do § 1º, I foram declaradas inconstitucionais pelo STF na ADI
+      6309/DF** (j. 03/06/2026) — segurado com 15/20/25 anos de efetiva
+      exposição não precisa mais de idade mínima; o restante do artigo
+      (tempo de exposição, § 1º II, § 2º) permanece válido.
+    - **Correção de numeração das regras de transição:** arts. 15, 16, 17,
+      18 e 20 tratam de tempo de contribuição comum; arts. 19 e 21 tratam
+      de aposentadoria especial (regra nova + transição específica,
+      intercalados, não contínuos) — ver nota de correção no próprio
+      arquivo.
+    - **Art. 25, § 2º — conversão de tempo especial em comum:** vedada
+      para tempo cumprido após 13/11/2019. Essa vedação **foi MANTIDA**
+      pela ADI 6309/DF (não foi objeto da ação).
+    - **Arts. 22-24 — pensão por morte:** correção — pensão por morte está
+      nos **arts. 23-24** (cota familiar 50% + 10%/dependente; acumulação
+      com redutor); o **art. 22** trata de outro assunto (aposentadoria
+      supletiva de servidor com deficiência em Estados/DF/Municípios).
+    - Arts. 1º-3º (disposições gerais RGPS/RPPS) e arts. 9º-18 (RPPS da
+      União, equilíbrio financeiro/atuarial): conteúdo geral localizado,
+      mas **sem segmentação confiável por número de artigo** dentro da
+      faixa — marcado `[NÃO LOCALIZADO - PENDENTE]` para a atribuição
+      exata.
+    - Arts. 4º-8º (transição de servidores RPPS) e arts. 28-34: **ainda
+      `[NÃO LOCALIZADO - PENDENTE]`** — nenhum conteúdo confiável
+      encontrado nesta sessão (um achado espúrio sobre arts. 28-34 foi
+      descartado por falta de convergência entre fontes — ver nota no
+      próprio arquivo).
+    - Arts. 27, 35 e 36 (disposições finais, revogações, vigência):
+      cobertos.
 
 ## 3. Leis Complementares
 - LC 142/2013 — Aposentadoria da Pessoa com Deficiência
@@ -227,7 +263,12 @@ Artigos-chave:
    por busca textual**, não de download verificado da fonte primária
    (Planalto) — ver aviso de proveniência no topo de cada arquivo:
    - `emendas-constitucionais/ec-103-2019.md` (art. 26 — regra de cálculo
-     do salário de benefício);
+     do salário de benefício; **ampliado em 23/09/2026** para cobrir
+     também art. 19 — aposentadoria especial, regras de transição arts.
+     15-18/20-21, art. 25 § 2º — conversão, arts. 22-24 — pensão por
+     morte, arts. 1-3, 9-18 e 27/35/36 — ver seção "EC 103/2019" acima
+     para o detalhamento; permanecem `[NÃO LOCALIZADO - PENDENTE]` os
+     arts. 4-8 e 28-34);
    - `leis-ordinarias/lei-8.213-1991.md` (resumo artigo a artigo, arts.
      1-117 nas faixas indicadas na seção 4 acima; vários artigos dentro
      dessas faixas ficaram sem conteúdo por falta de resultado de busca,
