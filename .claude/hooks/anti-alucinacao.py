@@ -30,6 +30,8 @@ MAPA_NORMAS = {
     "LEI 15.327": "leis-ordinarias/lei-15.327-2026.md",
     "LEI 15.371": "leis-ordinarias/lei-15.371-2026.md",
     "LEI 8.742": "leis-ordinarias/lei-8.742-1993.md",
+    "LEI 13.846": "leis-ordinarias/lei-13.846-2019.md",
+    "DECRETO 6.214": "decretos/decreto-6.214-2007.md",
 }
 
 

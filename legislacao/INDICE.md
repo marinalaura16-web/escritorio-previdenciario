@@ -246,17 +246,77 @@ Artigos-chave:
     jurisprudência vinculante — ver "Status de Cobertura" no próprio
     arquivo.
 
-- Lei 13.846/2019 — Combate a fraudes
-  - Art. 25 da Lei 8.213/91: voltou a exigir 12 contribuições para auxílio-doença
+- Lei 13.846/2019 — Combate a fraudes (conversão da MP 871/2019)
+  - Resumo em `leis-ordinarias/lei-13.846-2019.md` (**novo, Bloco 5F,
+    23-24/09/2026**), montado **sem WebFetch/curl** — fontes
+    majoritariamente secundárias; ver aviso de proveniência no topo do
+    próprio arquivo.
+  - **Cobertura:** dois programas do corpo próprio da Lei (**art. 1º** —
+    Programa Especial para Análise de Benefícios com Indícios de
+    Irregularidade/"Pente-Fino", vigência até 31/12/2020, prorrogável até
+    31/12/2022, prorrogações posteriores não confirmadas; **art. 2º** —
+    Programa de Revisão de Benefícios por Incapacidade) e o **art. 24**
+    (identificado nesta sessão como o dispositivo que deu nova redação ao
+    art. 103, caput, da Lei 8.213/91, estendendo a decadência a
+    indeferimento/cancelamento/cessação — objeto da ADI 6096, ver abaixo).
+    Demais alterações trazidas a outros artigos da Lei 8.213/91 (art. 25,
+    I — carência; art. 32 — atividades concomitantes; art. 74, § 6º —
+    pensão por morte; art. 80 — auxílio-reclusão; art. 106, III —
+    revogação da comprovação rural por declaração sindical; art. 38-B —
+    inserção, prova por CNIS a partir de 01/01/2023) já estavam ou foram
+    cruzadas em `lei-8.213-1991.md`, mas o número do artigo específico da
+    própria Lei 13.846/2019 que promove cada uma **permanece
+    `[NÃO LOCALIZADO - PENDENTE]`** na maioria dos casos — ver quadro-resumo
+    no próprio arquivo.
+  - **Achado prioritário desta sessão — ADI 6096/DF:** convergência
+    substancialmente maior do que a registrada em sessões anteriores
+    (autor CNTI; objeto o art. 24 desta Lei; resultado indicado por
+    maioria de 6x5, julgando parcialmente procedente e restabelecendo a
+    redação anterior do art. 103, caput, da Lei 8.213/91; um registro no
+    lexml.gov.br aponta acórdão de embargos de declaração de 14/06/2021).
+    **Ainda não incorporada à jurisprudência vinculante** — nenhuma fonte
+    oficial do STF foi lida diretamente. Recomendação: **próxima sessão
+    deve consultar portal.stf.jus.br, processo ADI 6096, como prioridade**,
+    antes de qualquer nova busca textual genérica sobre o tema.
 
-- Lei 15.327/2026
-  - Veda descontos de mensalidades associativas nos benefícios do INSS
-  - Busca ativa a beneficiários lesados
+- Lei 15.327/2026 — Descontos associativos e consignado no INSS
+  - Resumo em `leis-ordinarias/lei-15.327-2026.md` (**novo, Bloco 5F,
+    23-24/09/2026**) — lei muito recente (publicada 06/01/2026), cobertura
+    por fontes secundárias naturalmente menor; `[NÃO LOCALIZADO -
+    PENDENTE]` aplicado generosamente, conforme instrução da tarefa.
+  - Veda descontos de mensalidades associativas nos benefícios do INSS,
+    mesmo com autorização do beneficiário (revoga o inciso V do art. 115
+    da Lei 8.213/91); restituição integral em até 30 dias pela entidade/
+    instituição responsável pelo desconto indevido; busca ativa a
+    beneficiários lesados; bloqueio geral de descontos de consignado,
+    desbloqueável somente por biometria (facial/digital) ou assinatura
+    eletrônica qualificada, vedada contratação por procuração ou telefone;
+    tratamento de dados pessoais sujeito à LGPD (Lei 13.709/2018).
+  - **Nenhum artigo específico desta Lei foi atribuído com segurança** por
+    número exato — conteúdo confirmado por convergência entre fontes, sem
+    segmentação artigo a artigo (ver "Status de Cobertura" no próprio
+    arquivo). Datas de vigência de diferentes dispositivos parcialmente
+    conflitantes entre fontes, não resolvidas nesta sessão. Nenhuma ADI
+    localizada contra esta Lei.
 
-- Lei 15.371/2026
-  - Institui o salário-paternidade no RGPS
-  - Amplia a licença-paternidade para 20 dias, gradualmente
-  - Vigência a partir de 1º de janeiro de 2027
+- Lei 15.371/2026 — Licença-paternidade e salário-paternidade
+  - Resumo em `leis-ordinarias/lei-15.371-2026.md` (**novo, Bloco 5F,
+    23-24/09/2026**) — lei muito recente (sancionada 31/03/2026), cobertura
+    por fontes secundárias naturalmente menor.
+  - Institui o salário-paternidade no RGPS (benefício previdenciário
+    autônomo, seguindo por analogia o regime do salário-maternidade;
+    altera o art. 71-B da Lei 8.213/91 quanto a falecimento do titular).
+  - **Correção de escopo (23-24/09/2026):** a ampliação da
+    licença-paternidade **não salta diretamente para 20 dias em 2027** —
+    é **escalonada**: **10 dias a partir de 01/01/2027, 15 dias a partir
+    de 01/01/2028, e só 20 dias a partir de 01/01/2029**. Também altera a
+    CLT (art. 473, III) e as Leis 8.212/1991 e 11.770/2008 (Empresa
+    Cidadã), sem detalhamento do teor exato dessas duas últimas
+    alterações nesta sessão.
+  - **Pendência relevante:** não confirmado se há carência para o
+    salário-paternidade de contribuinte individual/facultativo/especial —
+    `[NÃO LOCALIZADO - PENDENTE]`, não presumir por analogia ao
+    salário-maternidade sem checar a fonte oficial.
 
 ## 5. Decretos
 - Decreto 3.048/1999 — Regulamento da Previdência Social (RPS)
@@ -299,7 +359,49 @@ Artigos-chave:
     18, 20-31, 45-50, 52-63, 67, 69-70, 73-80, 82-92, 94-103, 107, 109-110,
     112-115, 119-120, e o detalhamento linha a linha dos Anexos I-IV.
 - Decreto 6.214/2007 — Regulamento do BPC
+  - Resumo navegável em `decretos/decreto-6.214-2007.md` (**novo, Bloco
+    5F, 23-24/09/2026**), montado **sem WebFetch/curl** — fontes
+    majoritariamente secundárias; ver aviso de proveniência no topo do
+    próprio arquivo.
+  - **Correção de estrutura essencial:** o corpo do próprio Decreto tem
+    apenas **4 artigos** (art. 1º aprova o Regulamento anexo; art. 2º
+    altera o Decreto 3.048/1999; art. 3º vigência; art. 4º revogações).
+    Todo o conteúdo substantivo do BPC (as 4 faixas pedidas — critérios
+    gerais, avaliação biopsicossocial, renda per capita, revisão/cessação/
+    acumulação) está no **Regulamento anexo, com numeração própria
+    recomeçando em 1** — convenção seguida no arquivo (todo "art. N", salvo
+    indicação contrária, refere-se a esse Regulamento anexo, não ao corpo
+    do Decreto).
+  - **Cobertura (sessão de 23-24/09/2026):** 13 artigos do Regulamento com
+    conteúdo individualizado e atribuído a um número específico (1, 4, 9,
+    16, 20, 25, 39, 40, 41, 42, 43, 45, mais o art. 20 detalhado com
+    profundidade — critério de renda, composição familiar, comprovação),
+    mais 2 achados de conteúdo confirmado sem número exato resolvido
+    (vedação de acumulação, arts. 29-31; exigência de cadastro no
+    CadÚnico, possivelmente arts. 24-25). **Não ficou completo em nenhuma
+    das 4 faixas pedidas** (cobertura de 20-40% dos números por faixa) —
+    ver "O Decreto ficou completo?" no próprio arquivo para o
+    detalhamento e as razões (estrutura de duas camadas do Decreto,
+    menor granularidade das fontes secundárias disponíveis para esta
+    norma).
+  - **Dois pontos de incerteza estrutural não resolvidos, com potencial
+    impacto prático:** (i) se o critério de renda do art. 20 do
+    Regulamento já foi atualizado para acompanhar a Lei 14.176/2021
+    ("igual ou inferior" a 1/4 do SM, já confirmado na Lei 8.742/93) ou
+    permanece com a redação mais antiga ("inferior"); (ii) se a revisão
+    bienal está regulamentada apenas no art. 42 (remissão expressa ao art.
+    21 da Lei 8.742/93, maior confiança) ou também nos arts. 24-25
+    (cadastro no CadÚnico, menor confiança) — possível sobreposição ou
+    erro de atribuição de uma das fontes, não resolvido nesta sessão.
 - Decreto 10.410/2020 — Regulamento do RPPS
+  - **Não incorporado a esta base por despriorização deliberada** (decisão
+    tomada em 23-24/09/2026, Bloco 5F): o escritório atua em Direito
+    Previdenciário do **RGPS** (Regime Geral), não do RPPS (Regime Próprio
+    dos Servidores Públicos) — ver `practice-profile.md`. A ausência de
+    arquivo próprio para este Decreto é, portanto, uma **escolha
+    consciente de escopo, não um esquecimento**. Caso o escritório venha a
+    atender casos de RPPS no futuro, este Decreto deve ser populado
+    seguindo o mesmo padrão das demais normas desta base.
 
 ## 6. Instruções Normativas
 - IN PRES/INSS 128/2022 — Norma Central
@@ -428,14 +530,26 @@ Artigos-chave:
      correção: é este o artigo, não o 21); arts. 23-40 cobertos só em
      resumo temático — ver seção 4 acima e "Status de Cobertura" no
      próprio arquivo).
-   Ainda pendentes de população: Lei 13.846/2019 (texto integral, além dos
-   pontos já cruzados no resumo da Lei 8.213/91), Lei 15.327/2026 e Lei
-   15.371/2026 (textos integrais), Lei 12.101/2009 (CEBAS — necessária
-   para completar o regime de imunidade que sucedeu o art. 55, revogado,
-   da Lei 8.212/91), e os decretos 6.214/2007 (Regulamento do BPC — mais
-   relevante agora que a Lei 8.742/1993 já tem resumo navegável) e
-   10.410/2020 (o Decreto 3.048/1999 já tem resumo navegável parcial em
-   `decretos/decreto-3.048-1999.md`, ver seção 5 acima).
+   - `leis-ordinarias/lei-13.846-2019.md` (**novo, 23-24/09/2026** — Bloco
+     5F: arts. 1º e 2º da própria Lei, mais o art. 24 (alteração ao art.
+     103 da Lei 8.213/91, objeto da ADI 6096) — ver seção 4 acima).
+   - `leis-ordinarias/lei-15.327-2026.md` (**novo, 23-24/09/2026** — Bloco
+     5F: vedação de descontos associativos, busca ativa, consignado
+     biométrico e proteção de dados, sem segmentação artigo a artigo — lei
+     muito recente, cobertura naturalmente menor — ver seção 4 acima).
+   - `leis-ordinarias/lei-15.371-2026.md` (**novo, 23-24/09/2026** — Bloco
+     5F: arts. 1º-3º e art. 71-B da Lei 8.213/91, cronograma escalonado de
+     licença-paternidade corrigido (10/15/20 dias, 2027-2029) — ver seção
+     4 acima).
+   - `decretos/decreto-6.214-2007.md` (**novo, 23-24/09/2026** — Bloco 5F:
+     13 artigos do Regulamento anexo com conteúdo individualizado, dentro
+     das 4 faixas pedidas — cobertura parcial, 20-40% por faixa — ver
+     seção 5 acima).
+   Ainda pendentes de população: Lei 12.101/2009 (CEBAS — necessária para
+   completar o regime de imunidade que sucedeu o art. 55, revogado, da Lei
+   8.212/91) e o decreto 6.214/2007 completado além do já coberto nesta
+   sessão. O **Decreto 10.410/2020 (RPPS) não será populado** — ver seção
+   5 acima, "não incorporado por despriorização".
 2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
 3. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
    populados (ver `tabelas/FONTES.md` para fontes e datas de download)
@@ -453,3 +567,14 @@ Artigos-chave:
      Tema 185, **não confirmado**) sobre a possibilidade de comprovar
      miserabilidade do BPC por outros meios além do critério de renda —
      ver `leis-ordinarias/lei-8.742-1993.md`, Bloco 2.
+   - **ADI 6096/DF** (STF) — decadência do art. 103, caput, da Lei
+     8.213/91 (extensão a indeferimento/cancelamento/cessação, trazida
+     pelo art. 24 da Lei 13.846/2019). **Convergência sensivelmente
+     reforçada em 23-24/09/2026** (ver `leis-ordinarias/lei-13.846-2019.md`,
+     Bloco 4): autor CNTI, resultado por maioria de 6x5 julgando
+     parcialmente procedente, e um registro no lexml.gov.br apontando
+     acórdão de embargos de declaração de 14/06/2021. **Ainda não
+     incorporada** como entrada própria em `jurisprudencia-vinculante/` —
+     nenhuma fonte oficial do STF foi lida diretamente. **Recomendação:
+     prioridade para a próxima sessão desta base**, com consulta direta a
+     portal.stf.jus.br.

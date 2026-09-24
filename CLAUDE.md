@@ -165,16 +165,74 @@ Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
       jurisprudencial — `[JURISPRUDÊNCIA A CONFIRMAR]`, não incorporado
       como entrada própria à base vinculante.
 
+5F. Decreto 6.214/2007 (BPC), Lei 13.846/2019, Lei 15.327/2026 e Lei
+    15.371/2026 — **concluído** nesta sessão (23-24/09/2026):
+    - **Decreto 6.214/2007** (`legislacao/decretos/decreto-6.214-2007.md`,
+      **novo**): correção estrutural essencial — o corpo do próprio
+      Decreto tem apenas 4 artigos; todo o conteúdo do BPC (as 4 faixas
+      pedidas) está no **Regulamento anexo, com numeração própria**.
+      Cobertura: 13 artigos do Regulamento com conteúdo individualizado
+      (1, 4, 9, 16, 20, 25, 39-43, 45), mais 2 achados sem número exato
+      resolvido (vedação de acumulação; cadastro no CadÚnico). **Não
+      ficou completo em nenhuma das 4 faixas pedidas** (20-40% de
+      cobertura por faixa). Dois pontos de incerteza estrutural não
+      resolvidos: (i) se o critério de renda do art. 20 do Regulamento já
+      reflete a Lei 14.176/2021 ("igual ou inferior" a 1/4 SM); (ii) se a
+      revisão bienal está só no art. 42 ou também nos arts. 24-25
+      (possível sobreposição entre achados de fontes distintas).
+    - **Lei 13.846/2019** (`legislacao/leis-ordinarias/lei-13.846-2019.md`,
+      **novo**): arts. 1º e 2º da própria Lei (Programa Especial
+      "Pente-Fino" e Programa de Revisão de Benefícios por Incapacidade),
+      mais índice cruzado das alterações à Lei 8.213/91 já documentadas
+      naquele arquivo. **Achado prioritário: convergência sensivelmente
+      reforçada sobre a ADI 6096** (STF) — identificado nesta sessão que o
+      dispositivo objeto da ação é o **art. 24 da Lei 13.846/2019**
+      (alteração ao art. 103, caput, da Lei 8.213/91), com indicação de
+      julgamento por maioria de 6x5 e um registro de acórdão de embargos
+      de declaração (lexml.gov.br) de 14/06/2021. **Ainda não incorporada
+      à jurisprudência vinculante** — nenhuma fonte oficial do STF lida
+      diretamente. Recomenda-se que a próxima sessão consulte
+      portal.stf.jus.br, processo ADI 6096, como prioridade.
+    - **Lei 15.327/2026** (`legislacao/leis-ordinarias/lei-15.327-2026.md`,
+      **novo**): os 4 temas pedidos (vedação de descontos associativos,
+      busca ativa a lesados, proteção de dados/LGPD, regras de consignado
+      biométrico) têm conteúdo confirmado por convergência, mas **sem
+      atribuição segura a número de artigo** — lei muito recente (jan/2026),
+      cobertura por fontes secundárias naturalmente menor. Nenhuma ADI
+      localizada contra esta Lei.
+    - **Lei 15.371/2026** (`legislacao/leis-ordinarias/lei-15.371-2026.md`,
+      **novo**): **correção de escopo relevante** — a ampliação da
+      licença-paternidade é **escalonada em 3 etapas (10 dias em 2027, 15
+      em 2028, 20 apenas em 2029)**, não um salto direto a 20 dias em 2027
+      como o registro anterior desta base sugeria. Arts. 1º-3º da própria
+      Lei e alteração ao art. 71-B da Lei 8.213/91 identificados.
+      Pendência relevante: não confirmado se há carência para o
+      salário-paternidade de contribuinte individual/facultativo/especial.
+    - **Decreto 10.410/2020 (RPPS): decisão deliberada de não incorporar**
+      a esta base (escritório atua em RGPS, não RPPS) — registrado no
+      `INDICE.md` como "não incorporado por despriorização", não como
+      pendência esquecida.
+    - **`MAPA_NORMAS` do hook `.claude/hooks/anti-alucinacao.py` ampliado**
+      com as entradas `LEI 13.846` e `DECRETO 6.214` (seguindo o padrão já
+      existente); testes de sanidade continuam passando
+      (`python3 anti-alucinacao.py < /dev/null`).
+
 **Próximos blocos:**
-6. Textos integrais de Lei 13.846/2019, Lei 15.327/2026, Lei 15.371/2026,
-   Lei 12.101/2009 (CEBAS); decretos 6.214/2007 (Regulamento do BPC — mais
-   relevante agora que a Lei 8.742/1993 já tem resumo) e 10.410/2020;
-   completar lacunas do Decreto 3.048/1999 e da Lei 8.212/1991 (arts. 27,
-   29, 34-37), e da Lei 8.742/1993 (arts. 23-40 artigo a artigo, art. 25,
-   demais parágrafos do art. 20) sob demanda.
+6. Completar lacunas do Decreto 6.214/2007 sob demanda (arts. 2-3, 5-8,
+   10-15, 17-19, 21-23, 26-28, 32-35, 37-38, 44 do Regulamento, e
+   resolução do conflito entre os achados sobre revisão bienal — arts.
+   24-25 x 42); confirmar na fonte oficial do STF a ADI 6096 e, se
+   confirmada, incorporá-la a `jurisprudencia-vinculante/`; Lei 12.101/2009
+   (CEBAS); completar lacunas do Decreto 3.048/1999 e da Lei 8.212/1991
+   (arts. 27, 29, 34-37), e da Lei 8.742/1993 (arts. 23-40 artigo a
+   artigo, art. 25, demais parágrafos do art. 20) sob demanda; confirmar
+   número exato dos parágrafos do art. 115 da Lei 8.213/91 inseridos pela
+   Lei 15.327/2026 e o teor das alterações desta à Lei 8.212/1991 e à Lei
+   11.770/2008 pela Lei 15.371/2026.
 7. Incorporar formalmente à jurisprudência vinculante: Súmula Vinculante 8
    do STF (Lei 8.212/91, arts. 45-46), Tema 32/RE 566.622 (imunidade de
-   entidades beneficentes) e, se confirmado, o tema do STJ sobre o
-   critério de renda do BPC (1/4 x 1/2 SM).
+   entidades beneficentes), ADI 6096 (decadência, Lei 13.846/2019 — ver
+   Bloco 5F) e, se confirmado, o tema do STJ sobre o critério de renda do
+   BPC (1/4 x 1/2 SM).
 8. Substituir os dados de teste em `practice-profile.md` pelos dados reais
    do escritório.
