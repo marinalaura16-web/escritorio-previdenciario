@@ -299,3 +299,79 @@ verificar" acima e `leis-ordinarias/lei-13.846-2019.md`, Bloco 4). Resumo:
    parcelas retroativas), matéria distinta da decadência decenal do caput
    e não afetada pela ADI 6096. **Nenhum arquivo do caso 2026-001 foi
    alterado** por esta tarefa, por não haver fato relevante a registrar.
+
+**Bloco concluído — população da Constituição Federal, Título VIII, arts.
+193 a 204 (Bloco 5E):**
+
+1. **Novo arquivo:** `legislacao/constituicao/cf-1988-seguridade-social.md`
+   — cobre os 12 pontos do escopo pedido (arts. 193, 194, 195, 196-200
+   em conjunto/resumo, 201, 202, 203, 204), montado **sem WebFetch/curl**
+   (mesma limitação de ambiente das demais normas desta base) — fontes
+   majoritariamente secundárias, com boa proporção de páginas do próprio
+   domínio `portal.stf.jus.br` e de estudos da Consultoria Legislativa da
+   Câmara dos Deputados (`bd.camara.leg.br`).
+2. **Art. 201 (o mais crítico): ficou com 13 dos 16 parágrafos numerados
+   cobertos, mais o caput (incisos I-V) e o § 9º-A** — apenas os **§§ 12,
+   13 e 14 ficaram `[NÃO LOCALIZADO - PENDENTE]`** (a pesquisa não
+   confirmou a premissa original de que esses três parágrafos tratariam de
+   salário-maternidade/pensão por morte/cálculo — esses benefícios estão,
+   na verdade, nos incisos II, IV e V do próprio *caput*, e o cálculo da
+   pensão por morte está nos arts. 23-24 da EC 103/2019, já documentados).
+   Foram encontradas e documentadas **13 correções de escopo** em relação
+   à numeração presumida originalmente para os parágrafos do art. 201 (ver
+   tabela e lista completa no próprio arquivo) — entre elas: o piso está
+   no § 2º (não no § 4º); a distinção urbano/rural está no § 7º, II (não
+   no § 1º); o § 7º não foi extinto pela EC 103/2019 (é a regra definitiva
+   de idade); o § 8º trata de professores, não de aposentadoria especial;
+   e a acumulação de benefícios está no § 15 (não no § 6º).
+3. **Instrução condicional 1 (marcação `[INCONSTITUCIONAL - ADI 6309]` no
+   § 8º do art. 201) — NÃO aplicada, por verificação.** A pesquisa
+   confirmou que o § 8º trata da redução de idade para professores, sem
+   qualquer relação com a aposentadoria especial por agentes nocivos. Mais
+   ainda: **a idade mínima (55/58/60 anos) efetivamente invalidada pela ADI
+   6309/DF não está em nenhum parágrafo do art. 201 da CF** — está apenas
+   no art. 19, § 1º, I, a/b/c, da própria EC 103/2019, já corretamente
+   marcado em `ec-103-2019.md`. O art. 201, § 1º, II (autorização
+   constitucional genérica para a aposentadoria especial, sem número de
+   idade), recebeu uma **nota de cruzamento**, não uma marcação de
+   inconstitucionalidade — para não estender o alcance da decisão do STF
+   além do que ela realmente abrange.
+4. **Instrução condicional 2 (marcação `[ADMINISTRATIVO 6096]` no caput do
+   art. 201) — NÃO criada.** Esse marcador não existe no esquema padrão do
+   projeto e não foi adotado. A pesquisa confirmou que o *caput* do art.
+   201 trata apenas da estrutura geral do RGPS, sem relação com prazos
+   decadenciais; a ADI 6096/DF decidiu sobre o art. 103, *caput*, da Lei
+   8.213/91 (norma infraconstitucional), com fundamento no art. 6º da CF
+   (fora do Título VIII). O *caput* do art. 201 recebeu apenas uma **nota
+   de cruzamento**, deixando claro que a relação é indireta e que nenhuma
+   alteração do texto constitucional decorre dessa ADI.
+5. **Art. 203 (BPC): ficou completo** — caput e incisos I a VI (o VI,
+   redução de vulnerabilidade socioeconômica, incluído por emenda mais
+   recente, com confiança um pouco menor), com destaque para o **inciso V**
+   (matriz constitucional do BPC) e cruzamento direto com `lei-8.742-1993.md`,
+   art. 20, e com o Tema 27/RE 567.985 já na base de jurisprudência
+   vinculante.
+6. **Marcações finais no arquivo:** predominam `[FONTE SECUNDÁRIA - CONFERIR
+   NO PLANALTO]` (grande maioria dos dispositivos) e `[NÃO LOCALIZADO -
+   PENDENTE]` (pontual — arts. 201 §§ 12-14, alguns incisos do art. 194,
+   parágrafos de detalhe dos arts. 195 e 198-200, § 2º do art. 202,
+   parágrafo único do art. 204); `[ALTERADO PELA EC 103/2019]` aplicada aos
+   §§ 7º, 8º, 9º-A e 16 do art. 201. **Nenhuma marcação
+   `[INCONSTITUCIONAL - ADI 6309]` foi aplicada em nenhum dispositivo deste
+   arquivo** (ver item 3 acima).
+7. **`legislacao/INDICE.md` atualizado:** seção 1 (Constituição Federal)
+   reescrita com a numeração corrigida e as notas de cruzamento; o stub
+   antigo (com a numeração incorreta) foi preservado, riscado, dentro de um
+   `<details>` apenas como histórico.
+8. **Hook `anti-alucinacao.py`:** testes de sanidade continuam passando
+   (`python3 anti-alucinacao.py < /dev/null` → "TODOS OS TESTES PASSARAM").
+   Nenhuma alteração foi necessária no `MAPA_NORMAS` (a entrada `"CF"` já
+   apontava para o arquivo criado nesta sessão).
+9. **Pendências residuais** (não bloqueiam o uso do arquivo, mas exigem
+   cautela): art. 201, §§ 12-14 (conteúdo real não localizado); arts. 195
+   e 198-200 (parágrafos de detalhe fora do escopo priorizado); art. 202,
+   § 2º (redação incompleta); art. 204, parágrafo único (não confirmado);
+   terminologia exata ("pessoa com deficiência" vs. "portadora de
+   deficiência") do art. 203, incisos IV-V, a confirmar no Planalto. Ver a
+   lista completa em `constituicao/cf-1988-seguridade-social.md`, seção
+   "Pendências desta apuração".

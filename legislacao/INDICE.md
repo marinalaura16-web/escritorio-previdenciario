@@ -13,17 +13,78 @@
 ## 1. Constituição Federal
 Arquivo: constituicao/cf-1988-seguridade-social.md
 
-Artigos-chave:
-- Art. 201, caput: RGPS
-- Art. 201, § 1º: Proibição de requisitos diferenciados urbano/rural
-- Art. 201, § 7º, I: Aposentadoria por idade (65 H / 62 M)
-- Art. 201, § 7º, II: Aposentadoria por tempo de contribuição
-- Art. 201, § 8º: Aposentadoria especial
+**População inicial concluída em 24/09/2026 (Bloco 5E)** — Título VIII (Da
+Ordem Social), arts. 193 a 204, montada **sem WebFetch/curl** (mesma
+limitação de ambiente das demais normas desta base) — fontes majoritariamente
+secundárias, com boa proporção de páginas do próprio domínio `portal.stf.jus.br`
+e de estudos da Consultoria Legislativa da Câmara dos Deputados
+(`bd.camara.leg.br`); ver aviso de proveniência no topo do próprio arquivo.
+**Nenhum artigo deve ser citado em petição sem conferência prévia na fonte
+oficial (planalto.gov.br).**
+
+**Correção de escopo importante (24/09/2026) — o stub anterior deste
+índice (abaixo, riscado) estava incorreto quanto à numeração de vários
+parágrafos do art. 201.** A verificação por pesquisa (seguindo o mesmo
+padrão de correção já aplicado a outras normas desta base) mostrou que:
+- Salário-maternidade, auxílio-reclusão e pensão por morte (concessão)
+  **não estão em parágrafos específicos do art. 201** — estão nos
+  **incisos II, IV e V do próprio *caput***.
+- O § 1º trata de PcD (inciso I) e aposentadoria especial por agentes
+  nocivos (inciso II) — **não** de "urbano/rural" (isso está no § 7º, II).
+- O § 7º **não foi extinto pela EC 103/2019** — é a regra definitiva de
+  idade mínima (65H/62M no inciso I; 60H/55M rural no inciso II).
+- O § 8º trata da redução de idade para **professores** — **sem relação**
+  com a aposentadoria especial por agentes nocivos ou com a ADI 6309/DF.
+- A idade mínima da aposentadoria especial (55/58/60 anos) declarada
+  inconstitucional pela **ADI 6309/DF** **não está em nenhum parágrafo do
+  art. 201 da CF** — está no art. 19, § 1º, I, a/b/c, da própria EC
+  103/2019 (já corretamente marcado em `ec-103-2019.md`). O art. 201, § 1º,
+  II, recebeu apenas uma **nota de cruzamento** (não uma marcação de
+  inconstitucionalidade).
+- A **ADI 6096/DF** (decadência do art. 103, *caput*, da Lei 8.213/91) **não
+  tem relação direta com o art. 201 da CF** (trata de norma
+  infraconstitucional, fundamentada no art. 6º da CF, fora do Título VIII)
+  — o *caput* do art. 201 recebeu apenas uma **nota de cruzamento**
+  explicando essa relação indireta, sem qualquer marcação de alteração.
+- Ver a íntegra das correções e das notas de cruzamento em
+  `constituicao/cf-1988-seguridade-social.md`, seção "Correções de escopo
+  desta sessão".
+
+Artigos-chave (numeração **corrigida** após a pesquisa de 24/09/2026):
+- Art. 195: financiamento da Seguridade Social, matriz constitucional do
+  custeio já detalhado em `lei-8.212-1991.md`; § 7º: imunidade de entidades
+  beneficentes (cruzamento com Tema 32/RE 566.622, pendente)
+- Art. 201, caput (incisos I-V): estrutura do RGPS + cobertura de doença/
+  invalidez/morte/idade (I), maternidade (II), desemprego (III),
+  salário-família/auxílio-reclusão (IV) e pensão por morte (V)
+- Art. 201, § 1º, I: aposentadoria especial da pessoa com deficiência (PcD)
+- Art. 201, § 1º, II: autorização para aposentadoria especial por agentes
+  nocivos (matriz do art. 19 da EC 103/2019 — nota de cruzamento com a ADI
+  6309/DF, sem marcação de inconstitucionalidade neste parágrafo)
+- Art. 201, § 2º: piso dos benefícios (salário mínimo)
+- Art. 201, § 4º: reajuste dos benefícios (preservação do valor real)
+- Art. 201, § 7º, I: Aposentadoria por idade (65 H / 62 M) — regra definitiva
+- Art. 201, § 7º, II: Aposentadoria por idade do trabalhador rural (60 H / 55 M)
+- Art. 201, § 8º: Redução de idade para professores (NÃO é aposentadoria especial)
 - Art. 201, § 9º: Contagem recíproca
-- Art. 201, § 11: Auxílio-reclusão
-- Art. 201, § 12: Salário-maternidade
-- Art. 201, § 13: Pensão por morte
-- Art. 203, V: LOAS/BPC
+- Art. 201, § 15: Acumulação de benefícios
+- Art. 203, caput e incisos I-VI: assistência social; inciso V: LOAS/BPC
+  (cruzamento com `lei-8.742-1993.md`, art. 20)
+
+<details>
+<summary>Stub anterior (pré-24/09/2026), mantido apenas como histórico — numeração incorreta, não usar</summary>
+
+~~- Art. 201, caput: RGPS~~
+~~- Art. 201, § 1º: Proibição de requisitos diferenciados urbano/rural~~
+~~- Art. 201, § 7º, I: Aposentadoria por idade (65 H / 62 M)~~
+~~- Art. 201, § 7º, II: Aposentadoria por tempo de contribuição~~
+~~- Art. 201, § 8º: Aposentadoria especial~~
+~~- Art. 201, § 9º: Contagem recíproca~~
+~~- Art. 201, § 11: Auxílio-reclusão~~
+~~- Art. 201, § 12: Salário-maternidade~~
+~~- Art. 201, § 13: Pensão por morte~~
+~~- Art. 203, V: LOAS/BPC~~
+</details>
 
 ## 2. Emendas Constitucionais
 - EC 20/1998 -> emendas-constitucionais/ec-20-1998.md
