@@ -7,14 +7,26 @@ continua sendo a versão completa do sistema.
 
 ⚠️ Todo resultado gerado aqui é RASCUNHO para revisão do advogado
 responsável (regra inviolável 1 do projeto — ver CLAUDE.md).
+
+NOTA DE VERSÃO — fluxo deliberadamente simplificado (ver CLAUDE.md, sessão
+com o bug do botão "ANALISAR CASO" sem efeito visível / app em loop de
+execução): versões anteriores rodavam a análise em uma `threading.Thread`
+separada, com estado dividido entre `st.session_state` (por sessão) e um
+dict a nível de módulo (por processo), mais recuperação automática via
+`st.rerun()` quando os dois ficavam dessincronizados. Os logs do Streamlit
+Cloud mostraram o app em loop de reruns com `session_state` sempre vazio —
+sinal de que a complexidade extra estava causando mais problemas do que
+resolvia. Esta versão volta ao básico: um formulário, um clique, uma
+chamada SÍNCRONA (bloqueante) à API, sem thread e sem `st.rerun()`
+automático em lugar nenhum. Rodar a análise em background pode voltar a
+ser adicionado depois, quando o fluxo básico estiver comprovadamente
+estável em produção.
 """
 
 from __future__ import annotations
 
 import logging
 import re
-import threading
-import time
 from datetime import datetime
 from pathlib import Path
 
@@ -28,97 +40,15 @@ from prompts import REPO_ROOT
 CASOS_DIR = REPO_ROOT / "casos"
 
 # Configurado a nível de módulo (não dentro de main()) para rodar uma única
-# vez por processo — logging.basicConfig() é um no-op em chamadas
-# subsequentes (root logger já tem handler), mas não há motivo para
-# repeti-la a cada rerun do script. Em produção (Streamlit Cloud), estas
-# linhas aparecem nos logs do app (menu "Manage app" → "Logs"), o que
-# permite confirmar se o servidor está de fato recebendo e processando
-# cada rerun, mesmo quando a UI não mostra nada visível.
+# vez por processo. Em produção (Streamlit Cloud), consultável via
+# "Manage app" → "Logs" — permite confirmar que o servidor está de fato
+# processando cada rerun, mesmo quando a UI demora a responder (o que é
+# esperado agora: a chamada à API é síncrona e trava a UI até terminar).
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# --------------------------------------------------------------------------
-# Estado da análise em background
-#
-# A análise chama a API Anthropic e pode levar minutos. Rodá-la de forma
-# síncrona no script principal do Streamlit trava a UI e, se a conexão
-# websocket cair (ex.: o usuário troca de aba do navegador e o navegador
-# suspende/desconecta a aba em segundo plano), o script é interrompido no
-# meio e o resultado se perde.
-#
-# Por isso a chamada roda em uma `threading.Thread` separada. O resultado
-# NÃO é escrito diretamente em `st.session_state` de dentro da thread (a
-# Streamlit não garante que isso seja seguro fora do thread principal do
-# script) — em vez disso, a thread grava em `_ANALISES_EM_ANDAMENTO`, um
-# dict a nível de módulo (processo), protegido por `_LOCK`. O script
-# principal só lê/copia esse dict para `st.session_state` quando o usuário
-# clica em "Verificar status" (ou automaticamente a cada rerun).
-#
-# Limitação conhecida: `_ANALISES_EM_ANDAMENTO` é um estado de PROCESSO, não
-# de sessão — sobrevive a uma troca de aba/reconexão da mesma sessão, mas
-# não a um reinício completo do servidor Streamlit. A thread é `daemon`
-# para nunca impedir o encerramento do processo.
-# --------------------------------------------------------------------------
-
-_LOCK = threading.Lock()
-_ANALISES_EM_ANDAMENTO: dict[str, dict] = {}
-
-
-def _registrar_status(numero_caso: str, status: str, **campos) -> None:
-    with _LOCK:
-        _ANALISES_EM_ANDAMENTO[numero_caso] = {"status": status, **campos}
-
-
-def _worker_analisar_caso(numero_caso: str, kwargs: dict) -> None:
-    """Executado em background (threading.Thread). Nunca deve propagar uma
-    exceção não tratada — se propagasse, a thread morreria silenciosamente
-    e o status ficaria "em_andamento" para sempre, travando a UI."""
-    try:
-        resultado = anthropic_client.analisar_caso(**kwargs)
-        _registrar_status(numero_caso, "concluido", resultado=resultado)
-    except anthropic_client.ErroAnaliseCaso as e:
-        _registrar_status(numero_caso, "erro", mensagem=str(e))
-    except anthropic.AuthenticationError:
-        _registrar_status(
-            numero_caso,
-            "erro",
-            mensagem=(
-                "Chave de API inválida ou não autorizada. Verifique a API "
-                "Key na barra lateral."
-            ),
-        )
-    except anthropic.RateLimitError:
-        _registrar_status(
-            numero_caso,
-            "erro",
-            mensagem=(
-                "Limite de requisições da API da Anthropic atingido. "
-                "Aguarde um pouco e tente novamente."
-            ),
-        )
-    except anthropic.APIConnectionError:
-        _registrar_status(
-            numero_caso,
-            "erro",
-            mensagem=(
-                "Falha de conexão com a API da Anthropic. Verifique sua "
-                "internet e tente novamente."
-            ),
-        )
-    except anthropic.APIStatusError as e:
-        _registrar_status(
-            numero_caso,
-            "erro",
-            mensagem=f"Erro da API Anthropic (status {e.status_code}): {e.message}",
-        )
-    except Exception as e:  # noqa: BLE001 — rede de segurança intencional:
-        # uma thread de background que morre sem registrar status deixa a
-        # UI travada em "Analisando..." para sempre; ver docstring acima.
-        _registrar_status(numero_caso, "erro", mensagem=f"Erro inesperado na análise: {e}")
-
 AVISO_RASCUNHO = "⚠️ RASCUNHO — PARA REVISÃO DO ADVOGADO"
 
-# As 9 opções de benefício foram tomadas dos "Benefícios Mais Trabalhados"
 BENEFICIOS_OPCOES = [
     "Aposentadoria por idade",
     "Aposentadoria por tempo de contribuição",
@@ -343,93 +273,8 @@ def exibir_resultado(numero_caso: str, resultado: dict[str, str]) -> None:
             st.code(markdown_combinado, language="markdown")
 
 
-def _exibir_status_analise(numero_caso: str) -> None:
-    """Mostra o status da análise em andamento para `numero_caso`, lendo de
-    `_ANALISES_EM_ANDAMENTO` (não de `st.session_state`, que a thread de
-    background não escreve diretamente — ver comentário no topo do
-    arquivo). Ao concluir, salva o resultado e o exibe; em caso de erro,
-    mostra a mensagem e permite descartar."""
-    with _LOCK:
-        estado = _ANALISES_EM_ANDAMENTO.get(numero_caso)
-
-    if estado is None:
-        # Dessincronismo: a sessão do navegador (st.session_state) tem um
-        # caso "em andamento" que o servidor não conhece — o processo pode
-        # ter reiniciado, ou o dict de módulo (memória do processo, não da
-        # sessão) foi limpo por outra via. Antes esta função corrigia isso
-        # sozinha, silenciosamente (pop + rerun automático); agora mostra
-        # a escolha explicitamente, para facilitar o diagnóstico em campo
-        # em vez de mascarar o que está acontecendo.
-        st.warning("⚠️ Estado anterior detectado.")
-        st.caption(
-            f"O caso **{numero_caso}** está registrado nesta sessão do "
-            "navegador, mas o servidor não tem nenhum registro dele "
-            "(ex.: processo reiniciado). Escolha como prosseguir:"
-        )
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("🔄 Limpar estado", use_container_width=True):
-                _resetar_estado_app()
-                st.rerun()
-        with col2:
-            if st.button("Ignorar e continuar", use_container_width=True):
-                st.session_state.pop("caso_em_andamento", None)
-                st.rerun()
-        st.stop()
-
-    if estado["status"] == "em_andamento":
-        st.info(f"🔄 Analisando caso **{numero_caso}**... (pode levar 3-5 minutos)")
-        st.button("🔄 Verificar status")  # qualquer clique já dispara um rerun
-        return
-
-    if estado["status"] == "erro":
-        st.error(f"Falha ao analisar o caso {numero_caso}: {estado['mensagem']}")
-        if st.button("Descartar"):
-            with _LOCK:
-                _ANALISES_EM_ANDAMENTO.pop(numero_caso, None)
-            st.session_state.pop("caso_em_andamento", None)
-            st.rerun()
-        return
-
-    # status == "concluido"
-    resultado = estado["resultado"]
-    salvar_analises(numero_caso, resultado)
-    st.session_state["ultimo_caso_numero"] = numero_caso
-    st.session_state["ultimo_caso_resultado"] = resultado
-    st.session_state.pop("caso_em_andamento", None)
-    with _LOCK:
-        _ANALISES_EM_ANDAMENTO.pop(numero_caso, None)
-
-    st.success(f"Análise do caso {numero_caso} concluída.")
-    exibir_resultado(numero_caso, resultado)
-
-
 def tab_novo_caso(api_key: str, modelo: str) -> None:
     st.subheader("Novo Caso")
-
-    caso_em_andamento = st.session_state.get("caso_em_andamento")
-    if caso_em_andamento:
-        _exibir_status_analise(caso_em_andamento)
-        st.divider()
-        st.caption(
-            "Aguarde a conclusão (ou descarte o erro acima) antes de "
-            "iniciar um novo caso."
-        )
-        return  # evita disparar uma segunda análise em paralelo
-
-    if st.session_state.get("ultimo_caso_resultado"):
-        # Resultado da última análise concluída nesta sessão, preservado
-        # entre reruns (ex.: o usuário foi para a Tab 2 e voltou).
-        with st.expander(
-            f"Último resultado desta sessão — caso "
-            f"{st.session_state['ultimo_caso_numero']}",
-            expanded=True,
-        ):
-            exibir_resultado(
-                st.session_state["ultimo_caso_numero"],
-                st.session_state["ultimo_caso_resultado"],
-            )
-        st.divider()
 
     with st.form("form_novo_caso"):
         nome_cliente = st.text_input("Nome do cliente")
@@ -448,69 +293,91 @@ def tab_novo_caso(api_key: str, modelo: str) -> None:
                 "é inferido pelo modelo a partir do próprio conteúdo."
             ),
         )
-        enviado = st.form_submit_button("🔍 ANALISAR CASO")
+        enviado = st.form_submit_button("ANALISAR CASO")
 
-    if not enviado:
-        return
-
-    # --- DIAGNÓSTICO TEMPORÁRIO (bug: clique no botão não produzia nenhum
-    # efeito visível) ---------------------------------------------------
-    # Objetivo único: provar se `enviado` está de fato chegando a True no
-    # servidor. Se este bloco NÃO aparecer após o clique em produção, o
-    # problema é anterior a este código (deploy desatualizado, JS do
-    # navegador dessincronizado com o backend, etc.) — não algo a
-    # corrigir aqui. Se aparecer, o problema está no que vem depois
-    # (validação, geração do caso, ou o disparo da thread), e dá pra
-    # remover este bloco depois de confirmado o diagnóstico.
-    st.toast("✅ Clique detectado!")
-    st.info(f"📁 Arquivos: {len(arquivos) if arquivos else 0}")
-    st.info(f"👤 Cliente: {nome_cliente if nome_cliente else '(vazio)'}")
-    st.info(f"📅 Nascimento: {data_nascimento if data_nascimento else '(vazio)'}")
-    st.info(f"⚖️ Benefício: {beneficio}")
-    with st.spinner("Processando..."):
-        time.sleep(2)  # espera visual — só para confirmar que o spinner renderiza
-    st.success("Chegou até aqui! Agora valida os campos e dispara a análise real.")
-    # --- FIM DO DIAGNÓSTICO TEMPORÁRIO ----------------------------------
-
-    if not nome_cliente:
-        st.error("Informe o nome do cliente.")
-        return
-    if not validar_data_nascimento(data_nascimento):
-        st.error("Data de nascimento inválida. Use o formato DD/MM/AAAA.")
-        return
-    if not api_key:
-        st.error(
-            "Nenhuma API Key configurada. Configure na barra lateral antes "
-            "de analisar o caso."
+    if enviado:
+        # 1) Confirmação imediata de que o clique chegou ao servidor —
+        # ANTES de qualquer validação ou processamento.
+        st.info("🖱️ Clique detectado, validando dados...")
+        logger.info(
+            "Clique em ANALISAR CASO: nome=%r beneficio=%r arquivos=%d",
+            nome_cliente,
+            beneficio,
+            len(arquivos) if arquivos else 0,
         )
-        return
 
-    numero_caso = gerar_numero_caso()
-    st.info(f"Caso criado: **{numero_caso}**")
+        # 2) Validação (sem early return — fluxo linear, sem pular a
+        # mensagem de debug do rodapé no final da função).
+        if not nome_cliente:
+            st.error("Informe o nome do cliente.")
+        elif not validar_data_nascimento(data_nascimento):
+            st.error("Data de nascimento inválida. Use o formato DD/MM/AAAA.")
+        elif not api_key:
+            st.error(
+                "Nenhuma API Key configurada. Configure na barra lateral "
+                "antes de analisar o caso."
+            )
+        else:
+            # 3) Dados válidos — cria o caso e salva os documentos.
+            st.success("Dados válidos.")
+            numero_caso = gerar_numero_caso()
+            st.info(f"Caso criado: **{numero_caso}**")
+            documentos = salvar_documentos(numero_caso, arquivos or [])
 
-    # Extração de PDF é rápida e local — feita aqui, no thread principal do
-    # script, antes de disparar a chamada à API em background (a thread de
-    # background não deve tocar em objetos UploadedFile nem em `st.*`).
-    documentos = salvar_documentos(numero_caso, arquivos or [])
+            # 4) Chamada SÍNCRONA (bloqueante) à API — sem thread. A página
+            # fica travada até a resposta voltar; é a troca deliberada
+            # feita agora para eliminar qualquer fonte de dessincronismo
+            # entre st.session_state e estado em background.
+            resultado = None
+            with st.spinner(
+                "Analisando... (chamada síncrona — a página fica travada "
+                "até terminar; pode levar 3-5 minutos)"
+            ):
+                try:
+                    resultado = anthropic_client.analisar_caso(
+                        nome_cliente=nome_cliente,
+                        sexo=sexo,
+                        data_nascimento=data_nascimento,
+                        beneficio=beneficio,
+                        documentos=documentos,
+                        api_key=api_key,
+                        modelo=modelo,
+                    )
+                except anthropic_client.ErroAnaliseCaso as e:
+                    st.error(str(e))
+                except anthropic.AuthenticationError:
+                    st.error(
+                        "Chave de API inválida ou não autorizada. Verifique "
+                        "a API Key na barra lateral."
+                    )
+                except anthropic.RateLimitError:
+                    st.error(
+                        "Limite de requisições da API da Anthropic "
+                        "atingido. Aguarde um pouco e tente novamente."
+                    )
+                except anthropic.APIConnectionError:
+                    st.error(
+                        "Falha de conexão com a API da Anthropic. "
+                        "Verifique sua internet e tente novamente."
+                    )
+                except anthropic.APIStatusError as e:
+                    st.error(
+                        f"Erro da API Anthropic (status {e.status_code}): "
+                        f"{e.message}"
+                    )
 
-    kwargs_analise = dict(
-        nome_cliente=nome_cliente,
-        sexo=sexo,
-        data_nascimento=data_nascimento,
-        beneficio=beneficio,
-        documentos=documentos,
-        api_key=api_key,
-        modelo=modelo,
-    )
-    _registrar_status(numero_caso, "em_andamento")
-    threading.Thread(
-        target=_worker_analisar_caso,
-        args=(numero_caso, kwargs_analise),
-        daemon=True,
-    ).start()
+            if resultado is not None:
+                salvar_analises(numero_caso, resultado)
+                exibir_resultado(numero_caso, resultado)
 
-    st.session_state["caso_em_andamento"] = numero_caso
-    st.rerun()
+    # Rodapé de debug: sempre visível, mesmo sem submissão. Como a chamada
+    # à API agora é síncrona (bloqueante), por definição nunca há uma
+    # análise "em andamento" no momento em que este trecho roda — ou ainda
+    # não começou, ou já terminou (com sucesso ou erro) alguns parágrafos
+    # acima. `rodando` é sempre False aqui; mantido explícito no texto
+    # porque foi pedido como sinal de debug simples.
+    st.divider()
+    st.caption(f"Debug: session={len(st.session_state)} chaves | rodando=False")
 
 
 # --------------------------------------------------------------------------
@@ -568,50 +435,15 @@ def tab_casos_anteriores() -> None:
 # Main
 # --------------------------------------------------------------------------
 
-def _resetar_estado_app() -> None:
-    """Limpa TODO o estado conhecido do app: session_state (por sessão do
-    navegador), os caches nativos do Streamlit (não usados hoje neste app,
-    mas limpos por precaução/futuro) e, principalmente,
-    `_ANALISES_EM_ANDAMENTO` — o dict a nível de MÓDULO (processo do
-    servidor, não da sessão) que guarda o status das análises em
-    background. Esse último é a causa mais provável de um estado "preso"
-    que sobrevive a limpar dados do navegador ou abrir aba anônima: ambos
-    resetam session_state, mas nenhum dos dois afeta memória do processo
-    do servidor Streamlit."""
-    for key in list(st.session_state.keys()):
-        del st.session_state[key]
-    with _LOCK:
-        _ANALISES_EM_ANDAMENTO.clear()
-    st.cache_data.clear()
-    st.cache_resource.clear()
-
-
 def main() -> None:
-    # Log de diagnóstico: roda em TODO rerun do script (incluindo cliques
-    # em botões, submissão do formulário, trocas de aba), antes de
-    # qualquer chamada Streamlit — logging não é uma chamada `st.*`, então
-    # não conflita com a exigência de `st.set_page_config()` ser a
-    # primeira. Consultar em produção via "Manage app" → "Logs" no
-    # Streamlit Cloud.
+    # Log de diagnóstico: roda em TODO rerun do script, antes de qualquer
+    # chamada Streamlit — logging não é uma chamada `st.*`, não conflita
+    # com a exigência de `st.set_page_config()` ser a primeira. Consultar
+    # em produção via "Manage app" → "Logs" no Streamlit Cloud.
     logger.info("=== Nova execução do app ===")
     logger.info(f"session_state keys: {list(st.session_state.keys())}")
-    with _LOCK:
-        chaves_analises = list(_ANALISES_EM_ANDAMENTO.keys())
-    logger.info(f"_ANALISES_EM_ANDAMENTO: {chaves_analises}")
 
-    # st.set_page_config() (dentro de configurar_pagina()) precisa ser a
-    # PRIMEIRA chamada Streamlit do script, então o botão de reset vem logo
-    # em seguida — ainda antes de qualquer outra lógica/dado ser exibido —
-    # e não antes de configurar_pagina(), o que quebraria o app.
     configurar_pagina()
-
-    with st.sidebar:
-        if st.button("🔄 Resetar estado do app", use_container_width=True):
-            _resetar_estado_app()
-            st.success("Estado resetado. Recarregue a página.")
-            st.stop()
-        st.divider()
-
     api_key, modelo = montar_sidebar()
 
     tab1, tab2 = st.tabs(["Novo Caso", "Casos Anteriores"])
