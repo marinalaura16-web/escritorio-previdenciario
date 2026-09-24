@@ -342,12 +342,19 @@ def _exibir_status_analise(numero_caso: str) -> None:
 
     if estado is None:
         # Processo reiniciado / estado perdido (ver limitação conhecida).
+        # BUG CORRIGIDO: antes, esta função só limpava a chave e retornava
+        # sem forçar um rerun — a página ficava mostrando este aviso
+        # indefinidamente até QUALQUER interação do usuário disparar um
+        # novo script run (e nenhum botão aparecia neste ramo específico
+        # para isso). Agora o rerun é automático: a limpeza já é
+        # suficiente para a próxima renderização cair no formulário normal.
         st.warning(
             f"Não há registro da análise do caso **{numero_caso}** em "
-            "andamento (o servidor pode ter reiniciado). Tente novamente."
+            "andamento (o servidor pode ter reiniciado ou perdido o "
+            "estado). Recarregando..."
         )
         st.session_state.pop("caso_em_andamento", None)
-        return
+        st.rerun()
 
     if estado["status"] == "em_andamento":
         st.info(f"🔄 Analisando caso **{numero_caso}**... (pode levar 3-5 minutos)")
@@ -521,8 +528,38 @@ def tab_casos_anteriores() -> None:
 # Main
 # --------------------------------------------------------------------------
 
+def _resetar_estado_app() -> None:
+    """Limpa TODO o estado conhecido do app: session_state (por sessão do
+    navegador), os caches nativos do Streamlit (não usados hoje neste app,
+    mas limpos por precaução/futuro) e, principalmente,
+    `_ANALISES_EM_ANDAMENTO` — o dict a nível de MÓDULO (processo do
+    servidor, não da sessão) que guarda o status das análises em
+    background. Esse último é a causa mais provável de um estado "preso"
+    que sobrevive a limpar dados do navegador ou abrir aba anônima: ambos
+    resetam session_state, mas nenhum dos dois afeta memória do processo
+    do servidor Streamlit."""
+    for key in list(st.session_state.keys()):
+        del st.session_state[key]
+    with _LOCK:
+        _ANALISES_EM_ANDAMENTO.clear()
+    st.cache_data.clear()
+    st.cache_resource.clear()
+
+
 def main() -> None:
+    # st.set_page_config() (dentro de configurar_pagina()) precisa ser a
+    # PRIMEIRA chamada Streamlit do script, então o botão de reset vem logo
+    # em seguida — ainda antes de qualquer outra lógica/dado ser exibido —
+    # e não antes de configurar_pagina(), o que quebraria o app.
     configurar_pagina()
+
+    with st.sidebar:
+        if st.button("🔄 Resetar estado do app", use_container_width=True):
+            _resetar_estado_app()
+            st.success("Estado resetado. Recarregue a página.")
+            st.stop()
+        st.divider()
+
     api_key, modelo = montar_sidebar()
 
     tab1, tab2 = st.tabs(["Novo Caso", "Casos Anteriores"])
