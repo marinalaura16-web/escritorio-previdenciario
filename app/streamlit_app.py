@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import re
 import threading
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -431,6 +432,25 @@ def tab_novo_caso(api_key: str, modelo: str) -> None:
 
     if not enviado:
         return
+
+    # --- DIAGNÓSTICO TEMPORÁRIO (bug: clique no botão não produzia nenhum
+    # efeito visível) ---------------------------------------------------
+    # Objetivo único: provar se `enviado` está de fato chegando a True no
+    # servidor. Se este bloco NÃO aparecer após o clique em produção, o
+    # problema é anterior a este código (deploy desatualizado, JS do
+    # navegador dessincronizado com o backend, etc.) — não algo a
+    # corrigir aqui. Se aparecer, o problema está no que vem depois
+    # (validação, geração do caso, ou o disparo da thread), e dá pra
+    # remover este bloco depois de confirmado o diagnóstico.
+    st.toast("✅ Clique detectado!")
+    st.info(f"📁 Arquivos: {len(arquivos) if arquivos else 0}")
+    st.info(f"👤 Cliente: {nome_cliente if nome_cliente else '(vazio)'}")
+    st.info(f"📅 Nascimento: {data_nascimento if data_nascimento else '(vazio)'}")
+    st.info(f"⚖️ Benefício: {beneficio}")
+    with st.spinner("Processando..."):
+        time.sleep(2)  # espera visual — só para confirmar que o spinner renderiza
+    st.success("Chegou até aqui! Agora valida os campos e dispara a análise real.")
+    # --- FIM DO DIAGNÓSTICO TEMPORÁRIO ----------------------------------
 
     if not nome_cliente:
         st.error("Informe o nome do cliente.")
