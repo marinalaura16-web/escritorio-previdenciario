@@ -27,19 +27,17 @@ CASOS_DIR = REPO_ROOT / "casos"
 AVISO_RASCUNHO = "⚠️ RASCUNHO — PARA REVISÃO DO ADVOGADO"
 
 # As 9 opções de benefício foram tomadas dos "Benefícios Mais Trabalhados"
-# listados em practice-profile.md (os 9 primeiros da lista do escritório) —
-# a enumeração original de 9 itens citada na tarefa não estava disponível
-# neste contexto; ajuste esta lista se divergir do que foi pedido.
 BENEFICIOS_OPCOES = [
     "Aposentadoria por idade",
     "Aposentadoria por tempo de contribuição",
-    "Aposentadoria rural",
     "Aposentadoria especial",
-    "Auxílio-doença (incapacidade temporária)",
-    "Aposentadoria por invalidez (incapacidade permanente)",
+    "Aposentadoria por incapacidade permanente",
+    "Auxílio por incapacidade temporária",
     "Pensão por morte",
-    "BPC-LOAS (idoso ou pessoa com deficiência)",
     "Auxílio-reclusão",
+    "BPC-LOAS",
+    "Salário-maternidade",
+    "Revisão de benefício",
 ]
 
 MODELOS_OPCOES = {
@@ -47,8 +45,7 @@ MODELOS_OPCOES = {
     "Opus 5 (preciso)": "claude-opus-5",
 }
 
-# Placeholder genérico — ajuste para a URL real do README no GitHub caso
-# o branch padrão do repositório seja diferente de "main".
+# Branch padrão do repositório confirmado como "main" (git remote show origin).
 URL_DOCUMENTACAO = (
     "https://github.com/marinalaura16-web/escritorio-previdenciario"
     "/blob/main/app/README.md"
