@@ -1054,50 +1054,58 @@ Reconstrução: o parágrafo único do art. 103 trata da **prescrição
 quinquenal** — o prazo de 5 anos para reaver prestações vencidas ou
 diferenças, contado da data em que deveriam ter sido pagas, limitando o
 proveito econômico às últimas 5 parcelas anteriores ao requerimento
-revisional. O **caput** trata da **decadência decenal** — prazo de 10 anos
-para o direito ou ação do segurado ou beneficiário para revisão do ato de
-concessão, indeferimento, cancelamento ou cessação de benefício, contado do
-recebimento da primeira prestação ou da ciência da decisão indeferitória
-definitiva. `[A CONFIRMAR NA FONTE OFICIAL]`
+revisional. Essa parte do artigo **não foi objeto da ADI 6096** e permanece
+inalterada. `[A CONFIRMAR NA FONTE OFICIAL]` quanto à redação literal exata.
 
-**[JURISPRUDÊNCIA A CONFIRMAR] — achado atualizado nesta sessão, mas ainda
-exige verificação em fonte oficial do STF antes de qualquer uso em peça:**
-uma busca dedicada de 21/09/2026 trouxe **maior convergência entre fontes
-secundárias** (jornalcontabil.com.br, emagis.com.br, previdenciarista.com,
-saberalei.com.br, alteridade.com.br, icdsconnect.com.br) do que a apuração
-anterior, agora **identificando o número da ação: ADI 6096**. Segundo essas
-fontes, o STF teria julgado a **ADI 6096** (ajuizada contra a MP 871/2019,
-posteriormente convertida na Lei nº 13.846/2019) e declarado
-**inconstitucional** a extensão do prazo decadencial do art. 103, caput, da
-Lei 8.213/91 às hipóteses de **indeferimento, cancelamento ou cessação** de
-benefício — extensão que a Lei 13.846/2019 teria introduzido, sob o
-fundamento de violação ao direito fundamental à previdência social (art. 6º
-da CF). O efeito seria a **restauração da redação anterior**, mais
-favorável, limitando a decadência apenas à **revisão de ato de concessão**
-de benefício já deferido.
+### Caput — decadência decenal — CONFIRMADO NA FONTE OFICIAL DO STF (24/09/2026)
 
-**Mesmo com essa convergência maior e a identificação do número da ADI, este
-achado permanece `[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]` quanto à
-redação exata resultante, e não foi lido o acórdão do STF na ADI 6096
-diretamente (fonte oficial: portal do STF, processo ADI 6096).** Esta
-informação **ainda NÃO consta em nenhum arquivo da pasta
-`legislacao/jurisprudencia-vinculante/` desta base**. Antes de citar essa
-inconstitucionalidade em petição ou parecer, **confirmar no site do STF
-(www.stf.jus.br, consulta processual ADI 6096) a data de julgamento, o
-relator, o resultado exato do dispositivo e se já há trânsito em
-julgado/modulação de efeitos**, e só então incorporar à base de
-jurisprudência vinculante com o mesmo rigor usado para a ADI 6309/DF. Até
-lá, tratar como **achado consistente entre múltiplas fontes secundárias,
-mas não como tese oficialmente confirmada por este escritório**.
+**Atualização de 24/09/2026 — achado das sessões de 21/09 e 23-24/09/2026
+CONFIRMADO**, com fontes oficiais do domínio do STF localizadas nesta nova
+pesquisa (ver `legislacao/jurisprudencia-vinculante/adi-6096-2021-resumo.md`
+para o resumo completo, no mesmo padrão da `adi-6309-2026-resumo.md`):
+
+O STF, na **ADI 6096/DF** (Rel. Min. Edson Fachin, j. 09/10/2020 — sessão
+virtual, data exata do acórdão com pequena divergência entre fontes,
+09/10 x 13/10/2020, `[A CONFIRMAR NA FONTE OFICIAL]` —, julgada
+parcialmente procedente por maioria de 6x5), **declarou a
+inconstitucionalidade do art. 24 da Lei 13.846/2019**, na parte em que deu
+nova redação ao **art. 103, caput**, desta Lei, estendendo o prazo
+decadencial de 10 anos — até então restrito à revisão do ato de
+**concessão** de benefício — também às hipóteses de **indeferimento,
+cancelamento e cessação** de benefício. Embargos de declaração foram
+opostos e **rejeitados por unanimidade** em 14/06/2021 (DJe 24/06/2021),
+sem indício, nas fontes consultadas, de terem tratado de modulação de
+efeitos.
+
+**Efeito prático — a decadência decenal do art. 103, caput, aplica-se HOJE
+apenas à revisão do ato de CONCESSÃO de benefício já deferido.** Ela **NÃO
+se aplica** a indeferimento, cancelamento ou cessação de benefício — nessas
+três hipóteses o segurado pode postular a qualquer tempo, sem prazo
+decadencial (ressalvada sempre a prescrição quinquenal das parcelas, matéria
+distinta do parágrafo único, não afetada por esta ADI).
+
+**Redação atual do caput:** foi restabelecida, pelo efeito da declaração de
+inconstitucionalidade parcial, a redação anterior à Lei 13.846/2019 (limitada
+à revisão do ato de concessão). O **sentido normativo** está confirmado por
+fonte oficial do STF; a **grafia literal exata** hoje vigente permanece
+`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]`, pois nenhuma fonte consultada
+(sem WebFetch/curl neste ambiente) reproduziu o texto byte a byte do
+Planalto.
+
+**Nível de confiança:** superior ao das sessões anteriores, que trabalharam
+apenas com fontes secundárias. Nesta pesquisa foram localizadas e citadas
+diretamente páginas do domínio `stf.jus.br` (notícia oficial do julgamento)
+e citações de inteiro teor via Jusbrasil, tanto do mérito quanto dos
+embargos de declaração — ver o detalhamento completo, incluindo os pontos
+que **ainda** permanecem `[A CONFIRMAR NA FONTE OFICIAL]` (ementa completa,
+composição nominal da votação, trânsito em julgado, redação literal exata),
+em `adi-6096-2021-resumo.md`.
 
 Fonte: busca "art. 103 prescrição decadência cinco anos dez anos", busca
-dedicada sobre artigos revogados/EC 103, e busca dedicada de 21/09/2026 "STF
-inconstitucional decadência art. 103 Lei 8213/91 MP 871 Lei 13.846/2019
-acórdão". Fontes exclusivamente secundárias (jornalcontabil.com.br,
-jus.com.br, ambitojuridico.com.br, buscadordizerodireito.com.br,
-emagis.com.br, previdenciarista.com, saberalei.com.br, alteridade.com.br,
-icdsconnect.com.br); nenhuma fonte oficial do STF foi lida diretamente
-nesta pesquisa para este ponto específico.
+dedicada sobre artigos revogados/EC 103 (21/09/2026, fontes exclusivamente
+secundárias), e pesquisa dedicada de 24/09/2026 que localizou fontes
+oficiais do STF — ver `adi-6096-2021-resumo.md` para a lista completa de
+fontes desta última pesquisa.
 
 ---
 
@@ -1193,7 +1201,7 @@ conjur.com.br); Planalto não apareceu diretamente nesta busca.
 | Arts. 57-58 | **NÃO alterados pela ADI 6309/DF** — a idade mínima que caiu estava no art. 19, §1º, I, da EC 103/2019 | Ver `adi-6309-2026-resumo.md` e `ec-103-2019.md` | Fonte oficial (certidão de julgamento do STF) via arquivos já existentes na base |
 | Art. 74 | Acréscimo de § 6º e outras regras de habilitação provisória/perda por fraude | Lei 13.846/2019; Lei 13.135/2015 | `[A CONFIRMAR NA FONTE OFICIAL]` |
 | Art. 80 | Redação do caput e aferição de baixa renda | Lei 13.846/2019 (conversão da MP 871/2019) | `[A CONFIRMAR NA FONTE OFICIAL]` |
-| Art. 103 | **Provável declaração de inconstitucionalidade pelo STF (ADI 6096) da extensão da decadência a indeferimento/cancelamento/cessação** | MP 871/2019 → Lei 13.846/2019; ADI 6096 (STF) | **`[JURISPRUDÊNCIA A CONFIRMAR]` — número da ADI identificado nesta sessão, mas acórdão não lido; não incorporar à jurisprudência vinculante sem localizar o processo no site do STF** |
+| Art. 103 | **CONFIRMADO (24/09/2026) — declaração de inconstitucionalidade pelo STF (ADI 6096) da extensão da decadência a indeferimento/cancelamento/cessação; decadência restrita à revisão de concessão** | MP 871/2019 → Lei 13.846/2019, art. 24; ADI 6096/DF (STF), j. 09/10/2020, ED rejeitados 14/06/2021 | **Incorporada à jurisprudência vinculante em `adi-6096-2021-resumo.md`, com fonte oficial do domínio STF. Ementa completa, votação nominal, trânsito em julgado e redação literal exata do caput seguem `[A CONFIRMAR NA FONTE OFICIAL]`** |
 | Art. 115, §§ 8º/9º/13 | Vedação de descontos associativos; regras de consignado biométrico | Lei 15.327/2026 (parcialmente; atribuição exata incerta) | `[A CONFIRMAR NA FONTE OFICIAL]` |
 
 ---
@@ -1277,6 +1285,8 @@ anexar ao repositório antes de qualquer citação crítica em petição, tal
 como já foi feito com a IN 128/2022 e a ADI 6309/DF.** Nenhum trecho deste
 arquivo — incluindo os preenchidos nesta sessão, mesmo quando formatados
 como citação entre aspas — substitui a conferência byte a byte na fonte
-primária. O achado sobre a ADI 6096 (art. 103, decadência) merece atenção
-prioritária para confirmação, por seu potencial impacto prático em casos de
-indeferimento/cancelamento/cessação de benefício.
+primária. O achado sobre a ADI 6096 (art. 103, decadência) foi **confirmado
+com fonte oficial do STF em 24/09/2026** (ver `adi-6096-2021-resumo.md`),
+mas a ementa completa, a votação nominal, o trânsito em julgado e a redação
+literal exata do caput ainda dependem de conferência direta no Planalto/DJe
+antes de qualquer citação crítica em petição.

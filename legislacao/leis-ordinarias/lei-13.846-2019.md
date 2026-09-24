@@ -330,4 +330,49 @@ em `legislacao/jurisprudencia-vinculante/`, com o mesmo rigor já aplicado
 como tese pacificada em nenhuma petição ou parecer real deste
 escritório.**
 
+---
+
+## ATUALIZAÇÃO (24/09/2026) — ADI 6096 confirmada com fonte oficial do STF; incorporada à jurisprudência vinculante
+
+A recomendação acima foi cumprida nesta nova sessão. Pesquisa dedicada
+localizou e citou diretamente **duas páginas do domínio `stf.jus.br`**
+(notícia oficial do julgamento de mérito, em `noticias.stf.jus.br` e
+espelhada em `portal.stf.jus.br`) e citações de inteiro teor via Jusbrasil
+tanto do acórdão de mérito quanto do acórdão de embargos de declaração.
+Resultado completo, com todas as fontes e as pendências remanescentes, em
+`legislacao/jurisprudencia-vinculante/adi-6096-2021-resumo.md`.
+
+**Resumo do que foi confirmado:**
+- **Relator:** Min. Edson Fachin (confirmado por múltiplas fontes,
+  incluindo a notícia oficial do STF — deixa de ser "indicado por uma única
+  fonte" como constava acima).
+- **Data do julgamento de mérito:** sessão virtual encerrada em 09/10/2020
+  (uma fonte de proveniência oficial indireta, lexml.gov.br, registra
+  13/10/2020 — divergência pequena, não resolvida, `[A CONFIRMAR NA FONTE
+  OFICIAL]`).
+- **Resultado:** confirmado — parcialmente procedente, por maioria de 6x5,
+  declarando inconstitucional o art. 24 da Lei 13.846/2019 na parte em que
+  estendeu a decadência do art. 103, caput, da Lei 8.213/91 a
+  indeferimento/cancelamento/cessação.
+- **Embargos de declaração:** confirmados — sessão virtual de 04 a
+  11/06/2021, decisão de 14/06/2021 (a data já registrada acima estava
+  correta), **rejeitados por unanimidade**, publicados no DJe em
+  24/06/2021. Nenhuma fonte indica que os embargos trataram de modulação de
+  efeitos.
+- **Modulação de efeitos:** nenhuma fonte consultada, nesta ou na sessão
+  anterior, menciona modulação — indício (não prova definitiva) de que a
+  decisão vale sem restrição temporal. `[A CONFIRMAR NA FONTE OFICIAL]`.
+
+**O que ainda permanece pendente** (ver `adi-6096-2021-resumo.md` para o
+detalhamento completo): ementa oficial completa, composição nominal exata
+da votação 6x5, confirmação definitiva de trânsito em julgado, e redação
+literal exata (byte a byte) do art. 103, caput, hoje vigente.
+
+**Esta ADI já está incorporada** a
+`legislacao/jurisprudencia-vinculante/adi-6096-2021-resumo.md` e ao
+`legislacao/INDICE.md`. A nota de "`[JURISPRUDÊNCIA A CONFIRMAR]`, não
+incorporada" no quadro-resumo acima (linha do art. 103, caput) está
+**superada** por esta atualização — ver `lei-8.213-1991.md`, seção
+"Prescrição e Decadência — Art. 103", para o texto já corrigido.
+
 Data desta sessão de pesquisa: 23-24/09/2026.

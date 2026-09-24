@@ -57,10 +57,14 @@ casos/{numero}/documentos, casos/{numero}/analises, casos/{numero}/minutas
 Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
 
 **Achados a verificar antes de uso em petição:**
-- **ADI 6096** — possível fonte da inconstitucionalidade da extensão do
+- ~~**ADI 6096** — possível fonte da inconstitucionalidade da extensão do
   prazo decadencial a indeferimento/cancelamento/cessação (art. 103 da
   Lei 8.213/91, trazida pela MP 871/2019/Lei 13.846/2019). Não incorporado
-  à jurisprudência vinculante — falta ler o acórdão oficial do STF.
+  à jurisprudência vinculante — falta ler o acórdão oficial do STF.~~
+  **CONFIRMADA e incorporada em 24/09/2026 — ver Sessão de 24/09/2026
+  abaixo.** Pendências residuais (ementa completa, votação nominal,
+  trânsito em julgado, modulação) seguem `[A CONFIRMAR NA FONTE OFICIAL]`
+  em `legislacao/jurisprudencia-vinculante/adi-6096-2021-resumo.md`.
 - Toda a base populada nesta sessão (Lei 8.213, IN 128, súmulas, temas,
   EC 103 art. 26) foi montada **sem acesso a WebFetch/curl** — fontes
   majoritariamente secundárias. Conferir na fonte oficial antes de citar
@@ -231,8 +235,67 @@ Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
    11.770/2008 pela Lei 15.371/2026.
 7. Incorporar formalmente à jurisprudência vinculante: Súmula Vinculante 8
    do STF (Lei 8.212/91, arts. 45-46), Tema 32/RE 566.622 (imunidade de
-   entidades beneficentes), ADI 6096 (decadência, Lei 13.846/2019 — ver
-   Bloco 5F) e, se confirmado, o tema do STJ sobre o critério de renda do
-   BPC (1/4 x 1/2 SM).
+   entidades beneficentes), ~~ADI 6096 (decadência, Lei 13.846/2019 — ver
+   Bloco 5F)~~ **concluído em 24/09/2026, ver abaixo** e, se confirmado, o
+   tema do STJ sobre o critério de renda do BPC (1/4 x 1/2 SM).
 8. Substituir os dados de teste em `practice-profile.md` pelos dados reais
    do escritório.
+
+## Sessão de 24/09/2026
+
+**Bloco concluído — pesquisa e documentação da ADI 6096/DF (decadência,
+art. 103 da Lei 8.213/91):**
+
+Tarefa de pesquisa jurídica de alta prioridade, motivada pelo achado
+pendente registrado nas sessões de 21/09 e 23/09/2026 (ver "Achados a
+verificar" acima e `leis-ordinarias/lei-13.846-2019.md`, Bloco 4). Resumo:
+
+1. **Pesquisa via WebSearch (sem WebFetch/curl neste ambiente, mesma
+   limitação já documentada nas sessões anteriores)** localizou, pela
+   primeira vez nesta base, **páginas do próprio domínio `stf.jus.br`**
+   sobre a ADI 6096: a notícia oficial do julgamento
+   (`noticias.stf.jus.br` e espelho em `portal.stf.jus.br`) e a página de
+   andamento processual (`portal.stf.jus.br/processos/detalhe.asp?incidente=5647251`).
+   Também foram localizadas citações de inteiro teor do acórdão (mérito e
+   embargos de declaração) via Jusbrasil, e o registro do acórdão no
+   LexML (serviço público federal).
+2. **Confirmado:** a ADI 6096/DF (Rel. Min. Edson Fachin, requerente CNTI,
+   número único 0018723-17.2019.1.00.0000) julgou parcialmente procedente,
+   por maioria de 6x5, declarando a inconstitucionalidade do **art. 24 da
+   Lei 13.846/2019**, que estendia a decadência decenal do **art. 103,
+   caput, da Lei 8.213/91** às hipóteses de **indeferimento, cancelamento e
+   cessação** de benefício. Efeito: a decadência de 10 anos **volta a valer
+   apenas para a revisão de ato de concessão** de benefício já deferido.
+   Embargos de declaração foram opostos e **rejeitados por unanimidade**
+   em 14/06/2021 (DJe 24/06/2021), sem indício de terem tratado de
+   modulação de efeitos.
+3. **Documentação criada/atualizada:**
+   - **Novo:** `legislacao/jurisprudencia-vinculante/adi-6096-2021-resumo.md`,
+     no mesmo padrão estrutural de `adi-6309-2026-resumo.md`.
+   - **Atualizado:** `legislacao/leis-ordinarias/lei-8.213-1991.md` (seção
+     "Prescrição e Decadência — Art. 103" e tabela de dispositivos alterados
+     por outras normas/jurisprudência).
+   - **Atualizado:** `legislacao/leis-ordinarias/lei-13.846-2019.md` (Bloco
+     4, com nota de confirmação ao final).
+   - **Atualizado:** `legislacao/INDICE.md` (nova entrada na seção 8 —
+     Jurisprudência Vinculante — e correção das referências pendentes nas
+     seções 4 e "Pendências desta base").
+4. **Pendências remanescentes** (não bloqueiam o uso do achado principal,
+   mas exigem cautela e conferência antes de petição real): ementa oficial
+   completa, composição nominal exata da votação 6x5, confirmação
+   definitiva de trânsito em julgado, confirmação definitiva de ausência de
+   modulação de efeitos, e redação literal exata (byte a byte, Planalto) do
+   art. 103, caput, hoje vigente. Ver `adi-6096-2021-resumo.md` para o
+   detalhamento.
+5. **Cruzamento com `casos/2026-001/`:** lidos integralmente `triagem.md`,
+   `calculo.md`, `calculo-rmi.md` e `peticao-inicial-DRAFT.md`. **Não há,
+   neste caso, nenhuma questão de decadência de indeferimento/cancelamento/
+   cessação de benefício** — o caso trata de um **primeiro requerimento**
+   de aposentadoria especial (tempo de contribuição/exposição), sem DER
+   nem indeferimento anterior conhecido (o próprio `triagem.md`, item L11,
+   e a minuta de petição, item I.6, já registram expressamente a ausência
+   de requerimento administrativo pretérito confirmado). A única menção ao
+   art. 103 no caso é à **prescrição quinquenal** (parágrafo único, sobre
+   parcelas retroativas), matéria distinta da decadência decenal do caput
+   e não afetada pela ADI 6096. **Nenhum arquivo do caso 2026-001 foi
+   alterado** por esta tarefa, por não haver fato relevante a registrar.

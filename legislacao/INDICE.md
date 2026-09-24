@@ -268,16 +268,18 @@ Artigos-chave:
     própria Lei 13.846/2019 que promove cada uma **permanece
     `[NÃO LOCALIZADO - PENDENTE]`** na maioria dos casos — ver quadro-resumo
     no próprio arquivo.
-  - **Achado prioritário desta sessão — ADI 6096/DF:** convergência
-    substancialmente maior do que a registrada em sessões anteriores
-    (autor CNTI; objeto o art. 24 desta Lei; resultado indicado por
-    maioria de 6x5, julgando parcialmente procedente e restabelecendo a
-    redação anterior do art. 103, caput, da Lei 8.213/91; um registro no
-    lexml.gov.br aponta acórdão de embargos de declaração de 14/06/2021).
-    **Ainda não incorporada à jurisprudência vinculante** — nenhuma fonte
-    oficial do STF foi lida diretamente. Recomendação: **próxima sessão
-    deve consultar portal.stf.jus.br, processo ADI 6096, como prioridade**,
-    antes de qualquer nova busca textual genérica sobre o tema.
+  - **Achado prioritário — ADI 6096/DF — CONFIRMADO em 24/09/2026 com fonte
+    oficial do STF:** autor CNTI; objeto o art. 24 desta Lei (nova redação
+    ao art. 103, caput, da Lei 8.213/91); resultado por maioria de 6x5,
+    julgando parcialmente procedente e restabelecendo a redação anterior do
+    art. 103, caput (decadência restrita à revisão de concessão, não se
+    aplicando a indeferimento/cancelamento/cessação); embargos de
+    declaração rejeitados por unanimidade em 14/06/2021 (DJe 24/06/2021).
+    **Já incorporada** à jurisprudência vinculante em
+    `jurisprudencia-vinculante/adi-6096-2021-resumo.md`, com citação direta
+    de páginas do domínio `stf.jus.br` — ver seção 8 abaixo. Ementa
+    completa, votação nominal, trânsito em julgado e redação literal exata
+    do caput seguem `[A CONFIRMAR NA FONTE OFICIAL]`.
 
 - Lei 15.327/2026 — Descontos associativos e consignado no INSS
   - Resumo em `leis-ordinarias/lei-15.327-2026.md` (**novo, Bloco 5F,
@@ -479,6 +481,24 @@ Artigos-chave:
       própria a esta base** (pendência registrada no próprio arquivo e em
       "Pendências desta base" abaixo).
 - Ações Diretas de Inconstitucionalidade STF
+  - **ADI 6096/DF** — jurisprudencia-vinculante/adi-6096-2021-resumo.md
+    (**novo, 24/09/2026**): Decadência do art. 103, caput, da Lei 8.213/91 —
+    STF declarou inconstitucional o art. 24 da Lei 13.846/2019, na parte em
+    que estendeu o prazo decadencial de 10 anos a hipóteses de
+    **indeferimento, cancelamento e cessação** de benefício (antes restrito
+    à revisão de ato de **concessão**). Rel. Min. Edson Fachin, j.
+    09/10/2020 (sessão virtual; uma fonte registra 13/10/2020 —
+    `[A CONFIRMAR NA FONTE OFICIAL]`), por maioria (6x5), parcialmente
+    procedente. Embargos de declaração rejeitados por unanimidade em
+    14/06/2021 (DJe 24/06/2021), sem indício de modulação de efeitos.
+    **Efeito prático: a decadência decenal do art. 103, caput, hoje só se
+    aplica à revisão de ato de concessão de benefício já deferido — NÃO se
+    aplica a indeferimento/cancelamento/cessação.** Confirmado com fonte
+    oficial do domínio `stf.jus.br` (notícia oficial do julgamento) nesta
+    sessão — nível de confiança superior ao de sessões anteriores, que só
+    tinham fontes secundárias. Ementa completa, votação nominal, trânsito em
+    julgado e redação literal exata do caput seguem
+    `[A CONFIRMAR NA FONTE OFICIAL]`.
   - **ADI 6309/DF** — jurisprudencia-vinculante/adi-6309-2026-resumo.md
     (com adi-6309-2026-andamento.pdf, adi-6309-2026-voto-barroso.pdf e
     adi-6309-2026-certidao-julgamento.md): Aposentadoria especial — STF
@@ -569,12 +589,14 @@ Artigos-chave:
      ver `leis-ordinarias/lei-8.742-1993.md`, Bloco 2.
    - **ADI 6096/DF** (STF) — decadência do art. 103, caput, da Lei
      8.213/91 (extensão a indeferimento/cancelamento/cessação, trazida
-     pelo art. 24 da Lei 13.846/2019). **Convergência sensivelmente
-     reforçada em 23-24/09/2026** (ver `leis-ordinarias/lei-13.846-2019.md`,
-     Bloco 4): autor CNTI, resultado por maioria de 6x5 julgando
-     parcialmente procedente, e um registro no lexml.gov.br apontando
-     acórdão de embargos de declaração de 14/06/2021. **Ainda não
-     incorporada** como entrada própria em `jurisprudencia-vinculante/` —
-     nenhuma fonte oficial do STF foi lida diretamente. **Recomendação:
-     prioridade para a próxima sessão desta base**, com consulta direta a
-     portal.stf.jus.br.
+     pelo art. 24 da Lei 13.846/2019). **CONFIRMADA e INCORPORADA em
+     24/09/2026** (ver `jurisprudencia-vinculante/adi-6096-2021-resumo.md`
+     e seção 8 acima): autor CNTI, relator Min. Edson Fachin, resultado por
+     maioria de 6x5 julgando parcialmente procedente, embargos de
+     declaração rejeitados por unanimidade em 14/06/2021 (DJe 24/06/2021).
+     Fontes oficiais do domínio `stf.jus.br` lidas diretamente nesta
+     sessão. **Pendências remanescentes** (não bloqueiam o uso do achado
+     principal, mas exigem cautela antes de petição real): ementa completa,
+     votação nominal, trânsito em julgado, modulação de efeitos (nenhum
+     indício encontrado) e redação literal exata do caput —
+     `[A CONFIRMAR NA FONTE OFICIAL]`.
