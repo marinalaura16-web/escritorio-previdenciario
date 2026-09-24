@@ -342,20 +342,29 @@ def _exibir_status_analise(numero_caso: str) -> None:
         estado = _ANALISES_EM_ANDAMENTO.get(numero_caso)
 
     if estado is None:
-        # Processo reiniciado / estado perdido (ver limitação conhecida).
-        # BUG CORRIGIDO: antes, esta função só limpava a chave e retornava
-        # sem forçar um rerun — a página ficava mostrando este aviso
-        # indefinidamente até QUALQUER interação do usuário disparar um
-        # novo script run (e nenhum botão aparecia neste ramo específico
-        # para isso). Agora o rerun é automático: a limpeza já é
-        # suficiente para a próxima renderização cair no formulário normal.
-        st.warning(
-            f"Não há registro da análise do caso **{numero_caso}** em "
-            "andamento (o servidor pode ter reiniciado ou perdido o "
-            "estado). Recarregando..."
+        # Dessincronismo: a sessão do navegador (st.session_state) tem um
+        # caso "em andamento" que o servidor não conhece — o processo pode
+        # ter reiniciado, ou o dict de módulo (memória do processo, não da
+        # sessão) foi limpo por outra via. Antes esta função corrigia isso
+        # sozinha, silenciosamente (pop + rerun automático); agora mostra
+        # a escolha explicitamente, para facilitar o diagnóstico em campo
+        # em vez de mascarar o que está acontecendo.
+        st.warning("⚠️ Estado anterior detectado.")
+        st.caption(
+            f"O caso **{numero_caso}** está registrado nesta sessão do "
+            "navegador, mas o servidor não tem nenhum registro dele "
+            "(ex.: processo reiniciado). Escolha como prosseguir:"
         )
-        st.session_state.pop("caso_em_andamento", None)
-        st.rerun()
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("🔄 Limpar estado", use_container_width=True):
+                _resetar_estado_app()
+                st.rerun()
+        with col2:
+            if st.button("Ignorar e continuar", use_container_width=True):
+                st.session_state.pop("caso_em_andamento", None)
+                st.rerun()
+        st.stop()
 
     if estado["status"] == "em_andamento":
         st.info(f"🔄 Analisando caso **{numero_caso}**... (pode levar 3-5 minutos)")
