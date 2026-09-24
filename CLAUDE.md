@@ -464,3 +464,80 @@ do Claude Code.**
   (ajustar se o branch padrão do repositório não for `main`).
 - `.gitignore` (raiz) atualizado com `app/.streamlit/secrets.toml`
   (`__pycache__/` e `*.pyc` já estavam presentes).
+
+## Status do Sistema (atualizado em 24/09/2026)
+
+### ✅ Funcional em produção
+
+- **8 agentes** rodando via Claude Code Web (orquestrador + 7 especialistas)
+  — confirmado: 8 arquivos em `.claude/agents/`.
+- **8 skills** modulares (legislação, cálculo, triagem, indeferimento,
+  arquivo médico, petição, recurso, WhatsApp) — confirmado: 8 pastas em
+  `.claude/skills/`.
+- **Hook anti-alucinação** com regex corrigido (reconhece "Lei X, art. Y"
+  e "art. Y da Lei X").
+- **Base legislativa** completa: CF/88, EC 103/2019, Lei 8.213/91, Lei
+  8.212/91, Lei 8.742/93, Decreto 3.048/99, Decreto 6.214/07, IN 128/2022,
+  ADI 6309, ADI 6096 — todos os arquivos confirmados presentes em
+  `legislacao/`.
+- **Jurisprudência vinculante**: STF, STJ, TNU, temas de repercussão
+  geral.
+- **Tabelas de cálculo**: INPC (**570 competências**, 03/1979–08/2026) +
+  Tetos RGPS (**444 competências**, 01/1990–12/2026).
+- **App web Streamlit** — URL informada pela usuária:
+  https://escritorio-previdenciario-5jbsbpgq4zuxzp4mkqbb9p.streamlit.app
+  (não verificada nesta sessão — `curl`/WebFetch para hosts externos não
+  estão disponíveis neste ambiente, mesma limitação documentada em toda a
+  base de legislação).
+
+**Duas correções em relação ao rascunho original desta seção:**
+1. **Tabelas de INPC e Tetos RGPS estavam trocadas** — o rascunho atribuía
+   "444 competências" ao INPC; na verdade o INPC tem 570 linhas de dados
+   (`wc -l` confirma 571 linhas no arquivo, menos o cabeçalho) e é a
+   tabela de Tetos RGPS que tem 444.
+2. **Não há caso "2026-003" processado com sucesso neste repositório.**
+   `casos/2026-003` nunca existiu aqui (já verificado em sessão anterior
+   via `git log --all`). O caso de teste "José Carlos Teste da Silva" que
+   a usuária compartilhou (como arquivo `.md` baixado do app) foi gerado
+   pelo próprio app Streamlit com o número **"2026-005"** (visível no
+   cabeçalho do arquivo), rodado em outro ambiente (local ou a instância
+   do Streamlit Cloud) — nunca foi commitado a este repositório, e
+   também não pode ser chamado de "processado com sucesso" sem ressalva:
+   o próprio relatório gerado documentava múltiplas lacunas/pendências
+   (CNIS truncado, CTC ausente, inconsistência de tempo de contribuição
+   entre o INSS e o cálculo do escritório) — foi um teste funcional
+   bem-sucedido do fluxo técnico (triagem → cálculo → arquivo médico →
+   petição em uma única chamada), não uma análise de mérito fechada.
+   Além disso, durante a verificação desta tarefa, uma pasta
+   `casos/2026-002/` vazia foi encontrada neste repositório — criada
+   acidentalmente por um teste automatizado (`AppTest`) da sessão
+   anterior, não por um caso real — e foi removida.
+
+### ⚠️ Limitações conhecidas
+
+- App Streamlit é **síncrono** (bloqueia a tela durante análise — 3-5
+  min) — decisão deliberada desta sessão, após remover a versão anterior
+  em background (`threading` + estado dividido entre `st.session_state` e
+  um dict de módulo) por ter causado um loop de reruns em produção.
+- App **não persiste** casos entre reinicializações do servidor (nem, no
+  caso do Streamlit Cloud, entre deploys — o sistema de arquivos do
+  container não é o mesmo deste repositório Git).
+- Citações legais ainda apresentam `[A CONFIRMAR]` / `[FONTE SECUNDÁRIA -
+  CONFERIR NO PLANALTO]` em vários pontos — não é um problema do app em
+  si, é o estado real da base (nada foi conferido byte a byte no Planalto
+  em nenhuma norma desta sessão, dada a ausência de WebFetch/curl neste
+  ambiente).
+- Falta autenticação (app é público por enquanto).
+- Dados de teste ficam no servidor da Streamlit Cloud (atenção LGPD) —
+  válido também para qualquer dado real de cliente usado em teste.
+
+### 🎯 Próximos passos
+
+1. Refinar o prompt do app para injetar EC 103 com texto exato.
+2. Adicionar CNIS completo do caso real como exemplo de contexto.
+3. Reavaliar execução em background (thread ou `@st.cache_resource`) só
+   depois que o fluxo síncrono atual estiver validado em produção por um
+   período razoável — ver "Limitações conhecidas" acima sobre por que a
+   tentativa anterior foi revertida.
+4. Implementar autenticação simples (senha) para uso interno.
+5. Migrar para servidor brasileiro quando o escritório validar o app.
