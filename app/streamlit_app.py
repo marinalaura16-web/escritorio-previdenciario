@@ -11,6 +11,7 @@ responsável (regra inviolável 1 do projeto — ver CLAUDE.md).
 
 from __future__ import annotations
 
+import logging
 import re
 import threading
 import time
@@ -25,6 +26,16 @@ from pdf_utils import extrair_texto_pdf
 from prompts import REPO_ROOT
 
 CASOS_DIR = REPO_ROOT / "casos"
+
+# Configurado a nível de módulo (não dentro de main()) para rodar uma única
+# vez por processo — logging.basicConfig() é um no-op em chamadas
+# subsequentes (root logger já tem handler), mas não há motivo para
+# repeti-la a cada rerun do script. Em produção (Streamlit Cloud), estas
+# linhas aparecem nos logs do app (menu "Manage app" → "Logs"), o que
+# permite confirmar se o servidor está de fato recebendo e processando
+# cada rerun, mesmo quando a UI não mostra nada visível.
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # --------------------------------------------------------------------------
 # Estado da análise em background
@@ -576,6 +587,18 @@ def _resetar_estado_app() -> None:
 
 
 def main() -> None:
+    # Log de diagnóstico: roda em TODO rerun do script (incluindo cliques
+    # em botões, submissão do formulário, trocas de aba), antes de
+    # qualquer chamada Streamlit — logging não é uma chamada `st.*`, então
+    # não conflita com a exigência de `st.set_page_config()` ser a
+    # primeira. Consultar em produção via "Manage app" → "Logs" no
+    # Streamlit Cloud.
+    logger.info("=== Nova execução do app ===")
+    logger.info(f"session_state keys: {list(st.session_state.keys())}")
+    with _LOCK:
+        chaves_analises = list(_ANALISES_EM_ANDAMENTO.keys())
+    logger.info(f"_ANALISES_EM_ANDAMENTO: {chaves_analises}")
+
     # st.set_page_config() (dentro de configurar_pagina()) precisa ser a
     # PRIMEIRA chamada Streamlit do script, então o botão de reset vem logo
     # em seguida — ainda antes de qualquer outra lógica/dado ser exibido —
