@@ -426,3 +426,41 @@ enquadramento temático sugerido por instrução sem verificação prévia via
 pesquisa — mesmo quando a instrução vem com alta confiança aparente.
 Divergência confirmada deve ser documentada explicitamente, nunca forçada
 para encaixar na expectativa original.**
+
+## Sessão de 24/09/2026 — Bloco 7 (Interface Streamlit)
+
+**Tarefa de engenharia de software (não pesquisa jurídica): criada a
+interface `app/` (Streamlit) para o escritório usar o sistema sem precisar
+do Claude Code.**
+
+- `app/streamlit_app.py`, `app/anthropic_client.py`, `app/prompts.py`,
+  `app/pdf_utils.py`, `app/requirements.txt`, `app/.streamlit/config.toml`,
+  `app/.streamlit/secrets.toml.example`, `app/README.md`.
+- O app chama a **API Anthropic diretamente** (SDK `anthropic`, sem Claude
+  Agent SDK) — monta um prompt consolidado com o prompt do
+  `orquestrador-prev`, dos subagentes `triagem-viabilidade`,
+  `calculo-previdenciario`, `analise-arquivo-medico`, a skill
+  `calculo-tempo-contribuicao` e o contexto do escritório
+  (`practice-profile.md` + resumo de `legislacao/INDICE.md`), pede uma
+  resposta em JSON único (triagem/calculo/arquivo_medico/peticao) via
+  streaming (`thinking: adaptive`, `effort: high`), com a Regra Inviolável 1
+  reforçada explicitamente no prompt.
+- **Correção de IDs de modelo:** os IDs pedidos originalmente
+  ("claude-sonnet-4-5", "Opus 4.1") não existem na API Anthropic atual —
+  usados `claude-sonnet-5` e `claude-opus-5` (vigentes) em todo o código.
+- Teste local: `pip install -r app/requirements.txt` e
+  `streamlit run app/streamlit_app.py` **funcionaram neste ambiente**
+  (servidor respondeu HTTP 200); `python3 -m py_compile app/*.py` também
+  passou. Nenhum caso real foi processado no teste (não houve chamada à API
+  Anthropic).
+- Pendências/decisões documentadas em `app/README.md`: lista de 9
+  benefícios do selectbox foi inferida de `practice-profile.md` (a
+  enumeração original de 9 itens não estava disponível neste contexto —
+  conferir se corresponde ao esperado); upload único multi-arquivo em vez
+  de campos segregados por tipo de documento; "copiar para área de
+  transferência" via `st.code()` (sem componente nativo de clipboard no
+  Streamlit); link de documentação na sidebar aponta para
+  `github.com/marinalaura16-web/escritorio-previdenciario/blob/main/app/README.md`
+  (ajustar se o branch padrão do repositório não for `main`).
+- `.gitignore` (raiz) atualizado com `app/.streamlit/secrets.toml`
+  (`__pycache__/` e `*.pyc` já estavam presentes).
