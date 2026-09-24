@@ -15,7 +15,7 @@ from typing import Dict
 
 import anthropic
 
-from prompts import carregar_prompt, carregar_skill, montar_contexto_escritorio
+from prompts import REPO_ROOT, carregar_prompt, carregar_skill, montar_contexto_escritorio
 
 # Únicos IDs de modelo aceitos por esta interface. Ver CLAUDE.md / instruções
 # do projeto: "claude-sonnet-4-5" e "Opus 4.1" (pedidos originalmente) não
@@ -23,6 +23,29 @@ from prompts import carregar_prompt, carregar_skill, montar_contexto_escritorio
 MODELOS_VALIDOS = {"claude-sonnet-5", "claude-opus-5"}
 
 CHAVES_ESPERADAS = ("triagem", "calculo", "arquivo_medico", "peticao")
+
+# Arquivos de norma injetados por inteiro (até o limite de truncamento) no
+# prompt, para que o modelo só cite dispositivo que esteja de fato na base —
+# sem isso, o modelo tinha apenas os PROMPTS dos agentes (que descrevem o
+# processo, não o conteúdo normativo), o que o levava a dizer coisas como
+# "a base consultada não permite confirmar o número de pontos".
+ARQUIVOS_BASE_LEGISLATIVA = (
+    "legislacao/INDICE.md",
+    "legislacao/emendas-constitucionais/ec-103-2019.md",
+    "legislacao/leis-ordinarias/lei-8.213-1991.md",
+    "legislacao/leis-ordinarias/lei-8.742-1993.md",
+    "legislacao/decretos/decreto-3.048-1999.md",
+)
+
+# Tabelas históricas (INPC e teto/piso RGPS) — muito longas para incluir
+# inteiras; só as competências mais recentes importam para um caso novo.
+TABELAS_BASE_LEGISLATIVA = (
+    "legislacao/tabelas/inpc-historico.csv",
+    "legislacao/tabelas/tetos-rgps-historico.csv",
+)
+
+MAX_CHARS_ARQUIVO_LEGISLACAO = 50_000
+MAX_LINHAS_TABELA = 200
 
 # max_tokens generoso (o retorno esperado — triagem + cálculo + análise
 # médica + petição — pode somar vários milhares de tokens), dentro da faixa
@@ -33,6 +56,67 @@ MAX_TOKENS = 32000
 class ErroAnaliseCaso(Exception):
     """Erro de validação de entrada (ex.: modelo inválido) — não é um erro
     da API Anthropic em si, então não usamos as exceções do SDK aqui."""
+
+
+def _ler_arquivo_legislacao(caminho_relativo: str) -> str:
+    caminho = REPO_ROOT / caminho_relativo
+    try:
+        texto = caminho.read_text(encoding="utf-8")
+    except (FileNotFoundError, OSError, UnicodeDecodeError):
+        return f"[não encontrado: {caminho_relativo}]"
+    if len(texto) > MAX_CHARS_ARQUIVO_LEGISLACAO:
+        texto = (
+            texto[:MAX_CHARS_ARQUIVO_LEGISLACAO]
+            + f"\n\n[... TRUNCADO em {MAX_CHARS_ARQUIVO_LEGISLACAO} "
+            f"caracteres — arquivo completo tem {len(texto)} caracteres; "
+            f"não cite dispositivo além do que aparece acima sem marcar "
+            f"[A CONFIRMAR NA FONTE OFICIAL] ...]"
+        )
+    return texto
+
+
+def _ler_tabela_csv(caminho_relativo: str) -> str:
+    """Lê uma tabela CSV e devolve o cabeçalho (linha 1) mais apenas as
+    últimas MAX_LINHAS_TABELA linhas de dados — as competências mais
+    recentes, que são as relevantes para um caso novo. O cabeçalho é
+    sempre preservado para o modelo entender as colunas."""
+    caminho = REPO_ROOT / caminho_relativo
+    try:
+        linhas = caminho.read_text(encoding="utf-8").splitlines()
+    except (FileNotFoundError, OSError, UnicodeDecodeError):
+        return f"[não encontrado: {caminho_relativo}]"
+    if not linhas:
+        return "[arquivo vazio]"
+
+    cabecalho, dados = linhas[0], linhas[1:]
+    if len(dados) > MAX_LINHAS_TABELA:
+        dados = dados[-MAX_LINHAS_TABELA:]
+        aviso = (
+            f"\n[... TRUNCADO — mostrando apenas as últimas "
+            f"{MAX_LINHAS_TABELA} linhas de dados (competências mais "
+            f"recentes); cabeçalho preservado ...]"
+        )
+    else:
+        aviso = ""
+    return cabecalho + "\n" + "\n".join(dados) + aviso
+
+
+def carregar_base_legislativa() -> str:
+    """Monta a base legislativa (normas + tabelas históricas) a ser
+    injetada no prompt, para que o modelo só cite dispositivo que esteja
+    de fato presente na base fornecida — em vez de citar de memória, sem
+    verificação, o que violaria a Regra Inviolável 2 do projeto."""
+    blocos = []
+    for caminho_relativo in ARQUIVOS_BASE_LEGISLATIVA:
+        blocos.append(
+            f"### {caminho_relativo} ###\n"
+            + _ler_arquivo_legislacao(caminho_relativo)
+        )
+    for caminho_relativo in TABELAS_BASE_LEGISLATIVA:
+        blocos.append(
+            f"### {caminho_relativo} ###\n" + _ler_tabela_csv(caminho_relativo)
+        )
+    return "\n\n".join(blocos)
 
 
 def _montar_system_prompt() -> str:
@@ -92,6 +176,13 @@ def _montar_user_prompt(
     )
 
     blocos.append("# Contexto do Escritório\n" + montar_contexto_escritorio())
+
+    blocos.append(
+        "# Base Legislativa (arquivos oficiais do repositório)\n"
+        "Use APENAS a base legislativa abaixo para citar dispositivos. Se "
+        "um dispositivo não estiver na base, marque [A CONFIRMAR NA FONTE "
+        "OFICIAL].\n\n" + carregar_base_legislativa()
+    )
 
     blocos.append(
         "# Dados do Formulário\n"

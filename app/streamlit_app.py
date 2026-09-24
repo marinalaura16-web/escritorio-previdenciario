@@ -12,6 +12,7 @@ responsável (regra inviolável 1 do projeto — ver CLAUDE.md).
 from __future__ import annotations
 
 import re
+import threading
 from datetime import datetime
 from pathlib import Path
 
@@ -23,6 +24,85 @@ from pdf_utils import extrair_texto_pdf
 from prompts import REPO_ROOT
 
 CASOS_DIR = REPO_ROOT / "casos"
+
+# --------------------------------------------------------------------------
+# Estado da análise em background
+#
+# A análise chama a API Anthropic e pode levar minutos. Rodá-la de forma
+# síncrona no script principal do Streamlit trava a UI e, se a conexão
+# websocket cair (ex.: o usuário troca de aba do navegador e o navegador
+# suspende/desconecta a aba em segundo plano), o script é interrompido no
+# meio e o resultado se perde.
+#
+# Por isso a chamada roda em uma `threading.Thread` separada. O resultado
+# NÃO é escrito diretamente em `st.session_state` de dentro da thread (a
+# Streamlit não garante que isso seja seguro fora do thread principal do
+# script) — em vez disso, a thread grava em `_ANALISES_EM_ANDAMENTO`, um
+# dict a nível de módulo (processo), protegido por `_LOCK`. O script
+# principal só lê/copia esse dict para `st.session_state` quando o usuário
+# clica em "Verificar status" (ou automaticamente a cada rerun).
+#
+# Limitação conhecida: `_ANALISES_EM_ANDAMENTO` é um estado de PROCESSO, não
+# de sessão — sobrevive a uma troca de aba/reconexão da mesma sessão, mas
+# não a um reinício completo do servidor Streamlit. A thread é `daemon`
+# para nunca impedir o encerramento do processo.
+# --------------------------------------------------------------------------
+
+_LOCK = threading.Lock()
+_ANALISES_EM_ANDAMENTO: dict[str, dict] = {}
+
+
+def _registrar_status(numero_caso: str, status: str, **campos) -> None:
+    with _LOCK:
+        _ANALISES_EM_ANDAMENTO[numero_caso] = {"status": status, **campos}
+
+
+def _worker_analisar_caso(numero_caso: str, kwargs: dict) -> None:
+    """Executado em background (threading.Thread). Nunca deve propagar uma
+    exceção não tratada — se propagasse, a thread morreria silenciosamente
+    e o status ficaria "em_andamento" para sempre, travando a UI."""
+    try:
+        resultado = anthropic_client.analisar_caso(**kwargs)
+        _registrar_status(numero_caso, "concluido", resultado=resultado)
+    except anthropic_client.ErroAnaliseCaso as e:
+        _registrar_status(numero_caso, "erro", mensagem=str(e))
+    except anthropic.AuthenticationError:
+        _registrar_status(
+            numero_caso,
+            "erro",
+            mensagem=(
+                "Chave de API inválida ou não autorizada. Verifique a API "
+                "Key na barra lateral."
+            ),
+        )
+    except anthropic.RateLimitError:
+        _registrar_status(
+            numero_caso,
+            "erro",
+            mensagem=(
+                "Limite de requisições da API da Anthropic atingido. "
+                "Aguarde um pouco e tente novamente."
+            ),
+        )
+    except anthropic.APIConnectionError:
+        _registrar_status(
+            numero_caso,
+            "erro",
+            mensagem=(
+                "Falha de conexão com a API da Anthropic. Verifique sua "
+                "internet e tente novamente."
+            ),
+        )
+    except anthropic.APIStatusError as e:
+        _registrar_status(
+            numero_caso,
+            "erro",
+            mensagem=f"Erro da API Anthropic (status {e.status_code}): {e.message}",
+        )
+    except Exception as e:  # noqa: BLE001 — rede de segurança intencional:
+        # uma thread de background que morre sem registrar status deixa a
+        # UI travada em "Analisando..." para sempre; ver docstring acima.
+        _registrar_status(numero_caso, "erro", mensagem=f"Erro inesperado na análise: {e}")
 
 AVISO_RASCUNHO = "⚠️ RASCUNHO — PARA REVISÃO DO ADVOGADO"
 
@@ -251,8 +331,77 @@ def exibir_resultado(numero_caso: str, resultado: dict[str, str]) -> None:
             st.code(markdown_combinado, language="markdown")
 
 
+def _exibir_status_analise(numero_caso: str) -> None:
+    """Mostra o status da análise em andamento para `numero_caso`, lendo de
+    `_ANALISES_EM_ANDAMENTO` (não de `st.session_state`, que a thread de
+    background não escreve diretamente — ver comentário no topo do
+    arquivo). Ao concluir, salva o resultado e o exibe; em caso de erro,
+    mostra a mensagem e permite descartar."""
+    with _LOCK:
+        estado = _ANALISES_EM_ANDAMENTO.get(numero_caso)
+
+    if estado is None:
+        # Processo reiniciado / estado perdido (ver limitação conhecida).
+        st.warning(
+            f"Não há registro da análise do caso **{numero_caso}** em "
+            "andamento (o servidor pode ter reiniciado). Tente novamente."
+        )
+        st.session_state.pop("caso_em_andamento", None)
+        return
+
+    if estado["status"] == "em_andamento":
+        st.info(f"🔄 Analisando caso **{numero_caso}**... (pode levar 3-5 minutos)")
+        st.button("🔄 Verificar status")  # qualquer clique já dispara um rerun
+        return
+
+    if estado["status"] == "erro":
+        st.error(f"Falha ao analisar o caso {numero_caso}: {estado['mensagem']}")
+        if st.button("Descartar"):
+            with _LOCK:
+                _ANALISES_EM_ANDAMENTO.pop(numero_caso, None)
+            st.session_state.pop("caso_em_andamento", None)
+            st.rerun()
+        return
+
+    # status == "concluido"
+    resultado = estado["resultado"]
+    salvar_analises(numero_caso, resultado)
+    st.session_state["ultimo_caso_numero"] = numero_caso
+    st.session_state["ultimo_caso_resultado"] = resultado
+    st.session_state.pop("caso_em_andamento", None)
+    with _LOCK:
+        _ANALISES_EM_ANDAMENTO.pop(numero_caso, None)
+
+    st.success(f"Análise do caso {numero_caso} concluída.")
+    exibir_resultado(numero_caso, resultado)
+
+
 def tab_novo_caso(api_key: str, modelo: str) -> None:
     st.subheader("Novo Caso")
+
+    caso_em_andamento = st.session_state.get("caso_em_andamento")
+    if caso_em_andamento:
+        _exibir_status_analise(caso_em_andamento)
+        st.divider()
+        st.caption(
+            "Aguarde a conclusão (ou descarte o erro acima) antes de "
+            "iniciar um novo caso."
+        )
+        return  # evita disparar uma segunda análise em paralelo
+
+    if st.session_state.get("ultimo_caso_resultado"):
+        # Resultado da última análise concluída nesta sessão, preservado
+        # entre reruns (ex.: o usuário foi para a Tab 2 e voltou).
+        with st.expander(
+            f"Último resultado desta sessão — caso "
+            f"{st.session_state['ultimo_caso_numero']}",
+            expanded=True,
+        ):
+            exibir_resultado(
+                st.session_state["ultimo_caso_numero"],
+                st.session_state["ultimo_caso_resultado"],
+            )
+        st.divider()
 
     with st.form("form_novo_caso"):
         nome_cliente = st.text_input("Nome do cliente")
@@ -292,48 +441,29 @@ def tab_novo_caso(api_key: str, modelo: str) -> None:
     numero_caso = gerar_numero_caso()
     st.info(f"Caso criado: **{numero_caso}**")
 
+    # Extração de PDF é rápida e local — feita aqui, no thread principal do
+    # script, antes de disparar a chamada à API em background (a thread de
+    # background não deve tocar em objetos UploadedFile nem em `st.*`).
     documentos = salvar_documentos(numero_caso, arquivos or [])
 
-    resultado = None
-    with st.spinner("Analisando... (pode levar 3-5 minutos)"):
-        try:
-            resultado = anthropic_client.analisar_caso(
-                nome_cliente=nome_cliente,
-                sexo=sexo,
-                data_nascimento=data_nascimento,
-                beneficio=beneficio,
-                documentos=documentos,
-                api_key=api_key,
-                modelo=modelo,
-            )
-        except anthropic_client.ErroAnaliseCaso as e:
-            st.error(str(e))
-        except anthropic.AuthenticationError:
-            st.error(
-                "Chave de API inválida ou não autorizada. Verifique a API "
-                "Key na barra lateral."
-            )
-        except anthropic.RateLimitError:
-            st.error(
-                "Limite de requisições da API da Anthropic atingido. "
-                "Aguarde um pouco e tente novamente."
-            )
-        except anthropic.APIConnectionError:
-            st.error(
-                "Falha de conexão com a API da Anthropic. Verifique sua "
-                "internet e tente novamente."
-            )
-        except anthropic.APIStatusError as e:
-            st.error(f"Erro da API Anthropic (status {e.status_code}): {e.message}")
+    kwargs_analise = dict(
+        nome_cliente=nome_cliente,
+        sexo=sexo,
+        data_nascimento=data_nascimento,
+        beneficio=beneficio,
+        documentos=documentos,
+        api_key=api_key,
+        modelo=modelo,
+    )
+    _registrar_status(numero_caso, "em_andamento")
+    threading.Thread(
+        target=_worker_analisar_caso,
+        args=(numero_caso, kwargs_analise),
+        daemon=True,
+    ).start()
 
-    if resultado is None:
-        return
-
-    salvar_analises(numero_caso, resultado)
-    st.session_state["ultimo_caso_numero"] = numero_caso
-    st.session_state["ultimo_caso_resultado"] = resultado
-
-    exibir_resultado(numero_caso, resultado)
+    st.session_state["caso_em_andamento"] = numero_caso
+    st.rerun()
 
 
 # --------------------------------------------------------------------------

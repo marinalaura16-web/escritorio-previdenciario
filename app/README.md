@@ -101,6 +101,32 @@ Cálculo (preços por milhão de tokens — MTok):
 > [anthropic.com/pricing](https://anthropic.com/pricing) antes de usar
 > essas estimativas para orçamento.
 
+## Base legislativa injetada no prompt
+
+Além dos prompts dos agentes/skills (que descrevem o *processo*, não o
+*conteúdo normativo*), o prompt enviado à API inclui o texto de 5 arquivos
+de `legislacao/` (INDICE.md, EC 103/2019, Lei 8.213/1991, Lei 8.742/1993,
+Decreto 3.048/1999 — cada um truncado em 50.000 caracteres) e as últimas
+200 linhas de dados das tabelas `inpc-historico.csv` e
+`tetos-rgps-historico.csv` (cabeçalho sempre preservado). A instrução ao
+modelo é explícita: **usar apenas essa base para citar dispositivos**, e
+marcar `[A CONFIRMAR NA FONTE OFICIAL]` para o que não estiver nela — ver
+`anthropic_client.carregar_base_legislativa()`.
+
+## Análise em background
+
+A chamada à API roda em uma `threading.Thread` separada (não bloqueia o
+script principal do Streamlit), com o status guardado em um dict a nível
+de módulo (`_ANALISES_EM_ANDAMENTO`, protegido por lock) em vez de
+`st.session_state` diretamente — a Streamlit não garante escrita segura em
+`session_state` fora da thread principal do script. Isso evita perder o
+resultado se a conexão websocket cair (ex.: o usuário troca de aba do
+navegador). Um botão "🔄 Verificar status" força um rerun para checar se a
+análise já terminou. **Limitação conhecida:** esse estado é de processo,
+não de sessão — sobrevive a uma reconexão, mas não a um reinício completo
+do servidor Streamlit (nesse caso raro, a análise em andamento se perde e
+o usuário precisa iniciar de novo).
+
 ## Limitações conhecidas desta versão simplificada
 
 - **Upload de documentos**: um único `file_uploader` com múltiplos
