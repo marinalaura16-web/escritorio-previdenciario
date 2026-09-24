@@ -375,3 +375,54 @@ verificar" acima e `leis-ordinarias/lei-13.846-2019.md`, Bloco 4). Resumo:
    deficiência") do art. 203, incisos IV-V, a confirmar no Planalto. Ver a
    lista completa em `constituicao/cf-1988-seguridade-social.md`, seção
    "Pendências desta apuração".
+
+### Encerramento da sessão (24/09/2026)
+
+**Estado geral: sistema estruturalmente completo.** Os blocos fundacionais
+de legislação (CF/88, EC 103/2019, Lei 8.213/1991, Lei 8.212/1991, Lei
+8.742/1993, Decretos 3.048/1999 e 6.214/2007, IN 128/2022, Leis 13.846/2019,
+15.327/2026 e 15.371/2026) e a jurisprudência vinculante crítica (ADI
+6309/DF e ADI 6096/DF, súmulas STF/STJ/TNU, temas de repercussão geral)
+estão populados e commitados. Todo o conteúdo segue com o aviso padrão de
+proveniência (fontes majoritariamente via WebSearch, sem WebFetch/curl
+neste ambiente) — nada foi conferido byte a byte no Planalto/STF.
+
+**Correção de numeração aplicada nesta sessão:** 13 correções de escopo na
+numeração dos parágrafos do art. 201 da CF em relação à lista originalmente
+sugerida (ver bloco "Bloco concluído — população da Constituição Federal"
+acima, item 2).
+
+**Pendências sob demanda** (não bloqueiam o uso da base, tratar quando
+necessário):
+- Parágrafos residuais do art. 201 da CF (§§ 12-14) e demais lacunas de
+  detalhe da CF (arts. 195, 198-200, 202 §2º, 204 parágrafo único).
+- Lei 12.101/2009 (CEBAS) — texto integral ainda não incorporado; e Tema
+  32/RE 566.622 (imunidade de entidades beneficentes) — identificado mas
+  não incorporado como entrada própria à jurisprudência vinculante.
+- Tema do STJ sobre o critério de renda do BPC (1/4 x 1/2 SM) — indício
+  não confirmado (possivelmente Tema 185), não incorporado.
+- `practice-profile.md` — dados de teste ("Escritório: Teste", "OAB:
+  Teste", "Advogado responsável: Teste") ainda não substituídos pelos
+  dados reais do escritório; usuária optou por não fornecê-los nesta
+  sessão (24/09/2026).
+- Modulação de efeitos da ADI 6309/DF — aguardando confirmação na fonte
+  oficial do STF (ver `adi-6309-2026-resumo.md`).
+- Lacunas residuais já registradas nos Blocos 5B/5C/5F (Decreto 3.048/1999,
+  Lei 8.212/1991 arts. 27/29/34-37, Decreto 6.214/2007, Lei 8.742/1993
+  arts. 23-40 artigo a artigo).
+
+**Padrão identificado nesta sessão (relevante para o método de trabalho
+deste projeto):** as listas de numeração de artigos/parágrafos fornecidas
+pela usuária nas instruções de tarefa apresentam erros recorrentes — não é
+um caso isolado. Ocorreu em praticamente todo bloco desta sessão: Decreto
+3.048/1999 ("arts. 100-120" → na verdade arts. 32-33 e 347-348), Lei
+8.212/1991 (arts. 11/13/14 e 32-37 com tópicos errados), Lei 8.742/1993
+(art. 21 presumido "benefícios eventuais", na verdade é revisão bienal),
+RE 611.601 (presumido Tema 32/CEBAS, na verdade é Tema 281/agroindústria),
+Lei 15.371/2026 (20 dias presumidos imediatos, na verdade escalonados até
+2029), e CF/88 art. 201 (13 correções de parágrafo em um único artigo).
+**Regra de trabalho consolidada: nunca aplicar a numeração ou o
+enquadramento temático sugerido por instrução sem verificação prévia via
+pesquisa — mesmo quando a instrução vem com alta confiança aparente.
+Divergência confirmada deve ser documentada explicitamente, nunca forçada
+para encaixar na expectativa original.**
