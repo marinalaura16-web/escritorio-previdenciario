@@ -101,38 +101,57 @@ Artigos-chave (numeração **corrigida** após a pesquisa de 24/09/2026):
     - Transição da aposentadoria por idade urbana: art. 18
     - Transição específica da aposentadoria especial (pontos 66/76/86): art. 21
   - Cálculo RMI: 60% da média + 2% por ano acima de 20/15 anos (art. 26, já detalhado)
-  - **Cobertura ampliada em 23/09/2026** (ver `emendas-constitucionais/ec-103-2019.md`,
-    seção "Demais Artigos" ao final do arquivo — **fontes secundárias via
-    WebSearch, sem WebFetch/curl, conferir no Planalto antes de citar**):
-    - **Art. 19 — aposentadoria especial (dispositivo crítico):** caput,
-      § 1º, I (alíneas a/b/c — idade mínima 55/58/60 anos) e § 1º, II
-      (professores), § 2º (remete ao art. 26). **As alíneas "a", "b" e "c"
-      do § 1º, I foram declaradas inconstitucionais pelo STF na ADI
-      6309/DF** (j. 03/06/2026) — segurado com 15/20/25 anos de efetiva
-      exposição não precisa mais de idade mínima; o restante do artigo
-      (tempo de exposição, § 1º II, § 2º) permanece válido.
-    - **Correção de numeração das regras de transição:** arts. 15, 16, 17,
-      18 e 20 tratam de tempo de contribuição comum; arts. 19 e 21 tratam
-      de aposentadoria especial (regra nova + transição específica,
-      intercalados, não contínuos) — ver nota de correção no próprio
-      arquivo.
+  - **Cobertura COMPLETA desde 09/10/2026 — fonte oficial (Bloco 9):** o
+    arquivo `emendas-constitucionais/ec-103-2019.md` foi **reconciliado
+    com o PDF oficial completo da Presidência da República/Casa Civil**
+    (fornecido pela usuária, anexado em `ec-103-2019-oficial.pdf`, mesma
+    pasta). **Todos os arts. 1º a 36 da própria Emenda, os 16 artigos da
+    CF por ela alterados e o art. 76 do ADCT estão marcados
+    `[FONTE OFICIAL CONFIRMADA]`** — nenhum dispositivo permanece
+    `[NÃO LOCALIZADO - PENDENTE]` ou `[DISPOSITIVO A CONFIRMAR]` nesse
+    arquivo. Ressalva: transcrição por leitura de imagem (modelo de
+    linguagem lendo o PDF página a página), não extração mecânica de
+    texto — conferir números críticos antes de petição de alto valor.
+    **Atenção: o arquivo tem ~60.200 caracteres, acima do limite de
+    50.000 usado por `app/anthropic_client.py`
+    (`MAX_CHARS_ARQUIVO_LEGISLACAO`) — o app trunca o final do arquivo ao
+    injetá-lo no prompt.**
+    - **Art. 19 — aposentadoria especial (dispositivo crítico):** o
+      **caput** é a regra geral de idade do RGPS para quem se filiou após
+      a EC (62 M/65 H + 15/20 anos); o **§ 1º** traz a aposentadoria
+      especial (inciso I, alíneas a/b/c — idade mínima 55/58/60 anos) e a
+      regra do professor (inciso II); § 2º remete ao art. 26. **As
+      alíneas "a", "b" e "c" do § 1º, I foram declaradas
+      inconstitucionais pelo STF na ADI 6309/DF** (j. 03/06/2026) —
+      segurado com 15/20/25 anos de efetiva exposição não precisa mais de
+      idade mínima; o restante do artigo permanece válido. **Correção
+      09/10/2026:** a versão anterior descrevia o conteúdo do § 1º como
+      se fosse o caput — corrigido com a fonte oficial.
+    - **Correção de numeração das regras de transição (confirmada pela
+      fonte oficial):** arts. 15, 16, 17, 18 e 20 tratam de tempo de
+      contribuição comum; arts. 19 e 21 tratam de aposentadoria especial
+      (regra nova + transição específica, intercalados, não contínuos).
     - **Art. 25, § 2º — conversão de tempo especial em comum:** vedada
       para tempo cumprido após 13/11/2019. Essa vedação **foi MANTIDA**
       pela ADI 6309/DF (não foi objeto da ação).
-    - **Arts. 22-24 — pensão por morte:** correção — pensão por morte está
-      nos **arts. 23-24** (cota familiar 50% + 10%/dependente; acumulação
-      com redutor); o **art. 22** trata de outro assunto (aposentadoria
+    - **Arts. 22-24 — pensão por morte:** pensão por morte está nos
+      **arts. 23-24** (cota familiar 50% + 10%/dependente; acumulação com
+      redutor nas faixas 60/40/20/10% — **antes pendente, agora
+      confirmado**); o **art. 22** trata de outro assunto (aposentadoria
       supletiva de servidor com deficiência em Estados/DF/Municípios).
-    - Arts. 1º-3º (disposições gerais RGPS/RPPS) e arts. 9º-18 (RPPS da
-      União, equilíbrio financeiro/atuarial): conteúdo geral localizado,
-      mas **sem segmentação confiável por número de artigo** dentro da
-      faixa — marcado `[NÃO LOCALIZADO - PENDENTE]` para a atribuição
-      exata.
-    - Arts. 4º-8º (transição de servidores RPPS) e arts. 28-34: **ainda
-      `[NÃO LOCALIZADO - PENDENTE]`** — nenhum conteúdo confiável
-      encontrado nesta sessão (um achado espúrio sobre arts. 28-34 foi
-      descartado por falta de convergência entre fontes — ver nota no
-      próprio arquivo).
+    - **Art. 26 (cálculo) — revisado com correções em relação à versão
+      anterior:** o § 2º, IV remete ao § 2º do art. 19 **como um todo**
+      (especial e professor), não só às alíneas a/b/c isoladamente; o
+      § 5º inclui também o inciso I do art. 21 e as mulheres filiadas ao
+      RGPS em geral (antes só a alínea "a" do art. 19 constava). Sem
+      impacto no resultado numérico do caso 2026-001.
+    - Arts. 1º-3º (disposições gerais RGPS/RPPS), arts. 4º-14 (transição
+      de servidores RPPS) e arts. 28-34 (custeio transitório RGPS):
+      **antes `[NÃO LOCALIZADO - PENDENTE]`, agora totalmente cobertos**
+      com fonte oficial — a hipótese de "tabela espúria" para os arts.
+      28-34 (percentuais por ano de contribuição) foi **confirmada como
+      incorreta**; o conteúdo real são alíquotas de contribuição do
+      segurado empregado/avulso e regras de custeio transitório.
     - Arts. 27, 35 e 36 (disposições finais, revogações, vigência):
       cobertos.
 

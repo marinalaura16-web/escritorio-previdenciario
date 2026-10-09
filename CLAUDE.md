@@ -533,7 +533,15 @@ do Claude Code.**
 
 ### 🎯 Próximos passos
 
-1. Refinar o prompt do app para injetar EC 103 com texto exato.
+1. ~~Refinar o prompt do app para injetar EC 103 com texto exato.~~
+   **Resolvido do lado da base em 09/10/2026 — ver "Sessão de 09/10/2026
+   — Bloco 9" abaixo.** O arquivo `ec-103-2019.md` agora tem texto
+   oficial completo (`[FONTE OFICIAL CONFIRMADA]` em todos os 36 artigos
+   da Emenda); **ressalva:** o arquivo (~60.200 caracteres) ultrapassa o
+   limite de truncamento do app (`MAX_CHARS_ARQUIVO_LEGISLACAO = 50_000`
+   em `app/anthropic_client.py`) — o app ainda corta o final do arquivo
+   ao montar o prompt. Ajuste do limite/estratégia de truncamento fica
+   como pendência separada, não resolvida nesta sessão.
 2. Adicionar CNIS completo do caso real como exemplo de contexto.
 3. Reavaliar execução em background (thread ou `@st.cache_resource`) só
    depois que o fluxo síncrono atual estiver validado em produção por um
@@ -586,3 +594,88 @@ público.
   `APP_PASSWORD` nos Secrets, testou sem senha/senha errada/senha certa
   no navegador do celular — "rodou tudo bem". Item 4 dos "Próximos
   passos" fechado de ponta a ponta (código + teste em produção).
+
+## Sessão de 09/10/2026 — Bloco 9 (EC 103/2019 — fonte oficial)
+
+**Tarefa:** a usuária forneceu o **PDF oficial completo da Emenda
+Constitucional nº 103/2019** (Presidência da República/Casa Civil/
+Subchefia para Assuntos Jurídicos, capturado do Planalto, com o rodapé
+"Este texto não substitui o publicado no DOU 13.11.2019"), copiado para
+`legislacao/emendas-constitucionais/ec-103-2019-oficial.pdf` (20 páginas,
+~495KB). Isso resolve, **para esta norma específica**, a limitação de
+WebFetch/curl documentada em toda a base desde a sessão de 21/09/2026: o
+arquivo `ec-103-2019.md`, antes montado só com fontes secundárias, foi
+**reconciliado com fonte primária**.
+
+- **O que mudou:** cobertura de ~13 artigos/blocos parciais (muitos
+  `[NÃO LOCALIZADO - PENDENTE]` ou `[DISPOSITIVO A CONFIRMAR]`, sobretudo
+  arts. 4º-8º, 9º-18 e 28-34) para os **36 artigos da própria Emenda
+  (1º a 36) + os 16 artigos da CF por ela alterados (art. 1º) + o art. 76
+  do ADCT (art. 2º), todos marcados `[FONTE OFICIAL CONFIRMADA]`**.
+  Lacunas fechadas: arts. 4º-14 (RPPS — pontos 86/96, idades 56/61→57/62,
+  alíquota 14% em 8 faixas), arts. 28-34 (custeio transitório RGPS —
+  alíquotas do segurado empregado/avulso, CSLL 20% de instituições
+  financeiras etc.), e as faixas percentuais de acumulação de benefícios
+  do art. 24, § 2º (60/40/20/10%, antes pendentes).
+- **Divergências relevantes encontradas e documentadas (não
+  sobrescritas silenciosamente, seguindo o padrão já consolidado deste
+  projeto):**
+  - **Art. 19** — a versão anterior descrevia o conteúdo do **§ 1º**
+    (aposentadoria especial/professor) como se fosse o **caput** do
+    artigo. O caput real é a regra geral de idade do RGPS para quem se
+    filiou **após** a EC (62 M/65 H + 15/20 anos) — conteúdo inexistente
+    na versão anterior.
+  - **Art. 26, § 2º, IV** — a versão anterior restringia a remissão às
+    "alíneas a/b/c do art. 19, § 1º, I"; o texto oficial remete ao § 2º
+    do art. 19 **como um todo** (especial **e** professor) e ao § 2º do
+    art. 21. Sem impacto no resultado numérico do caso 2026-001, mas a
+    cadeia de citação foi corrigida no arquivo.
+  - **Art. 26, § 5º** — faltavam duas hipóteses na versão anterior: o
+    inciso I do art. 21 (15 anos de exposição) e "as mulheres filiadas ao
+    RGPS" em geral (não só a alínea "a" do art. 19).
+  - **Arts. 28-34** — a hipótese de "tabela espúria" (percentuais por ano
+    de contribuição), já descartada por falta de convergência na sessão
+    de 23/09/2026, foi **confirmada como de fato incorreta** pelo texto
+    oficial; o conteúdo real são alíquotas de contribuição.
+  - **Art. 11** — a vigência diferida (4º mês após publicação), antes
+    registrada como hipótese não confirmada, foi **validada** pelo
+    próprio Art. 36, I, da EC.
+  - Lista completa de divergências (13 itens) na seção "Divergências
+    identificadas nesta reconciliação" do próprio `ec-103-2019.md`.
+- **Marcação `[INCONSTITUCIONAL - ADI 6309]` no art. 19, § 1º, I, alíneas
+  "a", "b" e "c" — preservada corretamente.** O texto do PDF é a redação
+  original de 2019 (anterior à decisão do STF); a marcação de
+  inconstitucionalidade superveniente foi mantida ao lado, exatamente
+  como já estava no arquivo antes desta reconciliação.
+- **Limitação residual, documentada no próprio arquivo e aqui:** a
+  transcrição foi feita por **leitura de página renderizada como imagem**
+  (modelo de linguagem lendo o PDF página a página via a ferramenta
+  `Read`), não por extração mecânica de texto literal. É uma fonte
+  primária muito mais confiável que fontes secundárias, mas **ainda
+  recomenda-se conferência pontual dos números críticos** (idades, anos
+  de contribuição, pontos, percentuais, valores em R$) antes de citar em
+  petição de alto valor.
+- **Hook `anti-alucinacao.py`:** o rascunho inicial foi bloqueado por
+  citar "CF, art. 37/38/149/167/239" (fora do escopo do arquivo
+  especializado `constituicao/cf-1988-seguridade-social.md`, que cobre só
+  o Título VIII) e "art. 29 da Lei 8.213/1991" sem o "nº" entre "Lei" e o
+  número. Corrigido escrevendo "da Constituição Federal" por extenso
+  nesses casos (mais preciso, já que esses artigos realmente não
+  pertencem ao escopo daquele arquivo especializado) e ajustando a
+  citação da Lei 8.213. Testes de sanidade continuam passando
+  (`python3 .claude/hooks/anti-alucinacao.py < /dev/null` → "TODOS OS
+  TESTES PASSARAM"). Nenhuma alteração foi necessária no `MAPA_NORMAS`.
+- **`legislacao/INDICE.md` atualizado:** entrada da EC 103/2019 (seção 2)
+  reescrita refletindo a cobertura completa por fonte oficial.
+- **Tamanho final do arquivo: ~60.200 caracteres — ultrapassa os 50.000
+  caracteres de `MAX_CHARS_ARQUIVO_LEGISLACAO` em
+  `app/anthropic_client.py`.** O item 1 dos "Próximos passos" abaixo
+  ("Refinar o prompt do app para injetar EC 103 com texto exato") fica
+  **resolvido do lado da base de dados** (o arquivo em si agora tem texto
+  oficial completo), mas o app, ao injetá-lo via
+  `carregar_base_legislativa()`, **trunca os últimos ~10.200 caracteres**
+  (que incluem as seções "Divergências identificadas" e "Status de
+  Cobertura" do final do arquivo). Registrado como aviso — **não
+  resolvido nesta sessão**, fica para avaliação futura (aumentar o
+  limite, resumir o arquivo, ou truncar por seção prioritária em vez de
+  por posição).
