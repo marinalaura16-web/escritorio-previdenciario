@@ -539,5 +539,46 @@ do Claude Code.**
    depois que o fluxo síncrono atual estiver validado em produção por um
    período razoável — ver "Limitações conhecidas" acima sobre por que a
    tentativa anterior foi revertida.
-4. Implementar autenticação simples (senha) para uso interno.
+4. ~~Implementar autenticação simples (senha) para uso interno.~~
+   **Concluído em 09/10/2026 — ver "Sessão de 09/10/2026" abaixo.**
 5. Migrar para servidor brasileiro quando o escritório validar o app.
+
+## Sessão de 09/10/2026 — Bloco 8 (Autenticação do app)
+
+**Tarefa:** item 4 dos "Próximos passos" do Status do Sistema —
+autenticação simples por senha para o app Streamlit, que até aqui era
+público.
+
+- **Implementado:** `exigir_autenticacao()` em `app/streamlit_app.py`,
+  chamada em `main()` logo após `configurar_pagina()` (antes da sidebar e
+  das abas). Gate por senha única, lida de `st.secrets["APP_PASSWORD"]`,
+  comparada com `hmac.compare_digest` (comparação em tempo constante).
+- **Falha fechada, deliberadamente:** se `APP_PASSWORD` não estiver
+  configurada, o app fica bloqueado com mensagem de erro — nunca abre sem
+  senha por omissão de configuração.
+- **Sem `st.rerun()`:** ao acertar a senha, a função só marca
+  `st.session_state["autenticado"] = True` e retorna (sem chamar
+  `st.stop()`), deixando `main()` seguir na mesma execução do script —
+  mantém a política "zero rerun automático" adotada na sessão anterior
+  após o incidente de loop em produção.
+- **Limitação deliberada, documentada no README:** é um gate simples de
+  uso interno, não uma barreira de segurança forte — uma única senha
+  compartilhada, sem usuários individuais, sem limite de tentativas
+  (nenhuma proteção a força bruta), sem expiração além da sessão do
+  navegador. Resolve parcialmente (não totalmente) o item "Falta
+  autenticação" das Limitações Conhecidas — mantido ali, só reformulado.
+- **Correção de inconsistência encontrada:** `app/README.md` ainda
+  descrevia a versão antiga do app com `threading.Thread` e
+  `_ANALISES_EM_ANDAMENTO` — removidos do código desde o Bloco 7
+  (commit `6fbd018`, sessão de 24/09/2026), mas o README nunca tinha sido
+  atualizado para refletir isso. Seção "Análise em background" trocada
+  por "Análise síncrona (sem background)".
+- **Validação:** `python3 -m py_compile` e `import anthropic_client`
+  passaram; fluxo completo testado via `streamlit.testing.v1.AppTest`
+  com um `secrets.toml` de teste (senha `teste123`, nunca commitado —
+  confirmado via `git status`, o arquivo nem aparece listado):
+  (1) sem `APP_PASSWORD` configurada → bloqueado, zero abas renderizadas;
+  (2) senha errada → "Senha incorreta", continua bloqueado; (3) senha
+  certa → autentica e já mostra as 2 abas **na mesma execução** (sem
+  precisar de um segundo rerun). Sem exceções em nenhum caso.
+- `app/.streamlit/secrets.toml.example` atualizado com `APP_PASSWORD`.

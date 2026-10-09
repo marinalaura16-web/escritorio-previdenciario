@@ -25,6 +25,7 @@ estável em produção.
 
 from __future__ import annotations
 
+import hmac
 import logging
 import re
 from datetime import datetime
@@ -435,6 +436,64 @@ def tab_casos_anteriores() -> None:
 # Main
 # --------------------------------------------------------------------------
 
+def _senha_configurada() -> str:
+    """Lê APP_PASSWORD de st.secrets. Devolve string vazia se não
+    configurada — nunca lança exceção (mesmo padrão de resolver_api_key)."""
+    try:
+        return st.secrets["APP_PASSWORD"]
+    except Exception:
+        return ""
+
+
+def exigir_autenticacao() -> None:
+    """Bloqueia o restante do app até a senha correta ser informada.
+
+    Gate simples por senha compartilhada, pensado para uso interno do
+    escritório — impede acesso casual de quem encontrar a URL pública.
+    NÃO é uma barreira de segurança forte: uma única senha para todo
+    mundo, sem usuários individuais, sem limite de tentativas (nenhuma
+    proteção contra força bruta), sem expiração além da sessão do
+    navegador. Não deve ser o único controle sobre dados de clientes
+    reais — ver "Limitações conhecidas" no README.
+
+    Se `APP_PASSWORD` não estiver configurada em `st.secrets`, o app fica
+    bloqueado com uma mensagem clara (falha FECHADA), em vez de abrir sem
+    senha — do contrário, um deploy sem secrets.toml desativaria a
+    proteção silenciosamente.
+
+    Sem `st.rerun()`: ao acertar a senha, a função apenas retorna (sem
+    chamar `st.stop()`) e `main()` segue normalmente na MESMA execução do
+    script — rerun automático foi removido deliberadamente deste app após
+    o loop de reruns em produção (ver nota de versão no topo do arquivo).
+    """
+    if st.session_state.get("autenticado"):
+        return
+
+    senha_correta = _senha_configurada()
+
+    st.title("Escritório Previdenciário")
+
+    if not senha_correta:
+        st.error(
+            "⚠️ Senha do app não configurada. Defina `APP_PASSWORD` em "
+            "`.streamlit/secrets.toml` (veja `secrets.toml.example`) "
+            "antes de usar o app."
+        )
+        st.stop()
+
+    with st.form("form_login"):
+        senha_digitada = st.text_input("Senha de acesso", type="password")
+        entrar = st.form_submit_button("Entrar")
+
+    if entrar:
+        if hmac.compare_digest(senha_digitada, senha_correta):
+            st.session_state["autenticado"] = True
+            return
+        st.error("Senha incorreta.")
+
+    st.stop()
+
+
 def main() -> None:
     # Log de diagnóstico: roda em TODO rerun do script, antes de qualquer
     # chamada Streamlit — logging não é uma chamada `st.*`, não conflita
@@ -444,6 +503,8 @@ def main() -> None:
     logger.info(f"session_state keys: {list(st.session_state.keys())}")
 
     configurar_pagina()
+    exigir_autenticacao()
+
     api_key, modelo = montar_sidebar()
 
     tab1, tab2 = st.tabs(["Novo Caso", "Casos Anteriores"])

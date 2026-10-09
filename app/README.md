@@ -48,9 +48,11 @@ coloque a chave direto no código.**
 2. Selecione o repositório `escritorio-previdenciario` e aponte o arquivo
    principal para `app/streamlit_app.py`.
 3. Em **Settings → Secrets**, cole o conteúdo de
-   `.streamlit/secrets.toml.example` preenchido com a chave real:
+   `.streamlit/secrets.toml.example` preenchido com a chave real e uma
+   senha de acesso:
    ```toml
    ANTHROPIC_API_KEY = "sk-ant-..."
+   APP_PASSWORD = "escolha-uma-senha-forte"
    ```
 4. Deploy. O tema (`app/.streamlit/config.toml`) e o limite de upload são
    aplicados automaticamente.
@@ -113,19 +115,35 @@ modelo é explícita: **usar apenas essa base para citar dispositivos**, e
 marcar `[A CONFIRMAR NA FONTE OFICIAL]` para o que não estiver nela — ver
 `anthropic_client.carregar_base_legislativa()`.
 
-## Análise em background
+## Autenticação
 
-A chamada à API roda em uma `threading.Thread` separada (não bloqueia o
-script principal do Streamlit), com o status guardado em um dict a nível
-de módulo (`_ANALISES_EM_ANDAMENTO`, protegido por lock) em vez de
-`st.session_state` diretamente — a Streamlit não garante escrita segura em
-`session_state` fora da thread principal do script. Isso evita perder o
-resultado se a conexão websocket cair (ex.: o usuário troca de aba do
-navegador). Um botão "🔄 Verificar status" força um rerun para checar se a
-análise já terminou. **Limitação conhecida:** esse estado é de processo,
-não de sessão — sobrevive a uma reconexão, mas não a um reinício completo
-do servidor Streamlit (nesse caso raro, a análise em andamento se perde e
-o usuário precisa iniciar de novo).
+O app exige uma senha única (`APP_PASSWORD` em `st.secrets`) antes de
+mostrar qualquer conteúdo — ver `exigir_autenticacao()` em
+`streamlit_app.py`. **É um gate simples para uso interno, não uma barreira
+de segurança forte:** uma única senha compartilhada por todo o escritório,
+sem usuários individuais, sem limite de tentativas (nenhuma proteção
+contra força bruta) e sem expiração além da sessão do navegador. Serve
+para impedir acesso casual de quem encontrar a URL pública — não deve ser
+o único controle sobre dados reais de clientes (ver item "Falta
+autenticação" em `CLAUDE.md`, que esta seção resolve parcialmente, não
+totalmente).
+
+Se `APP_PASSWORD` não estiver configurada, o app fica bloqueado com uma
+mensagem de erro (falha fechada) em vez de abrir sem senha.
+
+## Análise síncrona (sem background)
+
+A chamada à API é **síncrona** (bloqueante) — a página trava até a
+resposta voltar, o que pode levar 3-5 minutos. Esta é uma decisão
+deliberada: uma versão anterior rodava a análise em `threading.Thread`
+separada, com status dividido entre `st.session_state` e um dict a nível
+de módulo, mas isso causou um loop de reruns em produção (logs do
+Streamlit Cloud mostravam `session_state` sempre vazio, sinal de reruns
+repetidos sem progresso). Ver a nota de versão no topo de
+`streamlit_app.py` e `CLAUDE.md` (seção "Status do Sistema") para o
+histórico completo. Rodar em background pode voltar a ser considerado
+depois que o fluxo síncrono se mostrar estável por um período maior em
+produção — não antes.
 
 ## Limitações conhecidas desta versão simplificada
 
