@@ -44,7 +44,15 @@ TABELAS_BASE_LEGISLATIVA = (
     "legislacao/tabelas/tetos-rgps-historico.csv",
 )
 
-MAX_CHARS_ARQUIVO_LEGISLACAO = 50_000
+# 100.000 — com folga sobre o maior arquivo atual da base (lei-8.213-1991.md,
+# ~76.500 caracteres). O limite anterior (50.000) já truncava esse arquivo
+# silenciosamente havia semanas, sem que ninguém tivesse conferido os
+# tamanhos reais; achado ao investigar o truncamento da EC 103/2019
+# (60.187 caracteres após a reconciliação com o texto oficial em
+# 09/10/2026). Os modelos usados por este app têm 1M tokens de contexto —
+# a base inteira (hoje ~260k caracteres somando os 5 arquivos) continua
+# pequena nesse orçamento, então folga aqui custa pouco.
+MAX_CHARS_ARQUIVO_LEGISLACAO = 100_000
 MAX_LINHAS_TABELA = 200
 
 # max_tokens generoso (o retorno esperado — triagem + cálculo + análise
