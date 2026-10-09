@@ -534,14 +534,17 @@ do Claude Code.**
 ### 🎯 Próximos passos
 
 1. ~~Refinar o prompt do app para injetar EC 103 com texto exato.~~
-   **Resolvido do lado da base em 09/10/2026 — ver "Sessão de 09/10/2026
-   — Bloco 9" abaixo.** O arquivo `ec-103-2019.md` agora tem texto
-   oficial completo (`[FONTE OFICIAL CONFIRMADA]` em todos os 36 artigos
-   da Emenda); **ressalva:** o arquivo (~60.200 caracteres) ultrapassa o
-   limite de truncamento do app (`MAX_CHARS_ARQUIVO_LEGISLACAO = 50_000`
-   em `app/anthropic_client.py`) — o app ainda corta o final do arquivo
-   ao montar o prompt. Ajuste do limite/estratégia de truncamento fica
-   como pendência separada, não resolvida nesta sessão.
+   **Totalmente resolvido em 09/10/2026 — ver "Sessão de 09/10/2026 —
+   Bloco 9" abaixo.** O arquivo `ec-103-2019.md` tem texto oficial
+   completo (`[FONTE OFICIAL CONFIRMADA]` em todos os 36 artigos da
+   Emenda). A ressalva de truncamento (arquivo com ~60.200 caracteres
+   contra um limite de 50.000 em `MAX_CHARS_ARQUIVO_LEGISLACAO`) também
+   foi corrigida no mesmo dia (commit `571125a`): limite elevado para
+   100.000 caracteres, com folga sobre o maior arquivo atual da base
+   (`lei-8.213-1991.md`, ~76.500 caracteres — que também estava sendo
+   truncado silenciosamente, achado durante essa correção). Confirmado
+   via `carregar_base_legislativa()`: nenhum dos 5 arquivos é truncado
+   hoje.
 2. Adicionar CNIS completo do caso real como exemplo de contexto.
 3. Reavaliar execução em background (thread ou `@st.cache_resource`) só
    depois que o fluxo síncrono atual estiver validado em produção por um
@@ -679,3 +682,54 @@ arquivo `ec-103-2019.md`, antes montado só com fontes secundárias, foi
   resolvido nesta sessão**, fica para avaliação futura (aumentar o
   limite, resumir o arquivo, ou truncar por seção prioritária em vez de
   por posição).
+  **Atualização do mesmo dia:** resolvido horas depois, no commit
+  `571125a` — ver item 1 de "Próximos passos" em "Status do Sistema"
+  acima.
+
+## Monitoramento Semanal de Legislação Previdenciária
+
+**Configurado em 09/10/2026.** Rotina (Routine) agendada toda
+segunda-feira, 11h UTC (8h Brasília), via
+`mcp__Claude_Code_Remote__create_trigger` — dispara uma **sessão nova**
+a cada execução (`create_new_session_on_fire`), sem depender de nenhuma
+sessão de chat continuar aberta. Trigger ID: `trig_01EYEMK4CKQGfjZGuXUbv7uR`.
+
+**O que a rotina faz, toda semana:**
+1. Lê `CLAUDE.md` (incluindo esta seção, para não duplicar achados de
+   semanas anteriores) e `legislacao/INDICE.md`.
+2. Busca, via WebSearch (sem WebFetch/navegador neste ambiente — não é
+   uma varredura garantida das seções oficiais do DOU/INSS, é busca por
+   palavras-chave), publicações recentes do Ministério da Previdência
+   Social no Diário Oficial da União e atos normativos do INSS
+   (instruções normativas, portarias conjuntas).
+3. Para cada novidade confirmada com confiança razoável: atualiza o
+   arquivo apropriado em `legislacao/`, com os marcadores de proveniência
+   padrão do projeto (`[FONTE SECUNDÁRIA - CONFERIR NO PLANALTO]` /
+   `[NÃO LOCALIZADO - PENDENTE]`), atualiza `INDICE.md`, valida com o
+   hook `anti-alucinacao.py`, registra um bloco nesta seção
+   ("### Semana de DD/MM/AAAA"), e faz commit + push para
+   `claude/upbeat-curie-jmpgy8`.
+4. Tenta criar um rascunho de e-mail no Gmail (`mcp__Gmail__create_draft`,
+   endereçado a marinalaura16@gmail.com) resumindo os achados da semana
+   (ou confirmando que não houve novidade).
+
+**Limitação conhecida, não resolvida: notificação por Gmail
+provavelmente vai falhar toda semana.** A ferramenta de criação de
+rotinas (`create_trigger`) recusou o parâmetro `connectors` duas vezes
+nesta sessão, com o erro "the connectors parameter is not available for
+this organization" — é uma restrição de nível de organização/conta sobre
+esse parâmetro específico desta ferramenta, **não** sobre qual conta do
+Gmail está conectada (a usuária reconectou o e-mail no conector entre as
+duas tentativas e o erro persistiu, idêntico). Isso significa que a
+sessão disparada toda segunda-feira **não deve ter acesso às ferramentas
+`mcp__Gmail__*`**, mesmo a usuária tendo Gmail conectado no uso
+interativo (chat). A instrução da rotina já prevê esse cenário: se a
+ferramenta do Gmail não estiver disponível, a sessão registra um aviso
+explícito no bloco da semana em vez de travar ou tentar contornar.
+**Caminho recomendado para resolver de verdade:** recriar esta rotina
+pela interface web do claude.ai (não pela ferramenta `create_trigger` de
+dentro do Claude Code), onde a vinculação de conectores a uma rotina pode
+funcionar de forma diferente. Enquanto isso não for feito, a parte de
+monitoramento/atualização da base funciona normalmente — só a
+notificação por e-mail fica pendente; confira esta seção manualmente
+toda semana até resolver.
