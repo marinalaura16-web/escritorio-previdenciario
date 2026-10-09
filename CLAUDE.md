@@ -582,3 +582,7 @@ público.
   certa → autentica e já mostra as 2 abas **na mesma execução** (sem
   precisar de um segundo rerun). Sem exceções em nenhum caso.
 - `app/.streamlit/secrets.toml.example` atualizado com `APP_PASSWORD`.
+- **Confirmado pela usuária em produção (Streamlit Cloud)**: configurou
+  `APP_PASSWORD` nos Secrets, testou sem senha/senha errada/senha certa
+  no navegador do celular — "rodou tudo bem". Item 4 dos "Próximos
+  passos" fechado de ponta a ponta (código + teste em produção).
