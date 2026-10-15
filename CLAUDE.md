@@ -19,6 +19,13 @@ Sistema multiagente para automatizar tarefas de um escritório de Direito Previd
 3. NUNCA afirme diagnóstico médico sem CID explícito no documento.
 4. Sempre leia practice-profile.md e legislacao/INDICE.md antes de executar qualquer skill.
 5. Mantenha casos organizados em casos/{numero}/
+6. **Toda petição gerada por este sistema (`redacao-peticao`/`peticao-previdenciaria`)
+   deve ser entregue como arquivo Word (.docx), com o timbrado oficial de
+   Tallyta Bione Advogados, via skill de conta `tallyta-bione-timbre` — nunca
+   apenas o rascunho `.md` como entrega final.** Configurado em 15/10/2026 —
+   ver "Sessão de 15/10/2026 — Bloco 11" para o detalhamento, a limitação de
+   ferramentas (quem gera o `.docx` é a sessão principal, não o subagente) e
+   a ressalva sobre recurso ao CRPS.
 
 ## Base de Legislação
 A pasta legislacao/ contém toda a base normativa. Consulte sempre antes de redigir.
@@ -842,3 +849,81 @@ completar arts. 29 e 52-56 da Lei 8.213/1991; alinhar os pré-requisitos de
 `redacao-peticao` aos nomes de arquivo reais usados nos casos
 (`triagem-viabilidade.md`, não `triagem.md`/`calculo.md`/
 `divergencias-cnis-ctps.md`).
+
+## Sessão de 15/10/2026 — Bloco 11 (regra: entrega de petição em Word com timbre oficial)
+
+**Tarefa:** a usuária pediu para configurar como regra permanente que toda
+petição gerada pelo sistema use a skill de petição já existente no projeto
+e seja entregue em formato pronto para revisão do advogado.
+
+**Esclarecimento decisivo nesta sessão: o nome real do escritório é
+Tallyta Bione Advogados** (confirmado pela usuária), não "Teste" como
+`practice-profile.md` registrava desde a criação do projeto. Existe, em
+nível de conta (não neste repositório), a skill `tallyta-bione-timbre`,
+que já declara na própria descrição: "Toda petição pedida pela Marina é
+gerada por esta skill, sem exceção." Ou seja, a regra pedida já existe do
+lado da conta — o que faltava era este projeto apontar para ela
+explicitamente e produzir a entrega final no formato certo.
+
+**Decisão de formato: Word (.docx), não PDF.** A usuária pediu PDF
+inicialmente, mas corrigiu durante a conversa: quer `.docx` porque os
+advogados ainda vão revisar/editar a peça antes de protocolar — PDF
+dificultaria isso. **Regra inviolável 6 adicionada** (ver seção acima).
+
+**Arquivos atualizados:**
+- `practice-profile.md`: dados reais do escritório (Tallyta Bione
+  Advogados, OAB/PE 27.251, Anna Tallyta Bione de Sá Carvalho, endereço,
+  e-mail e telefone — os mesmos da skill de timbre), substituindo os dados
+  de teste que estavam pendentes desde a sessão de 24/09/2026. Seção
+  "Modelos de Peça Preferidos" atualizada com a nova regra e a ressalva
+  sobre o recurso ao CRPS (abaixo).
+- `.claude/agents/redacao-peticao.md` e `.claude/skills/peticao-previdenciaria/
+  SKILL.md`: nota de "Entrega final" apontando para a regra 6.
+
+**Achado de arquitetura (mesma classe do Bloco 10): o subagente
+`redacao-peticao` não tem acesso a `Skill` nem a `Bash`** (só `Read, Write,
+Glob, Grep`), então não consegue, ele mesmo, rodar `tb_timbre.py`
+(`python-docx`) para gerar o `.docx` final. A geração do Word com timbre
+**precisa acontecer na sessão principal** (que tem `Bash` e `Skill`), não
+dentro do subagente — documentado nos dois arquivos acima. Na prática: o
+subagente/skill continuam produzindo só o *conteúdo* (fatos, direito,
+jurisprudência, pedidos); quem monta o `.docx` final sou eu, nesta sessão,
+usando esse conteúdo como insumo.
+
+**Ressalva de escopo, não resolvida nesta sessão: recurso ao CRPS.** A
+skill `tallyta-bione-timbre` tem fórmulas de endereçamento só para peças
+judiciais (JEF, Vara Federal comum, TJPE, Vara do Trabalho, Turma
+Recursal). O recurso administrativo ao CRPS (agente `recurso-crps`) não é
+dirigido a um juízo, e sim à Junta de Recursos do INSS — não há fórmula
+de endereçamento própria na skill para esse caso. A regra 6, por ora,
+**aplica-se confirmadamente só à petição inicial** (`redacao-peticao`/
+`peticao-previdenciaria`); estender ao recurso-crps exigiria primeiro
+definir (com a usuária ou com a própria skill de timbre) a fórmula de
+endereçamento ao CRPS, o que não foi feito aqui.
+
+**Validação end-to-end:** para provar que a regra funciona na prática
+(não só documentá-la), a petição de `casos/2026-TESTE-001/minutas/
+peticao-inicial-DRAFT.md` (gerada no teste de orquestração do Bloco 10) foi
+transcrita para o padrão oficial e salva em `casos/2026-TESTE-001/
+minutas/peticao-inicial-2026-TESTE-001.docx`, usando exclusivamente as
+primitivas de `tb_timbre.py` (sem reescrever a mecânica da skill). Passou
+pela função `verificar(doc)` da própria skill (sem travessão fora de
+estrutura, sem marcador markdown cru, sem placeholder dos tipos
+INSERIR/PREENCHER/A DEFINIR) e foi entregue à usuária via `SendUserFile`.
+**Dados pessoais da cliente de teste (CPF, RG, endereço, estado civil)
+ficaram como `____`** — convenção já usada pela própria skill para número
+de vara ausente — em vez de colchetes com "A PREENCHER" (isso seria
+bloqueado pela própria `verificar()`); o advogado deve substituir antes do
+protocolo real. `python-docx` precisou ser instalado neste ambiente
+(`pip install python-docx`) — não vinha pré-instalado.
+
+**Limitação de ambiente encontrada e não resolvida:** o passo 5 do fluxo
+da própria skill (converter para PDF com `soffice --headless` e inspecionar
+visualmente se o texto não invade o timbrado) **não funciona neste
+ambiente** — `soffice --convert-to pdf` falha com "source file could not
+be loaded" mesmo para um `.docx` trivial recém-criado (não é um problema
+do arquivo gerado, testado e confirmado via `python-docx`). Causa não
+diagnosticada (não é falta do binário — `soffice --version` funciona).
+Enquanto isso não for resolvido, a inspeção visual de página (texto vs.
+logo/rodapé do timbrado) só pode ser feita abrindo o `.docx` de verdade no
+Word/LibreOffice, fora deste ambiente.

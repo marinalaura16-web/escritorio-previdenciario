@@ -1,9 +1,12 @@
 # Practice Profile
 
 ## Identificação
-- Escritório: Teste
-- OAB: Teste
-- Advogado responsável: Teste
+- Escritório: Tallyta Bione Advogados
+- OAB: OAB/PE 27.251
+- Advogado responsável: Anna Tallyta Bione de Sá Carvalho
+- Endereço profissional: R. dos Palmares, nº 263, Santo Amaro, Recife/PE, CEP 50.100-060
+- E-mail: tallytabione@hotmail.com
+- Telefone/WhatsApp: (81) 98246-5922
 
 ## Foco de Atuação
 - [x] Previdenciário puro (aposentadorias, auxílios, pensões do INSS)
@@ -29,13 +32,23 @@
 11. Revisão de benefício
 
 ## Modelos de Peça Preferidos
-- Petição inicial: Padrão JEF
-- Recurso CRPS: (a definir)
+- Petição inicial: Padrão JEF. **Entrega final sempre em Word (.docx), com o
+  timbrado oficial do escritório, via skill de conta `tallyta-bione-timbre`**
+  (ver `CLAUDE.md`, regra inviolável 6, e nota em `.claude/agents/
+  redacao-peticao.md`) — não apenas o rascunho em markdown.
+- Recurso CRPS: (a definir). **Atenção:** a skill `tallyta-bione-timbre` cobre
+  endereçamento judicial (JEF, TRF, TJPE, Vara do Trabalho); o recurso
+  administrativo ao CRPS não tem fórmula de endereçamento própria nela —
+  ver ressalva na seção correspondente do `CLAUDE.md`.
 
 ## Convenções
 - Formato de citação: Manual da OAB
 - Tom: Formal e técnico
 - Sempre incluir: Justiça gratuita, tutela de urgência, intimação do INSS
+- Travessão (— ou -) proibido no texto corrido das peças finais (ver regras da
+  skill `tallyta-bione-timbre`); usar vírgula, ponto e vírgula, dois pontos ou
+  parênteses.
 
 ## Observações
-- Campos marcados como "Teste" devem ser substituídos pelos dados reais antes do uso em produção.
+- Dados de identificação confirmados pela usuária em 15/10/2026 (antes
+  "Teste" neste arquivo).

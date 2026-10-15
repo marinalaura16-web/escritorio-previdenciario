@@ -19,3 +19,9 @@ I. DOS FATOS, II. DO DIREITO, III. DA JURISPRUDÊNCIA, IV. DOS PEDIDOS, V. DO VA
 
 ## Regras
 - NUNCA invente jurisprudência. Se não tiver certeza, [JURISPRUDÊNCIA A CONFIRMAR].
+
+## Entrega final (regra inviolável 6 do CLAUDE.md, desde 15/10/2026)
+Esta skill produz só o conteúdo. A entrega final é sempre um `.docx` gerado
+pela skill de conta `tallyta-bione-timbre` (timbrado oficial de Tallyta
+Bione Advogados) — ver detalhamento e limitação de ferramentas em
+`.claude/agents/redacao-peticao.md`.
