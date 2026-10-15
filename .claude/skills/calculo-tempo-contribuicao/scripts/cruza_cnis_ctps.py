@@ -11,6 +11,7 @@ Uso:
 import argparse
 import json
 import re
+import sys
 
 
 def normalizar_mes_ano(texto):
@@ -248,6 +249,36 @@ def main():
 
     vinculos_cnis = parse_vinculos(cnis_text, "CNIS")
     vinculos_ctps = parse_vinculos(ctps_text, "CTPS")
+
+    # Falha alto em vez de devolver "0 vinculos" com sucesso (achado do
+    # teste de orquestracao de 15/10/2026: um documento nao vazio que
+    # produz zero vinculos quase sempre significa que o formato das
+    # linhas nao bate com as ancoras esperadas -- PADRAO_LINHA_VINCULO_CNIS
+    # (Seq. + NIT) e PADRAO_LINHA_CONTRATO_CTPS (data - data/Aberto, linha
+    # isolada) -- e nao que o segurado nao tem vinculo algum. Silenciar
+    # isso levaria a tratar "0 anos de contribuicao" como resultado
+    # determinístico quando na verdade o script nao leu o documento.
+    if cnis_text.strip() and not vinculos_cnis:
+        print(
+            "ERRO: nenhum vinculo reconhecido no CNIS, mas o arquivo nao "
+            "esta vazio. O parser exige linha com '<seq> <NIT DDD.DDDDD.DD-D>' "
+            "e datas completas DD/MM/AAAA -- formatos como 'MM/AAAA' sem "
+            "NIT por linha nao sao reconhecidos. Nao confie em '0 vinculos' "
+            "como resultado; verifique o formato do arquivo de entrada.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    if ctps_text.strip() and not vinculos_ctps:
+        print(
+            "ERRO: nenhum vinculo reconhecido na CTPS, mas o arquivo nao "
+            "esta vazio. O parser exige uma linha isolada no formato "
+            "'DD/MM/AAAA - DD/MM/AAAA' ou 'DD/MM/AAAA - Aberto' -- outros "
+            "formatos (ex.: anotacao com texto na mesma linha, datas "
+            "MM/AAAA) nao sao reconhecidos. Nao confie em '0 vinculos' "
+            "como resultado; verifique o formato do arquivo de entrada.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     resultado = cruzar(vinculos_cnis, vinculos_ctps)
 

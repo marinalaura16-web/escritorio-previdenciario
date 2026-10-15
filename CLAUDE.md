@@ -733,3 +733,112 @@ funcionar de forma diferente. Enquanto isso não for feito, a parte de
 monitoramento/atualização da base funciona normalmente — só a
 notificação por e-mail fica pendente; confira esta seção manualmente
 toda semana até resolver.
+
+## Sessão de 15/10/2026 — Bloco 10 (teste de orquestração multiagente)
+
+**Tarefa:** testar o fluxo completo do sistema multiagente (`orquestrador-prev`
+coordenando os subagentes especialistas) sobre um caso real, pela primeira vez
+desde que a base de legislação foi populada. Usado `casos/2026-TESTE-001/`
+(indeferimento de aposentadoria por tempo de contribuição), cuja triagem de
+19/09/2026 foi feita com a base de legislação **vazia**.
+
+**Achado arquitetural central: a coordenação multiagente real não funciona.**
+Ao ser acionado via `Agent` (subagente desta sessão principal), o
+`orquestrador-prev` **não recebeu a ferramenta `Agent`**, mesmo o próprio
+`.claude/agents/orquestrador-prev.md` declarando `tools: ..., Agent`. Também
+não tinha `Edit`. Causa mais provável: a plataforma não permite agentes
+aninhados disparando outros agentes (proteção contra recursão descontrolada) —
+não é um erro de configuração deste projeto. **Consequência prática para o
+dia a dia:** a orquestração de verdade (classificar a demanda e acionar o
+subagente certo) deve continuar acontecendo **nesta sessão principal do
+Claude Code**, com cada especialista sendo acionado diretamente — exatamente
+como já vinha sendo feito em todas as sessões anteriores. `orquestrador-prev`
+e os demais agentes de `.claude/agents/` funcionam bem como **protocolos/
+papéis** a seguir (por esta sessão ou, se acionado isoladamente, por si
+mesmo via sua própria "Regra de Ouro" de refazer a análise), não como peças
+de um sistema que se autocoordena sem supervisão.
+
+**Mesmo sem conseguir delegar, o teste produziu trabalho jurídico real e de
+boa qualidade** (verificado por leitura direta dos arquivos, não só pelo
+relato do agente): `casos/2026-TESTE-001/analises/analise-indeferimento.md`,
+`casos/2026-TESTE-001/minutas/{recurso-crps,peticao-inicial}-DRAFT.md` e
+`casos/2026-TESTE-001/analises/TESTE-ORQUESTRACAO-relatorio.md` (relatório
+técnico detalhado, com tabela comparando os 16 itens pendentes da triagem de
+19/09 contra o que a base hoje permite fundamentar — 9 resolvidos com fonte
+oficial, 2 só secundária, 5 ainda pendentes). Achados jurídicos novos
+relevantes: o prazo do recurso ordinário ao CRPS está vencido (IN 128/2022,
+arts. 580/597), salvo prova de notificação inválida; parte dos carnês de
+contribuinte individual pode ter alíquota reduzida sem complementação (IN
+128, art. 216, V, "a"), o que fragilizaria a tese de erro do INSS; e a IN
+128, art. 576, § único, pode permitir reabertura administrativa do processo
+anterior preservando a DIB. Decisão sobre comitar esses arquivos de caso-teste
+ainda pendente (ver próxima seção do dia, se houver).
+
+**Bugs reais encontrados e corrigidos nesta sessão** (todos com teste antes/
+depois confirmando a correção, sem regressão):
+
+1. **`.claude/hooks/anti-alucinacao.py`** — três problemas reais:
+   - A lista de marcadores de liberação (`tem_marcacao_confirmar`) exigia
+     string exata (`"[DISPOSITIVO A CONFIRMAR]"`), mas a base usa
+     predominantemente `"[DISPOSITIVO A CONFIRMAR NA BASE — ...]"` (com
+     complemento livre). Trocado por um regex que reconhece qualquer
+     colchete contendo "A CONFIRMAR", "CONFERIR NO PLANALTO", "NÃO
+     LOCALIZADO" ou "PENDENTE".
+   - A extração de citações (`PADRAO_CITACAO`) não reconhecia "/AAAA" após
+     o número da norma (`"Lei 8.213/1991"`), "nº" (`"Decreto nº 3.048"`)
+     nem § /inciso/alínea entre o artigo e "da/do NORMA"
+     (`"art. 20, § 2º, II, da EC 103"`) — todos agora aceitos.
+   - `dispositivo_existe` fazia `substring in arquivo`, o que dava falso
+     positivo (`"CF, art. 5"` passava só porque o caractere "5" existe em
+     algum lugar do arquivo; `"Lei 8.213, art. 54"` passava por um título
+     de artigo sem conteúdo) e falso negativo (artigos da IN 128/2022 que
+     só estão no PDF de 244 páginas, não no resumo `.md`, eram bloqueados
+     mesmo existindo oficialmente). Corrigido: exige `art. N` como token
+     delimitado (não seguido de outro dígito) e passou a indexar também um
+     `.txt` extraído mecanicamente (`pdftotext -layout`) do PDF oficial,
+     quando existir, ao lado do resumo `.md` — gerados nesta sessão
+     `emendas-constitucionais/ec-103-2019-oficial.txt` e
+     `instrucoes-normativas/in-128-2022.txt`.
+   - Testes de sanidade (`python3 .claude/hooks/anti-alucinacao.py </dev/null`)
+     ampliados com os 3 novos formatos de citação; todos passam.
+   - **Limitações conhecidas, não corrigidas (decisão deliberada, não
+     esquecimento):** (i) o marcador de liberação ainda vale para o
+     **documento inteiro**, não por citação individual — uma correção
+     completa exigiria associar cada marcador à citação mais próxima, risco
+     de regressão maior que o benefício nesta rodada; (ii) o hook só
+     intercepta `Write`/`Edit` — uma gravação feita via `Bash` (ex.:
+     `cat > arquivo.md`) **não passa pela validação**. Ambas as limitações
+     foram verificadas como reais no teste de orquestração, mas nenhuma
+     citação errada chegou a ser gravada por causa delas nesta sessão.
+2. **`.claude/skills/calculo-tempo-contribuicao/scripts/cruza_cnis_ctps.py`**
+   — o script exige datas completas (`DD/MM/AAAA`) e NIT por linha no CNIS
+   (formato de extrato oficial); documentos em formato simplificado
+   (`MM/AAAA`, sem NIT por linha — como os de `2026-TESTE-001`) resultavam
+   em **"0 vínculos" com código de saída 0 (sucesso)**, silenciosamente.
+   Corrigido: se o arquivo de entrada não está vazio mas nenhum vínculo foi
+   reconhecido, o script agora termina com erro (código 1) e mensagem
+   explicando o formato esperado, em vez de devolver um resultado vazio
+   como se fosse definitivo. Testado o caminho feliz (continua funcionando
+   normalmente) e o caminho de falha (agora falha alto, como deveria).
+3. **`legislacao/emendas-constitucionais/ec-103-2019.md`** — 2 erros
+   factuais, achados pelo teste e **conferidos nesta sessão contra o texto
+   extraído do PDF oficial** antes de corrigir (não apenas aceitos por
+   relato): (i) art. 15, § 3º (professor) exigia, segundo o arquivo, "25
+   anos de contribuição (ambos os sexos)" — o texto oficial diz **25 anos
+   se mulher, 30 anos se homem**; (ii) art. 26, § 2º, I (e a entrada
+   correspondente na lista de "Divergências identificadas") descreviam as
+   remissões ao art. 4º §6º,II / art. 15 §4º / art. 16 §3º / art. 18 §2º
+   como "hipóteses de professor" — são, na verdade, as **cláusulas gerais
+   de valor** das regras de pontos/idade progressiva/idade urbana,
+   aplicáveis a qualquer segurado nessas regras, não restritas a
+   professor. Ambos corrigidos com marcação `[CORRIGIDO EM 15/10/2026]` no
+   próprio texto, sem apagar o histórico da correção anterior.
+
+**Recomendações do próprio teste, registradas mas não executadas nesta
+sessão** (fora do escopo imediato de correção de bugs): dar `Bash`/`Grep`
+aos especialistas que precisam ler PDFs da base; completar o capítulo de
+recursos do Decreto 3.048/1999 e o Regimento Interno do CRPS (ausentes);
+completar arts. 29 e 52-56 da Lei 8.213/1991; alinhar os pré-requisitos de
+`redacao-peticao` aos nomes de arquivo reais usados nos casos
+(`triagem-viabilidade.md`, não `triagem.md`/`calculo.md`/
+`divergencias-cnis-ctps.md`).

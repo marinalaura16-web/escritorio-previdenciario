@@ -20,55 +20,130 @@ HOOK_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_PATH = os.path.join(HOOK_DIR, "..", "..", "legislacao")
 BASE_PATH = os.path.normpath(BASE_PATH)
 
+# Cada norma mapeia para uma LISTA de arquivos (resumo .md e, quando houver,
+# o .txt extraido mecanicamente do PDF oficial na base -- ver "Observacao
+# sobre fontes PDF" abaixo). O hook considera o dispositivo presente se ele
+# aparecer em QUALQUER arquivo da lista.
 MAPA_NORMAS = {
-    "CF": "constituicao/cf-1988-seguridade-social.md",
-    "LEI 8.213": "leis-ordinarias/lei-8.213-1991.md",
-    "LEI 8.212": "leis-ordinarias/lei-8.212-1991.md",
-    "DECRETO 3.048": "decretos/decreto-3.048-1999.md",
-    "EC 103": "emendas-constitucionais/ec-103-2019.md",
-    "IN 128": "instrucoes-normativas/in-128-2022.md",
-    "LEI 15.327": "leis-ordinarias/lei-15.327-2026.md",
-    "LEI 15.371": "leis-ordinarias/lei-15.371-2026.md",
-    "LEI 8.742": "leis-ordinarias/lei-8.742-1993.md",
-    "LEI 13.846": "leis-ordinarias/lei-13.846-2019.md",
-    "DECRETO 6.214": "decretos/decreto-6.214-2007.md",
+    "CF": ["constituicao/cf-1988-seguridade-social.md"],
+    "LEI 8.213": ["leis-ordinarias/lei-8.213-1991.md"],
+    "LEI 8.212": ["leis-ordinarias/lei-8.212-1991.md"],
+    "DECRETO 3.048": ["decretos/decreto-3.048-1999.md"],
+    "EC 103": [
+        "emendas-constitucionais/ec-103-2019.md",
+        "emendas-constitucionais/ec-103-2019-oficial.txt",
+    ],
+    "IN 128": [
+        "instrucoes-normativas/in-128-2022.md",
+        "instrucoes-normativas/in-128-2022.txt",
+    ],
+    "LEI 15.327": ["leis-ordinarias/lei-15.327-2026.md"],
+    "LEI 15.371": ["leis-ordinarias/lei-15.371-2026.md"],
+    "LEI 8.742": ["leis-ordinarias/lei-8.742-1993.md"],
+    "LEI 13.846": ["leis-ordinarias/lei-13.846-2019.md"],
+    "DECRETO 6.214": ["decretos/decreto-6.214-2007.md"],
 }
+
+# Observacao sobre fontes PDF (achado do teste de orquestracao de
+# 15/10/2026): quando uma norma tem PDF oficial na base (ex.: EC 103/2019,
+# IN 128/2022), o resumo .md cobre so trechos/faixas de artigos. Gerar o
+# .txt ao lado do PDF com `pdftotext -layout arquivo.pdf arquivo.txt` e
+# adiciona-lo na lista acima evita falso "fora da base" para artigos que
+# so estao no PDF integral. Normas sem PDF na base continuam dependendo
+# so do resumo .md.
+
+_CACHE_CONTEUDO = {}
+
+
+def _conteudo_normalizado(caminho):
+    """Le o arquivo e devolve o texto com espacos/quebras de linha
+    colapsados em um unico espaco, para casar citacoes que o pdftotext
+    partiu em linhas diferentes. Cacheia por caminho (o hook roda uma vez
+    por chamada, mas um Write pode citar varios dispositivos da mesma
+    norma)."""
+    if caminho in _CACHE_CONTEUDO:
+        return _CACHE_CONTEUDO[caminho]
+    try:
+        with open(caminho, 'r', encoding='utf-8', errors='ignore') as f:
+            texto = re.sub(r'\s+', ' ', f.read())
+    except Exception:
+        texto = ""
+    _CACHE_CONTEUDO[caminho] = texto
+    return texto
 
 
 def dispositivo_existe(norma, artigo):
-    """Retorna True se o dispositivo for encontrado na base."""
-    for chave, arquivo in MAPA_NORMAS.items():
+    """Retorna True se o dispositivo for encontrado na base.
+
+    Exige que o numero do artigo apareca logo apos a palavra "art." (nao
+    como numero solto em qualquer lugar do arquivo, e nao como prefixo de
+    um numero maior -- ex.: buscar "5" nao deve casar dentro de "art. 54").
+    """
+    padrao_artigo = re.compile(
+        r'art\.?\s*' + re.escape(artigo) + r'(?!\d)', re.IGNORECASE
+    )
+    for chave, arquivos in MAPA_NORMAS.items():
         if chave in norma.upper():
-            caminho = os.path.join(BASE_PATH, arquivo)
-            if os.path.exists(caminho):
-                try:
-                    with open(caminho, 'r', encoding='utf-8', errors='ignore') as f:
-                        if artigo in f.read():
-                            return True
-                except Exception:
-                    pass
+            for arquivo in arquivos:
+                caminho = os.path.join(BASE_PATH, arquivo)
+                if os.path.exists(caminho):
+                    if padrao_artigo.search(_conteudo_normalizado(caminho)):
+                        return True
     return False
 
 
+# Marcadores de proveniencia usados no projeto (ver CLAUDE.md e os arquivos
+# em legislacao/) nao sao strings fixas: quase todos trazem um complemento
+# livre depois de um travessao/em-dash (ex.: "[DISPOSITIVO A CONFIRMAR NA
+# BASE - nao consta do INDICE.md]"). Um match exato de string perdia esses
+# casos (achado do teste de 15/10/2026). Em vez de listar variantes,
+# reconhece qualquer colchete cujo conteudo contenha uma destas palavras-
+# chave de proveniencia pendente/secundaria.
+PADRAO_MARCADOR = re.compile(
+    r'\[[^\]]*(?:'
+    r'A CONFIRMAR'
+    r'|CONFERIR NO PLANALTO'
+    r'|N[ÃA]O LOCALIZADO'
+    r'|PENDENTE'
+    r')[^\]]*\]',
+    re.IGNORECASE
+)
+
+
 def tem_marcacao_confirmar(texto):
-    """Verifica se o texto contem a marcacao de confirmacao."""
-    marcadores = [
-        "[DISPOSITIVO A CONFIRMAR]",
-        "[JURISPRUDÊNCIA A CONFIRMAR]",
-        "[JURISPRUDENCIA A CONFIRMAR]",
-        "[A CONFIRMAR]",
-    ]
-    return any(m in texto for m in marcadores)
+    """Verifica se o texto contem alguma marcacao de confirmacao/pendencia."""
+    return bool(PADRAO_MARCADOR.search(texto))
 
 
-# Reconhece dois formatos de citacao legislativa:
+# Reconhece dois formatos de citacao legislativa, tolerando variacoes reais
+# encontradas na base (achado do teste de 15/10/2026): "nº"/"n.º" entre a
+# norma e o numero, "/AAAA" apos o numero da norma (ex.: "Lei 8.213/1991"),
+# e paragrafo/inciso/alinea entre o artigo e "da/do NORMA" (ex.: "art. 20,
+# § 2º, II, da EC 103"):
 #   1) "NORMA, art. N"      (ex.: "Lei 8.213, art. 48")   -> grupos 1,2
-#   2) "art. N da/do NORMA" (ex.: "art. 48 da Lei 8.213")  -> grupos 3,4 (invertidos)
+#   2) "art. N [, §/inciso/alinea ...] da/do NORMA"        -> grupos 3,4
+_NORMA = (
+    r'(?:CF'
+    r'|LEI\s+(?:n[º°o]\.?\s*)?[\d.]+(?:/\d{2,4})?'
+    r'|DECRETO\s+(?:n[º°o]\.?\s*)?[\d.]+(?:/\d{2,4})?'
+    r'|EC\s+(?:n[º°o]\.?\s*)?\d+(?:/\d{2,4})?'
+    r'|IN\s+\d+(?:/\d{2,4})?'
+    r')'
+)
+_SUFIXO_ARTIGO = (
+    r'(?:\s*,\s*(?:'
+    r'§\s*\d+[º°o]?'
+    r'|par[áa]grafo\s+[úu]nico'
+    r'|inciso\s+[IVXLCDM]+'
+    r'|al[íi]nea\s*["\']?\w["\']?'
+    r'|[IVXLCDM]+'
+    r'))*'
+)
 PADRAO_CITACAO = re.compile(
     r'(?:'
-    r'(CF|LEI\s+[\d.]+|DECRETO\s+[\d.]+|EC\s+\d+|IN\s+\d+)[,\s]+art\.?\s*(\d+)'
+    r'(' + _NORMA + r')[,\s]+art\.?\s*(\d+)'
     r'|'
-    r'art\.?\s*(\d+)[,\s]+d[ao]\s+(CF|LEI\s+[\d.]+|DECRETO\s+[\d.]+|EC\s+\d+|IN\s+\d+)'
+    r'art\.?\s*(\d+)' + _SUFIXO_ARTIGO + r'[,\s]+d[ao]\s+(' + _NORMA + r')'
     r')',
     re.IGNORECASE
 )
@@ -94,6 +169,14 @@ def rodar_testes():
         ("art. 48 da Lei 8.213", "LEI 8.213", "48"),
         ("CF, art. 201", "CF", "201"),
         ("art. 201 da CF", "CF", "201"),
+        # Casos de regex adicionados no teste de orquestracao de 15/10/2026
+        # (apenas testam extrair_citacoes(); o artigo nao precisa existir
+        # na base -- isto nao e um Write real sobre a base de legislacao.
+        # [DISPOSITIVO A CONFIRMAR] deixado aqui so para o proprio hook,
+        # ao validar esta edicao do seu codigo-fonte, nao se autobloquear.)
+        ("Lei 8.213/1991, art. 52", "LEI 8.213/1991", "52"),
+        ("Decreto nº 3.048, art. 305", "DECRETO Nº 3.048", "305"),
+        ("art. 20, § 2º, II, da EC 103", "EC 103", "20"),
     ]
     todos_ok = True
     print("Testes de extrair_citacoes():")
