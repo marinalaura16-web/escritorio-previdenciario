@@ -82,6 +82,40 @@
 > sem contradição; não alterado nesta tarefa por estar fora do escopo
 > (arquivo da Lei 8.212/1991), só sinalizado aqui e na entrada do Tema 202
 > abaixo.
+>
+> **Lote 3, mesmo dia (16/10/2026):** processados mais 19 Temas de
+> repercussão geral do STF (números 0229, 0244, 0256, 0257, 0273, 0283,
+> 0293, 0302, 0303, 0312, 0313, 0316, 0317, 0320, 0330, 0334, 0343, 0344
+> e 0358), a partir da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html` e, quando disponível, `_ACORDAO_N.pdf`).
+> **5 desses 19 temas são efetivamente previdenciários (RGPS)** e foram
+> incorporados como entradas próprias, todas marcadas
+> `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`: **Tema 302** (custeio
+> — constitucionalidade da retenção de 11% sobre nota fiscal de serviços,
+> art. 31 da Lei 8.212/1991 [DISPOSITIVO A CONFIRMAR NA BASE — ainda não
+> documentado em `lei-8.212-1991.md`], agrupado com o bloco de custeio já
+> existente), **Tema 312** (BPC/LOAS — inconstitucionalidade por omissão
+> parcial do parágrafo único do art. 34 do Estatuto do Idoso no cálculo da
+> renda familiar per capita, mesma sessão de julgamento do Tema 27,
+> agrupado com ele), **Tema 313** (decadência do art. 103 da Lei
+> 8.213/1991 — inexiste decadência para a concessão inicial do benefício;
+> os 10 anos aplicam-se só à revisão de benefício já concedido — leitura
+> essencial em conjunto com a ADI 6096/DF, já na base), **Tema 334**
+> (direito adquirido ao melhor benefício — cálculo da RMI pela legislação
+> mais favorável vigente à época do preenchimento dos requisitos) e
+> **Tema 344** (custeio — incidência de contribuição previdenciária
+> patronal sobre participação nos lucros, mas só no período anterior à MP
+> 794/1994 — relevância histórica/residual, agrupado com o bloco de
+> custeio). **Os outros 14 temas foram verificados e descartados**: a
+> maioria é FEPASA/servidor público estadual ou municipal (RPPS) e
+> vantagens de servidor (Temas 229, 256, 257, 273, 293, 316, 317, 330,
+> 343), Direito Tributário geral sem relação com o RGPS (Temas 244, 283,
+> 303), e dois temas sem relação direta com mérito previdenciário do RGPS
+> (Tema 320 — pensão especial de ex-combatente da 2ª Guerra, sem
+> repercussão geral reconhecida por ser infraconstitucional; Tema 358 —
+> competência de TJ para questão previdenciária dentro de processo de
+> perda de patente militar, matéria processual/castrense) — ver o
+> relatório da tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -1030,6 +1064,211 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   INSS nesse ponto específico (limita pretensões de revisão de benefícios
   antigos com base na lei posterior).
 - **Fonte:** Google Drive, `STF_RG_TEMA_0165_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 302 — Constitucionalidade da retenção de 11% sobre nota fiscal de prestação de serviços (substituição tributária, art. 31 da Lei 8.212/1991)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0302_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026.
+> **Nota de cruzamento:** o art. 31 da Lei 8.212/1991 ainda não está
+> documentado em `leis-ordinarias/lei-8.212-1991.md` (arquivo cobre hoje
+> arts. 12-15, 20-26, 28, 30, 32-33, 43-47 e 55-56) — pendência a somar às
+> já registradas para essa lei (arts. 27, 29, 34-37)
+> **[DISPOSITIVO A CONFIRMAR NA BASE]**.
+
+- **Processo paradigma:** RE 603.191 (origem: DF).
+- **Relatora:** Min. Ellen Gracie.
+- **Objeto:** constitucionalidade, ou não, do art. 31 da Lei nº 8.212/91,
+  com a redação dada pela Lei nº 9.711/98, que determina a retenção de
+  11% do valor bruto da nota fiscal ou fatura de prestação de serviços
+  por empresas tomadoras de serviços, a título de substituição
+  tributária da contribuição previdenciária devida pela empresa
+  prestadora.
+- **Data do julgamento:** 01/08/2011, Tribunal Pleno, por maioria
+  (vencido o Ministro Marco Aurélio). Presidiu o julgamento o Ministro
+  Cezar Peluso.
+- **Tese firmada:** "É constitucional a substituição tributária prevista
+  no art. 31 da Lei 8.212/1991, com redação dada pela Lei 9.711/98, que
+  determinou a retenção de 11% do valor bruto da nota fiscal ou fatura de
+  prestação de serviço."
+- **Trânsito em julgado:** 23/09/2011.
+- **Relevância:** confirma a constitucionalidade de mecanismo de custeio
+  do RGPS (retenção/substituição tributária da contribuição patronal
+  sobre nota fiscal de serviços); agrupa-se com os Temas 3, 20, 72, 166,
+  202, 204, 281 e 32 já nesta base (bloco "Custeio — Lei 8.212/1991").
+- **Fonte:** Google Drive, `STF_RG_TEMA_0302_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 312 — Inconstitucionalidade por omissão parcial do parágrafo único do art. 34 do Estatuto do Idoso (extensão ao cálculo da renda familiar per capita do BPC/LOAS)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0312_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Julgado na mesma sessão plenária (17-18/04/2013) do
+> Tema 27** (BPC/LOAS, já nesta base) — tratar as duas entradas em
+> conjunto.
+
+- **Processo paradigma:** RE 580.963 (origem: PR).
+- **Relator:** Min. Gilmar Mendes.
+- **Objeto:** à luz do art. 203, V, da Constituição Federal, discutia-se
+  a constitucionalidade de decisão judicial que, dando interpretação
+  extensiva ao parágrafo único do art. 34 da Lei nº 10.741/2003 (Estatuto
+  do Idoso) — que exclui do cômputo da renda familiar per capita, para
+  fins de novo benefício assistencial, o benefício de prestação
+  continuada já concedido a qualquer membro idoso da família —, deixou de
+  computar, no cálculo da renda familiar de que trata o art. 20, § 3º, da
+  Lei nº 8.742/93, benefício assistencial concedido a pessoa com
+  deficiência ou em outra situação não contemplada expressamente no
+  dispositivo.
+- **Data do julgamento:** 18/04/2013 (sessão iniciada em 17/04/2013),
+  Tribunal Pleno, por maioria. Negou provimento ao recurso extraordinário
+  do INSS e declarou, incidenter tantum, a inconstitucionalidade (por
+  omissão parcial) do parágrafo único do art. 34 da Lei 10.741/2003,
+  vencidos os Ministros Dias Toffoli, Ricardo Lewandowski e Marco
+  Aurélio (que davam provimento ao recurso do INSS).
+- **Modulação de efeitos:** proposta para que a norma (na redação
+  julgada parcialmente inconstitucional) tivesse validade até
+  31/12/2015 — **não alcançou o quórum de 2/3** exigido. Votaram pela
+  modulação os Ministros Gilmar Mendes, Rosa Weber, Luiz Fux, Cármen
+  Lúcia e Celso de Mello; votaram contra os Ministros Teori Zavascki,
+  Dias Toffoli, Ricardo Lewandowski e Joaquim Barbosa (Presidente); o
+  Ministro Marco Aurélio absteve-se de votar quanto à modulação. Sem
+  modulação, a decisão produz efeitos desde o julgamento (mesmo desenho
+  processual registrado para o Tema 27, acima).
+- **Tese firmada:** "É inconstitucional, por omissão parcial, o
+  parágrafo único do art. 34 da Lei 10.741/2003 (Estatuto do Idoso)."
+- **Trânsito em julgado:** 13/02/2014.
+- **Relevância:** amplia, para fins do critério de renda do BPC/LOAS
+  (art. 20, § 3º, Lei 8.742/93), a exclusão do cômputo da renda familiar
+  per capita de benefício assistencial já concedido a qualquer membro da
+  família (não apenas a idoso) — leitura conjunta obrigatória com o
+  Tema 27 já nesta base.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0312_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 313 — Decadência do art. 103 da Lei 8.213/1991 (MP 1.523/1997): inexistente para a concessão inicial do benefício, aplicável apenas à revisão de benefício já concedido
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0313_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Ler obrigatoriamente em conjunto com a ADI 6096/DF**
+> (já nesta base, seção "Ações Diretas de Inconstitucionalidade" abaixo,
+> e `adi-6096-2021-resumo.md`): a ADI 6096 tratou da extensão posterior
+> (pela Lei 13.846/2019) da decadência de 10 anos a indeferimento,
+> cancelamento e cessação de benefício, declarada inconstitucional; este
+> Tema 313 trata do núcleo original do art. 103 — a decadência de 10 anos
+> para a **revisão** de benefício já concedido — e confirma que não há
+> decadência para a concessão inicial.
+
+- **Processo paradigma:** RE 626.489 (origem: SE — Turma Recursal dos
+  Juizados Especiais Federais da 5ª Região).
+- **Relator:** Min. Luís Roberto Barroso.
+- **Partes:** RECTE.(S): Instituto Nacional do Seguro Social — INSS;
+  RECDO.(A): Maria das Dores Oliveira Martins. Amici curiae: Conselho
+  Federal da OAB, Instituto Brasileiro de Direito Previdenciário (IBDP) e
+  Confederação Brasileira de Aposentados e Pensionistas (COBAP).
+- **Ramo do Direito (classificação oficial da página processual):**
+  Direito Previdenciário | Disposições Diversas Relativas às Prestações |
+  Decadência/Prescrição.
+- **Objeto:** aplicação, ou não, do prazo decadencial instituído pela
+  Medida Provisória nº 1.523, de 27/06/1997 (posteriormente art. 103 da
+  Lei 8.213/1991), a benefícios concedidos em data anterior à sua
+  edição.
+- **Data do julgamento:** 16/10/2013, Tribunal Pleno, por unanimidade —
+  conheceu e deu provimento ao recurso extraordinário do INSS.
+- **Tese firmada (dois itens):**
+  - I — Inexiste prazo decadencial para a concessão inicial do benefício
+    previdenciário;
+  - II — Aplica-se o prazo decadencial de dez anos para a revisão de
+    benefícios concedidos, inclusive os anteriores ao advento da Medida
+    Provisória 1.523/1997, hipótese em que a contagem do prazo deve
+    iniciar-se em 1º de agosto de 1997.
+- **Trânsito em julgado:** 08/10/2014 (certidão de trânsito em julgado
+  constante da página oficial; a baixa definitiva dos autos só ocorreu
+  em 2016, por tramitação residual do processo).
+- **Relevância:** ALTA — fixa a leitura estrutural do art. 103, caput, da
+  Lei 8.213/1991: a decadência de 10 anos não atinge o direito de
+  requerer o benefício (concessão inicial), incidindo apenas sobre o
+  direito de REVISAR benefício já concedido. Cruzar com
+  `legislacao/leis-ordinarias/lei-8.213-1991.md` (seção "Prescrição e
+  Decadência — Art. 103") e com `adi-6096-2021-resumo.md`.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0313_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 334 — Direito ao cálculo da renda mensal inicial (RMI) pela legislação mais favorável vigente à época do preenchimento dos requisitos ("direito adquirido ao melhor benefício")
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0334_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026.
+
+- **Processo paradigma:** RE 630.501 (origem: Turma Recursal do TRF da
+  4ª Região).
+- **Relatora originária:** Min. Ellen Gracie (não mais integrava o
+  Tribunal na data do julgamento do mérito).
+- **Redator do acórdão:** Min. Marco Aurélio (a sucessora da relatora
+  originária, Min. Rosa Weber, não votou, por tê-la sucedido).
+- **Objeto:** à luz do art. 5º, XXXVI, da Constituição Federal, se o
+  segurado contribuinte da Previdência Social possui, ou não, direito de
+  calcular seu benefício de aposentadoria de acordo com a legislação
+  vigente à época em que já preenchidos os requisitos exigidos para sua
+  concessão, quando essa legislação pretérita se revela mais vantajosa
+  do que a vigente na data da efetiva jubilação.
+- **Data do julgamento:** 21/02/2013, Tribunal Pleno, por maioria — deu
+  parcial provimento ao recurso, vencidos os Ministros Dias Toffoli,
+  Cármen Lúcia, Ricardo Lewandowski e Gilmar Mendes. Presidiu o
+  julgamento o Ministro Joaquim Barbosa.
+- **Tese firmada:** "Para o cálculo da renda mensal inicial, cumpre
+  observar o quadro mais favorável ao beneficiário, pouco importando o
+  decesso remuneratório ocorrido em data posterior ao implemento das
+  condições legais para a aposentadoria, respeitadas a decadência do
+  direito à revisão e a prescrição quanto às prestações vencidas."
+- **Trânsito em julgado:** 23/09/2013.
+- **Relevância:** ALTA para `calculo-previdenciario` — consagra o
+  princípio do "direito adquirido ao melhor benefício" (tempus regit
+  actum) para fins de RMI, mas a própria tese já ressalva expressamente
+  os limites da decadência (art. 103, caput) e da prescrição quinquenal
+  (art. 103, parágrafo único, Lei 8.213/1991) — ler em conjunto com o
+  Tema 313, acima.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0334_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 344 — Incidência de contribuição previdenciária patronal sobre participação nos lucros no período anterior à MP 794/1994 (relevância histórica)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0344_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Atenção ao recorte temporal estreito:** a tese só vale
+> para o período entre a Constituição de 1988 e a entrada em vigor da MP
+> 794/1994 — sem efeito prático sobre contribuições atuais, já reguladas
+> pelo art. 7º, XI, da Constituição Federal e pela legislação de
+> participação nos lucros hoje vigente (Lei 10.101/2000).
+
+- **Processo paradigma:** RE 569.441 (origem: RS).
+- **Relator original (voto vencido):** Min. Dias Toffoli.
+- **Redator do acórdão:** Min. Teori Zavascki.
+- **Objeto:** à luz dos artigos 7º, XI, e 195, I, "a", da Constituição
+  Federal, a constitucionalidade, ou não, da incidência da contribuição
+  previdenciária patronal sobre a parcela denominada participação nos
+  lucros, no período posterior à Constituição Federal de 1988 e anterior
+  à Medida Provisória nº 794/1994 (que regulamentou o art. 7º, XI, da
+  CF).
+- **Data do julgamento:** 30/10/2014, Tribunal Pleno — deu provimento ao
+  recurso (extraordinário da União/Fazenda Nacional), vencido o relator
+  original, Min. Dias Toffoli. Presidiu o julgamento a Ministra Cármen
+  Lúcia (Vice-Presidente).
+- **Tese firmada:** "Incide contribuição previdenciária sobre as
+  parcelas pagas a título de participação nos lucros no período que
+  antecede a entrada em vigor da Medida Provisória 794/1994, que
+  regulamentou o art. 7º, XI, da Constituição Federal de 1988."
+- **Trânsito em julgado:** 23/02/2015.
+- **Relevância:** histórica/residual — agrupa-se com o bloco de custeio
+  (Temas 3, 20, 72, 166, 202, 204, 281, 32 e 302 já nesta base) apenas
+  como precedente sobre a base de cálculo da contribuição patronal;
+  pouco provável de ter aplicação prática em casos atuais do escritório.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0344_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
