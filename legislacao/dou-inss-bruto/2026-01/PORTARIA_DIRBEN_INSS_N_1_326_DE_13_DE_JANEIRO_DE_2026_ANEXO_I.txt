@@ -1,0 +1,1046 @@
+Guia prático
+para órgãos e
+entidades
+externos
+Cadastramento de usuários,
+concessão e controle de acessos
+ao sistema CNIS
+Anexo à Portaria Dirben/INSS nº 1.326, de 13 de janeiro
+de 2026.
+                                     SUMÁRIO
+
+
+
+1. Unidade I - Considerações iniciais                                  5
+
+2. Unidade II - GID e GPA no GERID                                     8
+
+  2.1. Orientações iniciais                                            8
+
+  2.2. Cadastradores e Gestores de Acesso Externos                     9
+
+    2.2.1. Cadastradores Externos (Titular e Substituto)               10
+
+    2.2.2. Gestores de Acesso Externos (Titular e Substituto)          10
+
+  2.3. Cadastro de usuários no módulo GID                              11
+
+    2.3.1. Cadastro de novo usuário                                    14
+
+    2.3.2. Alteração de usuário cadastrado                             16
+
+    2.3.3. Inativação de usuário cadastrado                            17
+
+    2.3.4. Reativação de usuário                                       18
+
+  2.4. Concessão e controle de acessos ao sistema CNIS no módulo GPA   20
+
+    2.4.1. Pesquisa de credenciais de acesso                           24
+
+    2.4.2. Alteração de credenciais de acesso                          25
+
+    2.4.3. Exclusão/inativação de credenciais de acesso                28
+
+    2.4.4. Concessão de credenciais de acesso                          29
+
+    2.4.5. Atribuição de acesso a múltiplos usuários                   32
+
+    2.4.6. Transferência de Gestão                                     33
+    2.4.7. Emissão de Relatórios          35
+
+3. Unidade III – Acesso ao sistema CNIS   37
+
+  3.1. Acesso ao sistema CNIS             37
+
+  3.2. Consulta aos dados do CNIS         37
+
+4. Unidade IV - Considerações finais      39
+1. Unidade I - Considerações
+iniciais
+
+
+
+
+O Cadastro Nacional de Informações Sociais - CNIS é a plataforma destinada a
+concentrar informações previdenciárias, trabalhistas e sociais e tem por finalidades
+precípuas possibilitar a execução de políticas públicas e o reconhecimento de direitos
+previdenciários.
+
+Os riscos para o CNIS têm gestão compartilhada, observadas as competências legais
+de cada órgão, no que se inclui os gestores das bases de dados que geram insumos
+para o referido Cadastro. O Decreto nº 10.047, de 9 de outubro de 2019, estabelece
+em seu art. 3º, §§ 4º e 5º que compete aos órgãos e entidades da administração
+pública federal assegurar que as informações constantes de suas bases de dados
+estejam corretas e atualizadas, sendo que o Instituto Nacional do Seguro Social - INSS,
+no exercício das competências, não é responsável pelas inconsistências existentes nas
+bases de dados mantidas por outros órgãos e entidades.
+
+A Portaria Conjunta MPS/INSS nº 3, de 16 de janeiro de 2024, ou o ato que vier a
+substituí-la, define as diretrizes de governança do CNIS e estabelece orientações para
+o INSS exercer suas atribuições de administrar e operacionalizar o CNIS.
+
+As bases, sistemas e repositórios incorporados ao CNIS têm por finalidade:
+
+
+
+
+  Voltar ao topo                                                                    5
+I - promover a desburocratização e a simplificação dos atos administrativos,
+assegurando melhor atendimento ao cidadão, nos termos da Lei nº 13.726, de 8 de
+outubro de 2018;
+
+II - garantir a confiabilidade na utilização dos dados, mediante:
+
+a) análise de requerimentos, possibilitando a confirmação das circunstâncias de
+elegibilidade ou inelegibilidade aos benefícios requeridos, prevenindo fraudes e/ou
+desvios no reconhecimento de direitos;
+
+b) cruzamento de dados, preferencialmente de forma automatizada;
+
+III - aprimorar os mecanismos de análise automática de benefícios; e
+
+IV - facilitar o acesso, em base unificada, pelo cidadão, aos seus dados sob gestão de
+diferentes órgãos públicos, bem como aos órgãos e entidades do Poder Público.
+
+Quanto aos níveis de acesso ao sistema CNIS, são previstos os seguintes:
+
+    Nível Básico: acesso aos dados cadastrais de pessoas físicas e seus elos;
+
+    Nível Intermediário: acesso aos dados cadastrais e à vida laborativa e
+    previdenciária, sem exibição de remunerações, salários e contribuições; e
+
+    Nível Completo: acesso aos dados cadastrais e à vida laborativa e previdenciária,
+    incluindo remunerações, salários e contribuições, observada a avaliação prevista
+    nos arts. 198 e 199 da Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário
+    Nacional).
+
+
+Entre as formas de acesso previstas, inclui-se o acesso on-line ao sistema CNIS,
+realizado diretamente mediante o uso de certificado digital do tipo A3, com
+liberação das informações conforme a classificação do nível de acesso autorizado.
+
+O órgão ou entidade autorizado a acessar o sistema CNIS compromete-se,
+previamente, perante o INSS, a observar os critérios técnicos e de segurança para o
+acesso às informações contidas no CNIS, conforme o nível de acesso disponibilizado, e
+a utilizar tais informações exclusivamente nas atividades que lhe compete exercer,
+para alcançar os objetivos e finalidades declarados, além de manter sigilo sobre os
+dados recebidos.
+
+O órgão ou entidade autorizado a acessar o sistema CNIS também se compromete a
+exigir, previamente, dos usuários cujos acessos on-line ao sistema CNIS serão
+autorizados, que preencham e assinem o Termo de Compromisso de Manutenção de
+Sigilo - TCMS, previsto na Portaria Conjunta MPS/INSS nº 3, de 16 de janeiro de 2024,
+
+
+
+
+  Voltar ao topo                                                                      6
+ou em ato que a substitua, mantendo tais termos em arquivo próprio, passível de
+solicitação pelo INSS a qualquer tempo.
+
+A quebra do sigilo das informações disponibilizadas, fora das hipóteses
+expressamente autorizadas, sujeitará o infrator às sanções penais, civis e
+administrativas previstas na legislação aplicável.
+
+Este guia destina-se aos órgãos e entidades autorizados pelo Ministério da Previdência
+Social - MPS ou pelo INSS a acessar o sistema CNIS de forma on-line, com o objetivo de
+orientá-los sobre o cadastramento de usuários, a concessão e o controle dos acessos
+atribuídos, bem como tratar, brevemente, do acesso ao CNIS (aplicação Portal CNIS).
+
+
+
+
+  Voltar ao topo                                                                  7
+2. Unidade II - GID e GPA no
+GERID
+
+
+
+
+2.1. Orientações iniciais
+
+O novo Gerenciador de Identidades - GERID é o software provido pela Empresa de
+Tecnologia e Informações da Previdência - Dataprev, responsável por gerenciar os
+perfis e as permissões de acesso de cada usuário às aplicações corporativas
+integradas, entre elas o sistema CNIS.
+
+O módulo Gerenciamento de Identidades - GID, no GERID, é utilizado para realizar o
+cadastro de usuários externos ao INSS. Permite, por exemplo, o prévio cadastramento
+de usuários externos que receberão credencial de acesso ao sistema CNIS, com a
+vinculação ao seu órgão ou entidade (do tipo CNPJ).
+
+O módulo Gestão de Permissões de Acesso - GPA, no GERID, é utilizado para realizar
+a manutenção do cadastro de sistemas (bem como de todos os subsistemas e papéis
+envolvidos), e de credenciais concedidas aos usuários cadastrados na base. Essas
+credenciais podem estar relacionadas ou aos papéis de acesso às aplicações parceiras
+ao GERID, como o CNIS, ou aos papéis de gestão do próprio GERID, que permitem o
+
+
+
+
+  Voltar ao topo                                                                 8
+acesso aos módulos GID e GPA pelos gestores responsáveis.
+
+Nesse sentido, o módulo GPA é utilizado, por exemplo, para conceder a autorização de
+acesso (credencial de acesso) ao sistema CNIS aos usuários do órgão ou entidade cujo
+pedido de acesso on-line foi deferido pelo MPS ou INSS.
+
+
+
+
+                      Importante
+                      O acesso aos módulos GID e GPA, no GERID, é realizado
+                      pelo sítio eletrônico https://inss.gerid.dataprev.gov.br/.
+
+
+
+
+2.2. Cadastradores e Gestores de Acesso
+Externos
+
+O órgão ou entidade autorizado a acessar o sistema CNIS, de forma on-line, deve
+indicar ao INSS dois usuários, Titular e Substituto, que atuarão como Cadastradores
+Externos (no caso do CNIS, aplicável ao órgão ou entidade do tipo CNPJ) e Gestores de
+Acesso Externos.
+
+
+
+
+                     Atenção
+                     Esses dois usuários serão responsáveis pelo cadastramento
+                     prévio dos demais usuários no GID (no caso do CNIS,
+                     aplicável ao órgão ou entidade do tipo CNPJ), pela concessão
+                     e pelo controle dos acessos concedidos ao sistema CNIS no
+                     módulo GPA aos usuários externos do órgão ou entidade,
+                     bem como pela orientação quanto ao uso responsável e
+                     adequado das permissões atribuídas.
+
+
+
+
+  Voltar ao topo                                                                    9
+O papel para acesso ao GID, denominado CADASTRADOR_EXTERNO, relativo ao
+sistema GERID e subsistema GID_EXTERNO, será concedido, pelo INSS, aos dois
+usuários externos designados (Titular e Substituto) pelo órgão ou entidade do tipo
+CNPJ.
+
+Além disso, conforme consta no Manual do GERID, disponível mediante o acesso ao
+sítio eletrônico https://inss.gerid.dataprev.gov.br/, a Gestão de Acesso (papel de
+Gestor de Acesso) será concedida ao Titular e Substituto designados pelo órgão ou
+entidade.
+
+
+
+2.2.1. Cadastradores Externos (Titular e Substituto)
+
+
+Para órgãos ou entidades do tipo CNPJ, haverá necessidade de cadastramento dos
+dois usuários indicados no GID, na qualidade de Cadastradores Externos (Titular e
+Substituto), mediante a informação do CPF, nome completo, e-mail e telefone/celular,
+razão pela qual o órgão ou entidade deve apresentar tais dados ao INSS, quando
+solicitado.
+
+Esses Cadastradores Externos (Titular e Substituto) serão responsáveis por efetuar
+previamente os cadastros dos demais usuários externos do respectivo órgão ou
+entidade (CNPJ) no GID.
+
+
+
+
+                      Atenção
+                      Para órgãos ou entidades do tipo GOV, não haverá
+                      necessidade de cadastramento dos dois usuários
+                      indicados no GID, na qualidade de Cadastradores
+                      Externos (Titular e Substituto), razão pela qual esses
+                      usuários também não precisarão cadastrar, previamente,
+                      os demais usuários do órgão ou entidade no GID para,
+                      posteriormente, conceder a autorização de acesso ao
+                      sistema CNIS no módulo GPA.
+
+
+
+
+  Voltar ao topo                                                                     10
+2.2.2. Gestores de Acesso Externos (Titular e Substituto)
+
+
+Os dois usuários indicados pelo órgão ou entidade serão os Gestores de Acesso
+Externos ao sistema CNIS, sendo responsáveis pela concessão e pelo controle dos
+acessos atribuídos aos usuários externos do seu órgão ou entidade.
+
+
+
+
+                       Atenção
+                       Os Gestores de Acesso Externos não podem atribuir
+                       acesso ao sistema CNIS:
+                       a) a menores de 18 (dezoito) anos, salvo os
+                       devidamente emancipados que tenham tomado posse
+                       em cargo público por decisão judicial;
+                       b) a estagiários, visto que o acesso ao referido sistema
+                       não é considerado essencial para o desempenho das
+                       atividades relacionadas à área de sua formação
+                       profissional;
+                       c) a terceirizados ou contratados; e
+                       d) antes da data de entrada em exercício do usuário.
+
+
+
+
+Os Gestores de Acesso externos ao sistema CNIS são responsáveis pela
+exclusão/inativação dos acessos de usuários aposentados, cedidos, exonerados,
+falecidos ou envolvidos em inquérito penal ou processo administrativo disciplinar
+decorrente de infrações cometidas no exercício das atribuições do cargo.
+
+
+
+2.3. Cadastro de usuários no módulo GID
+
+Ao acessar o GERID, por intermédio do sítio eletrônico
+https://inss.gerid.dataprev.gov.br/, o Titular ou Substituto é direcionado para o
+módulo CAS, responsável somente pelo processo de autenticação. Uma vez efetuada a
+autenticação, é redirecionado para o módulo desejado, GID ou GPA.
+
+
+
+
+  Voltar ao topo                                                                    11
+Para o acesso ao módulo GID, o Titular ou Substituto do órgão ou entidade deve
+selecionar o papel “CADASTRADOR_EXTERNO”:
+
+
+
+
+Imagem 1 - GERID: tela de login
+                                  Página de login do sistema GERID. No topo, a marca Dataprev. Ao centro, o logotipo GERID, que mostra uma chave. Embaixo, há campos para CPF e Senha. Uma caixa de seleção permite avisos. Há dois botões, um para "Entrar" e outro para "Entrar com Certificado Digital". Links para ajuda completam.
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                                                                                                                          12
+Imagem 2 - GERID: selecionar o papel a ser exercido
+                                  Tela do GERID, página de gerenciamento de permissões e acessos. Uma seção permite selecionar um papel. O campo Papel exibe "CADASTRADOR_EXTERNO" em uma caixa de seleção, com um leve destaque cinza claro. Um botão "Selecionar" está ao lado.
+
+
+
+
+Em sequência, no menu “Cadastros”, clicar em “Usuários externos”:
+
+
+
+
+Imagem 3 - GID: menu "Cadastros" > "Usuários externos"
+                                                         Tela do GID. O menu superior Cadastros abre a opção Usuários externos. O título da página é Gerenciamento de Permissões e Acessos. Há uma lista de Manuais do Sistema. Um campo Usuário está visível.
+
+
+
+
+Após selecionar o Tipo de domínio e a Unidade organizacional, poderá “Pesquisar
+Usuários” ou “Cadastrar Novo”:
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                                                                    13
+Imagem 4 - GID: pesquisar usuários ou cadastrar novo
+                                           Tela do GID. Interface de cadastro de usuários externos. Mostra opções de pesquisa por tipo de domínio, unidade e CPF de usuário. Inclui botões para pesquisar e registrar novo usuário.
+
+
+
+
+2.3.1. Cadastro de novo usuário
+
+
+Para cadastrar novo usuário, o Titular ou Substituto deverá clicar em “Cadastrar Novo”
+e, posteriormente, informar o CPF do usuário a ser cadastrado, bem como clicar em
+“Verificar Usuário”:
+
+
+
+
+Imagem 5 - GID: CPF do usuário a ser cadastrado
+                                   Tela do GID. Mostra o cadastro de usuários externos. Há campos para Tipo domínio, Unidade organizacional e CPF. Um botão "Verificar Usuário" está ao lado do CPF. Um botão "Cancelar" aparece abaixo.
+
+
+
+
+Em seguida, deverá informar os dados requeridos, entre eles o e-mail institucional
+válido do usuário, bem como clicar em “Confirmar”:
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                           14
+Imagem 6 - GID: cadastro de usuários externos
+                                     Tela do GID destinada ao cadastro de usuários externos. O formulário pede dados do usuário como CPF, nome completo e e-mail. O campo Nome completo tem uma borda azul. Embaixo, botões "Confirmar" e "Cancelar".
+
+
+
+
+Após efetuar o cadastro do usuário, deverá efetuar a pesquisa desse usuário,
+informando o CPF no campo “Usuário” e clicando em “Pesquisar Usuários”. O objetivo
+dessa pesquisa é verificar se o status desse usuário consta como “ATIVO”:
+
+
+
+
+Imagem 7 - GID: pesquisar usuários
+                                     Tela do GID. A parte superior mostra o logo e um menu. A área principal possui um formulário para pesquisar usuário. Campos para Tipo Domínio, Unidade Organizacional e Usuário. Botões "Pesquisar" e "Cadastrar Novo".
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                                               15
+Imagem 8 - GID: resultado de pesquisa de usuário
+                                       Tela do GID. Exibe cadastro de usuário. Na tabela, o campo "Status" com o texto ATIVO aparece em destaque vermelho.
+
+
+
+
+                          Importante
+                          Somente pode ser cadastrado, no GID, o usuário que:
+                          • não possua registro de óbito;
+                          • esteja com CPF em situação REGULAR ou PEDENTE
+                          DE REGULARIZAÇÃO (RFB);
+                          • cujo nome seja o mesmo registrado na base de CPF
+                          da RFB; e
+                          • ainda não esteja cadastrado.
+
+
+
+
+2.3.2. Alteração de usuário cadastrado
+
+
+Caso haja necessidade de alterar dados de usuário anteriormente cadastrado, o
+Titular ou Substituto deve pesquisar esse usuário e, em seguida, clicar no ícone
+
+
+
+
+  Voltar ao topo                                                                                                                                             16
+destinado à alteração, conforme demonstra a imagem abaixo:
+
+
+
+
+Imagem 9 - GID: alteração de usuário
+                                       Tela do GID. Há um formulário de pesquisa para usuários e o resultado da busca. No resultado, uma seta vermelha indica um ícone para alterar informações de um usuário.
+
+
+
+
+Já na tela seguinte, realizar as alterações necessárias e permitidas, bem como clicar
+em “Confirmar”.
+
+
+Alguns dados cadastrais não podem ser alterados no GID. Nestes casos, a alteração
+deve ser solicitada via sistema de chamados (Pronto).
+
+
+
+2.3.3. Inativação de usuário cadastrado
+
+
+Se houver necessidade de inativar usuário já cadastrado e com status ativo, o Titular
+ou Substituto deve pesquisar esse usuário e, em seguida, clicar no ícone destinado à
+inativação:
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                 17
+Imagem 10 - GID: inativação de usuário
+                                                                             Tela do GID. Há uma área de pesquisa e o resultado de usuários. Na tabela de resultado, um botão "Inativar", destacado por uma seta vermelha.
+
+
+
+
+Na tela seguinte, deve informar o motivo e clicar em “Confirmar”:
+
+
+
+
+Imagem 11 - GID: informação do motivo da inativação
+                                  Tela do GID. Campos mostram tipo de domínio CNPJ, unidade organizacional CNPJ, situação atual ATIVO e nova situação INATIVO. Um campo de texto "Motivo" está destacado por um retângulo azul. Há botões "Confirmar" e "Cancelar".
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                                                      18
+2.3.4. Reativação de usuário
+
+
+Se necessário, o Titular ou Substituto também podem reativar um usuário.
+
+
+O Titular ou Substituto deve pesquisar o usuário e, em seguida, clicar no ícone
+destinado à reativação:
+
+
+
+
+Imagem 12 - GID: reativação de usuário
+                                    Tela do GID. Uma área de busca de usuários e uma tabela de resultados aparecem. Um registro de usuário está inativo. Uma seta vermelha aponta para um ícone de reativação na coluna de ações.
+
+
+
+
+Pelo GID, o Titular ou Substituto também pode pesquisar via menu “Relatórios”, em
+“Usuários Externos”, a relação de usuários cadastrados do seu órgão ou entidade, com
+os respectivos status:
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                    19
+Imagem 13 - GID: menu "Relatórios" > "Usuários externos"
+                                        Tela do GID. Mostra menu "Relatórios" e uma seta vermelha aponta para a opção "Usuários externos".
+
+
+
+
+Pode pesquisar, ainda, via menu “Relatórios”, em “Minhas Credenciais”, as suas
+respectivas credenciais:
+
+
+
+
+Imagem 14 - GID: menu "Relatórios" > "Minhas credenciais"
+                                        Tela do GID. Mostra menu "Relatórios" e uma seta vermelha aponta para a opção "Minhas Credenciais".
+
+
+
+
+  Voltar ao topo                                                                                                                              20
+2.4. Concessão e controle de acessos ao
+sistema CNIS no módulo GPA
+
+Para órgãos ou entidades do tipo CNPJ há necessidade de o Cadastrador Externo
+(Titular ou Substituto) realizar previamente, no GID, o cadastramento do usuário que
+receberá autorização de acesso ao sistema CNIS, no módulo GPA.
+
+
+
+
+                        Importante
+                        Se vier a existir Serventias (CNS) e Bancos com acesso
+                        on-line ao sistema CNIS deferido, também haverá
+                        necessidade de prévio cadastramento no GID.
+                        Para órgãos ou entidades do tipo GOV, não há
+                        necessidade desse cadastramento prévio no GID.
+
+
+
+
+Para a concessão e controle de acessos ao sistema CNIS, o Gestor de Acesso Externo
+(Titular ou Substituto) deverá acessar o módulo GPA, por intermédio do sítio eletrônico
+https://inss.gerid.dataprev.gov.br/, bem como selecionar o papel
+“GESTOR_DE_ACESSO”:
+
+
+
+
+  Voltar ao topo                                                                  21
+Imagem 15 - GERID: tela de login
+                               Página de login do sistema GERID. No topo, a marca Dataprev. Ao centro, o logotipo GERID, que mostra uma chave. Embaixo, há campos para CPF e Senha. Uma caixa de seleção permite avisos. Há dois botões, um para "Entrar" e outro para "Entrar com Certificado Digital". Links para ajuda completam.
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                                                                                                                       22
+Imagem 16 - GERID: selecionar o papel a ser exercido
+                                    Tela do GERID, página de gerenciamento de permissões e acessos. Uma seção permite selecionar um papel. O campo Papel exibe "GESTOR_DE_ACESSO" em uma caixa de seleção, com um leve destaque cinza claro. Um botão "Selecionar" está ao lado.
+
+
+
+
+Caso se trate de órgão ou entidade do tipo GOV, o sistema assumirá o papel
+“GESTOR_DE_ACESSO”.
+
+
+Ao Gestor de Acesso é permitido, por exemplo:
+
+    Pesquisar credencial de Acesso;
+
+    Alterar credencial de acesso;
+
+    Excluir/inativar credencial de acesso;
+
+    Conceder credencial de acesso; e
+
+    Conceder acesso – Novo Múltiplos Usuários.
+
+
+Após acessar o módulo GPA, o sistema disponibilizará na tela inicial as credenciais que
+expirarão em até sessenta dias, emitidas pelo Titular ou Substituto, de modo que este
+poderá analisar as referidas credenciais ao clicar em “Analisar credenciais”:
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                                                                   23
+Imagem 17 - GPA: analisar credenciais
+                                        Tela do GPA. Uma tabela exibe credenciais de acesso. Um retângulo vermelho realça o texto "Credenciais emitidas pelo meu usuário que expiram em até 60 dias".
+
+
+
+
+2.4.1. Pesquisa de credenciais de acesso
+
+
+Ao clicar no menu “Atribuições”, em “Autorizações de Acesso”, o Gestor de Acesso
+Externo será direcionado para uma tela que apresenta diversos filtros para pesquisa,
+podendo, por exemplo, pesquisar pelo CPF ou e-mail de um usuário se este possui
+acesso ao sistema CNIS:
+
+
+
+
+Imagem 18 - GPA: menu "Atribuições" > "Autorizações de Acesso"
+                                                Tela do GPA. O menu "Atribuições" aparece com uma caixa vermelha e exibe opções. Uma seta vermelha aponta para "Autorizações de Acesso".
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                        24
+Imagem 19 - GPA: pesquisar credenciais
+                                     Tela do GPA. Mostra um formulário de pesquisa com vários campos. O campo para CPF ou e-mail do usuário está em destaque com uma borda azul. Há botões para filtrar.
+
+
+
+
+Para pesquisar credenciais já expiradas/excluídas/inativadas de um usuário, além de
+informar o CPF ou o e-mail desse usuário, há necessidade de marcar “Credenciais
+expiradas” e depois clicar em “Filtrar”:
+
+
+
+
+Imagem 20 - GPA: pesquisar credenciais expiradas/excluídas/inativadas
+                                               Tela do GPA. Há um formulário de pesquisa. O campo "Credenciais expiradas" está marcado com um visto azul e uma seta vermelha aponta para ele.
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                           25
+2.4.2. Alteração de credenciais de acesso
+
+
+Após efetuar a pesquisa, caso seja identificado que o usuário possui credencial de
+acesso, será possível ao Gestor de Acesso Externo alterá-la, se for o caso, clicando no
+ícone correspondente:
+
+
+
+
+Imagem 21 - GPA: alteração de credencial de acesso
+                                       Tela do GPA. Há uma área de pesquisa e uma tabela de credenciais. Uma seta vermelha indica o botão "Alterar" na última coluna.
+
+
+
+
+Através da alteração, o Gestor de Acesso Externo poderá, por exemplo, ampliar a data
+de validade de credencial de acesso que já estava expirada/excluída/inativada, se for o
+caso:
+
+
+
+
+  Voltar ao topo                                                                                                                                                        26
+Imagem 22 - GPA: ampliação de validade de acesso mediante alteração de credencial
+                                       Tela do GPA. Há campos para alteração. O campo "Data de Validade" está destacado com um retângulo vermelho.
+
+
+
+
+A data de validade da credencial deve ser superior à data atual e inferior ou igual à
+data de validade da credencial de gestão do Gestor Acesso que está executando a
+operação.
+
+
+
+
+                         Atenção
+                         Somente podem ser alteradas credenciais de acesso
+                         em subsistema compatível (tipo EXTERNO) e aos
+                         usuários que:
+                         • não possuam registro de óbito;
+                         • estejam com CPF em situação REFGULAR ou PEDENTE
+                         DE REGULARIZAÇÃO (RFB);
+                         • estejam cadastrados no GID e com o status ATIVO
+                         (para órgão ou entidade do tipo CNPJ); e
+                         • estejam na organização do Gestor de Acesso.
+
+
+
+
+  Voltar ao topo                                                                                                                                     27
+                        Importante
+                        Os usuários com registro de óbito não poderão ter suas
+                        credenciais alteradas. Nestes casos, as credenciais
+                        somente poderão ser excluídas/inativadas.
+
+
+
+
+2.4.3. Exclusão/inativação de credenciais de acesso
+
+
+Caso o usuário possua credencial de acesso válida e haja a necessidade de
+exclusão/inativação, o Gestor de Acesso Externo deverá clicar no ícone destinado à
+exclusão/inativação e, em seguida, confirmar:
+
+
+
+
+Imagem 23 - GPA: exclusão/inativação de credencial
+                                      Tela do GPA. Exibe formulário de busca e tabela de credenciais. Um botão "Excluir" com ícone X está destacado na última coluna da tabela.
+
+
+
+
+  Voltar ao topo                                                                                                                                                                  28
+Imagem 24 - GPA: confirmar a exclusão de credencial
+                                       Tela do GPA. A tela pergunta "Confirma a exclusão do registro abaixo?". O botão "Confirmar" tem um destaque vermelho.
+
+
+
+
+A exclusão/inativação da credencial de acesso ocorrerá na mesma data e horário
+dessa operação.
+
+
+As credenciais não são apagadas, elas permanecerão no sistema como inativas e com
+a data e hora do momento da inativação.
+
+
+
+2.4.4. Concessão de credenciais de acesso
+
+
+Para conceder autorização de acesso ao sistema CNIS a um usuário, o Gestor de
+Acesso Externo deve clicar no menu “Atribuições”, “Autorizações de Acesso” e, na tela
+seguinte, em “Inserir”:
+
+
+
+
+  Voltar ao topo                                                                                                                                               29
+Imagem 25 - GPA: menu "Atribuições" > "Autorizações de Acesso"
+                                      Tela do GPA. O menu "Atribuições" aparece com uma caixa vermelha e exibe opções. Uma seta vermelha aponta para "Autorizações de Acesso".
+
+
+
+
+Imagem 26 - GPA: inserir autorização de acesso
+                                      Tela do GPA. Um formulário de pesquisa preenche o centro. Na parte inferior, o botão "Inserir" está em destaque com um contorno vermelho.
+
+
+
+
+Posteriormente, selecionar o sistema (CNIS), o subsistema disponível, o papel e o tipo
+de domínio, bem como informar o domínio, o CPF do usuário, a data de validade, o
+período de acesso e a hora de acesso (início e fim).
+
+
+Ao preencher o domínio e o usuário (CPF), deve clicar em “Pesquisar” para a devida
+validação, do contrário, não será possível confirmar a operação:
+
+
+
+
+  Voltar ao topo                                                                                                                                                                  30
+Imagem 27 - GPA: concessão de autorização de acesso
+                                Tela do GPA. Há campos para "Sistema", "Subsistema", "Papel", "Domínio", "Usuário", "Data de Validade", "Período de Acesso", "Hora de Acesso/Início" e Hora de Acesso/Fim". Os botões "Pesquisar", ao lado de "Domínio" e "Usuário" estão em destaque vermelho.
+
+
+
+
+Imagem 28 - GPA: concessão de autorização de acesso
+                                                  Tela do GPA. Há campos para "Sistema", "Subsistema", "Papel", "Domínio", "Usuário", "Data de Validade", "Período de Acesso", "Hora de Acesso/Início" e Hora de Acesso/Fim". O campo "Usuário" está em destaque vermelho.
+
+
+
+
+Após o preenchimento das informações necessárias, clicar em “Confirmar”.
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                                                                                                  31
+                        Atenção
+                        A data de validade da credencial deve ser superior à
+                        data atual e inferior ou igual à data de validade da
+                        credencial de gestão do Gestor de Acesso que está
+                        executando a operação.
+
+
+
+
+O usuário receptor da credencial de acesso somente conseguirá acessar o sistema
+CNIS mediante o uso de certificado digital do tipo A3, desde que esteja com acesso
+vigente e, ainda, apenas durante o horário autorizado (início e fim).
+
+
+
+
+                           Importante
+                           Os usuários com registro de óbito não poderão obter
+                           credenciais.
+
+
+
+
+2.4.5. Atribuição de acesso a múltiplos usuários
+
+
+Também é possível ao Gestor de Acesso Externo conceder autorizações de acesso a
+múltiplos usuários. Basta clicar em “Atribuições”, “Autorizações de Acesso” e, na tela
+disponibilizada, em “Novo Múltiplos Usuários”:
+
+
+
+
+  Voltar ao topo                                                                    32
+Imagem 29 - GPA: concessão de autorizações de acesso a múltiplos usuários
+                                                                    Tela do GPA. Há formulários para pesquisa. Um botão vermelho em destaque diz "Novo Múltiplos Usuários".
+
+
+
+
+Após preencher os dados requisitados e clicar em “Avançar”, deverá preencher o
+domínio e o usuário (proceder com as devidas pesquisas para a validação) e clicar em
+“Incluir Usuário”. Somente após ter incluído todos os usuários necessários, deverá
+clicar em “Concluir":
+
+
+
+
+Imagem 30 - GPA: inclusão de múltiplos usuários para a concessão do acesso
+                                     Tela do GPA. Há uma seção de acesso, que mostra detalhes de atribuição e uma seção para selecionar usuários. O botão "Concluir" é destacado com um retângulo vermelho.
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                              33
+2.4.6. Transferência de Gestão
+
+
+Ao excluir/inativar uma credencial de gestão (papel Gestor de Acesso) de um Gestor
+de Acesso, as credenciais de acesso atribuídas a usuários por esse Gestor, que ainda
+estão dentro da data de validade, serão automaticamente excluídas/inativadas.
+
+
+Ou seja, os usuários perderão os acessos emitidos pelo Gestor de Acesso que teve a
+credencial excluída/inativada. Para que isso não ocorra, deve-se transferir as
+credenciais emitidas por este Gestor para o novo Gestor de Acesso, via menu
+“Atribuições”, “Transferir Gestão”:
+
+
+
+
+Imagem 31 - GPA: menu "Atribuições" > "Transferir Gestão"
+                                    Tela do GPA. No topo, há menus como Início Atribuições e Relatórios. O menu "Atribuições" mostra uma lista suspensa de opções. Uma seta vermelha aponta para "Transferir Gestão".
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                                        34
+Imagem 32 - GPA: transferência de gestão
+                                     Tela do GPA. Há uma tabela com dados de usuários. A coluna "Ações", à direita da tabela, possui ícones de transferência e está contornada por um retângulo vermelho.
+
+
+
+
+2.4.7. Emissão de Relatórios
+
+
+Pelo menu “Relatórios” é possível emitir diversos Relatórios, tais como:
+
+    Emitir Relatório – Autorizações de Acesso por Gestor;
+
+    Emitir Relatório – Papéis do Usuário;
+
+    Emitir Relatório – Papéis e Permissões por Sistema/Subsistema;
+
+    Emitir Relatório – Sistemas e Subsistemas Cadastrados;
+
+    Emitir Relatório – Usuários do Papel; e
+
+    Minhas Credenciais.
+
+
+
+
+  Voltar ao topo                                                                                                                                                                                            35
+Imagem 33 - GPA: menu "Relatórios"
+                                     Tela do GPA. Na parte superior, um menu com a opção Relatórios em destaque vermelho.
+
+
+
+
+  Voltar ao topo                                                                                                            36
+3. Unidade III – Acesso ao
+sistema CNIS
+
+
+
+
+3.1. Acesso ao sistema CNIS
+
+Para acessar o sistema CNIS, o procedimento é:
+
+    Utilizar o sítio eletrônico oficial: http://cnis.inss.gov.br/;
+
+    O acesso é realizado mediante certificado digital do tipo A3 (confirme se o
+    certificado é do tipo A3);
+
+    Esse certificado não precisa ser necessariamente emitido pelo Serviço Federal de
+    Processamento de Dados - Serpro; pode ser de qualquer autoridade certificadora
+    credenciada pela ICP-Brasil.
+
+
+
+
+  Voltar ao topo                                                                  37
+3.2. Consulta aos dados do CNIS
+
+Os dados do CNIS são disponibilizados para consulta conforme o nível de acesso
+autorizado ao órgão ou entidade (básico, intermediário ou completo). Além disso, os
+subsistemas do CNIS possuem papéis definidos, aos quais estão vinculadas
+permissões específicas. Assim, dependendo do papel atribuído ao usuário externo, a
+consulta poderá abranger apenas determinadas informações.
+
+
+O Portal CNIS é a aplicação desenvolvida segundo as regras de negócio do INSS,
+permitindo a consulta e o tratamento das informações do CNIS, para utilização no
+reconhecimento de direitos previdenciários.
+
+
+A camada “Extrato CNIS” é responsável por consolidar e disponibilizar, de forma
+parametrizável, as informações laborais e previdenciárias do trabalhador. Esse
+processo agrupa dados provenientes de diversas fontes de informação.
+
+
+O INSS utiliza essa camada para tratar os dados do CNIS, garantindo
+interoperabilidade com outras bases governamentais. O resultado desse tratamento
+gera indicadores, que sinalizam a necessidade de validação ou comprovação de
+informações pendentes pelo segurado, mediante apresentação de documentação
+correlata, conforme critérios definidos pelo INSS e previstos na Lei nº 8.213/1991, art.
+29-A, § 2º.
+
+
+O indicador de pendência identifica informações que exigem tratamento para
+liberação e utilização nos sistemas de benefícios. Na maioria dos casos, o INSS requer
+que o segurado apresente documentação contemporânea aos fatos para comprovar
+tais informações.
+
+
+A relação completa dos indicadores está disponível no Anexo V da Portaria
+DIRBEN/INSS nº 990, de 28 de março de 2022, ou em ato que a substitua.
+
+
+As principais consultas do CNIS abrangem dados cadastrais de pessoas físicas (como
+CPF, nome, data de nascimento, entre outros) e informações sobre relações
+previdenciárias e trabalhistas, acessíveis por meio do Extrato Previdenciário (Extrato
+para SIBE), que identifica as informações que estão pendentes ou já foram objeto de
+acerto ou se encontram marcadas com alerta (indicadores de pendência, acerto ou
+alerta).
+
+
+
+
+  Voltar ao topo                                                                     38
+4. Unidade IV - Considerações
+finais
+
+
+
+
+Quando houver necessidade de substituir um ou ambos os Gestores de Acesso (Titular
+e/ou Substituto), o órgão ou entidade deverá encaminhar Ofício ao INSS informando a
+alteração necessária. O Ofício deve conter:
+
+   Identificação do(s) novo(s) Gestor(es) de Acesso: nome completo, CPF, e-mail
+   institucional e telefone/celular; e
+
+   Indicação expressa de qual(is) Gestor(es) será(ão) alterado(s).
+
+
+Os seguintes documentos devem ser apresentados ao INSS:
+
+
+  1. Termo de Compromisso e Manutenção de Sigilo - TCMS, devidamente assinado
+     pelo(s) novo(s) Gestor(es), conforme modelo estabelecido pela Portaria Conjunta
+     MPS/INSS nº 3, de 16 de janeiro de 2024, ou em ato que a substitua;
+
+
+  1. Cópia do documento de identificação oficial com foto e CPF do(s) novo(s)
+     Gestor(es).
+
+
+
+
+ Voltar ao topo                                                                   39
+Para obter informações sobre como efetuar a troca ou a recuperação de senha,
+sugere-se consulta ao material “Perguntas Frequentes”, disponibilizado no GERID:
+
+
+
+
+Imagem 34 - GPA: perguntas frequentes
+                                        Tela do GPA. Há uma lista de links. Uma seta vermelha aponta para o link "Perguntas Frequentes".
+
+
+
+
+Para acesso ao Guia do Duplo Fator de Autenticação no GERID, clicar em “Manual
+do MFA":
+
+
+
+
+Imagem 35: GPA: manual do MFA
+                                           Tela do GPA. Há uma lista de links. Uma seta vermelha aponta para o link "Manual do MFA".
+
+
+
+
+  Voltar ao topo                                                                                                                           40
+2026 Instituto Nacional do Seguro Social - INSS
+
+
+Presidente
+Gilberto Waller Junior
+
+
+Diretora de Benefícios e Relacionamento com o Cidadão
+Márcia Eliza de Souza
+
+
+Coordenador-Geral de Administração de Informações do Segurado
+Nelson dos Santos Pedroso
+
+
+Coordenadora de Integração de Dados
+Álen Kelly Nunes e Silva
+
+
+Chefe da Divisão de Manutenção de Cadastro
+Antonio Massanobu Mizukami
+
+
+Coordenação do Projeto
+Álen Kelly Nunes e Silva
+Antonio Massanobu Mizukam
+
+Diagramação
+Serviço de Gestão de Atos Normativos de Benefícios
+
+
+
+
+  Voltar ao topo                                                41
+Voltar ao topo   42
+

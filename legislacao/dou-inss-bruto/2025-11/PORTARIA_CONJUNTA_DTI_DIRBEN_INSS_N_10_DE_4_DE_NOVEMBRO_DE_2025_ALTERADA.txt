@@ -1,0 +1,148 @@
+Boletim de Serviço Eletrônico em 05/11/2025
+DOU nº 214, de 10/11/2025, seção 1, página 63
+
+
+
+
+                                 INSTITUTO NACIONAL DO SEGURO SOCIAL
+
+          PORTARIA CONJUNTA DIT/DIRBEN/INSS Nº 10, DE 04 DE NOVEMBRO DE 2025
+
+
+
+                                                      Dispõe sobre o uso da procuração eletrônica na
+                                                      plataforma digital Meu INSS.
+
+
+              A DIRETORA DE TECNOLOGIA DA INFORMAÇÃO e a DIRETORA DE BENEFÍCIOS E
+RELACIONAMENTO COM O CIDADÃO DO INSTITUTO NACIONAL DO SEGURO SOCIAL -
+INSS, no uso das atribuições que lhes confere o Decreto nº 10.995, de 14 de março de 2022, e
+tendo em vista o que consta no Processo Administrativo nº 35014.355129/2025-44,
+
+
+                  RESOLVEM:
+
+
+                  Art. 1º Fica instituída a procuração eletrônica para uso na plataforma digital Meu
+INSS.
+               Parágrafo único. As diretrizes sobre a procuração eletrônica são estabelecidas
+pela Secretaria de Governo Digital - SGD, vinculada ao Ministério da Gestão e da Inovação em
+Serviços Públicos.
+
+
+                  Art. 2º A procuração eletrônica tem como objetivos:
+                      I - ampliar a acessibilidade
+                      II - aumentar a segurança; e
+                      III - facilitar o acesso aos serviços digitais do INSS.
+
+
+              Art. 3º O usuário poderá, por meio da procuração eletrônica, autorizar um
+representante a consultar os serviços digitais do INSS, sem a necessidade de compartilhar
+senha ou comparecer à Agência da Previdência Social - APS. (Alterada pela Portaria Conjunta
+DTI/DIRBEN/INSS nº 21, de 9 de junho de 2026, publicado no DOU nº 108, de 12 de junho de
+2026, Seção 1, Página 96)
+               Art. 3º O usuário poderá autorizar um representante a consultar os serviços
+digitais do INSS por meio da procuração eletrônica, sem a necessidade de compartilhar senha
+ou comparecer à Agência da Previdência Social - APS.
+
+
+              § 1º A solicitação da procuração eletrônica poderá ser realizada pelo usuário ou
+pelo representante, a partir de suas respectivas contas Gov.br. (Incluído pela Portaria Conjunta
+DTI/DIRBEN/INSS nº 21, de 9 de junho de 2026, publicado no DOU nº 108, de 12 de junho de
+2026, Seção 1, Página 96)
+
+
+             § 2º A procuração realizada pelo representante somente terá validade após a
+anuência do usuário, realizada por assinatura eletrônica no Gov.br. (Incluído pela Portaria
+Conjunta DTI/DIRBEN/INSS nº 21, de 9 de junho de 2026, publicado no DOU nº 108, de 12 de
+junho de 2026, Seção 1, Página 96)
+
+
+               Art. 4º A autorização de que trata o art. 3º será realizada pelo representado, por
+meio da conta gov.br com selo de confiabilidade nos níveis prata ou ouro, conforme as diretrizes
+da Secretaria de Governo Digital – SGD. (Alterada pela Portaria Conjunta DTI/DIRBEN/INSS nº
+21, de 9 de junho de 2026, publicado no DOU nº 108, de 12 de junho de 2026, Seção 1, Página
+96)
+             Art. 4º Para solicitação ou anuência da procuração eletrônica, o usuário e o
+representante deverão possuir conta Gov.br com selo de confiabilidade prata ou ouro,
+conforme diretrizes da Secretaria de Governo Digital – SGD.
+
+
+              Parágrafo único. O representante indicado na procuração eletrônica também
+deverá possuir conta gov.br com selo de confiabilidade nos níveis prata ou ouro. (Revogado pela
+Portaria Conjunta DTI/DIRBEN/INSS nº 21, de 9 de junho de 2026, publicado no DOU nº 108, de
+12 de junho de 2026, Seção 1, Página 96)
+
+
+                Art. 5º A procuração eletrônica somente poderá ser usada na plataforma Meu
+INSS.
+              Parágrafo único. A procuração de que trata esta Portaria não terá validade se
+impressa ou compartilhada como documento.
+
+
+              Art. 6º Ao cadastrar a procuração eletrônica, o representado deverá indicar:
+(Alterada pela Portaria Conjunta DTI/DIRBEN/INSS nº 21, de 9 de junho de 2026, publicado no
+DOU nº 108, de 12 de junho de 2026, Seção 1, Página 96)
+                Art. 6º Ao cadastrar a procuração eletrônica, o representante ou o representado
+deve indicar:
+                 I - os serviços que autoriza o representante consultar; e (Alterado pela Portaria
+Conjunta DTI/DIRBEN/INSS nº 21, de 9 de junho de 2026, publicado no DOU nº 108, de 12 de
+junho de 2026, Seção 1, Página 96)
+                  I – os serviços que o representante poderá consultar; e
+                  II - o período de validade da procuração.
+
+
+              Parágrafo único. Quando cadastrada pelo representante, caberá ao representado
+revisar as indicações, e editá-las, se for o caso. (Incluído pela Portaria Conjunta
+DTI/DIRBEN/INSS nº 21, de 9 de junho de 2026, publicado no DOU nº 108, de 12 de junho de
+2026, Seção 1, Página 96)
+              Art. 7º O representante indicado na procuração eletrônica poderá ter acessos
+aos seguintes serviços:
+                     I - consultas de documentos e de serviços online; e
+                     II - consultas de pedidos e de benefícios.
+
+
+               Art. 8º O representado poderá revogar a procuração eletrônica a qualquer
+momento, por meio da sua conta gov.br. (Alterada pela Portaria Conjunta DTI/DIRBEN/INSS nº
+21, de 9 de junho de 2026, publicado no DOU nº 108, de 12 de junho de 2026, Seção 1, Página
+96)
+              Art. 8º Tanto o representante quanto o representado poderão revogar a
+procuração eletrônica a qualquer momento, por meio da sua conta gov.br.
+
+
+              Parágrafo único. A revogação não exige justificativa nem comparecimento
+presencial à APS.
+
+
+               Art. 9º O representante indicado na procuração eletrônica é responsável pelo
+uso adequado das informações acessadas em nome do representado, devendo observar os
+princípios da boa-fé, da legalidade, da finalidade e da confidencialidade.
+
+
+              §1º É vedada a utilização das informações obtidas por meio da procuração
+eletrônica para fins diversos daqueles autorizados pelo representado.
+
+
+              §2º O uso indevido das informações poderá ensejar responsabilização civil,
+administrativa e penal, nos termos da legislação vigente.
+
+
+            §3º O representante deverá adotar as medidas necessárias para garantir o sigilo
+e a segurança das informações acessadas, sendo vedado o seu compartilhamento com
+terceiros.
+
+
+                 Art. 10. Esta Portaria entra em vigor em 13 de novembro de 2025.
+
+
+                                                               MÁRCIA ELIZA DE SOUZA
+            LEA BRESSY AMORIM
+                                                    Diretora de Benefícios e Relacionamento com o
+    Diretora de Tecnologia da Informação
+                                                                        Cidadã
+
+
+
+
+Referência: Processo nº 35014.355129/2025-44                                         SEI nº 23056114
+
