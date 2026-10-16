@@ -4200,6 +4200,314 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
+> **Lote 14, mesmo método (16/10/2026) — ÚLTIMO LOTE DA CAMPANHA:**
+> processados os 14 Temas finais da lista inventariada (1437, 1445, 1446,
+> 1447, 1450, 1458, 1460, 1462, 1467, 1469, 1470, 1476, 1484 e 1489), a
+> partir da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html`). **7 desses 14 temas são efetivamente
+> previdenciários (RGPS)** e foram incorporados como entradas próprias,
+> todas marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 1437** (inclusão do vale-alimentação/refeição pago antes da Lei
+> 13.416/2017 no salário de contribuição, para revisão de benefício,
+> **MÉRITO AINDA NÃO JULGADO**), **Tema 1445** (custeio — contribuição
+> patronal sobre o 13º proporcional ao aviso prévio indenizado,
+> **MÉRITO AINDA NÃO JULGADO** — repercussão geral reconhecida mas o
+> Tribunal não reafirmou a jurisprudência, remetendo o mérito ao Plenário
+> físico), **Tema 1447** (direito do contribuinte individual não
+> cooperado à aposentadoria especial e meios de prova da especialidade,
+> **SEM repercussão geral**), **Tema 1450** (contagem especial de
+> eletricista por periculosidade, **SEM repercussão geral**), **Tema
+> 1458** (critérios de cálculo de benefícios anteriores à CF/1988 para
+> adequação aos tetos das EC 20/1998 e EC 41/2003 — mvt/Mvt, **SEM
+> repercussão geral**), **Tema 1467** (qualidade de segurado do RGPS com
+> recolhimento inferior ao mínimo mensal da categoria após a EC
+> 103/2019, art. 195, § 14, CF — **MÉRITO AINDA NÃO JULGADO**, com
+> **Suspensão Nacional** determinada) e **Tema 1470** (aposentadoria
+> especial de agentes comunitários de saúde e de combate às endemias
+> após a EC 120/2022, art. 198, § 10, CF — **MÉRITO AINDA NÃO
+> JULGADO**). **Os outros 7 temas foram verificados e descartados**:
+> Direito Tributário geral sem relação com o custeio do RGPS (Tema 1446 —
+> inclusão do PIS/COFINS na base de cálculo do ICMS, mesmo padrão já
+> aplicado a outros temas tributários gerais nesta base), RPPS de
+> servidor público estadual/distrital ou matéria de pessoal estranha ao
+> RGPS (Tema 1460 — gratificação GEAC de professores aposentados do
+> Estado da Bahia, art. 40 CF; Tema 1462 — redutor de 5 anos do art. 40,
+> § 5º, CF para aposentadoria por invalidez de professor do DF; Tema
+> 1469 — integralidade/paridade de aposentadoria especial de agente
+> penitenciário, art. 40 CF; e Tema 1489 — termo inicial de progressão/
+> promoção funcional dos **servidores do próprio INSS**, matéria de
+> pessoal da autarquia, não de benefício do RGPS ao segurado), matéria
+> estranha ao Direito Previdenciário (Tema 1476 — restrição de migrantes
+> e refugiados ao ProUni por critério de nacionalidade, Direito
+> Educacional) e Direito Processual/Financeiro geral sem objeto
+> previdenciário específico (Tema 1484 — índices de correção monetária e
+> juros de mora sobre condenações da Fazenda Pública em geral após a EC
+> 136/2025, aplicável a qualquer ente público, não apenas ao INSS — mesmo
+> padrão já aplicado ao Tema 1335 no Lote 13) — ver o relatório da tarefa
+> para o detalhamento de cada descarte.
+>
+> **Com este lote, encerra-se a campanha de 14 lotes de incorporação de
+> Temas de Repercussão Geral do STF a esta base, iniciada em 16/10/2026.
+> Ver a seção "Encerramento da Campanha" ao final deste arquivo para o
+> resumo estatístico completo.**
+
+## Tema 1437 — Inclusão do vale-alimentação/refeição pago antes da Lei nº 13.416/2017 no salário de contribuição, para revisão de benefício (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1437_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 14.
+> **Atenção: o mérito ainda não foi julgado** — até 16/10/2026 só houve o
+> reconhecimento da repercussão geral (27/09/2025), seguido de embargos de
+> declaração opostos contra essa própria decisão (07/10/2025) e
+> tramitação ativa (manifestação da PGR em fev/2026, petições de amicus
+> curiae até ago/2026); confira o andamento atualizado em
+> portal.stf.jus.br antes de qualquer uso em petição.
+
+- **Leading case:** ARE 1.554.766.
+- **Relator:** Min. Nunes Marques.
+- **Repercussão geral:** **Sim** — reconhecida em 27/09/2025, Plenário
+  Virtual, por unanimidade: "O Tribunal, por unanimidade, reputou
+  constitucional a questão. O Tribunal, por unanimidade, reconheceu a
+  existência de repercussão geral da questão constitucional suscitada."
+- **Objeto:** à luz dos arts. 2º, 5º, 6º, 149, 195, § 5º, e 201, § 11, da
+  Constituição Federal, se o valor do vale-alimentação/refeição pago ao
+  trabalhador no período anterior à Lei nº 13.416/2017 pode ser utilizado
+  para a revisão e majoração de benefício previdenciário,
+  independentemente do recolhimento de contribuição previdenciária sobre
+  essa parcela **[DISPOSITIVO A CONFIRMAR NA BASE — Lei 13.416/2017 ainda
+  não incorporada como norma própria a esta base]**.
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** potencialmente alta para clientes com RMI calculada sem
+  a inclusão do vale-alimentação/refeição pago antes de 2017; aguardar o
+  julgamento do mérito antes de orientar sobre revisão de benefício com
+  base nessa tese.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1437_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1445 — Contribuição previdenciária patronal sobre o décimo terceiro salário proporcional ao aviso prévio indenizado (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1445_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 14.
+> **Atenção: o mérito ainda não foi julgado** — a repercussão geral foi
+> reconhecida, mas no mesmo julgamento o Tribunal decidiu não reafirmar a
+> jurisprudência dominante, remetendo o mérito a julgamento no Plenário
+> físico; confira o andamento atualizado antes de uso em petição.
+
+- **Leading case:** RE 1.566.336.
+- **Relator:** Min. Flávio Dino (impedido o Min. Gilmar Mendes na
+  distribuição, "nos termos do art. 326-A do RISTF"
+  **[DISPOSITIVO A CONFIRMAR NA BASE]**).
+- **Repercussão geral:** **Sim** — reconhecida por maioria, vencido o
+  Min. Gilmar Mendes (acórdão publicado em 17/04/2026; data exata do
+  Plenário Virtual `[A CONFIRMAR NA FONTE OFICIAL]`).
+- **Objeto:** à luz do art. 195, I, "a", da Constituição Federal, se
+  incide contribuição previdenciária patronal sobre os valores pagos ao
+  empregado a título de décimo terceiro salário proporcional ao aviso
+  prévio indenizado.
+- **Decisão (texto literal da página oficial):** "O Tribunal, por
+  maioria, reputou constitucional a questão, vencido o Ministro Gilmar
+  Mendes. O Tribunal, por maioria, reconheceu a existência de
+  repercussão geral da questão constitucional suscitada, vencido o
+  Ministro Gilmar Mendes. No mérito, o Tribunal, por maioria, não
+  reafirmou a jurisprudência dominante sobre a matéria, que será
+  submetida a posterior julgamento no Plenário físico. Não se manifestou
+  o Ministro Gilmar Mendes."
+- **Status: mérito AINDA NÃO JULGADO** `[AGUARDANDO JULGAMENTO DO
+  MÉRITO]` — aguardando julgamento no Plenário físico.
+- **Relevância:** custeio — relevante para empregadores-clientes; mesma
+  família de teses sobre verbas rescisórias/habitualidade já tratadas no
+  Tema 1100 (nesta base).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1445_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1447 — Direito do segurado contribuinte individual não cooperado à aposentadoria especial e meios de prova da especialidade (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1447_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 14.
+> **Incorporado apesar de SEM repercussão geral**, pelo critério refinado
+> nos Lotes 9-13: a matéria é genuinamente previdenciária do RGPS
+> (aposentadoria especial de contribuinte individual).
+
+- **Leading case:** RE 1.588.024 (já com trânsito em julgado e remessa ao
+  STJ).
+- **Relator:** `[A CONFIRMAR NA FONTE OFICIAL]` — a página consultada
+  identifica apenas "MINISTRO PRESIDENTE" na distribuição do tema para
+  processamento, sem nome individual do relator do leading case.
+- **Repercussão geral:** **NÃO reconhecida** — decisão por maioria,
+  vencido o Min. Gilmar Mendes, Plenário Virtual iniciado em 06/03/2026:
+  "O Tribunal, por maioria, reconheceu a inexistência de repercussão
+  geral da questão, por não se tratar de matéria constitucional, vencido
+  o Ministro Gilmar Mendes."
+- **Objeto:** possibilidade de concessão de aposentadoria especial ao
+  segurado contribuinte individual não cooperado, mesmo após a edição da
+  Lei nº 9.032/1995, e definição dos meios de prova aptos à comprovação
+  da especialidade de sua atividade.
+- **Tese (fixada no próprio julgamento de repercussão geral, com efeitos
+  de ausência de RG):** "É infraconstitucional, a ela se aplicando os
+  efeitos da ausência de repercussão geral, controvérsia sobre direito
+  do segurado contribuinte individual não cooperado à aposentadoria
+  especial e quanto aos meios de prova da especialidade de sua
+  atividade."
+- **Trânsito em julgado:** 22/05/2026 (certidão constante da página
+  oficial).
+- **Relevância:** direta sempre que o cliente for contribuinte individual
+  (não cooperado) pleiteando aposentadoria especial — a matéria permanece
+  infraconstitucional, decidida pelos TRFs/STJ, sem tese vinculante do
+  STF.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1447_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1450 — Contagem especial de serviços de eletricista por periculosidade, para fins de aposentadoria do RGPS (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1450_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 14.
+> **Incorporado apesar de SEM repercussão geral**, mesmo critério do Tema
+> 1447 acima. **Limitação do material coletado:** a página desta Tema não
+> trouxe a tabela de andamentos detalhada do leading case (nome do
+> relator e data exata da decisão de repercussão geral não localizados),
+> apenas a tese já fixada no cabeçalho — `[A CONFIRMAR NA FONTE OFICIAL]`
+> quanto a esses dois dados.
+
+- **Leading case:** RE 1.587.714.
+- **Relator:** `[A CONFIRMAR NA FONTE OFICIAL]`.
+- **Repercussão geral:** **NÃO reconhecida** — matéria "infraconstitucional
+  e fática" (tese abaixo); data e votação exatas `[A CONFIRMAR NA FONTE
+  OFICIAL]`.
+- **Objeto:** possibilidade de contagem como tempo especial, para efeitos
+  previdenciários, da prestação de serviços de eletricista, em situação
+  de habitualidade na exposição a tensões elétricas superiores a 250
+  volts.
+- **Tese:** "É infraconstitucional e fática a controvérsia sobre a
+  admissão, para o cálculo de aposentadoria pelo regime geral de
+  previdência social, de contagem especial de períodos registrados na
+  prestação de serviços de eletricista, diante do reconhecimento da
+  periculosidade da atividade."
+- **Relevância:** direta para teses de aposentadoria especial por
+  periculosidade elétrica — matéria remetida aos TRFs/STJ; ver também o
+  Tema 555 (EPI/ruído, já nesta base) para o tema correlato de
+  especialidade por outros agentes nocivos.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1450_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1458 — Critérios de cálculo da renda mensal de benefícios concedidos antes da CF/1988, para adequação aos tetos das EC 20/1998 e EC 41/2003 (mvt/Mvt) (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1458_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 14.
+> **[DISPOSITIVO A CONFIRMAR NA BASE — a EC nº 20/1998 e a EC nº 41/2003
+> citadas no objeto deste tema ainda não foram incorporadas como normas
+> próprias a esta base (só a EC 103/2019 tem arquivo dedicado); citadas
+> aqui apenas pelo teor da descrição oficial do tema.]**
+
+- **Leading cases:** ARE 1.566.291 e ARE 1.572.743.
+- **Relator:** `[A CONFIRMAR NA FONTE OFICIAL]`.
+- **Repercussão geral:** **NÃO reconhecida** — decisão por unanimidade em
+  16/05/2026, Plenário Virtual: "O Tribunal, por unanimidade, reconheceu
+  a inexistência de repercussão geral da questão, por não se tratar de
+  matéria constitucional."
+- **Objeto:** à luz do art. 5º, XXXVI, e do art. 102, I, "l", da
+  Constituição Federal, e do art. 14 da EC nº 20/1998 e do art. 5º da EC
+  nº 41/2003, a forma de cálculo da renda mensal de benefícios
+  previdenciários concedidos antes da Constituição Federal para
+  adequação aos tetos dessas duas Emendas, considerando os limitadores
+  vigentes à época da concessão (menor e maior valor-teto — mvt/Mvt).
+- **Trânsito em julgado:** não localizado no material coletado —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** relevante para clientes com benefícios muito antigos
+  (concedidos antes de 05/10/1988) ainda em manutenção, quanto à forma de
+  adequação ao teto — tema correlato ao bloco de teto/correção já
+  existente (Temas 76, 728 e 930 nesta base).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1458_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1467 — Reconhecimento da qualidade de segurado do RGPS quando o recolhimento é inferior ao mínimo mensal da categoria, após a EC nº 103/2019 (MÉRITO AINDA NÃO JULGADO — Suspensão Nacional)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1467_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 14.
+> **Atenção: o mérito ainda não foi julgado e há Suspensão Nacional**
+> determinada — confira o andamento atualizado em portal.stf.jus.br antes
+> de qualquer uso em petição ou prosseguimento de ação sobre a matéria.
+
+- **Leading case:** RE 1.544.748.
+- **Relator:** Min. André Mendonça.
+- **Repercussão geral:** **Sim** — reconhecida por unanimidade: "O
+  Tribunal, por unanimidade, reputou constitucional a questão. O
+  Tribunal, por unanimidade, reconheceu a existência de repercussão
+  geral da questão constitucional suscitada. O Tribunal, por maioria,
+  determinou a suspensão do processamento de processos pendentes. Não se
+  manifestaram os Ministros Dias Toffoli, Alexandre de Moraes e Cristiano
+  Zanin." Data exata do julgamento `[A CONFIRMAR NA FONTE OFICIAL]`.
+- **Objeto:** à luz dos arts. 195, § 14, e 201 da Constituição Federal e
+  do art. 29 da EC nº 103/2019, se o recolhimento de contribuição em
+  valor inferior ao mínimo mensal da categoria impede o reconhecimento
+  da qualidade de segurado do RGPS, após o advento do § 14 do art. 195 da
+  CF (incluído pela EC 103/2019).
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]`, com **Suspensão Nacional** do
+  processamento de processos pendentes sobre a matéria.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** **ALTÍSSIMA** — tema central para contribuintes
+  individuais/facultativos com recolhimento abaixo do mínimo da
+  categoria, situação já tangenciada no caso-teste
+  `casos/2026-TESTE-001/` (Bloco 10, achado sobre carnês de contribuinte
+  individual com alíquota reduzida sem complementação, IN 128/2022, art.
+  216, V, "a"); verificar a Suspensão Nacional antes de ajuizar ou
+  prosseguir qualquer ação sobre esta matéria específica.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1467_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1470 — Aposentadoria especial de agentes comunitários de saúde e de agentes de combate às endemias após a EC nº 120/2022 (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1470_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 14.
+> **Atenção: o mérito ainda não foi julgado** — confira o andamento
+> atualizado em portal.stf.jus.br antes de qualquer uso em petição.
+
+- **Leading case:** RE 1.605.997.
+- **Relator:** `[A CONFIRMAR NA FONTE OFICIAL]` — a página mostra
+  "MINISTRO PRESIDENTE" na distribuição do tema para processamento, sem
+  nome individual do relator do leading case.
+- **Repercussão geral:** **Sim** — reconhecida por unanimidade em
+  06/08/2026, Plenário Virtual: "O Tribunal, por unanimidade, reputou
+  constitucional a questão. Não se manifestou o Ministro André Mendonça.
+  O Tribunal, por unanimidade, reconheceu a existência de repercussão
+  geral da questão constitucional suscitada. Não se manifestou o
+  Ministro André Mendonça."
+- **Objeto:** à luz do art. 198, § 10, da Constituição Federal (incluído
+  pela EC nº 120/2022) **[DISPOSITIVO A CONFIRMAR NA BASE]**, a eficácia
+  da norma constitucional que reconhece os riscos inerentes às
+  atividades de agentes comunitários de saúde e de agentes de combate às
+  endemias, e a possibilidade de uso do critério de enquadramento por
+  categoria profissional/ocupação para fins de contagem de tempo especial
+  previdenciário.
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** **ALTA** — agentes comunitários de saúde e de combate a
+  endemias são, em regra, segurados do RGPS (vínculo geralmente com
+  municípios, sob o regime da Lei nº 11.350/2006
+  **[DISPOSITIVO A CONFIRMAR NA BASE]**); tema relevante para a
+  aposentadoria especial dessa categoria, cujo enquadramento por
+  categoria profissional é, como regra geral, vedado desde a Lei
+  9.032/1995 (ver Temas 165 e 388, já nesta base, sobre a mesma lógica em
+  pensão por morte e auxílio-acidente).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1470_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
 ---
 
 ## Ações Diretas de Inconstitucionalidade (NÃO são Temas de Repercussão Geral — categoria processual diferente)
@@ -4224,3 +4532,71 @@ disponíveis nesta mesma pasta e não são reproduzidos aqui:
 - `adi-6309-2026-certidao-julgamento.md`
 - `adi-6309-2026-andamento.pdf`
 - `adi-6309-2026-voto-barroso.pdf`
+
+---
+
+## Encerramento da Campanha de 14 Lotes (16/10/2026)
+
+Com o Lote 14 (acima), **encerra-se em 16/10/2026** a campanha de
+incorporação sistemática de Temas de Repercussão Geral do STF a esta
+base, iniciada no mesmo dia com a reconciliação dos 6 primeiros temas
+contra fonte oficial (ver topo deste arquivo).
+
+**Resumo estatístico final:**
+
+- **Total de Temas de Repercussão Geral do STF inventariados para esta
+  campanha:** 270.
+- **Total efetivamente incorporado como entrada própria de Direito
+  Previdenciário do RGPS nesta base:** **91 Temas** — 9 que já estavam
+  cobertos antes do início da campanha de hoje (Temas 27, 32, 166, 281,
+  350, 503, 1091, 1102 e 1125) + 82 incorporados ao longo dos 14 lotes
+  processados hoje (contagem por lote: Segunda Leva/Lote 1 = 7, Lote 2 =
+  4, Lote 3 = 5, Lote 4 = 2, Lote 5 = 5, Lote 6 = 3, Lote 7 = 6, Lote 8 =
+  3, Lote 9 = 9, Lote 10 = 11, Lote 11 = 6, Lote 12 = 7, Lote 13 = 7,
+  Lote 14 = 7). Confere com `grep -c "^## Tema " temas-repercussao-geral-
+  stf.md` (84, nível `##`) somado aos 9 Temas de custeio documentados em
+  nível `###` dentro da seção "Recursos Extraordinários com Repercussão
+  Geral — Custeio" (Temas 3, 20, 32, 72, 166, 202, 204, 281 e 651),
+  **menos** as 2 entradas de alerta/documentação que existem só para
+  registrar números que **não** são previdenciários por engano comum
+  (Tema 1.231 — RPV municipal — e Tema 1.302 — anuidades da OAB): 84 + 9
+  − 2 = 91.
+- **Total verificado e descartado** (outras áreas do direito — RPPS de
+  servidor público/militar, previdência privada complementar, Direito
+  Tributário geral sem relação com o custeio do RGPS, Direito
+  Processual Civil/competência sem mérito previdenciário próprio,
+  Direito do Trabalho/Administrativo/Educacional sem relação com
+  benefício do RGPS, entre outros): **179 Temas**, somados lote a lote
+  nas notas acima (12+15+14+17+14+16+13+16+10+8+13+12+12+7 = 179).
+  Conferência: 91 (incorporados) + 179 (descartados) = 270 (inventariado).
+- Dentro dos 91 incorporados, uma parcela relevante está marcada **SEM
+  repercussão geral** (matéria declarada infraconstitucional pelo
+  próprio STF, mas genuinamente de Direito Previdenciário do RGPS —
+  incorporada mesmo assim, pelo critério refinado nos Lotes 9-14) e
+  outra parcela está marcada **MÉRITO AINDA NÃO JULGADO** (repercussão
+  geral já reconhecida, tese ainda pendente) — ambas as situações exigem
+  atenção redobrada antes de qualquer uso em petição real; **nenhum Tema
+  com mérito pendente ou sem repercussão geral substitui a necessidade
+  de verificar o andamento processual atualizado em
+  portal.stf.jus.br/jurisprudenciaRepercussao antes de citar.**
+- Todas as 91 entradas incorporadas estão marcadas
+  `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]` (ou, para os 2
+  precedentes históricos Tema 70 e Tema 88, o mesmo padrão de fonte
+  oficial) — nenhuma depende apenas de busca secundária (WebSearch) após
+  esta campanha.
+- **Pendências residuais conhecidas, não resolvidas por esta campanha**
+  (fora do escopo, tratar sob demanda): acórdãos oficiais completos
+  (ementa, votação nominal integral) de vários Temas ainda marcados
+  `[A CONFIRMAR NA FONTE OFICIAL]` quanto a detalhes pontuais (relator
+  exato quando a página só indica "Ministro Presidente" na distribuição,
+  datas exatas de julgamento de mérito em alguns casos, trânsito em
+  julgado em outros); acompanhamento dos Temas com **mérito ainda não
+  julgado** (1271, 1274, 1329, 1353, 1370 parcial, 1415, 1421, 1437,
+  1445, 1467 e 1470) e da **Suspensão Nacional** vigente nos Temas 1329 e
+  1467; e as normas citadas incidentalmente nos objetos de alguns Temas
+  mas ainda não incorporadas como arquivo próprio desta base (ex.: Lei
+  13.416/2017, Lei 11.350/2006, EC 20/1998 e EC 41/2003 como normas
+  autônomas — hoje citadas apenas de passagem em `decreto-3.048-1999.md`/
+  `ec-103-2019.md` ou em entradas de jurisprudência).
+- **Não commitado** — a usuária revisa e comita (mesma prática adotada
+  em toda a campanha).
