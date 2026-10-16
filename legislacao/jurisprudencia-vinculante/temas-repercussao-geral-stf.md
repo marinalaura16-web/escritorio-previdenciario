@@ -9,6 +9,20 @@
 > FONTE OFICIAL]`.
 > **Confira sempre a tese e o andamento processual atualizados em
 > portal.stf.jus.br/jurisprudenciaRepercussao antes de citar em petição.**
+>
+> **Reconciliação com fonte oficial em 16/10/2026:** a usuária forneceu, a
+> partir de sua pasta pessoal de jurisprudência no Google Drive (não é
+> upload de terceiro), a página de andamento processual do próprio
+> `portal.stf.jus.br` para 6 temas (`tema-0027-pagina.txt`,
+> `tema-0032-pagina.txt`, `tema-0166-pagina.txt`, `tema-0281-pagina.txt`,
+> `tema-0350-pagina.txt` e `tema-1091-pagina.txt`, extraídas via html2text
+> para `stf-rg-bruto/` nesta mesma pasta). Cada entrada desses 6 temas foi
+> conferida contra esse material e está agora marcada
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`**, com divergências
+> em relação ao texto anterior documentadas explicitamente (nunca
+> sobrescritas em silêncio), seguindo o padrão já consolidado neste
+> projeto. Os demais temas deste arquivo (503, 1102, 1125, 1231 e 1302)
+> **não foram tocados nesta tarefa** e permanecem só com fonte secundária.
 
 ---
 
@@ -45,11 +59,10 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
      social**, tema que se relaciona ao dispositivo de isenção/imunidade
      dessas entidades já registrado (e já anotado como revogado por lei
      posterior) em `leis-ordinarias/lei-8.212-1991.md`.
-     **`[JURISPRUDÊNCIA A CONFIRMAR]`** — Tema 32/RE 566.622 identificado
-     apenas por busca nesta sessão, não lido no acórdão oficial, e **não
-     documentado como entrada própria nesta tarefa** (fora do escopo
-     pedido, que era apenas RE 595.838 e RE 611.601). Fica registrado aqui
-     como achado a incorporar em sessão futura.
+     **Incorporado como entrada própria em 16/10/2026, com fonte oficial —
+     ver seção "Tema 32" abaixo.** (Até 16/10/2026 este item trazia
+     `[JURISPRUDÊNCIA A CONFIRMAR]`, por ter sido identificado apenas por
+     busca, sem leitura do acórdão oficial; a pendência foi resolvida.)
    - **Coincidentemente, é esse Tema 32/RE 566.622 — não o RE 611.601 —
      que corresponde ao objeto que o usuário originalmente associava a
      "CEBAS/imunidade de entidades beneficentes".** Conclusão desta
@@ -64,20 +77,81 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 
 ## Tema 350 — Prévio requerimento administrativo
 
-- **Processo paradigma:** RE 631.240.
-- **Tese firmada:** "A concessão de benefícios previdenciários depende de
-  requerimento do interessado, não se caracterizando ameaça ou lesão a
-  direito antes de sua apreciação e indeferimento pelo INSS, ou se excedido
-  o prazo legal para sua análise."
-- **Observações relevantes:** o acórdão esclarece que a exigência de prévio
-  requerimento administrativo não se confunde com exigência de exaurimento
-  da via administrativa, e que essa exigência não prevalece quando a
-  Administração tiver posição notória e contrária à pretensão do segurado.
-- **Relator:** [A CONFIRMAR NA FONTE OFICIAL] — não confirmado com segurança
-  na pesquisa realizada.
-- **Data do julgamento:** [A CONFIRMAR NA FONTE OFICIAL].
-- **Fonte:** https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=350
-- **Data de consulta:** 21/09/2026.
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`** — conferido contra
+> `stf-rg-bruto/tema-0350-pagina.txt` em 16/10/2026.
+> **`[CORRIGIDO EM 16/10/2026 — conferido contra fonte oficial]`** A versão
+> anterior desta entrada trazia só o item I da tese (abaixo), como se fosse
+> a tese completa. A tese oficial tem **5 itens (I a V)** — os itens III,
+> IV e V, bem mais relevantes para a prática do escritório do que o I
+> isolado, não estavam registrados nesta base. Relator e data de
+> julgamento, antes `[A CONFIRMAR NA FONTE OFICIAL]`, agora confirmados.
+
+- **Processo paradigma:** RE 631.240 (origem: MG).
+- **Relator:** Min. Luís Roberto Barroso (confirmado pela página oficial).
+- **Data do julgamento de mérito:** 03/09/2014, Tribunal Pleno. Decisão: "o
+  Tribunal, por maioria e nos termos do voto do Relator, deu parcial
+  provimento ao recurso, vencidos, em menor extensão, a Ministra Rosa
+  Weber, e, integralmente, os Ministros Marco Aurélio e Cármen Lúcia."
+  Presidiu o julgamento o Ministro Ricardo Lewandowski (Vice-Presidente no
+  exercício da Presidência).
+- **Trânsito em julgado:** 03/05/2017 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Tese firmada (texto literal completo, 5 itens):**
+  > "I - A concessão de benefícios previdenciários depende de requerimento
+  > do interessado, não se caracterizando ameaça ou lesão a direito antes
+  > de sua apreciação e indeferimento pelo INSS, ou se excedido o prazo
+  > legal para sua análise. É bem de ver, no entanto, que a exigência de
+  > prévio requerimento não se confunde com o exaurimento das vias
+  > administrativas;
+  > II – A exigência de prévio requerimento administrativo não deve
+  > prevalecer quando o entendimento da Administração for notória e
+  > reiteradamente contrário à postulação do segurado;
+  > III – Na hipótese de pretensão de revisão, restabelecimento ou
+  > manutenção de benefício anteriormente concedido, considerando que o
+  > INSS tem o dever legal de conceder a prestação mais vantajosa
+  > possível, o pedido poderá ser formulado diretamente em juízo – salvo
+  > se depender da análise de matéria de fato ainda não levada ao
+  > conhecimento da Administração –, uma vez que, nesses casos, a conduta
+  > do INSS já configura o não acolhimento ao menos tácito da pretensão;
+  > IV – Nas ações ajuizadas antes da conclusão do julgamento do RE
+  > 631.240/MG (03/09/2014) que não tenham sido instruídas por prova do
+  > prévio requerimento administrativo, nas hipóteses em que exigível,
+  > será observado o seguinte: (a) caso a ação tenha sido ajuizada no
+  > âmbito de Juizado Itinerante, a ausência de anterior pedido
+  > administrativo não deverá implicar a extinção do feito; (b) caso o
+  > INSS já tenha apresentado contestação de mérito, está caracterizado o
+  > interesse em agir pela resistência à pretensão; e (c) as demais ações
+  > que não se enquadrem nos itens (a) e (b) serão sobrestadas e baixadas
+  > ao juiz de primeiro grau, que deverá intimar o autor a dar entrada no
+  > pedido administrativo em até 30 dias, sob pena de extinção do processo
+  > por falta de interesse em agir. Comprovada a postulação administrativa,
+  > o juiz intimará o INSS para se manifestar acerca do pedido em até 90
+  > dias. Se o pedido for acolhido administrativamente ou não puder ter o
+  > seu mérito analisado devido a razões imputáveis ao próprio requerente,
+  > extingue-se a ação. Do contrário, estará caracterizado o interesse em
+  > agir e o feito deverá prosseguir;
+  > V – Em todos os casos acima – itens (a), (b) e (c) –, tanto a análise
+  > administrativa quanto a judicial deverão levar em conta a data do
+  > início da ação como data de entrada do requerimento, para todos os
+  > efeitos legais."
+- **Relevância prática (nova, 16/10/2026):** o item III é especialmente
+  relevante para casos de revisão/restabelecimento/manutenção de
+  benefício já concedido (inclusive para a tese de erro do INSS) — nesses
+  casos a via judicial direta pode ser sustentada sem novo requerimento
+  administrativo, salvo matéria de fato ainda não submetida à
+  Administração. O item IV só se aplica a ações ajuizadas antes de
+  03/09/2014 — sem relevância para casos novos, mas pode ser citado em
+  processos antigos ainda em curso.
+- **Modulação de efeitos:** não identificada no material disponível (a
+  página de andamento não registra modulação de efeitos distinta do
+  próprio item IV da tese, que já é, em si, uma regra de transição para
+  ações antigas) — `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]` quanto a
+  modulação adicional.
+- **Fonte:** `stf-rg-bruto/tema-0350-pagina.txt` (página de andamento
+  processual de portal.stf.jus.br, extraída em 16/10/2026) e
+  https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=350.
+- **Data de consulta:** 21/09/2026 (fonte secundária) e 16/10/2026 (fonte
+  oficial).
 
 ## Tema 1102 — Revisão da vida toda (este é o número correto, não 1.125)
 
@@ -185,23 +259,50 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 
 ## Tema 27 — BPC/LOAS: critério de renda per capita não é o único parâmetro de miserabilidade
 
-- **Processo paradigma:** RE 567.985.
-- **Julgamento:** Tribunal Pleno, 18/04/2013.
-- **Relator:** Min. Marco Aurélio (relator para o acórdão: Min. Gilmar
-  Mendes, conforme fonte consultada — **[A CONFIRMAR NA FONTE OFICIAL]**
-  quanto à exatidão dessa distinção entre relator original e redator do
-  acórdão).
-- **Tese firmada:** "É inconstitucional o § 3º do artigo 20 da Lei
-  8.742/1993, que estabelece a renda familiar mensal per capita inferior a
-  um quarto do salário mínimo como requisito obrigatório para concessão do
-  benefício assistencial de prestação continuada previsto no artigo 203, V,
-  da Constituição."
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`** — conferido contra
+> `stf-rg-bruto/tema-0027-pagina.txt` em 16/10/2026. Tese e trânsito em
+> julgado bateram com o que já estava registrado. A dúvida sobre o redator
+> do acórdão foi confirmada, e um dado novo e relevante foi localizado:
+> a modulação de efeitos foi votada e **não alcançou o quórum necessário**
+> (ver abaixo) — isto não estava registrado nesta base antes.
+
+- **Processo paradigma:** RE 567.985 (origem: PR).
+- **Julgamento de mérito:** 18/04/2013, Tribunal Pleno. Decisão: "O
+  Tribunal, por maioria, negou provimento ao recurso extraordinário e
+  declarou incidenter tantum a inconstitucionalidade do § 3º do art. 20 da
+  Lei nº 8.742/93." Vencidos, parcialmente, o Ministro Marco Aurélio
+  (Relator), que apenas negava provimento ao recurso sem declarar a
+  inconstitucionalidade da norma, e os Ministros Teori Zavascki e Ricardo
+  Lewandowski, que davam provimento ao recurso.
+- **Relator:** Min. Marco Aurélio. **Redigiu o acórdão o Min. Gilmar
+  Mendes** — confirmado pela página oficial (antes `[A CONFIRMAR NA FONTE
+  OFICIAL]` nesta base).
+- **Modulação de efeitos (achado novo, 16/10/2026):** a página oficial
+  registra expressamente: "Não foi alcançado o quorum de 2/3 para
+  modulação dos efeitos da decisão para que a norma tivesse validade até
+  31/12/2015. Votaram pela modulação os Ministros Gilmar Mendes, Rosa
+  Weber, Luiz Fux, Cármen Lúcia e Celso de Mello. Votaram contra a
+  modulação os Ministros Teori Zavascki, Ricardo Lewandowski e Joaquim
+  Barbosa (Presidente). O Relator absteve-se de votar quanto à modulação."
+  **Efeito prático: não houve modulação — a inconstitucionalidade do § 3º
+  do art. 20 da Lei 8.742/93 produz efeitos desde o julgamento (18/04/2013),
+  sem prazo de validade residual da norma.**
+- **Trânsito em julgado:** 11/12/2013 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Tese firmada (confirmada, idêntica à já registrada):** "É
+  inconstitucional o § 3º do artigo 20 da Lei 8.742/1993, que estabelece a
+  renda familiar mensal per capita inferior a um quarto do salário mínimo
+  como requisito obrigatório para concessão do benefício assistencial de
+  prestação continuada previsto no artigo 203, V, da Constituição."
 - **Relevância:** direta e central — BPC/LOAS, um dos benefícios mais
   trabalhados pelo escritório (ver `practice-profile.md`). Permite
   demonstrar miserabilidade por outros meios de prova além do critério
   objetivo de 1/4 do salário mínimo.
-- **Fonte:** https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2569060&numeroProcesso=567985&classeProcesso=RE&numeroTema=27
-- **Data de consulta:** 21/09/2026.
+- **Fonte:** `stf-rg-bruto/tema-0027-pagina.txt` (página de andamento
+  processual de portal.stf.jus.br, extraída em 16/10/2026) e
+  https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2569060&numeroProcesso=567985&classeProcesso=RE&numeroTema=27.
+- **Data de consulta:** 21/09/2026 (fonte secundária) e 16/10/2026 (fonte
+  oficial).
 
 ---
 
@@ -213,37 +314,52 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 > também o alerta no topo deste arquivo sobre a associação equivocada
 > "RE 611.601 = Tema 32" — **nenhum dos dois REs abaixo trata de imunidade
 > ou CEBAS de entidades beneficentes**; essa é matéria de outro precedente
-> (Tema 32/RE 566.622, ainda não incorporado a esta base).
+> (**Tema 32/RE 566.622, incorporado como entrada própria em 16/10/2026 —
+> ver seção "Tema 32" após o Tema 281, abaixo**).
+> Ambas as entradas (Tema 166 e Tema 281) foram conferidas em 16/10/2026
+> contra a página processual oficial do STF (`stf-rg-bruto/`) — ver as
+> marcações `[FONTE OFICIAL]` em cada uma.
 
 ### Tema 166 — Inconstitucionalidade da contribuição de 15% sobre cooperativas de trabalho (art. 22, IV, da Lei 8.212/91)
 
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`** — conferido contra
+> `stf-rg-bruto/tema-0166-pagina.txt` em 16/10/2026. **Tese, relator e data
+> de julgamento bateram exatamente** com o que já estava registrado (a
+> redação literal, antes com `[A CONFIRMAR NA FONTE OFICIAL]`, está agora
+> confirmada byte a byte). Dados novos: julgamento por **unanimidade** (não
+> apenas "maioria"/"Tribunal Pleno" genérico) e trânsito em julgado.
+
 - **Processo paradigma:** RE 595.838 (origem: SP).
-- **Repercussão geral:** reconhecida — **Tema 166**. Confirmado por URL
-  direta do portal STF encontrada na busca
-  (`numeroProcesso=595838&classeProcesso=RE&numeroTema=166`), o que dá
-  confiança razoavelmente alta a essa associação RE↔Tema, mesmo sem leitura
-  direta da página (sem WebFetch/curl neste ambiente).
-- **Relator:** Min. Dias Toffoli (múltiplas fontes convergentes).
-- **Data do julgamento:** 23/04/2014, Tribunal Pleno.
+- **Repercussão geral:** reconhecida — **Tema 166**.
+- **Relator:** Min. Dias Toffoli (confirmado pela página oficial).
+- **Data do julgamento:** 23/04/2014, Tribunal Pleno, **por unanimidade**.
+  Decisão: "O Tribunal, por unanimidade e nos termos do voto do Relator,
+  deu provimento ao recurso extraordinário e declarou a
+  inconstitucionalidade do inciso IV do art. 22 da Lei 8.212/1991, com a
+  redação dada pela Lei nº 9.876/1999." Votou o Presidente, Ministro
+  Joaquim Barbosa. Ausente, justificadamente, o Ministro Gilmar Mendes.
+- **Embargos de declaração:** opostos pela Fazenda Nacional, **rejeitados
+  por unanimidade** em 18/12/2014 (sem efeitos infringentes).
+- **Trânsito em julgado:** 09/03/2015 (certidão/andamento constante da
+  página oficial).
 - **Objeto:** constitucionalidade do art. 22, IV, da Lei 8.212/1991 (com a
   redação dada pela Lei nº 9.876/1999), que instituía contribuição de 15%
   sobre o valor bruto da nota fiscal ou fatura de prestação de serviços por
   cooperativas de trabalho.
-- **Tese firmada (boa convergência entre múltiplas fontes independentes,
-  incluindo notícia oficial em noticias.stf.jus.br):** "É inconstitucional
-  a contribuição previdenciária prevista no art. 22, IV, da Lei 8.212/1991,
-  com redação dada pela Lei 9.876/1999, que incide sobre o valor bruto da
-  nota fiscal ou fatura referente a serviços prestados por cooperados por
-  intermédio de cooperativas de trabalho." **`[A CONFIRMAR NA FONTE
-  OFICIAL]`** quanto à redação byte a byte (não lida diretamente do
-  portal.stf.jus.br).
-- **Fundamento (resumo):** a contribuição incidia sobre o faturamento da
-  cooperativa (valor bruto da nota fiscal), extrapolando a base econômica
-  do art. 195, I, "a", da CF (folha de salários), e representaria nova
-  fonte de custeio da Seguridade Social não instituída por lei
-  complementar (art. 195, § 4º, c/c art. 154, I, da CF). Resumo elaborado a
-  partir de fontes secundárias — **`[JURISPRUDÊNCIA A CONFIRMAR]`** quanto
-  à fundamentação exata do voto condutor.
+- **Tese firmada (texto literal, confirmado byte a byte pela página
+  oficial):** "É inconstitucional a contribuição previdenciária prevista
+  no art. 22, IV, da Lei 8.212/1991, com redação dada pela Lei 9.876/1999,
+  que incide sobre o valor bruto da nota fiscal ou fatura referente a
+  serviços prestados por cooperados por intermédio de cooperativas de
+  trabalho."
+- **Fundamento (resumo, ainda de fonte secundária — a página oficial não
+  traz a fundamentação do voto, só a ementa/decisão):** a contribuição
+  incidia sobre o faturamento da cooperativa (valor bruto da nota fiscal),
+  extrapolando a base econômica do art. 195, I, "a", da CF (folha de
+  salários), e representaria nova fonte de custeio da Seguridade Social
+  não instituída por lei complementar (art. 195, § 4º, c/c art. 154, I, da
+  CF). **`[JURISPRUDÊNCIA A CONFIRMAR]`** quanto à fundamentação exata do
+  voto condutor.
 - **Efeito vinculante:** repercussão geral reconhecida — aplicável a todos
   os processos análogos.
 - **Relação com esta base:** confirma e formaliza o achado já registrado em
@@ -253,40 +369,47 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   **não trata de imunidade/CEBAS de entidades beneficentes** — trata da
   base de cálculo da contribuição patronal sobre serviços de cooperativas
   de trabalho.
-- **Fonte:** busca via WebSearch, 23/09/2026 — convergência entre
-  noticias.stf.jus.br ("STF declara inconstitucional contribuição sobre
-  serviços de cooperativas de trabalho"), a URL de andamento processual do
-  próprio portal.stf.jus.br (parâmetros numeroProcesso=595838,
-  numeroTema=166) e fontes secundárias (jusbrasil.com.br, modeloinicial.com.br,
-  boletimjuridico.com.br, trilhante.com.br). **Nenhuma página foi lida
-  diretamente (sem WebFetch/curl) — apenas resumos/snippets do buscador.**
-- **Data de consulta:** 23/09/2026.
+- **Fonte:** `stf-rg-bruto/tema-0166-pagina.txt` (página de andamento
+  processual de portal.stf.jus.br, extraída em 16/10/2026) e busca via
+  WebSearch em 23/09/2026 (noticias.stf.jus.br, jusbrasil.com.br,
+  modeloinicial.com.br, boletimjuridico.com.br, trilhante.com.br).
+- **Data de consulta:** 23/09/2026 (fonte secundária) e 16/10/2026 (fonte
+  oficial).
 
 ### Tema 281 — Constitucionalidade da contribuição substitutiva da agroindústria (art. 22-A da Lei 8.212/91)
 
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`** — conferido contra
+> `stf-rg-bruto/tema-0281-pagina.txt` em 16/10/2026. **Tese, relator,
+> vencidos e data de julgamento (Sessão Virtual 09-16/12/2022) bateram
+> exatamente** com o que já estava registrado — a redação literal, antes
+> `[A CONFIRMAR NA FONTE OFICIAL]`, está agora confirmada byte a byte.
+> Dados novos: data exata de publicação do acórdão e trânsito em julgado.
+
 - **Processo paradigma:** RE 611.601 (origem: RS).
-- **Repercussão geral:** reconhecida — **Tema 281**. Confirmado por URL
-  direta do portal STF encontrada na busca
-  (`numeroProcesso=611601&classeProcesso=RE&numeroTema=281`).
-- **Relator:** Min. Dias Toffoli (mesmo relator do Tema 166 — coincidência
-  confirmada por múltiplas fontes, não presumida por analogia).
+- **Repercussão geral:** reconhecida — **Tema 281**.
+- **Relator:** Min. Dias Toffoli (confirmado — mesmo relator do Tema 166).
 - **Data do julgamento:** Sessão Virtual de 09/12/2022 a 16/12/2022,
-  Plenário, por maioria, vencidos os Ministros Edson Fachin e Rosa Weber
-  (então Presidente). **`[A CONFIRMAR NA FONTE OFICIAL]`** quanto à data
-  exata de proclamação do resultado (sessão virtual tem início e fim de
-  votação, não uma única data de "julgamento" no sentido de sessão
-  presencial).
+  Tribunal Pleno, por maioria. Decisão: "O Tribunal, por maioria,
+  apreciando o tema 281 da repercussão geral, negou provimento ao recurso
+  extraordinário e fixou a seguinte tese de repercussão geral (...).
+  Tudo nos termos do voto do Relator, vencidos os Ministros Edson Fachin e
+  Rosa Weber (Presidente)." Falaram pela recorrente o Dr. Saul Tourinho
+  Leal, pela recorrida a Dra. Patricia Grassi Osorio (PGFN), e pelo
+  amicus curiae o Dr. Marcelo Guaritá Borges Bento.
+- **Publicação do acórdão (DJE):** 24/04/2023 (divulgado em 20/04/2023).
+- **Trânsito em julgado:** 03/05/2023 (certidão de trânsito em julgado
+  constante da página oficial).
 - **Objeto:** constitucionalidade do art. 22-A da Lei 8.212/1991 (incluído
   pela Lei nº 10.256/2001), que instituiu contribuição da agroindústria
   incidente sobre a receita bruta da comercialização da produção, em
   substituição à contribuição sobre a folha de salários (art. 22, I e II).
-- **Tese firmada (boa convergência entre múltiplas fontes independentes):**
-  "É constitucional o art. 22-A da Lei nº 8.212/1991, com a redação da Lei
-  nº 10.256/2001, no que instituiu contribuição previdenciária incidente
-  sobre a receita bruta proveniente da comercialização da produção, em
-  substituição ao regime anterior da contribuição incidente sobre a folha
-  de salários." **`[A CONFIRMAR NA FONTE OFICIAL]`** quanto à redação byte
-  a byte.
+- **Tese firmada (texto literal, confirmado byte a byte pela página
+  oficial):** "É constitucional o art. 22A da Lei nº 8.212/1991, com a
+  redação da Lei nº 10.256/2001, no que instituiu contribuição
+  previdenciária incidente sobre a receita bruta proveniente da
+  comercialização da produção, em substituição ao regime anterior da
+  contribuição incidente sobre a folha de salários." (A grafia "22A", sem
+  hífen, é a da própria página oficial do STF.)
 - **Efeito vinculante:** repercussão geral reconhecida — aplicável a todos
   os processos análogos; decisão **de mérito favorável à validade da
   contribuição** (resultado oposto ao do Tema 166, que invalidou a
@@ -299,13 +422,89 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   32** — trata da base de cálculo da contribuição substitutiva da
   agroindústria. Ver alerta no topo deste arquivo para o detalhamento
   completo dessa correção.
-- **Fonte:** busca via WebSearch, 23/09/2026 — convergência entre a URL de
-  andamento processual do próprio portal.stf.jus.br (parâmetros
-  numeroProcesso=611601, numeroTema=281), revistacultivar.com.br,
-  conjur.com.br, buscadordizerodireito.com.br e trf1.jus.br (boletim de
-  jurisprudência do próprio tribunal federal). **Nenhuma página foi lida
-  diretamente (sem WebFetch/curl) — apenas resumos/snippets do buscador.**
-- **Data de consulta:** 23/09/2026.
+- **Fonte:** `stf-rg-bruto/tema-0281-pagina.txt` (página de andamento
+  processual de portal.stf.jus.br, extraída em 16/10/2026) e busca via
+  WebSearch em 23/09/2026 (revistacultivar.com.br, conjur.com.br,
+  buscadordizerodireito.com.br, trf1.jus.br).
+- **Data de consulta:** 23/09/2026 (fonte secundária) e 16/10/2026 (fonte
+  oficial).
+
+### Tema 32 — Reserva de lei complementar para requisitos de imunidade de entidades beneficentes de assistência social
+
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`** — entrada **nova**,
+> criada em 16/10/2026, conferida diretamente contra
+> `stf-rg-bruto/tema-0032-pagina.txt`. Fecha a pendência de longa data
+> registrada em `CLAUDE.md` e em `legislacao/INDICE.md` desde 23/09/2026
+> ("Tema 32/RE 566.622 — identificado mas não incorporado como entrada
+> própria"). **Achado relevante da própria tarefa: a tese fixada em
+> 2017 não é a tese vigente hoje — foi reformulada por embargos de
+> declaração em 2019, para evitar ambiguidade** (ver linha do tempo
+> abaixo). Citar sempre a versão pós-2019.
+
+- **Processo paradigma:** RE 566.622 (origem: SC).
+- **Relator:** Min. Marco Aurélio — manteve a relatoria do processo até o
+  final, mas **restou vencido** no julgamento dos embargos de declaração
+  de 2019 (ver abaixo); a Min. Rosa Weber foi designada redatora para o
+  acórdão desses embargos.
+- **Objeto:** discute-se, à luz dos arts. 146, II, e 195, § 7º, da CF, a
+  constitucionalidade do art. 55 da Lei nº 8.212/1991, que dispõe sobre as
+  exigências para a concessão de imunidade tributária às entidades
+  beneficentes de assistência social.
+- **Linha do tempo (relevante — a tese mudou de redação entre 2017 e 2019,
+  e houve mais de uma rodada de embargos depois disso; conferir sempre a
+  versão mais recente antes de citar em petição):**
+  - **23/02/2017 — julgamento de mérito original**, Tribunal Pleno, por
+    maioria, deu provimento ao RE (vencidos os Ministros Teori Zavascki,
+    Rosa Weber, Luiz Fux, Dias Toffoli e Gilmar Mendes; o Ministro Ricardo
+    Lewandowski reajustou o voto para acompanhar o Relator; o Ministro
+    Edson Fachin não votou, por suceder o Ministro Joaquim Barbosa).
+    **Tese original (2017), hoje superada pela reformulação de 2019
+    abaixo:** "Os requisitos para o gozo de imunidade hão de estar
+    previstos em lei complementar."
+  - **18/12/2019 — embargos de declaração acolhidos em parte**, Tribunal
+    Pleno, por maioria, vencido o Ministro Marco Aurélio (Relator),
+    Redatora para o acórdão a Min. Rosa Weber. Decisão: (i) assentou a
+    **constitucionalidade do art. 55, II, da Lei nº 8.212/1991**, na
+    redação original e nas redações dadas pelo art. 5º da Lei nº
+    9.429/1996 e pelo art. 3º da Medida Provisória nº 2.187-13/2001; e
+    (ii) "a fim de evitar ambiguidades", **reformulou a tese** para a
+    redação hoje vigente (abaixo).
+  - **11/10/2021 — novos embargos de declaração acolhidos**, Plenário
+    Virtual, por unanimidade, **sem efeitos infringentes**, apenas para
+    prestar esclarecimentos (não alterou a tese de 2019).
+  - **29/08/2022 — terceira rodada de embargos de declaração rejeitada**,
+    Plenário Virtual, por unanimidade, nos termos do voto da Relatora
+    (também sem alteração de mérito).
+  - **Trânsito em julgado:** 27/09/2022.
+- **Tese firmada (texto literal da redação vigente, fixada nos embargos de
+  18/12/2019 — é esta a que consta também no topo da própria página
+  oficial do tema):** "A lei complementar é forma exigível para a
+  definição do modo beneficente de atuação das entidades de assistência
+  social contempladas pelo art. 195, § 7º, da CF, especialmente no que se
+  refere à instituição de contrapartidas a serem por elas observadas."
+- **Modulação de efeitos:** não localizada no material disponível — nenhuma
+  das decisões transcritas na página oficial (julgamento de mérito de
+  2017 nem as três rodadas de embargos de 2019/2021/2022) menciona
+  modulação de efeitos. `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relação com o art. 55 da Lei 8.212/1991 já citado nesta base:** a
+  decisão de 2019 confirma a constitucionalidade do art. 55, II (texto
+  original e as duas redações seguintes citadas acima) — dispositivo hoje
+  **revogado pela Lei 12.101/2009 (CEBAS)**, já registrado em
+  `leis-ordinarias/lei-8.212-1991.md`. O precedente permanece relevante
+  para (a) fatos geradores anteriores à revogação e (b) o princípio geral
+  — exigência de lei complementar para requisitos/contrapartidas da
+  imunidade das entidades beneficentes — que pode ser invocado mesmo após
+  a revogação daquele artigo específico, caso a lei ordinária posterior
+  (inclusive a própria Lei 12.101/2009) venha a ser questionada pelo mesmo
+  fundamento. **`[JURISPRUDÊNCIA A CONFIRMAR]`** quanto à extensão exata
+  desse precedente à Lei 12.101/2009, não examinada nesta tarefa.
+- **Correção de enquadramento (já sinalizada no alerta no topo deste
+  arquivo):** este tema **não é o RE 611.601/Tema 281** (contribuição da
+  agroindústria) — são precedentes totalmente distintos, apesar da
+  confusão inicial entre os dois números.
+- **Fonte:** `stf-rg-bruto/tema-0032-pagina.txt` (página de andamento
+  processual de portal.stf.jus.br, extraída em 16/10/2026).
+- **Data de consulta:** 16/10/2026.
 
 ---
 
@@ -327,19 +526,43 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 
 ## Tema 1091 — Constitucionalidade do fator previdenciário (reafirmação de jurisprudência)
 
-- **Processo paradigma:** RE 1.221.630.
-- **Tese firmada:** "É constitucional o fator previdenciário previsto no
-  art. 29, caput, incisos e parágrafos, da Lei 8.213/1991, com a redação
-  dada pelo art. 2º da Lei 9.876/1999."
-- **Observação:** há também o Tema 616 (mesma matéria, redação semelhante,
-  fixado em julgamento anterior) — **[A CONFIRMAR NA FONTE OFICIAL]** quanto
-  à relação exata entre os dois temas (se o 1091 reafirma o 616 ou se
-  tratam de recortes distintos da mesma controvérsia).
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`** — conferido contra
+> `stf-rg-bruto/tema-1091-pagina.txt` em 16/10/2026. Tese, processo
+> paradigma e trânsito em julgado bateram com o que já estava registrado;
+> a única divergência é que o campo "Relator(a)" da própria página oficial
+> não identifica um ministro por nome.
+
+- **Processo paradigma:** RE 1.221.630 (origem: SC).
+- **Tese firmada (confirmada, idêntica à já registrada):** "É constitucional
+  o fator previdenciário previsto no art. 29, caput, incisos e parágrafos,
+  da Lei 8.213/1991, com a redação dada pelo art. 2º da Lei 9.876/1999."
+- **Relator(a):** a própria página oficial traz o campo "Relator(a):
+  MINISTRO PRESIDENTE" — não um nome próprio de ministro(a).
+  `[A CONFIRMAR NA FONTE OFICIAL]` quanto a identificar quem exercia a
+  Presidência do STF (e, portanto, a relatoria) nesta data; não
+  localizado no material disponível.
+- **Data do julgamento/reafirmação de jurisprudência:** 05/06/2020,
+  Plenário Virtual. Decisão: "O Tribunal, por unanimidade, reputou
+  constitucional a questão. O Tribunal, por unanimidade, reconheceu a
+  existência de repercussão geral da questão constitucional suscitada. No
+  mérito, por maioria, reafirmou a jurisprudência dominante sobre a
+  matéria, vencido o Ministro Marco Aurélio." Não se manifestaram os
+  Ministros Cármen Lúcia e Roberto Barroso.
+- **Trânsito em julgado:** 27/06/2020 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Observação sobre o Tema 616:** a página oficial deste Tema 1091 não
+  menciona o Tema 616 em nenhum ponto — **`[NÃO LOCALIZADO NO MATERIAL
+  DISPONÍVEL]`** quanto à relação exata entre os dois temas (se o 1091
+  reafirma o 616 ou se tratam de recortes distintos). Permanece como
+  pendência, não resolvida por este material.
 - **Relevância:** o fator previdenciário permanece aplicável a alguns
   cálculos de benefícios anteriores à EC 103/2019 e em regras de transição
   que ainda o referenciam.
-- **Fonte:** https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5732688&numeroProcesso=1221630&classeProcesso=RE&numeroTema=1091
-- **Data de consulta:** 21/09/2026.
+- **Fonte:** `stf-rg-bruto/tema-1091-pagina.txt` (página de andamento
+  processual de portal.stf.jus.br, extraída em 16/10/2026) e
+  https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5732688&numeroProcesso=1221630&classeProcesso=RE&numeroTema=1091.
+- **Data de consulta:** 21/09/2026 (fonte secundária) e 16/10/2026 (fonte
+  oficial).
 
 ---
 

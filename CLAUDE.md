@@ -181,6 +181,7 @@ Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
       **Tema 32/RE 566.622** (reserva de lei complementar para requisitos
       de imunidade de entidades beneficentes), **não incorporado** como
       entrada própria (fora do escopo desta tarefa) — fica como pendência.
+      **Incorporado em 16/10/2026 — ver "Sessão de 16/10/2026" abaixo.**
     - Lei 8.742/1993: 7 artigos cobertos com conteúdo individualizado
       (1-4, 20, 21, 22). Art. 20 (BPC) é o mais detalhado do arquivo:
       caput, definição de pessoa com deficiência pós-LBI, critério de
@@ -267,8 +268,9 @@ Arts. **4º, 5º, 9º, 12, 78 e 79**. Arts. 54-56 ainda sem pesquisa dedicada.
    Lei 15.327/2026 e o teor das alterações desta à Lei 8.212/1991 e à Lei
    11.770/2008 pela Lei 15.371/2026.
 7. Incorporar formalmente à jurisprudência vinculante: Súmula Vinculante 8
-   do STF (Lei 8.212/91, arts. 45-46), Tema 32/RE 566.622 (imunidade de
-   entidades beneficentes), ~~ADI 6096 (decadência, Lei 13.846/2019 — ver
+   do STF (Lei 8.212/91, arts. 45-46), ~~Tema 32/RE 566.622 (imunidade de
+   entidades beneficentes)~~ **concluído em 16/10/2026, ver "Sessão de
+   16/10/2026" abaixo**, ~~ADI 6096 (decadência, Lei 13.846/2019 — ver
    Bloco 5F)~~ **concluído em 24/09/2026, ver abaixo** e, se confirmado, o
    tema do STJ sobre o critério de renda do BPC (1/4 x 1/2 SM).
 8. Substituir os dados de teste em `practice-profile.md` pelos dados reais
@@ -429,9 +431,11 @@ acima, item 2).
 necessário):
 - Parágrafos residuais do art. 201 da CF (§§ 12-14) e demais lacunas de
   detalhe da CF (arts. 195, 198-200, 202 §2º, 204 parágrafo único).
-- Lei 12.101/2009 (CEBAS) — texto integral ainda não incorporado; e Tema
-  32/RE 566.622 (imunidade de entidades beneficentes) — identificado mas
-  não incorporado como entrada própria à jurisprudência vinculante.
+- Lei 12.101/2009 (CEBAS) — texto integral ainda não incorporado.
+  ~~Tema 32/RE 566.622 (imunidade de entidades beneficentes) — identificado
+  mas não incorporado como entrada própria à jurisprudência vinculante.~~
+  **Incorporado em 16/10/2026, com fonte oficial — ver "Sessão de
+  16/10/2026" abaixo e `jurisprudencia-vinculante/temas-repercussao-geral-stf.md`.**
 - Tema do STJ sobre o critério de renda do BPC (1/4 x 1/2 SM) — indício
   não confirmado (possivelmente Tema 185), não incorporado.
 - `practice-profile.md` — dados de teste ("Escritório: Teste", "OAB:
@@ -953,3 +957,96 @@ diagnosticada (não é falta do binário — `soffice --version` funciona).
 Enquanto isso não for resolvido, a inspeção visual de página (texto vs.
 logo/rodapé do timbrado) só pode ser feita abrindo o `.docx` de verdade no
 Word/LibreOffice, fora deste ambiente.
+
+## Sessão de 16/10/2026 — Reconciliação dos Temas de Repercussão Geral do STF com fonte oficial
+
+**Tarefa:** a usuária baixou, de sua pasta pessoal de jurisprudência no
+Google Drive (não é upload de terceiro), a página de andamento processual
+do próprio `portal.stf.jus.br` para 6 temas de repercussão geral já citados
+em `legislacao/jurisprudencia-vinculante/temas-repercussao-geral-stf.md`
+com fonte só secundária (WebSearch): Temas 27, 32, 166, 281, 350 e 1091.
+Arquivos salvos em
+`legislacao/jurisprudencia-vinculante/stf-rg-bruto/tema-NNNN-pagina.txt`
+(extraídos via html2text). Tarefa: conferir cada um contra a fonte oficial
+e, no caso do Tema 32, criar a entrada própria que faltava desde 23/09/2026.
+
+**Resultado — todos os 6 temas agora marcados
+`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]` em
+`temas-repercussao-geral-stf.md`:**
+
+1. **Tema 166 e Tema 281** (os dois REs de custeio da Lei 8.212/1991
+   pesquisados em 23/09/2026): tese, relator, data de julgamento e votos
+   vencidos **bateram exatamente** com o que já estava na base. Dados
+   novos confirmados: Tema 166 julgado por **unanimidade**, embargos
+   rejeitados por unanimidade em 18/12/2014, trânsito em julgado
+   09/03/2015; Tema 281 com publicação do acórdão em 24/04/2023 e trânsito
+   em julgado 03/05/2023.
+2. **Tema 27 (BPC/LOAS):** tese e trânsito em julgado (11/12/2013)
+   bateram. **Achado novo relevante:** a modulação de efeitos foi votada
+   no julgamento de 18/04/2013 e **não alcançou o quórum de 2/3** —
+   portanto a inconstitucionalidade do § 3º do art. 20 da Lei 8.742/1993
+   vale desde aquela data, sem período de validade residual da norma. O
+   redator do acórdão (Min. Gilmar Mendes, antes `[A CONFIRMAR]`) foi
+   confirmado.
+3. **Tema 350 (prévio requerimento administrativo):** a base só tinha o
+   item I da tese, tratado como se fosse a tese completa. **A tese
+   oficial tem 5 itens (I a V)** — os itens III a V, sobre revisão/
+   restabelecimento de benefício já concedido e sobre o regime de
+   transição para ações antigas, não estavam registrados e são
+   relevantes para a prática do escritório. Relator (Min. Luís Roberto
+   Barroso) e data de julgamento (03/09/2014) confirmados — antes
+   `[A CONFIRMAR NA FONTE OFICIAL]`.
+4. **Tema 1091 (fator previdenciário):** tese confirmada idêntica. Data de
+   julgamento (reafirmação de jurisprudência, 05/06/2020) e trânsito em
+   julgado (27/06/2020) agora registrados. A relação com o "Tema 616"
+   citada como pendência em 21/09/2026 **continua sem confirmação** — a
+   página oficial deste tema não o menciona (`[NÃO LOCALIZADO NO MATERIAL
+   DISPONÍVEL]`, não resolvido nesta tarefa).
+5. **Tema 32 (RE 566.622) — entrada nova, fecha pendência de 23/09/2026:**
+   reserva de lei complementar para os requisitos de imunidade tributária
+   das entidades beneficentes de assistência social (objeto: art. 55 da
+   Lei 8.212/1991). **Achado mais relevante desta tarefa:** a tese **não
+   é estática** — o julgamento de mérito original (23/02/2017) fixou uma
+   tese ("Os requisitos para o gozo de imunidade hão de estar previstos
+   em lei complementar") que foi **reformulada por embargos de declaração
+   em 18/12/2019**, "a fim de evitar ambiguidades", para a redação hoje
+   vigente ("A lei complementar é forma exigível para a definição do modo
+   beneficente de atuação das entidades de assistência social
+   contempladas pelo art. 195, § 7º, da CF, especialmente no que se
+   refere à instituição de contrapartidas a serem por elas observadas").
+   Esses mesmos embargos de 2019 também assentaram a constitucionalidade
+   do art. 55, II, da Lei 8.212/1991 (hoje revogado pela Lei 12.101/2009 —
+   CEBAS, já registrado nesta base). Houve ainda **duas rodadas
+   posteriores de embargos de declaração** (11/10/2021 e 29/08/2022), que
+   não alteraram essa redação — a de 2021 foi acolhida sem efeitos
+   infringentes (só esclarecimentos), a de 2022 foi rejeitada por
+   unanimidade. Trânsito em julgado: 27/09/2022. **Nenhuma modulação de
+   efeitos localizada** no material disponível, em nenhuma das rodadas.
+6. **Hook `anti-alucinacao.py`:** não precisou de alteração — já não há
+   (e não deveria haver) entrada no `MAPA_NORMAS` para jurisprudência por
+   número de "Tema"; esse mapa é só para normas com artigos (leis,
+   decretos, ECs, INs, portarias). Confirmado por leitura do hook antes de
+   editar. Testes de sanidade (`python3 .claude/hooks/anti-alucinacao.py
+   < /dev/null`) continuam passando ("TODOS OS TESTES PASSARAM").
+   **Achado colateral durante a edição:** uma citação "art. 22, IV, da
+   Lei\n8.212/91" quebrada no meio por quebra de linha do Markdown fez o
+   hook bloquear um `Edit` em `INDICE.md` (a citação extraída ficava
+   `"Lei\n      8.212/91"`, com um `\n` literal no meio do nome da norma,
+   que não casa com a chave `"LEI 8.212"` do `MAPA_NORMAS`). Contornado
+   reescrevendo a citação para não quebrar linha entre o nome da norma e
+   o número («Lei 8.212/91, art. 22, IV» em vez de «art. 22, IV, da Lei
+   8.212/91» partido em duas linhas) — **não é um bug do hook em si**
+   (o parser já normaliza espaços internos ao ler o arquivo da base; o
+   problema é só a extração da citação no texto recém-escrito, antes de
+   normalizar, quando a própria citação é quebrada por `Edit`/Markdown).
+   Registrado aqui como nota de manutenção, não corrigido no código do
+   hook nesta tarefa (risco desproporcional ao benefício, mesmo critério
+   já usado em 15/10/2026 para outras limitações conhecidas do hook).
+7. **Arquivos atualizados:**
+   `legislacao/jurisprudencia-vinculante/temas-repercussao-geral-stf.md`
+   (todas as 6 entradas, mais a nova seção "Tema 32"),
+   `legislacao/INDICE.md` (seção 8 e "Pendências desta base") e este
+   `CLAUDE.md` (remoção da pendência do Tema 32 das seções "Pendências sob
+   demanda", "Sessão de 23/09/2026 — Próximos blocos" e a nota do Bloco
+   5E, todas com marcação de conclusão em vez de apagar o histórico).
+8. **Não commitado** — a usuária revisa e comita.

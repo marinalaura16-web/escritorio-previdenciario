@@ -684,18 +684,43 @@ INs, Portarias, Resoluções, Leis, Decretos) **permanecem não processadas**
     corretamente **suspeitou** de uma associação equivocada
     ("RE 611.601 = Tema 32"):
     - **Tema 166 (RE 595.838)** — inconstitucionalidade da contribuição de
-      15% sobre serviços de cooperativas de trabalho (art. 22, IV, da Lei
-      8.212/91), Rel. Min. Dias Toffoli, j. 23/04/2014.
+      15% sobre serviços de cooperativas de trabalho (Lei 8.212/91, art. 22,
+      IV), Rel. Min. Dias Toffoli, j. 23/04/2014.
     - **Tema 281 (RE 611.601)** — constitucionalidade da contribuição
-      substitutiva da agroindústria (art. 22-A da Lei 8.212/91), Rel. Min.
+      substitutiva da agroindústria (Lei 8.212/91, art. 22-A), Rel. Min.
       Dias Toffoli, j. Sessão Virtual 09-16/12/2022.
     - **Nenhum dos dois é sobre imunidade/CEBAS de entidades
       beneficentes.** Esse objeto pertence a um terceiro precedente,
       identificado incidentalmente: **Tema 32 (RE 566.622)**, sobre
       reserva de lei complementar para requisitos de imunidade de
-      entidades beneficentes — **ainda não incorporado como entrada
-      própria a esta base** (pendência registrada no próprio arquivo e em
-      "Pendências desta base" abaixo).
+      entidades beneficentes.
+  - **Reconciliado com fonte oficial em 16/10/2026** — a usuária forneceu
+    as páginas processuais oficiais de portal.stf.jus.br (extraídas via
+    html2text para jurisprudencia-vinculante/stf-rg-bruto/) para os Temas
+    27, 32, 166, 281, 350 e 1091. Todos os seis agora têm a tese e os
+    dados processuais conferidos byte a byte e marcados
+    `[FONTE OFICIAL - PAGINA PROCESSUAL STF NA BASE]`.
+    - **Tema 32 (RE 566.622) incorporado como entrada própria nesta data**
+      — fecha a pendência citada acima e em "Pendências desta base"
+      abaixo. Achado relevante: a tese original de 2017 ("Os requisitos
+      para o gozo de imunidade hão de estar previstos em lei
+      complementar") foi reformulada por embargos de declaração em
+      18/12/2019 para a redação hoje vigente ("A lei complementar é forma
+      exigível para a definição do modo beneficente de atuação das
+      entidades de assistência social..."); duas rodadas posteriores de
+      embargos (2021 e 2022) não alteraram essa redação. Trânsito em
+      julgado: 27/09/2022. Nenhuma modulação de efeitos localizada.
+    - **Tema 350** teve sua tese ampliada de 1 para os 5 itens (I a V) da
+      redação oficial completa — os itens III a V (relevantes para
+      revisão/restabelecimento de benefício e para ações antigas) não
+      estavam nesta base antes.
+    - **Tema 27**: achado novo — a modulação de efeitos foi votada e não
+      alcançou o quórum de 2/3, ou seja, a inconstitucionalidade do § 3º
+      do artigo 20 da Lei 8.742/1993 vale desde 18/04/2013, sem validade
+      residual da norma.
+    - Ver o próprio arquivo temas-repercussao-geral-stf.md para o
+      detalhamento completo de cada tema (datas de julgamento, trânsito em
+      julgado, votos vencidos e fontes).
 - Ações Diretas de Inconstitucionalidade STF
   - **ADI 6096/DF** — jurisprudencia-vinculante/adi-6096-2021-resumo.md
     (**novo, 24/09/2026**): Decadência do art. 103, caput, da Lei 8.213/91 —
@@ -849,11 +874,12 @@ casos de teste `2026-TESTE-001`/`2026-TESTE-002`.
    própria em `jurisprudencia-vinculante/`):
    - Súmula Vinculante 8 do STF (arts. 45-46 da Lei 8.212/91 — decadência/
      prescrição de contribuições, ver seção 4 acima).
-   - **Tema 32/RE 566.622** (reserva de lei complementar para requisitos
+   - ~~**Tema 32/RE 566.622** (reserva de lei complementar para requisitos
      de imunidade de contribuições de entidades beneficentes de
      assistência social) — identificado durante a pesquisa dos Temas
-     166/281 (RE 595.838/611.601), ver seção 8 acima e o alerta em
-     `jurisprudencia-vinculante/temas-repercussao-geral-stf.md`.
+     166/281 (RE 595.838/611.601).~~ **Incorporado como entrada própria em
+     16/10/2026, com fonte oficial (página processual de portal.stf.jus.br)
+     — ver seção 8 acima e `jurisprudencia-vinculante/temas-repercussao-geral-stf.md`.**
    - Possível tema repetitivo do STJ (indicado por fonte secundária como
      Tema 185, **não confirmado**) sobre a possibilidade de comprovar
      miserabilidade do BPC por outros meios além do critério de renda —
