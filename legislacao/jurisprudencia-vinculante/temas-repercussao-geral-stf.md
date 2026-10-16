@@ -218,6 +218,50 @@
 > especial convertido, respectivamente, ambos no cálculo do fator
 > previdenciário) — ver o relatório da tarefa para o detalhamento de cada
 > descarte.
+>
+> **Lote 7, 16/10/2026:** processados mais 19 Temas de repercussão geral
+> do STF (números 0665, 0669, 0672, 0690, 0691, 0695, 0709, 0723, 0726,
+> 0727, 0728, 0737, 0741, 0751, 0754, 0759, 0763, 0766 e 0772), a partir
+> da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html` e, quando disponível, `_ACORDAO_N.pdf`).
+> **6 desses 19 temas são efetivamente previdenciários (RGPS)** e foram
+> incorporados como entradas próprias, marcadas
+> `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`: **Tema 669** (custeio
+> — constitucionalidade da contribuição do empregador rural pessoa física
+> sobre a receita bruta da comercialização, art. 25 da Lei 8.212/1991 na
+> redação da Lei 10.256/2001, pós-EC 20/1998 — **resolve a pendência
+> registrada na entrada do Tema 202, acima**, sobre a linha do tempo de
+> redações do art. 25), **Tema 691** (custeio — incidência de contribuição
+> previdenciária patronal sobre a remuneração de agentes políticos não
+> vinculados a RPPS, Lei 10.887/2004), **Tema 709** (aposentadoria
+> especial — vedação à continuidade de percepção do benefício pelo
+> segurado que permanece ou retorna à atividade nociva, art. 57, § 8º, da
+> Lei 8.213/1991, com modulação de efeitos relevante fixada em embargos de
+> declaração), **Tema 723** (custeio — constitucionalidade da contribuição
+> do segurado especial em regime de economia familiar, art. 25 da Lei
+> 8.212/1991, desde sua redação originária — agrupado com o Tema 669,
+> acima), **Tema 728** (constitucionalidade dos índices de correção
+> monetária usados pelo INSS para reajustar benefícios nos anos de 1997 e
+> 1999 a 2003) e **Tema 772** (vedação à conversão de tempo de magistério
+> especial em comum após a EC 18/1981, distinto do regime geral de
+> conversão). **Os outros 13 temas foram verificados e descartados:** a
+> maioria é RPPS de servidor público/magistrado ou matéria de pessoal
+> estranha ao RGPS (Temas 690, 727, 737, 754, 763), matéria municipal
+> específica sem relação com o RGPS ou RPPS clássico (Tema 672 — pensão
+> vitalícia de ex-vereador por lei municipal pré-1988), Direito Tributário
+> geral sem relação com o custeio do RGPS (Tema 665 — contribuição ao PIS
+> para o Fundo Social de Emergência, tributo distinto da contribuição
+> previdenciária, apesar de citar a Lei 8.212/1991 de passagem), e seis
+> temas em que o próprio STF **não reconheceu repercussão geral** — tese
+> de "natureza infraconstitucional", sem efeito vinculante — apesar de o
+> objeto tangenciar o RGPS ou o RPPS (mesmo critério já aplicado em lotes
+> anteriores): Tema 695 (inclusão do 13º salário no cálculo da RMI), Tema
+> 726 (complementação de pensão de ferroviários da extinta RFFSA), Tema
+> 741 (agendamento prévio do INSS para atendimento de advogados), Tema 751
+> (cálculo proporcional da GDASST para servidores inativos), Tema 759
+> (incidência de contribuição sobre aviso prévio indenizado) e Tema 766
+> (requisitos para concessão de auxílio-doença) — ver o relatório da
+> tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -1849,6 +1893,308 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   não descaracteriza) ou outro agente nocivo (Tese I, depende da eficácia
   comprovada).
 - **Fonte:** Google Drive, `STF_RG_TEMA_0555_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 669 — Constitucionalidade da contribuição do empregador rural pessoa física sobre a receita bruta da comercialização de sua produção (art. 25 da Lei 8.212/1991, redação da Lei 10.256/2001)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0669_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Resolve a pendência registrada na entrada do Tema 202,
+> acima:** confirma que a redação do art. 25 da Lei 8.212/1991 dada pela
+> Lei 10.256/2001 (pós-Emenda Constitucional 20/1998) é **distinta** da
+> redação dada pela Lei 8.540/1992, declarada inconstitucional pelo Tema
+> 202 — e que essa redação posterior **é constitucional**. As duas
+> conclusões (uma inconstitucional, a outra constitucional) coexistem sem
+> contradição: tratam-se de redações diferentes do mesmo artigo, em
+> períodos distintos.
+
+- **Processo paradigma:** RE 718874.
+- **Relator:** Min. Edson Fachin (ficou vencido). **Redator para o
+  acórdão:** Min. Alexandre de Moraes.
+- **Objeto:** constitucionalidade formal e material do art. 25 da Lei
+  8.212/1991, com a redação dada pelo art. 1º da Lei 10.256/2001, que
+  reintroduziu, após a Emenda Constitucional 20/1998, a contribuição do
+  empregador rural pessoa física sobre a receita bruta da comercialização
+  de sua produção, mantendo a alíquota e a base de cálculo de leis
+  ordinárias anteriores já declaradas inconstitucionais pelo STF em
+  controle difuso.
+- **Repercussão geral reconhecida:** 23/08/2013, Plenário Virtual, por
+  unanimidade.
+- **Data do julgamento de mérito:** 30/03/2017, Tribunal Pleno, por
+  maioria — conheceu do recurso e deu-lhe provimento, vencidos os
+  Ministros Edson Fachin (Relator), Rosa Weber, Ricardo Lewandowski,
+  Marco Aurélio e Celso de Mello (que negavam provimento). Na fixação da
+  tese, por maioria (proposta da Ministra Cármen Lúcia, Presidente),
+  vencido o Ministro Marco Aurélio (que não se pronunciou quanto à tese).
+- **Tese firmada:** "É constitucional formal e materialmente a
+  contribuição social do empregador rural pessoa física, instituída pela
+  Lei 10.256/2001, incidente sobre a receita bruta obtida com a
+  comercialização de sua produção."
+- **Embargos de declaração:** rejeitados em 23/05/2018, por maioria,
+  vencidos os Ministros Edson Fachin, Rosa Weber e Marco Aurélio (oito
+  recursos de embargos distintos opostos por diferentes partes/amici
+  curiae, todos rejeitados na mesma sessão, sem alteração da tese).
+- **Trânsito em julgado:** 06/11/2018 (certidão referente ao trânsito
+  ocorrido em 21/09/2018).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** agrupado ao bloco de custeio já existente nesta base
+  (Temas 166/281/32/3/20/72/202/204/470/651). Confirma a constitucionalidade
+  da contribuição do empregador rural pessoa física sobre a receita bruta
+  da comercialização, na redação hoje em vigor (Lei 10.256/2001) — ver
+  também o **Tema 723**, abaixo, que trata da mesma contribuição para o
+  segurado especial em regime de economia familiar.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0669_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 691 — Incidência de contribuição previdenciária patronal sobre a remuneração de agentes políticos não vinculados a regime próprio de previdência (Lei 10.887/2004)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0691_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Dispositivo a confirmar:** a Lei 10.887/2004 não está
+> incorporada a esta base de legislação como entrada própria —
+> `[DISPOSITIVO A CONFIRMAR NA BASE]`.
+
+- **Processo paradigma:** RE 626837.
+- **Relator:** Min. Dias Toffoli.
+- **Objeto:** possibilidade de submissão dos entes federativos ao
+  pagamento da cota patronal da contribuição previdenciária incidente
+  sobre a remuneração de agentes políticos (exercentes de mandato
+  eletivo) não vinculados a regime próprio de previdência social, após o
+  advento da Lei 10.887/2004.
+- **Repercussão geral reconhecida:** 25/10/2013, Plenário Virtual, por
+  unanimidade.
+- **Data do julgamento de mérito:** 25/05/2017, Tribunal Pleno, por
+  unanimidade — negou provimento ao recurso.
+- **Tese firmada:** "Incide contribuição previdenciária sobre os
+  rendimentos pagos aos exercentes de mandato eletivo, decorrentes da
+  prestação de serviços à União, a estados e ao Distrito Federal ou a
+  municípios, após o advento da Lei nº 10.887/2004, desde que não
+  vinculados a regime próprio de previdência."
+- **Trânsito em julgado:** 20/03/2018 (certidão referente ao trânsito
+  ocorrido em 21/02/2018).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** agrupado ao bloco de custeio já existente nesta base.
+  Confirma que agentes políticos (prefeitos, governadores, vereadores
+  etc.) sem regime próprio de previdência são segurados do RGPS para
+  fins de custeio, gerando obrigação de contribuição patronal do próprio
+  ente federativo desde a Lei 10.887/2004. Hipótese pouco comum na
+  carteira típica de pessoa física do escritório, mas relevante em
+  eventual disputa de custeio envolvendo ente público como empregador.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0691_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 709 — Vedação à continuidade de percepção da aposentadoria especial pelo segurado que permanece ou retorna à atividade nociva (art. 57, § 8º, da Lei 8.213/1991)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0709_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Dispositivo a confirmar:** o § 8º do art. 57 da Lei
+> 8.213/1991 não está documentado em detalhe em `lei-8.213-1991.md` (só o
+> caput e o § 5º) — `[DISPOSITIVO A CONFIRMAR NA BASE]`. **Tema de
+> altíssima relevância prática** para a aposentadoria especial, com
+> modulação de efeitos relevante fixada em embargos de declaração —
+> conferir com atenção redobrada antes de aplicar a um caso concreto.
+
+- **Processo paradigma:** RE 791961.
+- **Relator:** Min. Dias Toffoli (Presidente).
+- **Objeto:** constitucionalidade do § 8º do art. 57 da Lei 8.213/1991,
+  que veda a percepção do benefício de aposentadoria especial pelo
+  segurado que continuar exercendo, ou retornar a exercer, atividade ou
+  operação especial nociva à saúde ou à integridade física.
+- **Data do julgamento de mérito:** 08/06/2020, Tribunal Pleno (Sessão
+  Virtual), por maioria — deu parcial provimento ao recurso
+  extraordinário, vencidos os Ministros Edson Fachin, Marco Aurélio,
+  Celso de Mello e Rosa Weber.
+- **Tese firmada originalmente:** "I) É constitucional a vedação de
+  continuidade da percepção de aposentadoria especial se o beneficiário
+  permanece laborando em atividade especial ou a ela retorna, seja essa
+  atividade especial aquela que ensejou a aposentação precoce ou não. II)
+  Nas hipóteses em que o segurado solicitar a aposentadoria e continuar a
+  exercer o labor especial, a data de início do benefício será a data de
+  entrada do requerimento, remontando a esse marco, inclusive, os efeitos
+  financeiros. Efetivada, contudo, seja na via administrativa, seja na
+  judicial, a implantação do benefício, uma vez verificado o retorno ao
+  labor nocivo ou sua continuidade, cessará o pagamento do benefício
+  previdenciário em questão."
+- **Embargos de declaração (1ª rodada), 24/02/2021** — acolhidos
+  parcialmente, por maioria (vencido em parte o Ministro Marco Aurélio,
+  só quanto à modulação):
+  - esclareceu que não há inconstitucionalidade do § 8º do art. 57 por
+    alegada ausência dos requisitos da Medida Provisória que o
+    originou;
+  - **alterou a redação da tese** para eliminar contradição interna —
+    redação final: **"(i) [é] constitucional a vedação de continuidade
+    da percepção de aposentadoria especial se o beneficiário permanece
+    laborando em atividade especial ou a ela retorna, seja essa
+    atividade especial aquela que ensejou a aposentação precoce ou não;
+    (ii) nas hipóteses em que o segurado solicitar a aposentadoria e
+    continuar a exercer o labor especial, a data de início do benefício
+    será a data de entrada do requerimento, remontando a esse marco,
+    inclusive, os efeitos financeiros; efetivada, contudo, seja na via
+    administrativa, seja na judicial, a implantação do benefício, uma vez
+    verificada a continuidade ou o retorno ao labor nocivo, cessará o
+    pagamento do benefício previdenciário em questão"**;
+  - **modulou os efeitos** para preservar os segurados que tiveram o
+    direito reconhecido por decisão judicial transitada em julgado até
+    24/02/2021;
+  - declarou a **irrepetibilidade** dos valores alimentares recebidos de
+    boa-fé, por decisão judicial ou administrativa, até a proclamação
+    desse julgamento.
+- **Embargos de declaração (2ª rodada), 04/10/2021** — acolhidos por
+  unanimidade: **modulação adicional, excepcional e temporária**,
+  suspendendo os efeitos do acórdão, **enquanto vigente a Lei
+  13.979/2020**, para os profissionais de saúde do rol do art. 3º-J dessa
+  Lei que estivessem trabalhando diretamente no combate à epidemia de
+  COVID-19 ou no atendimento de pessoas atingidas pela doença (hospitais
+  ou instituições congêneres, públicos ou privados) — ou seja, esses
+  profissionais puderam continuar recebendo o benefício mesmo
+  permanecendo na atividade nociva, enquanto durou a emergência sanitária
+  da Lei 13.979/2020. Os embargos de um sindicato (dos trabalhadores em
+  minérios/petróleo/combustíveis de Santos) foram rejeitados no mesmo
+  julgamento.
+- **Trânsito em julgado:** 01/12/2021.
+- **Relevância:** tema central para a prática de aposentadoria especial.
+  Fundamenta a tese de que o segurado que requerer a aposentadoria
+  especial e continuar no labor nocivo tem direito à DIB na data do
+  requerimento (com efeitos financeiros retroativos a essa data), mas o
+  **pagamento é suspenso** enquanto persistir a atividade nociva —
+  distinto de indeferimento do próprio direito ao benefício. Atenção:
+  verificar sempre se o caso envolve segurado que já tinha decisão
+  judicial transitada em julgado antes de 24/02/2021 (hipótese preservada
+  pela modulação) ou se é profissional de saúde da linha de frente da
+  COVID-19 (hipótese da 2ª modulação, temporária, hoje sem efeito prático
+  por a Lei 13.979/2020 não estar mais em vigor — `[A CONFIRMAR NA FONTE
+  OFICIAL]` a data de revogação exata dessa Lei).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0709_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 723 — Constitucionalidade da contribuição do segurado especial em regime de economia familiar sobre a receita bruta da comercialização de sua produção (art. 25 da Lei 8.212/1991, redação originária)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0723_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. Confirma, para a redação **originária** do art. 25 da Lei
+> 8.212/1991 e para o **segurado especial** (regime de economia familiar,
+> sem empregados permanentes), a mesma linha de constitucionalidade já
+> registrada no conteúdo atual de `lei-8.212-1991.md` para esse artigo.
+
+- **Processo paradigma:** RE 761263.
+- **Relator:** Min. Alexandre de Moraes.
+- **Objeto:** constitucionalidade formal e material da contribuição do
+  segurado especial que exerce suas atividades em regime de economia
+  familiar, sem empregados permanentes, sobre a receita bruta da
+  comercialização de sua produção, nos termos do art. 25 da Lei
+  8.212/1991, **desde sua redação originária**.
+- **Repercussão geral reconhecida:** 25/04/2014, Plenário Virtual, por
+  unanimidade.
+- **Data do julgamento de mérito:** 15/04/2020, Tribunal Pleno (Sessão
+  Virtual), por maioria — negou provimento ao recurso extraordinário,
+  vencidos os Ministros Edson Fachin, Marco Aurélio, Ricardo Lewandowski
+  e Rosa Weber.
+- **Tese firmada:** "É constitucional, formal e materialmente, a
+  contribuição social do segurado especial prevista no art. 25 da Lei
+  8.212/1991."
+- **Trânsito em julgado:** 13/10/2020 (certidão referente ao trânsito
+  ocorrido em 09/10/2020).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** agrupado ao bloco de custeio já existente nesta base e
+  ao **Tema 669**, acima (mesma contribuição, mas para o empregador rural
+  pessoa física, redação da Lei 10.256/2001). Juntos, os dois temas cobrem
+  a constitucionalidade do art. 25 da Lei 8.212/1991 tanto na redação
+  originária (segurado especial) quanto na redação pós-EC 20/1998
+  (empregador rural pessoa física) — distinto da redação intermediária
+  (Lei 8.540/1992), já declarada inconstitucional pelo Tema 202.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0723_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 728 — Constitucionalidade dos índices de correção monetária usados pelo INSS para reajustar benefícios previdenciários nos anos de 1997 e 1999 a 2003
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0728_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026.
+
+- **Processo paradigma:** ARE 808107.
+- **Relator:** Min. Teori Zavascki.
+- **Objeto:** constitucionalidade, à luz dos arts. 5º, XXXVI, e 201, §§
+  1º e 7º, da Constituição Federal, dos índices previstos em lei e
+  adotados pelo INSS para reajustar os benefícios previdenciários nos
+  anos de 1999 a 2003 (diferentes do IGP-DI pretendido pelos segurados).
+- **Repercussão geral reconhecida e mérito julgado por reafirmação de
+  jurisprudência, na mesma sessão:** 23/05/2014, Plenário Virtual, por
+  maioria — vencido o Ministro Marco Aurélio; não se manifestou o
+  Ministro Joaquim Barbosa.
+- **Tese firmada:** "São constitucionais os índices de correção
+  monetária adotados pelo INSS para reajustar os benefícios
+  previdenciários nos anos de 1997, 1999, 2000, 2001, 2002 e 2003."
+- **Trânsito em julgado:** 20/08/2014 (certidão referente ao trânsito
+  ocorrido em 18/08/2014).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** tese **desfavorável ao segurado** — relevante para
+  afastar pretensões de revisão de reajuste de benefício por índice
+  distinto do efetivamente aplicado pelo INSS, especificamente nos anos
+  de 1997 e 1999 a 2003. Atenção: por reafirmação de jurisprudência (sem
+  acórdão de mérito "completo" em sessão presencial), o teor exato dos
+  fundamentos do precedente original citado no julgado não está
+  disponível no material consultado — `[A CONFIRMAR NA FONTE OFICIAL]`.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0728_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 772 — Vedação à conversão de tempo de serviço especial na atividade de magistério em tempo comum após a Emenda Constitucional 18/1981
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0772_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Distinto do regime geral de conversão de tempo
+> especial em comum** (vedado para todos os segurados após 28/05/1998 —
+> Tema 405, sem repercussão geral reconhecida, já descartado no Lote 4
+> desta base — e, para o período posterior a 13/11/2019, pelo art. 25, §
+> 2º, da EC 103/2019, já em `ec-103-2019.md`): este Tema 772 trata
+> especificamente da atividade de **magistério**, com marco temporal bem
+> mais antigo (EC 18/1981).
+
+- **Processo paradigma:** ARE 703550.
+- **Relator:** Min. Gilmar Mendes.
+- **Objeto:** possibilidade de conversão de tempo de serviço especial
+  prestado na atividade de magistério em tempo de serviço comum, após a
+  Emenda Constitucional 18/1981, para fins de aposentadoria por tempo de
+  contribuição.
+- **Repercussão geral reconhecida e mérito julgado por reafirmação de
+  jurisprudência, na mesma sessão:** 03/10/2014, Plenário Virtual —
+  repercussão geral reconhecida por unanimidade; no mérito, por maioria,
+  vencido o Ministro Marco Aurélio, não se manifestando a Ministra Cármen
+  Lúcia.
+- **Tese firmada:** "É vedada a conversão de tempo de serviço especial em
+  comum na função de magistério após a EC 18/1981."
+- **Trânsito em julgado:** 05/11/2014 (certidão referente ao trânsito
+  ocorrido em 03/11/2014).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** relevante especificamente para casos de professores com
+  período de magistério anterior à EC 18/1981 (convertível) e posterior
+  (não convertível) — cross-referenciar com `ec-103-2019.md` (regras de
+  transição e aposentadoria do professor, arts. 15 e 19, § 2º) e com o
+  Decreto 3.048/1999 (aposentadoria especial, arts. 64-70, ainda com
+  lacunas de detalhamento nesta base).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0772_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
