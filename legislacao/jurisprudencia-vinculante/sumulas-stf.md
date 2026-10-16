@@ -1,13 +1,17 @@
 # Súmulas do STF Relevantes ao Direito Previdenciário
 
-> **Data de consulta:** 21/09/2026.
-> **Método:** cada súmula abaixo foi pesquisada individualmente via busca web (WebSearch),
+> **Data de consulta (itens 1-9):** 21/09/2026.
+> **Método (itens 1-9):** cada súmula abaixo foi pesquisada individualmente via busca web (WebSearch),
 > sem acesso a WebFetch/curl neste ambiente (mesma limitação documentada em
 > `legislacao/emendas-constitucionais/ec-103-2019.md` e em
 > `legislacao/jurisprudencia-vinculante/adi-6309-2026-resumo.md` — ver também
 > `FONTES.md` desta pasta). Nenhum texto foi reproduzido de memória: quando a
 > busca não permitiu fixar a redação literal com segurança, o campo "Texto"
 > traz a marcação `[A CONFIRMAR NA FONTE OFICIAL]`.
+> **Data de consulta (itens 10-12, "Lote 2"):** 16/10/2026 — ver seção própria
+> abaixo. Método diferente: leitura direta das páginas oficiais
+> `portal.stf.jus.br` (arquivo HTML fornecido pela usuária), marcadas
+> `[FONTE OFICIAL — PÁGINA DO STF NA BASE]`.
 > **Antes de citar qualquer súmula abaixo em petição, parecer ou recurso,
 > confira a redação exata em portal.stf.jus.br.**
 
@@ -195,6 +199,161 @@ repita a suposição errada — no mesmo espírito da correção já feita para
 
 ---
 
+## Lote 2 (16/10/2026) — Súmulas Vinculantes 1 e 3 a 21
+
+> **Método diferente do Lote 1:** nesta rodada, a usuária forneceu os arquivos
+> HTML das páginas oficiais `portal.stf.jus.br/jurisprudencia/sumariosumulas.asp`
+> para cada uma das Súmulas Vinculantes 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
+> 14, 15, 16, 17, 18, 19, 20 e 21 (salvos em sua pasta pessoal do Google
+> Drive, não é upload de terceiro), permitindo leitura **direta da fonte
+> oficial** (não via WebSearch/memória). Marcação de proveniência:
+> `[FONTE OFICIAL — PÁGINA DO STF NA BASE]`.
+> **Critério de incorporação:** só recebeu entrada completa a SV cuja matéria
+> for de Direito Previdenciário do RGPS ou diretamente relevante à prática/
+> processo do escritório (ex.: decadência/prescrição tributária aplicável ao
+> INSS, requisitos de recurso administrativo). As demais (majoritariamente
+> direito administrativo de servidor público/RPPS, processual penal,
+> eleitoral ou tributário municipal sem relação com o RGPS) foram descartadas
+> — ver tabela "Resumo do que foi descartado" abaixo para o motivo de cada
+> uma.
+> **Resultado: 3 incorporadas (SV 8, 17 e 21) e 17 descartadas** (SV 1, 3, 4,
+> 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19 e 20).
+
+## 10. Súmula Vinculante 8 (STF)
+
+- **Texto:** "São inconstitucionais o parágrafo único do artigo 5º do
+  Decreto-Lei 1.569/1977 e os artigos 45 e 46 da Lei 8.212/1991, que tratam
+  da prescrição e decadência do crédito tributário."
+- **Precedentes representativos:** RE 556.664, rel. min. Gilmar Mendes,
+  Plenário, j. 12/06/2008, DJE 216 de 14/11/2008; RE 559.943, rel. min.
+  Cármen Lúcia, Plenário, j. 12/06/2008, DJE 182 de 26/09/2008 — Tema 3 de
+  Repercussão Geral ("São inconstitucionais o parágrafo único do art. 5º do
+  Decreto-Lei 1.569/1977 e os arts. 45 e 46 da Lei 8.212/1991, que tratam de
+  prescrição e decadência de crédito tributário").
+- **Fundamento:** prescrição e decadência tributárias são normas gerais de
+  Direito Tributário, cuja disciplina é reservada a lei complementar
+  (Constituição Federal, art. 146, III, "b" — o CTN, Lei 5.172/1966, foi
+  recebido como lei complementar). Os arts. 45/46 da Lei 8.212/1991, por
+  serem lei ordinária, não podiam fixar prazo de 10 anos para
+  prescrição/decadência das contribuições da seguridade social, divergindo
+  dos prazos de 5 anos do CTN (arts. 173/174).
+- **Modulação de efeitos:** eficácia **ex nunc**, ressalvadas as ações
+  judiciais de repetição de indébito propostas até 11/06/2008 (data do
+  julgamento do RE 556.664 que declarou a inconstitucionalidade). Os
+  recolhimentos já efetuados nos prazos dos arts. 45/46, não impugnados até
+  essa data, foram considerados válidos e não sujeitos a devolução.
+- **Limitação de escopo confirmada pela própria jurisprudência do STF:** a
+  SV 8 **só se aplica a créditos de natureza TRIBUTÁRIA**. O STF já afastou
+  expressamente sua aplicação a dívidas de natureza não tributária (ARE
+  1.014.703, rel. min. Edson Fachin, dec. monocrática, j. 15/02/2017, DJE 33
+  de 20/02/2017). Antes de invocar a SV 8 para afastar cobrança do INSS,
+  confirmar que a dívida discutida é efetivamente de natureza tributária
+  (contribuição previdenciária), e não, por exemplo, ressarcimento de
+  benefício pago indevidamente (que pode seguir regime de prescrição
+  diverso — **[A CONFIRMAR NA FONTE OFICIAL]** quanto ao prazo aplicável a
+  esse caso específico, fora do escopo desta pesquisa).
+- **Relevância para Direito Previdenciário: MÁXIMA — fecha pendência
+  registrada desde 23/09/2026.** `legislacao/leis-ordinarias/
+  lei-8.212-1991.md` (Bloco 5C daquela sessão) já registrava que "arts. 45-46
+  (decadência/prescrição de 10 anos das contribuições) têm eficácia afastada
+  pelo STF, Súmula Vinculante 8 — aplicam-se os prazos de 5 anos do CTN",
+  como achado "não incorporado ainda à jurisprudência vinculante da base,
+  pendência". **Esta entrada formaliza essa incorporação.** Fundamento
+  central para qualquer discussão de prescrição/decadência de contribuições
+  previdenciárias cobradas do segurado/empresa pelo INSS/Receita Federal.
+- **Fonte:** portal.stf.jus.br/jurisprudencia/sumariosumulas.asp (Súmula
+  Vinculante 8) — página oficial salva na base nesta sessão.
+  **[FONTE OFICIAL — PÁGINA DO STF NA BASE]**
+- **Data de publicação do enunciado:** DJE de 20/06/2008.
+- **Data de consulta:** 16/10/2026.
+
+## 11. Súmula Vinculante 17 (STF)
+
+- **Texto:** "Durante o período previsto no parágrafo 1º do artigo 100 da
+  Constituição, não incidem juros de mora sobre os precatórios que nele
+  sejam pagos."
+- **Precedentes representativos:** RE 305.186 (1ª T, j. 17/09/2002); RE
+  591.085 QO-RG, rel. min. Ricardo Lewandowski, Plenário, j. 04/12/2008, DJE
+  35 de 20/02/2009, Tema 147 de Repercussão Geral.
+- **Fundamento:** o prazo constitucional para pagamento de precatório
+  (período de graça) não configura mora do ente público devedor — juros
+  moratórios pressupõem inadimplência, que só se caracteriza após o
+  descumprimento desse prazo.
+- **Atualizações jurisprudenciais relevantes, posteriores ao enunciado
+  original (2009):**
+  - A EC 62/2009 não afetou o enunciado da SV 17 — não incidem juros de mora
+    no período de que trata hoje o art. 100, § 5º, da CF (redação dada por
+    aquela emenda; a redação original estava no § 1º) [Tema 1.037, RE
+    1.169.289, red. p/ o acórdão min. Alexandre de Moraes, Plenário, j.
+    16/06/2020, DJE 243 de 01/07/2020].
+  - Também não incide a taxa SELIC (art. 3º da EC 113/2021) durante esse
+    mesmo "período de graça" — só correção monetária [Tema 1.335, RE
+    1.515.163, rel. min. Luís Roberto Barroso, Plenário, j. 11/10/2024, DJE
+    s/n de 21/10/2024].
+- **Relevância para Direito Previdenciário:** direta — aplica-se à execução
+  de sentença/cumprimento de sentença contra o INSS quando o valor da
+  condenação (diferenças de benefício, retroativos) excede o limite de RPV
+  (Requisição de Pequeno Valor) e é pago via precatório. Durante o prazo
+  constitucional de pagamento, não correm juros de mora; só correm a partir
+  do descumprimento desse prazo.
+- **Ressalva de aplicabilidade a RPV — não resolvida nesta pesquisa:** o
+  texto literal da SV 17 fala apenas em "precatórios". Há julgado do STF
+  tratando de correção monetária em RPV com raciocínio análogo (Tema 450,
+  ARE 638.195, rel. min. Joaquim Barbosa, Plenário, j. 29/05/2013), mas a
+  extensão **literal** do enunciado da SV 17 (juros de mora, não correção
+  monetária) a RPVs — modalidade mais comum de pagamento do INSS em ações
+  previdenciárias de menor valor — **não foi confirmada com o mesmo grau de
+  certeza nesta pesquisa. [A CONFIRMAR NA FONTE OFICIAL]** antes de invocar
+  a SV 17 (e não apenas o precedente análogo sobre RPV) em caso concreto.
+- **Fonte:** portal.stf.jus.br/jurisprudencia/sumariosumulas.asp (Súmula
+  Vinculante 17). **[FONTE OFICIAL — PÁGINA DO STF NA BASE]**
+- **Data de publicação do enunciado:** DJE de 10/11/2009.
+- **Data de consulta:** 16/10/2026.
+
+## 12. Súmula Vinculante 21 (STF)
+
+- **Texto:** "É inconstitucional a exigência de depósito ou arrolamento
+  prévios de dinheiro ou bens para admissibilidade de recurso
+  administrativo."
+- **Precedentes representativos:** ADI 1.976, rel. min. Joaquim Barbosa,
+  Plenário, j. 28/03/2007, DJE 18 de 18/05/2007; AI 698.626 QO-RG, rel. min.
+  Ellen Gracie, Plenário, j. 02/10/2008, DJE 232 de 05/12/2008, Tema 314 de
+  Repercussão Geral.
+- **Fundamento:** a exigência de depósito/arrolamento prévio de bens como
+  condição de admissibilidade de recurso administrativo viola o direito de
+  petição (CF, art. 5º, XXXIV), o contraditório (CF, art. 5º, LV) e o
+  princípio da proporcionalidade — pode equivaler, na prática, à supressão
+  do direito de recorrer.
+- **Relevância para Direito Previdenciário: direta — uso no recurso
+  administrativo ao CRPS** (agente `recurso-crps` deste projeto). Garante
+  que o INSS não pode condicionar o conhecimento do recurso ordinário à
+  Junta de Recursos do CRPS a qualquer depósito ou arrolamento prévio de
+  bens/dinheiro.
+- **Limitação de alcance, confirmada por jurisprudência posterior do
+  próprio STF (não estender por analogia):**
+  - A SV 21 **não se aplica** à exigência de pagamento de taxas, emolumentos
+    ou custas administrativas para interposição de recurso administrativo —
+    matéria considerada sem "aderência estrita" ao enunciado (Rcl 50.859
+    AgR, rel. min. Alexandre de Moraes, 1ª T, j. 14/02/2022; Rcl 39.710,
+    rel. min. Gilmar Mendes, dec. monocrática, j. 30/07/2020; Rcl 36.581,
+    rel. min. Ricardo Lewandowski, dec. monocrática, j. 30/08/2019).
+  - Também não se aplica a depósitos exigidos em processo **judicial** (não
+    administrativo) nem a multas processuais judiciais (Rcl 11.750, Rcl
+    11.750 AgR).
+  - O próprio STF reafirma: "não cabe analogia na interpretação dos
+    verbetes de súmulas vinculantes" (Rcl 11.750).
+- **Observação registrada na própria página oficial:** "Vide Súmula
+  Vinculante 28" (tema correlato — depósito prévio como requisito para
+  ajuizamento de ação judicial, não administrativa). **SV 28 não faz parte
+  deste lote** — fica registrada como candidata a lote futuro de súmulas
+  vinculantes, não processada nesta tarefa.
+- **Fonte:** portal.stf.jus.br/jurisprudencia/sumariosumulas.asp (Súmula
+  Vinculante 21). **[FONTE OFICIAL — PÁGINA DO STF NA BASE]**
+- **Data de publicação do enunciado:** DJE de 10/11/2009.
+- **Data de consulta:** 16/10/2026.
+
+---
+
 ## Notas de verificação — correção monetária
 
 Não foi localizada, na pesquisa realizada, nenhuma súmula do STF
@@ -209,3 +368,20 @@ A súmula pertinente a esse tema é do STJ (Súmula 148 — ver
 | Súmula 33 | Lei 1.741/1952 x autarquias federais | Sem relação com contagem recíproca nem com Direito Previdenciário |
 | Súmula 368 | Embargos infringentes em reclamação | Puramente processual-constitucional, sem relação previdenciária |
 | SV 2 | Competência legislativa sobre loterias/bingos | Sem relação com prioridade de idosos nem com Direito Previdenciário |
+| SV 1 | Termo de adesão ao acordo do FGTS (Lei Complementar 110/2001) — ato jurídico perfeito | Matéria de FGTS/trabalhista, sem relação com RGPS |
+| SV 3 | Contraditório/ampla defesa no TCU, exceto registro de aposentadoria/reforma/pensão de servidor | Trata de aposentadoria de servidor público (RPPS) registrada no TCU, não de benefício do RGPS |
+| SV 4 | Vedação a usar salário mínimo como indexador de vantagem de servidor/empregado | Direito administrativo/trabalhista de servidor público, sem relação com benefício do RGPS |
+| SV 5 | Falta de defesa técnica por advogado em processo administrativo disciplinar não ofende a Constituição | Processo administrativo disciplinar de servidor público, sem relação previdenciária |
+| SV 6 | Remuneração de praças do serviço militar inicial pode ser inferior ao salário mínimo | Direito militar, sem relação com RGPS |
+| SV 7 | Limite de juros reais de 12% a.a. (antigo dispositivo constitucional sobre sistema financeiro, revogado por emenda) dependia de lei complementar | Direito constitucional financeiro, sem relação previdenciária |
+| SV 9 | Remição de pena (Lei de Execução Penal) — **súmula cancelada** | Direito penal/execução penal, sem relação previdenciária, e já cancelada |
+| SV 10 | Reserva de plenário (regra constitucional sobre controle de constitucionalidade por órgão fracionário de tribunal) para afastar lei sem declarar expressamente a inconstitucionalidade | Regra processual constitucional genérica, sem vínculo específico com a prática previdenciária do escritório |
+| SV 11 | Uso de algemas só em casos de resistência/fuga/perigo | Direito processual penal, sem relação previdenciária |
+| SV 12 | Inconstitucionalidade de taxa de matrícula em universidade pública | Direito educacional, sem relação previdenciária |
+| SV 13 | Vedação a nepotismo na Administração Pública | Direito administrativo, sem relação previdenciária |
+| SV 14 | Acesso do defensor a elementos de prova já documentados em inquérito | Direito processual penal, sem relação previdenciária |
+| SV 15 | Gratificações de servidor não incidem sobre abono para atingir o salário mínimo | Direito administrativo de servidor público (RPPS), sem relação com RGPS |
+| SV 16 | Dispositivos constitucionais sobre remuneração de servidor referem-se à remuneração TOTAL, não ao vencimento-base | Direito administrativo de servidor público (RPPS), sem relação com RGPS |
+| SV 18 | Dissolução de casamento no curso do mandato não afasta inelegibilidade | Direito eleitoral, sem relação previdenciária |
+| SV 19 | Taxa de coleta/remoção de lixo é constitucional | Direito tributário municipal, sem relação previdenciária |
+| SV 20 | Gratificação de Desempenho (GDATA) devida a inativos — pontuação específica de lei de 2002 | Vantagem específica de servidor público federal (RPPS), sem relação com RGPS |
