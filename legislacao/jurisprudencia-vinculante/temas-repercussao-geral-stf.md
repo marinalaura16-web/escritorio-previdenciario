@@ -314,6 +314,48 @@
 > conexa ao art. 25 da Lei 8.212/1991 já tratado nos Temas 202/669, mas
 > aqui sem tese própria, só efeitos infraconstitucionais) — ver o
 > relatório da tarefa para o detalhamento de cada descarte.
+>
+> **Lote 9, mesmo método (16/10/2026):** processados mais 19 Temas (0930,
+> 0933, 0935, 0938, 0942, 0943, 0952, 0953, 0960, 0965, 0968, 0983, 0985,
+> 1006, 1017, 1019, 1023, 1025 e 1027). **9 são efetivamente
+> previdenciários (RGPS)** e foram incorporados como entradas próprias,
+> todas marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 930** (reafirma e estende ao período do "buraco negro",
+> 05/10/1988 a 05/04/1991, a tese do **Tema 76**/RE 564.354 já nesta base,
+> sobre a aplicação dos tetos das EC 20/1998 e 41/2003), **Tema 938**
+> (termo inicial da decadência para revisão de pensão por morte derivada
+> de outro benefício — sem repercussão geral), **Tema 943** (conversão de
+> tempo comum em especial pelo fator 0,71 para período anterior à Lei
+> 9.032/1995, com DIB posterior a ela — sem repercussão geral, com
+> precedente próprio citado pela página oficial, RE 584.608), **Tema 960**
+> (fator previdenciário na aposentadoria de professor por tempo de
+> contribuição, requisitos reunidos após a Lei 9.876/1999 — página oficial
+> registra "Há Repercussão? Não" mas também uma "Tese" de mérito, aparente
+> inconsistência sinalizada na própria entrada), **Tema 985** (custeio —
+> contribuição previdenciária patronal sobre o terço constitucional de
+> férias, **com modulação de efeitos**), **Tema 1006** (custeio — juros e
+> multa moratória sobre contribuição previdenciária vinculada a créditos
+> de sentença/acordo trabalhista — sem repercussão geral), **Tema 1017**
+> (critério legal de aferição de renda do segurado para o auxílio-reclusão
+> — sem repercussão geral), **Tema 1023** (interpretação do termo
+> "revisão" no art. 103 da Lei 8.213/1991 para fins de decadência — sem
+> repercussão geral, complementa a **ADI 6096/DF** já nesta base) e **Tema
+> 1025** (execução de parcelas de benefício reconhecido judicialmente,
+> anteriores a benefício concedido administrativamente — sem repercussão
+> geral, Súmula 279/STF). **10 descartados** por não serem
+> previdenciários/RGPS (mesmo critério já aplicado nos lotes anteriores):
+> Tema 933, Tema 942, Tema 965, Tema 968 e Tema 1019 (todos **RPPS** de
+> servidor público — respectivamente, alíquota de contribuição de
+> servidores estaduais, conversão de tempo especial em comum, aposentadoria
+> especial de professor, normas gerais/CRP dos regimes próprios e
+> aposentadoria especial por atividade de risco), Tema 983 (gratificação
+> de desempenho de servidor público, ativos x inativos), Tema 935 e Tema
+> 1027 (Direito do Trabalho/administrativo — contribuição assistencial
+> sindical e extensão de reajustes do CRUESP/CEETEPS, Súmula Vinculante
+> 37) e Tema 952 e Tema 953 (liberdade religiosa — recusa de transfusão de
+> sangue por Testemunhas de Jeová e uso de vestimenta religiosa em
+> documentos oficiais, sem qualquer relação com matéria previdenciária) —
+> ver o relatório da tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -2410,6 +2452,346 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   `STF_RG_TEMA_0840_ACORDAO_1.pdf` a `STF_RG_TEMA_0840_ACORDAO_5.pdf`
   (pasta pessoal da usuária, parentId
   `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 930 — Readequação de benefícios do "buraco negro" (05/10/1988 a 05/04/1991) aos tetos das EC 20/1998 e 41/2003 (reafirma o Tema 76)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0930_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+
+- **Leading case:** RE 937.595/SP.
+- **Relator:** Min. Luís Roberto Barroso.
+- **Repercussão geral:** reconhecida, **com reafirmação de
+  jurisprudência**, julgamento de 02/02/2017 — por unanimidade quanto à
+  natureza constitucional da questão e quanto ao reconhecimento da
+  repercussão geral; no mérito, por maioria (vencido o Min. Marco
+  Aurélio; não se manifestaram os Mins. Gilmar Mendes e Cármen Lúcia),
+  reafirmada a jurisprudência dominante.
+- **Objeto:** possibilidade de readequação, aos tetos instituídos pelas
+  EC 20/1998 (art. 14) e 41/2003 (art. 5º), de benefícios concedidos
+  entre 05/10/1988 e 05/04/1991 — o período do "buraco negro" do RGPS.
+- **Tese:** "Os benefícios concedidos entre 05.10.1988 e 05.04.1991
+  (período do buraco negro) não estão, em tese, excluídos da
+  possibilidade de readequação segundo os tetos instituídos pelas EC's
+  nº 20/1998 e 41/2003, a ser aferida caso a caso, conforme os parâmetros
+  já definidos no julgamento do RE 564.354, em regime de repercussão
+  geral."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Modulação de efeitos:** não localizada.
+- **Relevância:** reafirma e estende expressamente ao período do "buraco
+  negro" a tese do **Tema 76**/RE 564.354 (já nesta base, ver acima) —
+  útil para segurados com DIB entre 05/10/1988 e 05/04/1991 que pleiteiem
+  a readequação da RMI aos tetos das EC 20/1998 e 41/2003, a apurar caso
+  a caso.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0930_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 938 — Termo inicial do prazo decadencial para revisão de pensão por morte derivada de outro benefício (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0938_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+
+- **Leading case:** RE 1.013.583/PR.
+- **Relator:** Min. Luís Roberto Barroso.
+- **Repercussão geral:** **NÃO reconhecida** — julgamento de 02/03/2017,
+  por maioria (vencido o Min. Marco Aurélio; não se manifestaram os
+  Mins. Gilmar Mendes e Cármen Lúcia).
+- **Objeto:** termo inicial do prazo decadencial do art. 103, caput, da
+  Lei 8.213/1991 para a revisão de benefício de pensão por morte
+  derivado de outro benefício previdenciário — discussão sobre se o
+  prazo corre da concessão da pensão ou do benefício originário (teoria
+  da *actio nata*).
+- **Tese:** "Não tem repercussão geral a controvérsia relativa à
+  definição do termo inicial do prazo decadencial para a revisão de
+  benefício de pensão por morte derivado de outro benefício
+  previdenciário."
+- **Trânsito em julgado:** 17/08/2017 (conforme andamento processual).
+- **Modulação de efeitos:** não se aplica (ausência de repercussão
+  geral).
+- **Relevância:** mantém com os TRFs/STJ, em caráter infraconstitucional,
+  a controvérsia sobre o termo inicial da decadência para revisão de
+  pensão por morte derivada — distinta da matéria da **ADI 6096/DF** (já
+  nesta base), que trata da extensão da decadência do art. 103, *caput*,
+  a indeferimento/cancelamento/cessação (não a revisão de benefício já
+  concedido). Citação ao **art. 103 da Lei 8.213/1991**
+  `[DISPOSITIVO A CONFIRMAR NA BASE — ver "Prescrição e Decadência — Art.
+  103" em lei-8.213-1991.md]`.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0938_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 943 — Conversão de tempo comum em especial pelo fator 0,71, para período anterior à Lei 9.032/1995 com DIB posterior (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0943_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+
+- **Leading case:** RE 1.029.723.
+- **Relator:** Min. Edson Fachin.
+- **Repercussão geral:** **NÃO reconhecida**.
+- **Objeto:** possibilidade de conversão do tempo de serviço comum para
+  especial, mediante aplicação do fator de conversão 0,71, nas hipóteses
+  em que o trabalho foi prestado em período **anterior** à Lei
+  9.032/1995, para fins de aposentadoria especial com data de início
+  posterior a essa lei.
+- **Tese:** "A questão da possibilidade de conversão do tempo de serviço
+  comum para especial, mediante a aplicação do fator 0,71 de conversão,
+  nas hipóteses em que o trabalho fora prestado em período anterior à
+  Lei n. 9.032/1995, para fins de concessão de aposentadoria especial com
+  data de início posterior à essa legislação, tem natureza
+  infraconstitucional, e a ela se atribuem os efeitos da ausência de
+  repercussão geral, nos termos do precedente fixado no RE n. 584.608,
+  rel. a Ministra Ellen Gracie, DJe 13/03/2009."
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** direta para cálculo de tempo de contribuição e
+  conversão de tempo especial em comum (skill `calculo-previdenciario` /
+  `calculo-tempo-contribuicao`) — confirma, com precedente próprio
+  citado (RE 584.608), que a matéria é infraconstitucional, cabendo a
+  palavra final ao STJ/TRFs sobre a aplicação do fator 0,71 a períodos
+  anteriores a 1995.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0943_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 960 — Incidência do fator previdenciário na aposentadoria de professor por tempo de contribuição, requisitos após a Lei 9.876/1999
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0960_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+> **Inconsistência encontrada e não resolvida nesta tarefa:** a própria
+> página processual oficial registra, simultaneamente, "Há Repercussão?
+> Não" e uma "Tese" de mérito afirmando a constitucionalidade — o que
+> normalmente só ocorre quando há repercussão reconhecida com
+> reafirmação de jurisprudência (como nos Temas 930 e 76, acima). O
+> acórdão da decisão de repercussão geral (lido nesta tarefa) confirma a
+> **ausência** de repercussão geral ("legislação infraconstitucional,
+> ofensa reflexa"), por maioria, vencidos os Mins. Marco Aurélio e Gilmar
+> Mendes. Mantida a tese como consta na página oficial, mas com esta
+> ressalva — **[A CONFIRMAR NA FONTE OFICIAL]** quanto ao valor
+> vinculante exato dessa "tese" registrada sem repercussão geral.
+
+- **Leading case:** RE 1.029.608/RS.
+- **Relator:** Min. Edson Fachin.
+- **Repercussão geral:** **NÃO reconhecida** (ver ressalva acima).
+- **Objeto:** constitucionalidade da incidência do fator previdenciário
+  ao benefício de aposentadoria por tempo de contribuição de professores.
+- **Tese (conforme página oficial, ver ressalva):** "É constitucional a
+  incidência do fator previdenciário ao benefício de aposentadoria por
+  tempo de contribuição de professor, quando reunidos os requisitos para
+  concessão após a edição da Lei n°. 9.876/1999."
+- **Trânsito em julgado:** 26/09/2017 (conforme andamento processual).
+- **Modulação de efeitos:** não se aplica.
+- **Relevância:** útil para resistir a pedidos de afastamento do fator
+  previdenciário em aposentadoria de professor por tempo de contribuição
+  cujos requisitos tenham sido reunidos após a Lei 9.876/1999 — tema
+  conexo ao art. 29 da Lei 8.213/1991 (cálculo do benefício), distinto do
+  **Tema 1125** (cômputo de auxílio-doença intercalado para carência) e
+  do **Tema 88** (transformação direta de auxílio-doença em
+  aposentadoria por invalidez), ambos já nesta base.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0960_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 985 — Incidência de contribuição previdenciária patronal sobre o terço constitucional de férias
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0985_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+> O campo "Relator(a)" da página oficial indica atualmente o Min. André
+> Mendonça; os acórdãos de mérito e dos primeiros embargos foram
+> relatados/redigidos por outros Ministros (ver abaixo) — provável
+> sucessão/redistribuição posterior não detalhada nesta tarefa —
+> **[A CONFIRMAR NA FONTE OFICIAL]**.
+
+- **Leading case:** RE 1.072.485/PR.
+- **Relator originário:** Min. Marco Aurélio. **Redator para o acórdão de
+  mérito:** Min. Luís Roberto Barroso.
+- **Repercussão geral:** reconhecida — **Tema 985**, com **Suspensão
+  Nacional** indicada na página processual.
+- **Objeto:** natureza jurídica do terço constitucional de férias,
+  indenizadas ou gozadas, para fins de incidência da contribuição
+  previdenciária patronal.
+- **Julgamento de mérito:** 31/08/2020 (sessão virtual de 21 a
+  28/08/2020), por maioria.
+- **Tese:** "É legítima a incidência de contribuição social sobre o
+  valor satisfeito a título de terço constitucional de férias."
+- **Embargos de declaração (1ª rodada):** julgados em 12/06/2024, por
+  maioria — acolhidos para **modular os efeitos** da decisão de mérito,
+  atribuindo-lhe eficácia *ex nunc* a contar da publicação da ata do
+  julgamento de mérito (31/08/2020), ressalvadas as contribuições já
+  pagas e não impugnadas judicialmente até essa data (que não serão
+  restituídas pela União).
+- **Segundos embargos de declaração:** julgados em 12/08/2025 — rejeitados
+  (sem alteração da modulação já fixada).
+- **Trânsito em julgado:** não localizado com precisão nesta tarefa —
+  **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Modulação de efeitos:** **SIM** — ver "Embargos de declaração",
+  acima.
+- **Relevância:** agrupa-se ao bloco de custeio da Seguridade Social já
+  nesta base (Temas 3, 20, 72, 166, 202, 204, 281, 302, 344, 470, 651 e
+  32) — relevante para escritórios que também atuem para empregadores em
+  questões de contribuição previdenciária patronal; confirma a base de
+  cálculo do salário-de-contribuição sobre o terço de férias.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0985_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1006 — Juros de mora e multa moratória sobre contribuição previdenciária vinculada a créditos de sentença/acordo trabalhista (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1006_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+> **Dispositivos objeto da ação ainda não plenamente incorporados a esta
+> base:** art. 43 da Lei 8.212/1991 (redação da MP 449/2009) e art. 276
+> do Decreto 3.048/1999 — ambos os arquivos têm lacunas registradas nos
+> artigos vizinhos (Lei 8.212/1991, arts. 34-37; Decreto 3.048/1999, arts.
+> 52-63/67) — `[DISPOSITIVO A CONFIRMAR NA BASE]`.
+
+- **Leading case:** ARE 1.070.334/PE.
+- **Relator:** Min. Dias Toffoli.
+- **Repercussão geral:** **NÃO reconhecida** — julgamento de 30/08/2018,
+  por unanimidade.
+- **Objeto:** aplicação de juros de mora e multa moratória sobre
+  créditos de contribuição previdenciária atrelados a sentença
+  trabalhista ou a acordo homologado judicialmente, considerado o
+  momento da ocorrência do fato gerador da obrigação tributária.
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia relativa à aplicação de
+  juros de mora e de multa moratória sobre créditos de contribuição
+  previdenciária atrelados a sentença trabalhista ou a acordo homologado
+  judicialmente, considerado o momento da ocorrência do fato gerador da
+  obrigação tributária."
+- **Trânsito em julgado:** 25/09/2018.
+- **Modulação de efeitos:** não se aplica.
+- **Relevância:** custeio/execução de contribuições previdenciárias
+  decorrentes de créditos trabalhistas — mantém a matéria com a Justiça
+  do Trabalho/STJ.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1006_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1017 — Critérios legais de aferição de renda do segurado para fins de auxílio-reclusão (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1017_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+
+- **Leading case:** ARE 1.163.485/SP.
+- **Relator:** Ministro Presidente (à época, Min. Dias Toffoli, conforme
+  assinatura no acórdão).
+- **Repercussão geral:** **NÃO reconhecida** — julgamento de 15/11/2018,
+  por maioria (vencido o Min. Marco Aurélio).
+- **Objeto:** critério de aferição da renda do segurado, para fins de
+  concessão do benefício de auxílio-reclusão (art. 201, IV, CF),
+  especificamente do segurado que não exercia atividade laboral
+  remunerada no momento do recolhimento à prisão.
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia sobre os critérios
+  legais de aferição da renda do segurado, para fins de percepção do
+  benefício do auxílio-reclusão."
+- **Trânsito em julgado:** 18/12/2018.
+- **Modulação de efeitos:** não se aplica.
+- **Relevância:** mantém com o STJ/TRFs a palavra final sobre os
+  critérios de renda para o auxílio-reclusão — útil em casos de
+  segurado preso que estava desempregado (sem renda) à época da prisão.
+  Dispositivos relacionados: art. 80, Lei 8.213/1991, e art. 116,
+  Decreto 3.048/1999 — `[DISPOSITIVO A CONFIRMAR NA BASE]`.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1017_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1023 — Interpretação do termo "revisão" no art. 103 da Lei 8.213/1991 para fins de decadência (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1023_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+
+- **Leading case:** ARE 1.172.622/RJ.
+- **Relator:** Ministro Presidente.
+- **Repercussão geral:** **NÃO reconhecida** — julgamento de 13/12/2018,
+  por unanimidade.
+- **Objeto:** incidência do prazo decadencial de 10 anos do art. 103,
+  caput, da Lei 8.213/1991 nas hipóteses de adequação da renda mensal do
+  benefício aos tetos instituídos pelas EC 20/1998 e 41/2003 — a mesma
+  matéria de fundo do **Tema 930** e do **Tema 76** (ambos já nesta
+  base).
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia relativa às situações
+  abrangidas pelo prazo decadencial previsto no art. 103 da Lei nº
+  8.213/91 fundada na interpretação do termo revisão contido no referido
+  dispositivo legal."
+- **Trânsito em julgado:** 11/05/2019.
+- **Modulação de efeitos:** não se aplica.
+- **Relevância:** **ALTA** — complementa a jurisprudência vinculante já
+  existente sobre o art. 103 da Lei 8.213/1991 e sobre a **ADI 6096/DF**
+  (já nesta base): aqui o STF confirma que a interpretação do termo
+  "revisão" do *caput* do art. 103 — e, por consequência, se a decadência
+  alcança ou não a adequação de RMI a novo teto constitucional — é
+  matéria infraconstitucional, cabendo a palavra final ao STJ/TRFs. Não
+  se confunde com a matéria da ADI 6096/DF, que tratou da
+  constitucionalidade da própria extensão da decadência decenal a
+  indeferimento/cancelamento/cessação de benefício (art. 24 da Lei
+  13.846/2019), não da interpretação do termo "revisão".
+- **Fonte:** Google Drive, `STF_RG_TEMA_1023_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1025 — Execução de parcelas de benefício reconhecido judicialmente, anteriores a benefício concedido administrativamente (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1025_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 9.
+> O andamento processual traz uma anotação de "Lançamento indevido" ao
+> lado da data de trânsito em julgado (16/04/2019), o que gera incerteza
+> sobre a data exata — **[A CONFIRMAR NA FONTE OFICIAL]**.
+
+- **Leading case:** ARE 1.172.577/SP.
+- **Relator:** Ministro Presidente.
+- **Repercussão geral:** **NÃO reconhecida** — julgamento de 01/02/2019,
+  por unanimidade.
+- **Objeto:** cabimento da execução de parcelas vencidas de benefício
+  previdenciário reconhecido judicialmente, anteriores à implantação de
+  benefício mais vantajoso concedido posteriormente na via
+  administrativa, quando o segurado opta por este último.
+- **Tese:** "É infraconstitucional e demanda o revolvimento de fatos e
+  provas a controvérsia relativa à possibilidade de execução de parcelas
+  vencidas de benefício previdenciário reconhecido judicialmente
+  anteriores à implantação de benefício concedido na esfera
+  administrativa" — com remissão expressa à **Súmula 279/STF** (matéria
+  fático-probatória).
+- **Trânsito em julgado:** ver ressalva acima — **[A CONFIRMAR NA FONTE
+  OFICIAL]**.
+- **Modulação de efeitos:** não se aplica.
+- **Relevância:** útil em execuções de benefício previdenciário
+  concedido judicialmente quando sobrevém, na via administrativa,
+  benefício mais vantajoso posteriormente escolhido pelo segurado —
+  matéria permanece com os TRFs/STJ, por envolver reexame de fatos e
+  provas (Súmula 279/STF).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1025_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
 ---
