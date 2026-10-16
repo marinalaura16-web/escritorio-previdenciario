@@ -356,6 +356,46 @@
 > sangue por Testemunhas de Jeová e uso de vestimenta religiosa em
 > documentos oficiais, sem qualquer relação com matéria previdenciária) —
 > ver o relatório da tarefa para o detalhamento de cada descarte.
+>
+> **Lote 10, mesmo método (16/10/2026):** processados mais 19 Temas
+> (1028, 1029, 1046, 1048, 1057, 1065, 1066, 1071, 1089, 1092, 1095, 1096,
+> 1098, 1100, 1104, 1105, 1107, 1109 e 1110). **11 são efetivamente
+> previdenciários (RGPS)** e foram incorporados como entradas próprias,
+> todas marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 1028** (pensão por morte — aferição dos requisitos legais é
+> matéria de fato/prova, Súmula 279/STF — SEM repercussão geral), **Tema
+> 1048** (custeio — constitucionalidade da inclusão do ICMS na base de
+> cálculo da CPRB, Lei 12.546/2011, com repercussão geral reconhecida e
+> mérito julgado), **Tema 1065** (constitucionalidade da cobrança de
+> contribuição previdenciária do aposentado do RGPS que permanece ou
+> retorna à atividade, princípio da solidariedade), **Tema 1066** (prazo
+> de 45 dias para perícia médica do INSS em benefícios por incapacidade —
+> processo extinto por acordo homologado entre INSS/AGU/PGR/DPU, **sem
+> tese de mérito**, excluído da sistemática de repercussão geral), **Tema
+> 1095** (auxílio-acompanhante do art. 45 da Lei 8.213/1991 não se estende
+> a outras espécies de aposentadoria além da invalidez, com modulação de
+> efeitos), e os seis Temas **SEM repercussão geral** mas genuinamente
+> RGPS, pelo critério refinado no Lote 9: **Tema 1100** (natureza jurídica
+> individualizada de verbas para incidência de contribuição patronal,
+> art. 22, I, Lei 8.212/1991), **Tema 1104** (requisitos da aposentadoria
+> híbrida urbano-rural, art. 48, § 3º, Lei 8.213/1991), **Tema 1105**
+> (prévio requerimento administrativo para auxílio-acidente precedido de
+> auxílio-doença acidentário, art. 86, § 2º, Lei 8.213/1991 — vinculado ao
+> Tema 350 já nesta base), **Tema 1107** (cômputo de auxílio-doença não
+> acidentário como tempo especial — mesma tese do Tema 998/STJ), **Tema
+> 1109** e **Tema 1110** (ambos sobre a CPRB da Lei 12.546/2011 — exclusão
+> de atividades pela Lei 13.670/2018 e substituição da base de cálculo do
+> art. 22, I e III, da Lei 8.212/1991, respectivamente — agrupados ao Tema
+> 1048, acima). **Os outros 8 temas foram verificados e descartados**: a
+> maioria é RPPS de servidor público ou de previdência complementar do
+> servidor (Temas 1029, 1057, 1071, 1089 e 1096), Direito do Trabalho sem
+> relação previdenciária (Tema 1046 — validade de norma coletiva que
+> restringe direito trabalhista), Direito Tributário geral sem relação
+> com o custeio do RGPS (Tema 1098 — ICMS-ST na base de cálculo de PIS/
+> COFINS) e um tema processual/de competência sobre complementação de
+> aposentadoria paga por entidade pública ou sociedade de economia mista
+> por força de lei, sem relação com benefício do RGPS/INSS (Tema 1092) —
+> ver o relatório da tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -2792,6 +2832,427 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   provas (Súmula 279/STF).
 - **Fonte:** Google Drive, `STF_RG_TEMA_1025_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1028 — Pensão por morte: aferição dos requisitos legais é matéria de fato e prova (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1028_pagina.html` e `STF_RG_TEMA_1028_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10.
+
+- **Leading case:** ARE 1.170.204/RS.
+- **Relator:** Min. Dias Toffoli.
+- **Repercussão geral:** **NÃO reconhecida** — julgamento de 14/02/2019,
+  por maioria (vencido o Min. Marco Aurélio; não se manifestou a Min.
+  Cármen Lúcia).
+- **Objeto:** aferição do preenchimento dos requisitos legais para a
+  concessão do benefício previdenciário de pensão por morte.
+- **Tese:** "É infraconstitucional e fundada na análise de fatos e provas
+  a controvérsia atinente à aferição dos requisitos legais para a
+  concessão do benefício previdenciário da pensão por morte."
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** confirma que a discussão sobre o preenchimento, no caso
+  concreto, dos requisitos legais da pensão por morte (dependência
+  econômica, união estável, etc.) é matéria de prova, decidida em
+  definitivo pelos TRFs/STJ (Súmula 279/STF), sem tese constitucional
+  vinculante do STF. Citação a dispositivo específico da Lei 8.213/1991
+  não consta da ementa disponível — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1028_pagina.html` e
+  `STF_RG_TEMA_1028_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1048 — Custeio: constitucionalidade da inclusão do ICMS na base de cálculo da CPRB (Lei 12.546/2011)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1048_pagina.html` e os `STF_RG_TEMA_1048_ACORDAO_1..4.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10. Agrupado
+> aqui ao bloco de custeio já existente nesta base (Temas 166/281/32/3/
+> 20/72/202/204/302/470/669/691/723/833/651) — a CPRB é uma contribuição
+> previdenciária substitutiva (sobre a receita bruta, não sobre a folha
+> de salários) instituída pela Lei 12.546/2011 em substituição à
+> contribuição patronal do art. 22, I, da Lei 8.212/1991.
+> Relacionado aos Temas 1109 e 1110, abaixo (mesma contribuição, outras
+> controvérsias, ambos SEM repercussão geral).
+
+- **Leading case:** RE 1.187.264/SP.
+- **Relator:** Min. Marco Aurélio. **Redator do acórdão:** Min. Alexandre
+  de Moraes.
+- **Repercussão geral reconhecida:** 16/05/2019, por unanimidade.
+- **Mérito julgado:** 24/02/2021 (Sessão Virtual), por maioria, negando
+  provimento ao recurso extraordinário, vencidos os Ministros Marco
+  Aurélio (Relator), Ricardo Lewandowski, Cármen Lúcia e Rosa Weber.
+- **Tese:** "É constitucional a inclusão do Imposto Sobre Circulação de
+  Mercadorias e Serviços - ICMS na base de cálculo da Contribuição
+  Previdenciária sobre a Receita Bruta - CPRB."
+- **Embargos de declaração:** primeiros (e segundos, de dois embargantes
+  distintos) rejeitados por unanimidade em 21/06/2021, sem acolhimento de
+  modulação de efeitos ("não se mostram presentes os requisitos para a
+  modulação dos efeitos do julgado"); novos embargos (contra o acórdão
+  que julgou os segundos) não conhecidos em 23/08/2021, por unanimidade,
+  com determinação de certificação do trânsito em julgado e baixa
+  imediata dos autos.
+- **Trânsito em julgado:** certificado em 23/08/2021.
+- **Modulação de efeitos:** **não houve** (pedido rejeitado nos
+  embargos de 21/06/2021).
+- **Relevância:** confirma a constitucionalidade de um componente
+  específico da base de cálculo da CPRB (contribuição previdenciária
+  substitutiva instituída pela Lei 12.546/2011, ainda não incorporada a
+  esta base como entrada própria de legislação —
+  `[DISPOSITIVO A CONFIRMAR NA BASE]`); relevante para empresas optantes
+  pela CPRB no polo passivo de reclamações trabalhistas/tributárias
+  conexas a benefícios do RGPS financiados por essa contribuição.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1048_pagina.html` e
+  `STF_RG_TEMA_1048_ACORDAO_1.pdf` a `_4.pdf` (pasta pessoal da usuária,
+  parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1065 — Constitucionalidade da cobrança de contribuição previdenciária do aposentado do RGPS que permanece ou retorna à atividade
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1065_pagina.html` e `STF_RG_TEMA_1065_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10.
+
+- **Leading case:** ARE 1.224.327/ES.
+- **Relator:** Min. Dias Toffoli.
+- **Repercussão geral reconhecida:** 26/09/2019, por unanimidade.
+- **Mérito:** no mesmo julgamento, por maioria, **reafirmada a
+  jurisprudência dominante** da Corte (precedente citado: RE 430.418/RS)
+  no sentido da possibilidade de cobrança de contribuição previdenciária
+  do segurado aposentado pelo RGPS que permanece ou retorna à atividade
+  laboral, com fundamento no princípio da solidariedade (art. 194,
+  parágrafo único, IV, e art. 201, § 4º, da Constituição Federal).
+  Vencidos os Ministros Marco Aurélio e Ricardo Lewandowski; não se
+  manifestou a Min. Cármen Lúcia.
+- **Tese (redação literal): [A CONFIRMAR NA FONTE OFICIAL]** — a página
+  disponível traz a ementa e o resultado do julgamento, mas não transcreve
+  a tese fixada em texto separado.
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** direta para orientar clientes aposentados pelo RGPS que
+  continuam ou retornam a trabalhar — confirma que a contribuição
+  continua devida, sem direito a nova aposentadoria/benefício adicional
+  por esse novo período de contribuição (regra equivalente à vedação de
+  desaposentação, Tema 503 já nesta base).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1065_pagina.html` e
+  `STF_RG_TEMA_1065_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1066 — Prazo de 45 dias para perícia médica do INSS em benefícios por incapacidade (processo extinto por acordo, SEM tese de mérito)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1066_pagina.html`, `STF_RG_TEMA_1066_ACORDAO_1.pdf` e
+> `STF_RG_TEMA_1066_ACORDAO_2.pdf` (Google Drive, pasta pessoal da
+> usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026,
+> Lote 10. **Atenção: este tema NÃO gerou tese de mérito vinculante** —
+> ver "Trânsito/resultado final" abaixo.
+
+- **Leading case:** RE 1.171.152/SC.
+- **Relator:** Min. Alexandre de Moraes.
+- **Repercussão geral reconhecida:** 03/10/2019, por unanimidade.
+- **Objeto original:** ação civil pública do Ministério Público Federal
+  pretendendo (i) fixar prazo de até 45 dias para o INSS realizar perícia
+  médica em segurados que pleiteiam benefícios por incapacidade
+  (auxílio-doença, aposentadoria por invalidez, pensão por morte a
+  incapazes e BPC) e (ii) determinar a implantação provisória do
+  benefício caso o exame não ocorra no prazo.
+- **Resultado final: processo extinto por homologação de acordo**,
+  julgado em 08/02/2021, por unanimidade. Termo de acordo firmado pela
+  Procuradoria-Geral da República, pela Advocacia-Geral da União, pela
+  Defensoria Pública-Geral da União, pelo Procurador-Geral Federal e pelo
+  INSS, prevendo a regularização do atendimento aos segurados. O
+  processo foi **extinto (art. 487, III, CPC)** e **excluído da
+  sistemática da repercussão geral** — **não há tese de mérito fixada**
+  sobre a possibilidade de o Judiciário impor esse prazo.
+- **Modulação de efeitos:** não se aplica (não houve julgamento de
+  mérito).
+- **Relevância:** apesar de não gerar tese vinculante citável como
+  precedente de mérito, documenta um compromisso formal do INSS (via
+  acordo homologado pelo STF) de regularizar o atendimento pericial aos
+  segurados — pode ser referido como contexto factual/institucional em
+  casos de demora excessiva de perícia, mas **não substitui** fundamento
+  de mérito próprio (o conteúdo exato do termo de acordo não foi obtido
+  nesta tarefa — `[A CONFIRMAR NA FONTE OFICIAL]`).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1066_pagina.html`,
+  `STF_RG_TEMA_1066_ACORDAO_1.pdf` e `_2.pdf` (pasta pessoal da usuária,
+  parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1095 — O auxílio-acompanhante do art. 45 da Lei 8.213/1991 não se estende a outras espécies de aposentadoria além da invalidez
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1095_pagina.html` e os `STF_RG_TEMA_1095_ACORDAO_1.pdf` e
+> `_2.pdf` (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10.
+
+- **Leading case:** RE 1.221.446/RJ.
+- **Relator na repercussão geral:** Min. Luiz Fux. **Relator no
+  julgamento de mérito:** Min. Dias Toffoli — **divergência de
+  relatoria entre as duas fases do processo, não resolvida nesta tarefa**
+  `[A CONFIRMAR NA FONTE OFICIAL]`.
+- **Repercussão geral reconhecida:** 07/08/2020, por maioria (vencido o
+  Min. Edson Fachin).
+- **Mérito julgado:** 21/06/2021 (Sessão Virtual de 11 a 18/06/2021), por
+  maioria, dando provimento ao recurso extraordinário do INSS. Vencido o
+  Min. Edson Fachin; vencido parcialmente o Min. Marco Aurélio (quanto à
+  modulação de efeitos).
+- **Objeto:** possibilidade de estender o "auxílio-acompanhante" (adicional
+  de 25% do art. 45 da Lei 8.213/1991, devido ao aposentado por invalidez
+  que necessita de assistência permanente de terceiro) às demais espécies
+  de aposentadoria do RGPS.
+- **Tese:** "No âmbito do Regime Geral de Previdência Social (RGPS),
+  somente lei pode criar ou ampliar benefícios e vantagens
+  previdenciárias, não sendo possível, por ora, a extensão do auxílio da
+  grande invalidez (art. 45 da Lei n. 8.213/91) a todas às espécies de
+  aposentadoria."
+- **Modulação de efeitos:** preservados os direitos de segurados cujo
+  reconhecimento judicial do adicional (para aposentadorias diversas da
+  invalidez) tenha se dado por decisão transitada em julgado até a data
+  do julgamento de mérito (21/06/2021). São também irrepetíveis os
+  valores recebidos de boa-fé por força de decisão judicial ou
+  administrativa até a proclamação do resultado desse julgamento.
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** direta — fecha a porta a pedidos de extensão do
+  adicional de 25% (art. 45, Lei 8.213/1991) a aposentadorias por idade,
+  tempo de contribuição ou especial; útil para orientar clientes sobre a
+  limitação legal e para identificar, no caso de decisão judicial
+  transitada em julgado antes de 21/06/2021, a hipótese de modulação que
+  preserva o direito já reconhecido.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1095_pagina.html` e
+  `STF_RG_TEMA_1095_ACORDAO_1.pdf`/`_2.pdf` (pasta pessoal da usuária,
+  parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1100 — Natureza jurídica individualizada de verbas para incidência de contribuição previdenciária patronal (art. 22, I, Lei 8.212/1991) — SEM repercussão geral
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1100_pagina.html` e `STF_RG_TEMA_1100_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10.
+
+- **Leading case:** ARE 1.260.750/RJ.
+- **Relator:** Min. Dias Toffoli.
+- **Repercussão geral:** **NÃO reconhecida** — 14/08/2020, por
+  unanimidade.
+- **Objeto:** definição individualizada da natureza jurídica de verbas
+  pagas ao empregado (horas extras, adicionais noturno, de insalubridade,
+  de periculosidade e de transferência) e de sua habitualidade, para fins
+  de incidência da contribuição previdenciária patronal do art. 22, I, da
+  Lei 8.212/1991.
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia relativa à definição
+  individualizada da natureza jurídica de verbas percebidas pelo
+  empregado, bem como de sua respectiva habitualidade, para fins de
+  incidência da contribuição previdenciária a cargo do empregador
+  conforme o art. 22, I, da Lei nº 8.212/1991."
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** mantém com os TRFs/STJ, em caráter infraconstitucional,
+  a controvérsia sobre quais verbas trabalhistas específicas compõem a
+  base de cálculo da contribuição patronal — matéria relevante em
+  reclamações trabalhistas conexas e em discussões sobre o salário de
+  contribuição do segurado.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1100_pagina.html` e
+  `STF_RG_TEMA_1100_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1104 — Requisitos da aposentadoria híbrida urbano-rural (art. 48, § 3º, Lei 8.213/1991) — SEM repercussão geral
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1104_pagina.html` e `STF_RG_TEMA_1104_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10.
+
+- **Leading case:** RE 1.281.909/SP.
+- **Relator:** Min. Luiz Fux.
+- **Repercussão geral:** **NÃO reconhecida** — 24/09/2020, por maioria
+  (vencido o Min. Ricardo Lewandowski).
+- **Objeto:** definição e preenchimento dos requisitos legais para a
+  concessão da aposentadoria por idade híbrida (cômputo conjunto de
+  trabalho urbano e rural), prevista no art. 48, § 3º, da Lei 8.213/1991.
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia relativa à definição e
+  ao preenchimento dos requisitos legais necessários para a concessão de
+  aposentadoria híbrida, prevista no art. 48, § 3º da Lei nº 8.213/91."
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** **alta para o escritório** — a aposentadoria híbrida é
+  um dos benefícios frequentemente pleiteados por segurados com histórico
+  misto urbano/rural; confirma que a palavra final sobre os requisitos
+  (inclusive sobre a exigência ou não de atividade rural no período
+  imediatamente anterior ao requerimento) cabe aos TRFs/STJ, não ao STF.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1104_pagina.html` e
+  `STF_RG_TEMA_1104_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1105 — Prévio requerimento administrativo para auxílio-acidente precedido de auxílio-doença acidentário (art. 86, § 2º, Lei 8.213/1991) — SEM repercussão geral
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1105_pagina.html` e `STF_RG_TEMA_1105_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10. Relacionado
+> ao **Tema 350** (prévio requerimento administrativo em geral), já
+> nesta base — este tema trata da aplicação específica dessa exigência ao
+> auxílio-acidente precedido de auxílio-doença de natureza acidentária.
+
+- **Leading case:** RE 1.287.510/PR.
+- **Relator:** Min. Luiz Fux.
+- **Repercussão geral:** **NÃO reconhecida** — 22/10/2020, por maioria
+  (vencido o Min. Ricardo Lewandowski).
+- **Objeto:** necessidade de prévio requerimento administrativo para
+  pleitear em juízo auxílio-acidente precedido de auxílio-doença de
+  natureza acidentária, à luz do art. 86, § 2º, da Lei 8.213/1991 —
+  controvérsia já enquadrada como matéria do Tema 350 (RE 631.240,
+  julgado pelo Plenário no mérito).
+- **Resultado:** o Tribunal reconheceu a ausência de repercussão geral
+  por se tratar de matéria infraconstitucional (ofensa reflexa à
+  Constituição) e determinou a **remessa ao Superior Tribunal de
+  Justiça**, com fundamento no art. 1.033 do CPC/2015 (recurso
+  interposto como extraordinário quando deveria ser especial).
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** reforça, para o caso específico do auxílio-acidente
+  decorrente de auxílio-doença acidentário, a aplicação das regras gerais
+  do Tema 350 sobre prévio requerimento administrativo — com a diferença
+  de que a palavra final caberá ao STJ, não ao STF.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1105_pagina.html` e
+  `STF_RG_TEMA_1105_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1107 — Cômputo, como tempo de serviço especial, do período de auxílio-doença não acidentário — SEM repercussão geral
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1107_pagina.html` e `STF_RG_TEMA_1107_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10.
+
+- **Leading case:** RE 1.279.819/RS.
+- **Relator:** Min. Luiz Fux.
+- **Repercussão geral:** **NÃO reconhecida** — 29/10/2020, por maioria.
+- **Objeto:** possibilidade de computar, como tempo de serviço especial
+  (para fins de aposentadoria especial), o período em que o segurado
+  esteve em gozo de auxílio-doença de natureza **não acidentária**
+  (Leis 8.212/1991 e 8.213/1991 e Decretos 3.048/1999 e 4.882/2003).
+- **Origem:** recurso extraordinário do INSS contra acórdão do STJ no
+  REsp 1.723.181 (Tema 998/STJ, repetitivo), que fixou a tese: "O
+  segurado que exerce atividades em condições especiais, quando em gozo
+  de auxílio-doença, seja acidentário ou previdenciário, faz jus ao
+  cômputo desse mesmo período como tempo de serviço especial."
+- **Resultado:** o STF reconheceu a ausência de repercussão geral por
+  tratar-se de matéria infraconstitucional (ofensa reflexa à
+  Constituição), prevalecendo a tese do STJ (Tema 998) favorável ao
+  segurado.
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** **alta para a skill `calculo-previdenciario`/
+  `calculo-tempo-contribuicao`** — confirma que o tempo de auxílio-doença
+  (acidentário ou não) intercalado em atividade especial deve ser
+  computado como tempo especial, tese já consolidada pelo STJ (Tema 998)
+  e agora confirmada como definitiva pelo STF (sem repercussão geral).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1107_pagina.html` e
+  `STF_RG_TEMA_1107_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1109 — Custeio: exclusão de atividades da CPRB pela Lei 13.670/2018 e irretratabilidade da opção no exercício de 2018 — SEM repercussão geral
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1109_pagina.html` e `STF_RG_TEMA_1109_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10. Agrupado
+> ao Tema 1048 (acima) e ao Tema 1110 (abaixo) — mesma contribuição
+> substitutiva (CPRB, Lei 12.546/2011), controvérsia distinta.
+
+- **Leading case:** RE 1.286.672/RS.
+- **Relator:** Min. Dias Toffoli.
+- **Repercussão geral:** **NÃO reconhecida** — 05/11/2020, por maioria
+  (não se manifestou a Min. Cármen Lúcia).
+- **Objeto:** validade da alteração legislativa promovida pela Lei
+  13.670/2018, que excluiu da opção pela CPRB (contribuição substitutiva,
+  arts. 7º e 8º da Lei 12.546/2011) pessoas jurídicas fabricantes de
+  determinados produtos, inclusive quanto à irretratabilidade da opção já
+  exercida no exercício de 2018 (art. 9º, § 13, da Lei 12.546/2011).
+- **Tese:** "É infraconstitucional e depende da análise de fatos e
+  provas, a ela se aplicando os efeitos da ausência de repercussão geral,
+  a controvérsia relativa à alteração legislativa promovida pela Lei nº
+  13.670, de 2018, que excluiu da opção pela contribuição substitutiva
+  (CPRB) as pessoas jurídicas que fabricam determinados produtos,
+  inclusive no que se refere à irretratabilidade prevista no art. 9º, §
+  13, da Lei nº 12.546, de 2011."
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** secundária para o escritório (matéria tributária de
+  empresas, não de segurados), mas integra o mesmo bloco de precedentes
+  sobre a CPRB (Lei 12.546/2011, ainda `[DISPOSITIVO A CONFIRMAR NA
+  BASE]` como entrada própria de legislação).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1109_pagina.html` e
+  `STF_RG_TEMA_1109_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1110 — Custeio: constitucionalidade do regime da CPRB como substituição da contribuição sobre a folha de salários (art. 22, I e III, Lei 8.212/1991) — SEM repercussão geral
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1110_pagina.html` e `STF_RG_TEMA_1110_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 10. Agrupado
+> ao Tema 1048 e ao Tema 1109 (acima) — mesma contribuição substitutiva
+> (CPRB, Lei 12.546/2011), controvérsia distinta.
+
+- **Leading case:** RE 1.266.813/PR.
+- **Relator:** Min. Dias Toffoli.
+- **Repercussão geral:** **NÃO reconhecida** — 05/11/2020, por maioria.
+- **Objeto:** validade, à luz do art. 195, § 13, da Constituição Federal
+  (cláusula de reserva de Plenário), do regime da CPRB instituído pelos
+  arts. 7º e 8º da Lei 12.546/2011, que substitui a contribuição sobre a
+  folha de salários (art. 22, I e III, da Lei 8.212/1991) pela
+  contribuição sobre a receita bruta, incluindo a proporcionalidade do
+  prazo de opção.
+- **Tese:** "É infraconstitucional e depende de reexame de fatos e
+  provas a controvérsia envolvendo o regime tributário instituído pela
+  Lei nº 12.546/2011 relativamente à contribuição previdenciária
+  incidente sobre a receita bruta substitutiva daquelas previstas nos
+  incisos I e III do art. 22 da Lei 8.212/91."
+- **Trânsito em julgado / modulação de efeitos:** não localizados no
+  material desta tarefa — **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Relevância:** secundária para o escritório (matéria tributária de
+  empresas), mas confirma a constitucionalidade de base da sistemática da
+  CPRB como substitutiva válida da contribuição patronal sobre folha —
+  pano de fundo comum aos Temas 1048 e 1109, acima.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1110_pagina.html` e
+  `STF_RG_TEMA_1110_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
 ---
