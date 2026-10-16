@@ -33,8 +33,34 @@ A pasta legislacao/ contém toda a base normativa. Consulte sempre antes de redi
 ## Atualizações Legislativas Relevantes (2025-2026)
 - Lei 15.327/2026: veda descontos associativos no INSS
 - Lei 15.371/2026: institui salário-paternidade e amplia licença para 20 dias
-- Portaria MPS/MF 13/2026: reajuste de 3,90%, teto R$ 8.475,55
-- Portaria DIRBEN 1.347/2026: biometria obrigatória
+- Portaria MPS/MF 13/2026: reajuste de 3,90%, teto R$ 8.475,55.
+  **[CONFIRMADO POR FONTE OFICIAL EM 16/10/2026]** — ver
+  `legislacao/portarias/portaria-interministerial-13-2026.md`. Nome
+  correto: Portaria **Interministerial** MPS/MF nº 13, de 09/01/2026
+  (vigência a partir de 01/01/2026). Também fixa o piso em R$ 1.621,00 e
+  a tabela de alíquotas progressivas de contribuição (7,5%/9%/12%/14%).
+- Portaria DIRBEN 1.347/2026: biometria obrigatória.
+  **[CONFIRMADO POR FONTE OFICIAL EM 16/10/2026]**, com uma correção —
+  ver `legislacao/portarias/portaria-dirben-1347-2026.md`. Exigível para
+  benefícios requeridos a partir de 21/11/2025 (BPC-LOAS: marco próprio e
+  anterior, 01/09/2024); não comprovação em 30 dias gera desistência do
+  pedido; dispensada para 80+ anos, áreas de difícil acesso, migrantes/
+  refugiados/apátridas, residentes no exterior, impossibilidade de
+  deslocamento por saúde/deficiência, e para os benefícios de
+  salário-maternidade, benefício por incapacidade e pensão por morte.
+  **Correção:** a exceção de benefício é só esses três itens — não inclui
+  "auxílio-acidente" separadamente, como uma formulação anterior desta
+  base chegou a registrar em `legislacao/INDICE.md`.
+- **(Novo, 16/10/2026) Regimento Interno do CRPS** — aprovado pela
+  Portaria MPS nº 125, de 26/01/2026 (não pelo Decreto 3.048/1999, que só
+  autoriza sua edição no art. 304). Preenche a lacuna citada na Sessão de
+  15/10/2026 (Blocos 10-11, abaixo): prazo recursal de 30 dias (art. 77),
+  intimações (arts. 79-80), desistência (art. 85) e **renúncia tácita ao
+  recurso administrativo pela propositura de ação judicial idêntica
+  (art. 86)**. Ver `legislacao/crps/regimento-interno-crps-2026.md` e a
+  seção 10 de `legislacao/INDICE.md` para o detalhamento completo e as
+  pendências (duas portarias posteriores de alteração ao Regimento, MPS
+  235/2026 e 462/2026, ainda não lidas).
 - IN 208/2026: altera regras de benefícios por incapacidade
 - STF ADI 6309/DF (03/06/2026, 6x5): declara inconstitucional APENAS
   a idade mínima para aposentadoria especial (art. 19, § 1º, I, a, b, c,

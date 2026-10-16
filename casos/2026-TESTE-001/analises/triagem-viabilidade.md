@@ -469,6 +469,14 @@ prazo recursal não consta do INDICE.md; a matéria situa-se no Decreto 3.048/19
 Regimento Interno do CRPS, cujos textos não estão populados]`, contado da **ciência** da
 decisão. **O prazo está amplamente superado**, operando-se a preclusão administrativa.
 
+> **Observação (16/10/2026, não altera a conclusão de risco acima):** o
+> Regimento Interno do CRPS foi localizado — Portaria MPS nº 125/2026,
+> resumida em `legislacao/crps/regimento-interno-crps-2026.md`. **Confirma**
+> os 30 dias (art. 77), já corretamente usados nesta análise; o Decreto
+> 3.048/1999 continua sem esse conteúdo (o Regimento nunca esteve lá). A
+> marcação `[DISPOSITIVO A CONFIRMAR NA BASE]` pode ser removida quanto ao
+> número de dias, mantendo-se a ressalva sobre a data exata de ciência.
+
 **Ressalva determinante:** o prazo corre da **ciência**, não da data da decisão. A data em
 que a segurada foi efetivamente cientificada **não consta dos autos analisados** — a carta
 informa apenas a data da decisão. Se a diligência 9.2 revelar ciência tardia ou ausência de
@@ -763,6 +771,11 @@ todos devem ser conferidos em fonte oficial e inseridos manualmente nas peças.
 | 14 | IN PRES/INSS 128/2022 | Vedação de novo requerimento com processo em curso | Item 8.8 |
 | 15 | Jurisprudência | Valor probatório da anotação em CTPS | Itens 2.2, 8.4 |
 | 16 | — | Critérios de correção monetária e juros | Item 10.3 |
+
+> **Observação (16/10/2026, não altera as conclusões desta tabela):** o
+> item 13 passa a ter fonte oficial no Regimento Interno do CRPS (Portaria
+> MPS 125/2026, art. 77) — ver `legislacao/crps/regimento-interno-crps-
+> 2026.md`. O Decreto 3.048/1999 em si continua sem esse capítulo.
 
 ---
 

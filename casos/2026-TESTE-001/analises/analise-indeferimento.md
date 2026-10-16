@@ -393,6 +393,19 @@ estratégica do advogado, com ciência da cliente.
 | Motivo dos 17 meses residuais | INDETERMINADO — diligência 8.2 |
 | RMI | Não calculável sem o CNIS analítico |
 
+> **Observação (16/10/2026, não altera as conclusões desta análise):** o
+> Regimento Interno do CRPS (RICRPS) foi localizado e processado na base
+> — ver `legislacao/crps/regimento-interno-crps-2026.md`, aprovado pela
+> Portaria MPS nº 125/2026. As duas linhas acima ("Prazo recursal no
+> Decreto 3.048/1999 e no Regimento Interno do CRPS" e "Renúncia ao
+> recurso pela propositura de ação") **deixam de depender do Decreto
+> 3.048/1999** (que não contém o Regimento) e passam a ter fundamento no
+> RICRPS: prazo de 30 dias no art. 77 (confirma, sem alterar, a conclusão
+> já baseada na IN 128, art. 580) e renúncia tácita no art. 86. Isso não
+> muda o resultado desta análise (a tempestividade do recurso já estava
+> fundamentada na IN 128/2022), mas remove a marcação `[DISPOSITIVO A
+> CONFIRMAR]` dessas duas linhas para fins de citação formal.
+
 ---
 
 **RASCUNHO — sujeito a revisão do advogado responsável. Nenhum erro do INSS foi afirmado

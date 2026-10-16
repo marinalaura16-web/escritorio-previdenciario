@@ -871,3 +871,22 @@ casos de teste `2026-TESTE-001`/`2026-TESTE-002`.
      votação nominal, trânsito em julgado, modulação de efeitos (nenhum
      indício encontrado) e redação literal exata do caput —
      `[A CONFIRMAR NA FONTE OFICIAL]`.
+5. **(Novo, 16/10/2026) Normas CRPS identificadas mas não lidas nesta
+   tarefa:**
+   - **Portaria MPS nº 235, de 03/02/2026, e Portaria MPS nº 462, de
+     19/03/2026** — ambas alteram o Regimento Interno do CRPS (RICRPS,
+     Portaria MPS 125/2026), conforme citado no preâmbulo das Portarias
+     CRPS/MPS nº 984, 991 e 1.115/2026 (ver
+     `crps/portarias-crps-composicoes-adjuntas-2026.md`). **Conteúdo
+     `[A CONFIRMAR NA FONTE OFICIAL]`** — não estavam no lote
+     `dou-inss-bruto/` fornecido nesta tarefa. Como alteram o próprio
+     Regimento, **recomenda-se localizá-las e lê-las antes de citar os
+     arts. 77-86 do RICRPS (prazo recursal, intimações, desistência e
+     renúncia recursal) em petição de alto valor**, sobretudo para fatos
+     posteriores a 03/02/2026.
+   - **Art. 126, § 3º, da Lei 8.213/1991** — citado pelo próprio art. 86,
+     § 3º, do RICRPS como fundamento legal da renúncia tácita ao recurso
+     administrativo por propositura de ação judicial idêntica, mas **ainda
+     não consta do resumo** `leis-ordinarias/lei-8.213-1991.md`
+     `[DISPOSITIVO A CONFIRMAR NA BASE]` — complementar ao achado da ADI
+     6096/DF (que trata do art. 103, não do art. 126, da mesma Lei).

@@ -209,6 +209,19 @@ meses, iguais aos da triagem**.
   judicial): ausente de `decreto-3.048-1999.md`.
 - Regimento Interno do CRPS: ausente. Afeta a possível relevação de intempestividade e a
   competência para determinar reabertura.
+  > **Observação (16/10/2026, não altera as conclusões deste relatório):**
+  > esta lacuna foi preenchida — o Regimento Interno do CRPS (RICRPS),
+  > aprovado pela Portaria MPS nº 125/2026, está em
+  > `legislacao/crps/regimento-interno-crps-2026.md`. Ele confirma o prazo
+  > de 30 dias (art. 77, mesma regra da IN 128, art. 580), traz a regra de
+  > relevação de intempestividade (art. 112, §§ 1º-2º — aplicável só a
+  > recursos de benefícios/CNIS, com liquidez e certeza do direito
+  > demonstradas) e a renúncia tácita por ação judicial idêntica (art.
+  > 86). **Não investigado se a competência para "determinar reabertura"
+  > citada acima muda com o Regimento** — ficaria para conferência
+  > específica se o caso for reaberto. O Decreto 3.048/1999 continua sem
+  > esse capítulo (ele nunca o teve — o Regimento está na Portaria MPS
+  > 125/2026, não no Decreto).
 - Lei 8.213/1991: arts. 52-56 sem conteúdo confiável; ausentes o art. 29, §§ 7º-9º (fator
   previdenciário), a tabela de transição de carência e a regra do direito adquirido após a
   perda da qualidade de segurado.

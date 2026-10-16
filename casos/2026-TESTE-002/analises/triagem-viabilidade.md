@@ -273,6 +273,21 @@ Razões:
 
 **Alternativa (se a cliente preferir a via administrativa ou quiser tentar sem ação judicial):** **recurso ordinário à Junta de Recursos do CRPS até ~26/10/2026** (confirmar a data de ciência), com fundamento na IN 128/2022, arts. 201, § 1º; 259; 116, § 2º, V; e 113, parágrafo único, I. Como o erro do INSS contraria a própria IN, a reforma administrativa é plausível. Nesse caso, pedir Justificação Administrativa (IN 128/2022, arts. 567 a 570) com o rol de testemunhas. **Atenção:** entrar com ação judicial enquanto o recurso administrativo tramita pode implicar renúncia ou desistência do recurso [DISPOSITIVO A CONFIRMAR: Lei 8.213/1991 / Decreto 3.048/1999, regra de renúncia ao recurso administrativo]. Escolher **uma** via. Lembrar também que o `recurso-crps` ainda não tem fórmula de endereçamento na skill de timbre (CLAUDE.md, Bloco 11).
 
+> **Observação (16/10/2026) — dispositivo localizado, com nuance relevante
+> para esta alternativa:** a regra está no **art. 86 do Regimento Interno
+> do CRPS** (RICRPS, Portaria MPS 125/2026 —
+> `legislacao/crps/regimento-interno-crps-2026.md`), não no Decreto
+> 3.048/1999 (que não contém o Regimento) nem na Lei 8.213/1991
+> diretamente (o art. 86, § 3º, do RICRPS remete ao art. 126, § 3º, da Lei
+> 8.213/1991 como fundamento, mas esse artigo ainda não está resumido
+> nesta base). **A renúncia exige identidade de partes, causa de pedir e
+> pedido entre a ação judicial e o recurso administrativo** (art. 86,
+> § 1º) — ou seja, só se aplicaria aqui se a ação no JEF pedisse
+> exatamente o mesmo benefício/período já em discussão no recurso ao
+> CRPS. **Não muda a recomendação de escolher uma via**, mas confirma que
+> a alternativa de recurso administrativo, se escolhida, teria prazo e
+> regras de renúncia agora fundamentados em fonte oficial.
+
 **Ação imediata (até 23/10/2026):** (1) obter a data de ciência e a cópia do processo administrativo; (2) a advogada decidir entre JEF e recurso; (3) pedir o CNIS do marido e o talonário integral.
 
 ---
