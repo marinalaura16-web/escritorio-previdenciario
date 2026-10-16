@@ -178,6 +178,46 @@
 > dias de auxílio-doença pago pelo empregador) e Tema 568 (equivalência
 > entre o teto do salário-de-contribuição e a RMI) — ver o relatório da
 > tarefa para o detalhamento de cada descarte.
+>
+> **Lote 6, 16/10/2026:** processados mais 19 Temas de repercussão geral
+> do STF (números 0571, 0575, 0578, 0585, 0589, 0591, 0594, 0597, 0599,
+> 0602, 0606, 0609, 0616, 0632, 0634, 0639, 0651, 0662 e 0663), a partir
+> da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html` e, quando disponível, `_ACORDAO_N.pdf`).
+> **Apenas 3 desses 19 temas são efetivamente previdenciários (RGPS)** e
+> foram incorporados como entradas próprias, marcadas
+> `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`: **Tema 599**
+> (acumulação da aposentadoria por invalidez com o antigo auxílio-
+> suplementar do art. 9º da Lei 6.367/1976, antecedente do atual
+> auxílio-acidente), **Tema 616** (constitucionalidade do fator
+> previdenciário para segurados filiados ao RGPS antes de 16/12/1998, na
+> regra de transição do art. 9º da EC 20/1998 — resolve a pendência de
+> relação com o Tema 1091 registrada acima) e **Tema 651** (custeio —
+> contribuição do empregador rural pessoa jurídica sobre a receita bruta
+> da comercialização de sua produção, Lei 8.870/1994 (norma ainda não
+> incorporada a esta base como entrada própria de legislação — ver nota
+> na entrada do tema), com modulação de efeitos por embargos de
+> declaração — agrupado ao bloco de custeio já existente). **Os outros 16
+> temas foram verificados e descartados:** a maioria é RPPS de servidor
+> público/cartorário (Temas 571, 578, 594, 602, 639), matéria de
+> previdência complementar privada/trabalhista (Temas 591, 662), matéria
+> processual/competência sem relação com o ajuizamento de ação
+> previdenciária ou acidentária (Tema 606, sobre competência para
+> reintegração de empregado público, distinto do critério do Tema 414 já
+> nesta base), e sete temas em que o próprio STF **não reconheceu
+> repercussão geral** — "natureza infraconstitucional", sem tese
+> vinculante — apesar de o objeto tangenciar o RGPS (mesmo critério já
+> aplicado aos Temas 320/405/406/425/459/482/568 nos lotes anteriores):
+> Tema 575 (comprovação de contribuição para seguro-defeso), Tema 585
+> (base de cálculo de contribuição em acordo trabalhista), Tema 589
+> (revisão de RMI pelos índices do teto), Tema 597 (ônus do INSS de
+> apresentar cálculo de liquidação), Tema 609 (valor do auxílio-acidente
+> inferior ao salário mínimo), Tema 632 (decadência para revisão de
+> reajuste de aposentadoria de ex-combatente) e Tema 634 e Tema 663
+> (isonomia de gênero e incidência do fator previdenciário sobre tempo
+> especial convertido, respectivamente, ambos no cálculo do fator
+> previdenciário) — ver o relatório da tarefa para o detalhamento de cada
+> descarte.
 
 ---
 
@@ -971,6 +1011,75 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 
 ---
 
+### Tema 651 — Constitucionalidade da contribuição à seguridade social do empregador rural pessoa jurídica sobre a receita bruta da comercialização de sua produção
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0651_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 6.
+> **Dispositivo objeto da ação ainda não incorporado a esta base como
+> entrada própria de legislação:** a Lei 8.870/1994 (art. 25, incisos I e
+> II, e § 1º) não consta hoje de `legislacao/leis-ordinarias/` —
+> `[DISPOSITIVO A CONFIRMAR NA BASE]`. Citada aqui apenas pelo número da
+> lei, sem reproduzir o texto do dispositivo.
+
+- **Processo paradigma:** RE 700.922.
+- **Relator originário:** Min. Marco Aurélio. **Redator para o acórdão:**
+  Min. Alexandre de Moraes.
+- **Objeto:** constitucionalidade da contribuição à seguridade social a
+  cargo do empregador rural pessoa jurídica, incidente sobre a receita
+  bruta proveniente da comercialização de sua produção, instituída pela
+  Lei 8.870/1994 — e da contribuição ao Serviço Nacional de Aprendizagem
+  Rural (SENAR) prevista na mesma lei —, com base no art. 102, III, "b",
+  da Constituição Federal.
+- **Repercussão geral reconhecida:** 10/05/2013, Plenário Virtual, por
+  unanimidade.
+- **Data do julgamento de mérito:** 19/12/2022 (Sessão Virtual de
+  09/12/2022 a 16/12/2022), por maioria — deu provimento ao recurso
+  extraordinário da União, para denegar a segurança pleiteada, nos
+  termos do voto do Min. Alexandre de Moraes (Redator para o acórdão),
+  vencidos os Ministros Marco Aurélio (Relator), Edson Fachin, Ricardo
+  Lewandowski e Rosa Weber (Presidente), que negavam provimento ao
+  recurso; não votou o Min. André Mendonça, sucessor do Relator.
+- **Fixação de tese:** 15/03/2023, por unanimidade (em continuidade de
+  julgamento).
+- **Teses firmadas:**
+  - **I** — "É inconstitucional a contribuição à seguridade social, a
+    cargo do empregador rural pessoa jurídica, incidente sobre a receita
+    bruta proveniente da comercialização da sua produção, prevista no
+    artigo 25, incisos I e II, da Lei nº 8.870/1994, na redação anterior
+    à Emenda Constitucional nº 20/1998."
+  - **II** — "É constitucional a contribuição à seguridade social, a
+    cargo do empregador rural pessoa jurídica, incidente sobre a receita
+    bruta proveniente da comercialização da sua produção, prevista no
+    art. 25, incisos I e II, da Lei 8.870/1994, na redação dada pela Lei
+    nº 10.256/2001."
+  - **III** — "É constitucional a contribuição social destinada ao
+    Serviço Nacional de Aprendizagem Rural (SENAR), de que trata o art.
+    25, § 1º, da Lei nº 8.870/1994, inclusive na redação conferida pela
+    Lei nº 10.256/2001."
+- **Embargos de declaração:** julgados em 09/09/2024, por unanimidade —
+  rejeitados os embargos da Sociedade Rural Brasileira e acolhidos em
+  parte os da União, para **modular os efeitos do item I da tese**,
+  estabelecendo que produzam efeitos somente a partir da data de
+  publicação da ata do julgamento do mérito deste recurso paradigma
+  (19/12/2022), ficando ressalvadas as ações judiciais em curso.
+- **Trânsito em julgado:** 11/10/2024.
+- **Modulação de efeitos:** SIM — ver "Embargos de declaração", acima
+  (item I da tese modulado para produzir efeitos só a partir de
+  19/12/2022, ressalvadas as ações em curso naquela data).
+- **Relevância:** agrupa-se ao bloco de custeio da Seguridade Social já
+  nesta base (Temas 3, 20, 72, 166, 202, 204, 281, 302, 344, 470 e 32) —
+  mesma lógica de distinção temporal já vista nos Temas 166/202 (redação
+  anterior à EC 20/1998 inconstitucional; redação posterior, após amparo
+  constitucional expresso, constitucional). Útil para casos envolvendo
+  empregador rural pessoa jurídica (distinto do segurado especial e do
+  empregador rural pessoa física, já tratados no Tema 202).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0651_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
 ## Tema 503 — Desaposentação (inviabilidade sem lei específica)
 
 - **Processo paradigma:** RE 661.256.
@@ -1013,11 +1122,19 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   Ministros Cármen Lúcia e Roberto Barroso.
 - **Trânsito em julgado:** 27/06/2020 (certidão de trânsito em julgado
   constante da página oficial).
-- **Observação sobre o Tema 616:** a página oficial deste Tema 1091 não
-  menciona o Tema 616 em nenhum ponto — **`[NÃO LOCALIZADO NO MATERIAL
-  DISPONÍVEL]`** quanto à relação exata entre os dois temas (se o 1091
-  reafirma o 616 ou se tratam de recortes distintos). Permanece como
-  pendência, não resolvida por este material.
+- **Observação sobre o Tema 616 — resolvida em 16/10/2026, Lote 6:** a
+  página oficial deste Tema 1091 não menciona o Tema 616 em nenhum ponto,
+  e por isso a relação entre os dois permaneceu `[NÃO LOCALIZADO NO
+  MATERIAL DISPONÍVEL]` até esta tarefa. Processado o próprio Tema 616
+  (ver entrada própria abaixo, após o Tema 89), ficou confirmado que **são
+  temas distintos, não um reafirmando o outro**: o Tema 1091 trata da
+  constitucionalidade do fator previdenciário em geral (art. 29 da Lei
+  8.213/1991, com a redação da Lei 9.876/1999), por reafirmação de
+  jurisprudência; o Tema 616 trata de um recorte mais específico — a
+  aplicação desse mesmo fator previdenciário aos segurados que já eram
+  filiados ao RGPS **antes de 16/12/1998**, abrangidos pela regra de
+  transição do art. 9º da EC 20/1998. Ambos concluíram pela
+  constitucionalidade da incidência do fator previdenciário.
 - **Relevância:** o fator previdenciário permanece aplicável a alguns
   cálculos de benefícios anteriores à EC 103/2019 e em regras de transição
   que ainda o referenciam.
@@ -1089,6 +1206,90 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 - **Fonte:** Google Drive, `STF_RG_TEMA_0089_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 599 — Acumulação da aposentadoria por invalidez com o antigo auxílio-suplementar (precursor do atual auxílio-acidente)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0599_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 6.
+
+- **Processo paradigma:** RE 687.813.
+- **Relator:** Min. Dias Toffoli.
+- **Objeto:** possibilidade de acumulação da aposentadoria por invalidez
+  com o benefício suplementar previsto no art. 9º da Lei 6.367/1976 —
+  incorporado pela normatização do atual auxílio-acidente, nos termos do
+  que dispunha o art. 86 da Lei 8.213/1991 em sua redação primitiva —, à
+  luz do art. 5º, XXXVI, e do art. 195, § 5º, da Constituição Federal.
+- **Repercussão geral reconhecida:** 05/10/2012, Plenário Virtual
+  (não se manifestaram os Ministros Gilmar Mendes, Joaquim Barbosa e
+  Cármen Lúcia).
+- **Data do julgamento de mérito:** 17/02/2025, Tribunal Pleno, Sessão
+  Virtual, por unanimidade — deu provimento ao recurso extraordinário
+  para restabelecer a sentença, nos termos do voto do Relator.
+- **Tese firmada:** "O auxílio-suplementar, concedido à luz do art. 9º da
+  Lei nº 6.367/76, é cumulável com a aposentadoria por invalidez somente
+  se as condições para a concessão dessa tiverem sido implementadas na
+  vigência da Lei nº 8.213/91 e antes de 11/11/97, quando entrou em vigor
+  a MP nº 1.596-14/97 (convertida na Lei nº 9.528/97)."
+- **Trânsito em julgado:** 01/03/2025 (certidão de trânsito em julgado de
+  24/02/2025).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** útil em casos antigos envolvendo o extinto auxílio-
+  suplementar acidentário (hoje substituído pelo auxílio-acidente, Lei
+  8.213/1991, art. 86) concomitante com aposentadoria por invalidez — a
+  cumulação só é possível se os requisitos de ambos os benefícios tiverem
+  sido implementados antes de 11/11/1997 (MP 1.596-14/97).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0599_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 616 — Constitucionalidade do fator previdenciário para segurados filiados ao RGPS antes de 16/12/1998, na regra de transição do art. 9º da EC 20/1998
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0616_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 6.
+> **Tema distinto do Tema 1091** (constitucionalidade do fator
+> previdenciário em geral, já nesta base) — ver nota de cruzamento na
+> entrada do Tema 1091, acima, atualizada por esta tarefa.
+
+- **Processo paradigma:** RE 639.856.
+- **Relator:** Min. Gilmar Mendes.
+- **Objeto:** possibilidade de incidência do fator previdenciário (Lei
+  9.876/1999) ou das regras de transição trazidas pela EC 20/1998 nos
+  benefícios previdenciários concedidos a segurados filiados ao Regime
+  Geral de Previdência Social até 16/12/1998, à luz do art. 9º da EC
+  20/1998.
+- **Repercussão geral reconhecida:** 16/11/2012, Plenário Virtual, por
+  unanimidade.
+- **Data do julgamento de mérito:** 19/08/2025 (Sessão Virtual de
+  08/08/2025 a 18/08/2025), por maioria — negou provimento ao recurso
+  extraordinário e manteve o acórdão recorrido, nos termos do voto do
+  Relator, Min. Gilmar Mendes, vencido o Min. Edson Fachin; não votou a
+  Min. Cármen Lúcia.
+- **Tese firmada:** "É constitucional a aplicação do fator previdenciário,
+  instituído pela Lei 9.876/1999, aos benefícios concedidos a segurados
+  filiados ao Regime Geral de Previdência Social antes de 16.12.1998,
+  abrangidos pela regra de transição do art. 9º da EC 20/98."
+- **Trânsito em julgado:** 19/09/2025 (certidão de trânsito em julgado de
+  16/09/2025).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** confirma a aplicação do fator previdenciário mesmo a
+  segurados que já estavam filiados ao RGPS antes da própria Lei
+  9.876/1999 instituí-lo, quando abrangidos pela regra de transição do
+  art. 9º da EC 20/1998 — relevante para casos de cálculo de RMI de
+  aposentadorias por tempo de contribuição com filiação anterior a
+  16/12/1998.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0616_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
 
 ## Tema 165 — Pensão por morte: veda-se a revisão de benefício anterior à Lei 9.032/1995 com o novo coeficiente de cálculo dessa lei
 
