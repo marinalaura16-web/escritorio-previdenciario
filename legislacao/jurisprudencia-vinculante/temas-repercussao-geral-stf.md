@@ -396,6 +396,43 @@
 > aposentadoria paga por entidade pública ou sociedade de economia mista
 > por força de lei, sem relação com benefício do RGPS/INSS (Tema 1092) —
 > ver o relatório da tarefa para o detalhamento de cada descarte.
+>
+> **Lote 11, mesmo método (16/10/2026):** processados mais 19 Temas (1111,
+> 1114, 1135, 1150, 1152, 1159, 1160, 1166, 1167, 1177, 1182, 1186, 1196,
+> 1199, 1206, 1207, 1209, 1221 e 1222). **6 são efetivamente
+> previdenciários (RGPS)** e foram incorporados como entradas próprias,
+> todas marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 1135** e **Tema 1186** (custeio — ISS e PIS/COFINS,
+> respectivamente, na base de cálculo da CPRB, agrupados ao bloco CPRB já
+> existente — Temas 1048/1109/1110), **Tema 1196** (de altíssima
+> relevância prática — valida a fixação automática da Data de Cessação
+> do Benefício, "alta programada", do auxílio-doença sem perícia prévia,
+> art. 60, §§ 8º e 9º, da Lei 8.213/1991), **Tema 1209** (igualmente de
+> altíssima relevância — nega a especialidade da atividade de vigilante
+> para fins de aposentadoria especial do RGPS, mas **ainda sem trânsito
+> em julgado confirmado**: há embargos de declaração em julgamento
+> virtual na própria data desta tarefa, resultado não disponível no
+> material obtido — conferir andamento atualizado antes de uso), e, pelo
+> critério refinado nos Lotes 9-10 (incorporação mesmo SEM repercussão
+> geral, quando a matéria é genuinamente RGPS), **Tema 1221** (custeio —
+> impossibilidade de excluir IRPF/contribuição do empregado retidos na
+> fonte da base da contribuição patronal e do SAT/RAT) e **Tema 1222**
+> (infraconstitucionalidade da discussão sobre nulidade de inscrição em
+> dívida ativa de benefícios pagos indevidamente, antes das Leis
+> 13.494/2017 e 13.846/2019 — remete ao Tema 1.064/STJ, ainda não
+> incorporado a esta base). **Os outros 13 temas foram verificados e
+> descartados**: a maioria é RPPS de servidor público ou militar estadual
+> (Temas 1152, 1160, 1167, 1177, 1182, 1207), previdência privada
+> complementar (Tema 1166), matéria administrativa de servidor
+> público/concurso sem mérito previdenciário próprio (Tema 1150),
+> Direito Tributário geral sem relação direta com o custeio do RGPS —
+> PIS/COFINS entre si, não a contribuição previdenciária (Tema 1111),
+> matéria trabalhista/militar estadual sem vínculo previdenciário
+> reconhecido (Tema 1114), benefício assistencial emergencial a
+> pescadores não regido pela Lei 8.213/1991 (Tema 1159), e matéria
+> processual-administrativa (prescrição de improbidade administrativa de
+> ex-procurador do INSS, sem mérito previdenciário próprio — Tema 1199) —
+> ver o relatório da tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -3253,6 +3290,271 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 - **Fonte:** Google Drive, `STF_RG_TEMA_1110_pagina.html` e
   `STF_RG_TEMA_1110_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
   `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1135 — Custeio: constitucionalidade da inclusão do ISS na base de cálculo da CPRB (Lei 12.546/2011)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1135_pagina.html` e `STF_RG_TEMA_1135_ACORDAO_1..2.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 11. Agrupado
+> ao bloco de custeio/CPRB já existente nesta base (Temas 166/281/32/3/
+> 20/72/202/204/302/470/669/691/723/833/651/1048/1109/1110) — mesma
+> lógica do Tema 1048 (ICMS na base da CPRB), aqui para o ISS.
+
+- **Leading case:** RE 1.285.845/RS.
+- **Relator:** Min. Marco Aurélio. **Redator do acórdão:** Min.
+  Alexandre de Moraes.
+- **Repercussão geral reconhecida:** 09/04/2021, por maioria (vencidos
+  os Mins. Dias Toffoli, Roberto Barroso, Rosa Weber e Ricardo
+  Lewandowski).
+- **Mérito julgado:** 21/06/2021 (Sessão Virtual de 11 a 18/06/2021), por
+  maioria, negando provimento ao recurso extraordinário. Vencidos os
+  Ministros Marco Aurélio (Relator), Rosa Weber e Cármen Lúcia.
+- **Tese:** "É constitucional a inclusão do Imposto Sobre Serviços de
+  Qualquer Natureza - ISS na base de cálculo da Contribuição
+  Previdenciária sobre a Receita Bruta – CPRB."
+- **Trânsito em julgado:** 10/08/2021 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Modulação de efeitos:** não localizada no material desta tarefa —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** secundária para o escritório (matéria tributária de
+  empresas, não de segurados), mas integra o mesmo bloco de precedentes
+  sobre a CPRB (Lei 12.546/2011, ainda `[DISPOSITIVO A CONFIRMAR NA
+  BASE]` como entrada própria de legislação) — mesma lógica do Tema 1048
+  (ICMS), aqui aplicada ao ISS.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1135_pagina.html` e
+  `STF_RG_TEMA_1135_ACORDAO_1.pdf`/`_2.pdf` (pasta pessoal da usuária,
+  parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1186 — Custeio: constitucionalidade da inclusão do PIS e da COFINS na base de cálculo da CPRB (Lei 12.546/2011)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1186_pagina.html` e `STF_RG_TEMA_1186_ACORDAO_1..2.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 11. Agrupado
+> ao mesmo bloco de custeio/CPRB do Tema 1135 (acima) e do Tema 1048 —
+> mais um componente da base de cálculo da CPRB julgado constitucional.
+
+- **Leading case:** RE 1.341.464/CE.
+- **Relator:** Min. André Mendonça.
+- **Repercussão geral reconhecida:** 03/12/2021, por unanimidade.
+- **Mérito julgado:** 02/06/2025 (Sessão Virtual de 23 a 30/05/2025), por
+  unanimidade, negando provimento ao recurso extraordinário (a Min.
+  Cármen Lúcia acompanhou o Relator com ressalvas).
+- **Tese:** "É constitucional a inclusão da contribuição ao Programa de
+  Integração Social (PIS) e da Contribuição para Financiamento da
+  Seguridade Social (Cofins) na base de cálculo da Contribuição
+  Previdenciária sobre a Receita Bruta (CPRB)."
+- **Trânsito em julgado:** 09/08/2025 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Modulação de efeitos:** não localizada no material desta tarefa —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** secundária para o escritório (matéria tributária de
+  empresas), mas confirma, por unanimidade e com julgamento bem mais
+  recente (2025) que os demais Temas do bloco CPRB, a tendência do STF
+  de validar os componentes da base de cálculo dessa contribuição
+  previdenciária substitutiva.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1186_pagina.html` e
+  `STF_RG_TEMA_1186_ACORDAO_1.pdf`/`_2.pdf` (pasta pessoal da usuária,
+  parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1196 — Constitucionalidade da fixação automática de prazo estimado (DCB) para o auxílio-doença, sem perícia prévia (art. 60, §§ 8º e 9º, da Lei 8.213/1991)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1196_pagina.html` (Google Drive, pasta pessoal da
+> usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026,
+> Lote 11. **Tema de altíssima relevância prática** para o escritório:
+> valida a "alta programada"/DCB automática do auxílio-doença, favorável
+> ao INSS e desfavorável ao segurado que não pede prorrogação a tempo.
+
+- **Leading case:** RE 1.347.526/SE.
+- **Relator:** Min. Cristiano Zanin.
+- **Repercussão geral reconhecida:** 18/02/2022, por unanimidade.
+- **Mérito julgado:** 15/09/2025 (Sessão Virtual de 05 a 12/09/2025), por
+  unanimidade, dando provimento ao recurso extraordinário do INSS, para
+  afastar a inconstitucionalidade formal das MPs 739/2016 e 767/2017
+  (convertida na Lei 13.457/2017) e reformar o acórdão recorrido.
+- **Tese:** "Não viola os artigos 62, caput e § 1º, e 246 da Constituição
+  Federal a estipulação de prazo estimado para a duração de benefício de
+  auxílio-doença, conforme estabelecido nos §§ 8º e 9º do art. 60 da Lei
+  8.213/1991, com redação dada pelas medidas provisórias 739/2016 e
+  767/2017, esta última convertida na Lei 13.457/2017."
+- **Trânsito em julgado:** 02/10/2025 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Modulação de efeitos:** não identificada — o próprio acórdão
+  determina que, "se persistir a causa incapacitante", cabe ao segurado
+  **solicitar a prorrogação** do benefício (art. 60, § 9º, da Lei
+  8.213/1991), sem regra de transição adicional localizada nesta tarefa.
+- **Relevância:** direta e central — confirma a validade da fixação
+  administrativa/judicial da Data de Cessação do Benefício (DCB,
+  "alta programada") do auxílio-doença sem necessidade de nova perícia
+  prévia, com o ônus de o segurado pedir prorrogação se a incapacidade
+  persistir. Essencial para orientar clientes sobre o prazo de
+  prorrogação e para entender decisões de cessação automática do INSS —
+  tema distinto, mas correlato, do Tema 1066 (prazo de 45 dias para
+  perícia, já nesta base, sem tese de mérito).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1196_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1209 — A atividade de vigilante não se caracteriza como especial para fins de aposentadoria especial do RGPS
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1209_pagina.html` (Google Drive, pasta pessoal da
+> usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026,
+> Lote 11. **Tema de altíssima relevância prática e ainda NÃO
+> definitivamente encerrado** — ver "Status processual" abaixo: há
+> segundos embargos de declaração em julgamento virtual no momento desta
+> consulta (02 a 09/10/2026), cujo resultado não constava do material
+> obtido nesta tarefa. **Conferir o andamento atual antes de qualquer
+> uso em petição ou parecer.**
+
+- **Leading case:** RE 1.368.225/RS.
+- **Relator:** Min. Nunes Marques. **Redator do acórdão:** Min.
+  Alexandre de Moraes.
+- **Repercussão geral reconhecida:** 15/04/2022, por maioria (vencido o
+  Min. Edson Fachin; não se manifestou o Min. Gilmar Mendes).
+- **Mérito julgado:** 18/02/2026 (Sessão Virtual de 06 a 13/02/2026), por
+  maioria, dando provimento ao recurso extraordinário para julgar
+  improcedente o pedido inicial (ou seja, a favor do INSS). Vencidos os
+  Ministros Nunes Marques (Relator), Flávio Dino, Cármen Lúcia e Edson
+  Fachin (Presidente).
+- **Tese:** "A atividade de vigilante, com ou sem o uso de arma de fogo,
+  não se caracteriza como especial, para fins de concessão da
+  aposentadoria de que trata o art. 201, § 1º, da Constituição."
+- **Status processual (achado desta tarefa, 16/10/2026):** foram opostos
+  **dois** conjuntos de embargos de declaração após o julgamento de
+  mérito (09 e 11/03/2026); o processo foi concluso ao Relator para o
+  acórdão em diversas datas até 25/09/2026, e consta **"Iniciado
+  Julgamento Virtual" em 02/10/2026** para os "ED-segundos" (segundos
+  embargos de declaração), agendado até 09/10/2026 — já vencido na data
+  de hoje (16/10/2026), mas **sem resultado localizado no material desta
+  tarefa**. **Não há, portanto, confirmação de trânsito em julgado.**
+- **Modulação de efeitos:** não localizada no material desta tarefa —
+  pode vir a ser tratada justamente nos embargos de declaração em curso
+  — **[A CONFIRMAR NA FONTE OFICIAL — status processual pode ter mudado
+  após 09/10/2026]**.
+- **Relevância:** direta e de alto impacto — nega a especialidade da
+  atividade de vigilante (com ou sem arma de fogo) para fins de
+  aposentadoria especial do RGPS (art. 201, § 1º, CF/Lei 8.213/1991,
+  arts. 57-58), tema recorrente em casos de segurança privada/bancária.
+  **Antes de aplicar esta tese contra um cliente vigilante, confirmar se
+  os embargos de declaração já transitaram em julgado** e se não houve
+  modulação de efeitos que preserve situações anteriores (padrão já
+  visto nos Temas 709 e 1095, já nesta base).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1209_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1221 — Custeio: impossibilidade de excluir o IRPF e a contribuição do empregado/avulso, retidos na fonte, da base de cálculo da contribuição patronal e do SAT/RAT/terceiros (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1221_pagina.html` e `STF_RG_TEMA_1221_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária, parentId
+> `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 11.
+> Incorporado pelo critério refinado nos Lotes 9-10: SEM repercussão
+> geral, mas genuinamente Direito Previdenciário (custeio do RGPS) — não
+> matéria tributária estranha ao INSS. Agrupado ao Tema 1100 (acima),
+> mesma base de cálculo do art. 22, I, da Lei 8.212/1991.
+
+- **Leading case:** ARE 1.376.970/PR.
+- **Relator:** Ministro Presidente (à época da análise de repercussão
+  geral).
+- **Repercussão geral:** **NÃO reconhecida** — 17/06/2022, por
+  unanimidade (não se manifestou o Min. André Mendonça), por se tratar de
+  matéria infraconstitucional.
+- **Objeto:** possibilidade de excluir os valores de IRPF e da
+  contribuição previdenciária do empregado/trabalhador avulso, retidos
+  na fonte pelo empregador, da base de cálculo da contribuição
+  previdenciária patronal e das destinadas ao SAT/RAT e a terceiros —
+  teria de prevalecer apenas o valor líquido recebido pelo empregado como
+  "folha de salários" (art. 22, I, Lei 8.212/1991).
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia atinente à possibilidade
+  de excluir os valores relativos ao imposto de renda da pessoa física e
+  à contribuição previdenciária dos empregados e trabalhadores avulsos,
+  retidos na fonte pelo empregador, da base de cálculo da contribuição
+  previdenciária patronal e das contribuições destinadas ao seguro
+  acidente do trabalho e risco ambiental do trabalho (SAT/RAT) e a
+  terceiros."
+- **Trânsito em julgado:** 29/06/2022 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Modulação de efeitos:** não se aplica (ausência de repercussão
+  geral).
+- **Relevância:** secundária para o escritório (matéria de custeio
+  patronal, não do segurado), mas mantém, em caráter infraconstitucional
+  (TRFs/STJ), a tese contrária à redução da base de cálculo da
+  contribuição patronal/SAT-RAT por descontos na fonte — relevante se o
+  escritório representar empregadores ou segurados em disputa indireta
+  sobre a mesma base de cálculo.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1221_pagina.html` e
+  `STF_RG_TEMA_1221_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 1222 — Infraconstitucionalidade da discussão sobre nulidade de inscrição em dívida ativa de créditos de benefícios previdenciários/assistenciais pagos indevidamente, constituídos antes das Leis 13.494/2017 e 13.846/2019 (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1222_pagina.html` (Google Drive, pasta pessoal da
+> usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026,
+> Lote 11. Incorporado pelo critério refinado nos Lotes 9-10: SEM
+> repercussão geral, mas genuinamente Direito Previdenciário (cobrança de
+> valores de benefícios do RGPS/assistenciais pagos indevidamente pelo
+> INSS) — matéria de interesse direto de clientes notificados para
+> devolução de valores ou inscritos em dívida ativa.
+
+- **Leading case:** RE 1.371.095/PB (origem: REsp 1.852.691/STJ).
+- **Relator:** Ministro Presidente (à época da análise de repercussão
+  geral).
+- **Repercussão geral:** **NÃO reconhecida** — 01/07/2022, por
+  unanimidade (não se manifestou o Min. André Mendonça), por se tratar de
+  matéria infraconstitucional.
+- **Objeto:** validade da constituição e inscrição em dívida ativa de
+  créditos referentes a benefícios previdenciários ou assistenciais
+  pagos indevidamente ou além do devido, quando o processo administrativo
+  de apuração foi iniciado **antes** da vigência da MP 780/2017
+  (convertida na Lei 13.494/2017) e da MP 871/2019 (convertida na Lei
+  13.846/2019, já nesta base), e a necessidade de refazimento desse
+  processo — com remissão ao Tema 1.064 do STJ (recurso especial
+  repetitivo) como paradigma infraconstitucional.
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia relativa à validade da
+  constituição e inscrição em dívida ativa de créditos referentes a
+  benefícios previdenciários ou assistenciais pagos indevidamente ou além
+  do devido, constituídos por processos administrativos iniciados antes
+  da vigência da Medida Provisória 780/2017, convertida na Lei
+  13.494/2017, e da Medida Provisória 871/2019, convertida na Lei
+  13.846/2019, bem como a discussão sobre a necessidade de seu
+  refazimento."
+- **Trânsito em julgado:** 17/08/2022 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Modulação de efeitos:** não se aplica (ausência de repercussão
+  geral).
+- **Relevância:** direta — mantém no âmbito do STJ/TRFs (Tema 1.064/STJ,
+  **[A CONFIRMAR NA FONTE OFICIAL]** quanto ao teor exato dessa tese
+  repetitiva, ainda não incorporada a esta base) a palavra final sobre a
+  validade de cobranças administrativas de benefícios pagos indevidamente
+  quando o processo de apuração foi aberto antes das Leis 13.494/2017 e
+  13.846/2019 — relevante para clientes notificados pelo INSS para
+  devolução de valores ou inscritos em dívida ativa com base em processos
+  antigos.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1222_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
 ---
