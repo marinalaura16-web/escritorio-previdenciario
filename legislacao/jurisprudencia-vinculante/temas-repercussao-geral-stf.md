@@ -23,6 +23,28 @@
 > sobrescritas em silêncio), seguindo o padrão já consolidado neste
 > projeto. Os demais temas deste arquivo (503, 1102, 1125, 1231 e 1302)
 > **não foram tocados nesta tarefa** e permanecem só com fonte secundária.
+>
+> **Segunda leva de reconciliação, mesmo dia (16/10/2026):** processados
+> mais 19 Temas de repercussão geral do STF (números 0001, 0003, 0013,
+> 0020, 0026, 0034, 0036, 0055, 0069 a 0072, 0076, 0079, 0083, 0087 a 0089
+> e 0095), também a partir de página processual oficial salva pela
+> usuária em sua pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html` e, quando disponível, `_ACORDAO_N.pdf`).
+> **7 desses 19 temas são efetivamente previdenciários** e foram
+> incorporados como entradas próprias, todas marcadas
+> `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`: **Tema 3** (origem da
+> Súmula Vinculante 8 — decadência/prescrição de 10 anos das contribuições,
+> Lei 8.212/1991, arts. 45-46, fecha pendência de 23/09/2026), **Tema 20**
+> e **Tema 72** (custeio — base de cálculo da contribuição patronal,
+> agrupados com os Temas 166/281/32 já existentes), **Tema 70** (histórico,
+> relacionado ao Tema 1102/revisão da vida toda), **Tema 88** (RMI da
+> aposentadoria por invalidez vinda de auxílio-doença — não confundir com
+> o Tema 1125), **Tema 76** (teto do RGPS) e **Tema 89** (auxílio-reclusão
+> — critério de renda). **Os outros 12 temas foram verificados e
+> descartados** por não serem, na prática, Direito Previdenciário (RPPS de
+> servidor público, Direito Tributário geral sem relação com o RGPS, ou
+> competência processual) — não receberam entrada própria neste arquivo;
+> ver o relatório da tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -72,6 +94,15 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
      trabalho e agroindústria, respectivamente) — ver entradas completas
      na seção "Recursos Extraordinários com Repercussão Geral — Custeio
      (Lei 8.212/1991)" abaixo.
+4. **"Tema 26" NÃO é sobre aposentadoria especial do RGPS.** O título do
+   leading case (RE 567.110) até menciona "aposentadoria especial", mas o
+   objeto é a aposentadoria especial de **policiais civis**, regida pelo
+   regime próprio de previdência do servidor público (RPPS, Lei
+   Complementar 51/1985 e art. 40 da Constituição Federal) — nada a ver
+   com a aposentadoria especial por exposição a agentes nocivos do RGPS
+   (Lei 8.213/1991, arts. 57-58), que é a tratada em toda esta base.
+   Verificado e descartado em 16/10/2026 (ver nota no topo deste arquivo),
+   junto com outros 11 temas do mesmo lote.
 
 ---
 
@@ -190,6 +221,45 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   e https://noticias.stf.jus.br/postsnoticias/segurados-nao-precisam-devolver-valores-recebidos-do-inss-com-base-na-tese-da-revisao-da-vida-toda-decide-stf/
 - **Data de consulta:** 21/09/2026.
 
+## Tema 70 — Impossibilidade de conjugar vantagens do regime de cálculo anterior e do novo (precedente histórico relacionado ao Tema 1102, acima)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0070_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. Localizado nesta tarefa como precedente histórico
+> diretamente relacionado ao Tema 1102 ("revisão da vida toda"), tratado
+> acima nesta mesma base.
+
+- **Processo paradigma:** RE 575.089 (origem: PE).
+- **Relator:** Min. Ricardo Lewandowski.
+- **Partes:** RECTE. Reni Nunes Machado; RECDO. Instituto Nacional do
+  Seguro Social — INSS.
+- **Data do julgamento de mérito:** 10/09/2008, Tribunal Pleno, por
+  maioria, vencido o Ministro Marco Aurélio (que dava provimento ao
+  recurso).
+- **Objeto:** direito, ou não, à adoção, para cálculo do benefício de
+  aposentadoria, dos critérios anteriores à Emenda Constitucional nº
+  20/1998, computando-se tempo de serviço sob condições especiais
+  posterior a ela.
+- **Tese firmada:** "Na sistemática de cálculo dos benefícios
+  previdenciários, não é lícito ao segurado conjugar as vantagens do novo
+  sistema com aquelas aplicáveis ao anterior, porquanto inexiste direito
+  adquirido a determinado regime jurídico."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância/cruzamento:** precedente de 2008 que já fixava, em matéria
+  de cálculo de benefícios, a vedação a combinar regras de regimes
+  diferentes por ausência de direito adquirido a regime jurídico de
+  cálculo — a mesma lógica que, na reviravolta de 2024 do Tema 1102
+  (tratado acima nesta base), voltou a prevalecer: a regra de transição
+  da Lei 9.876/1999 passou a ser considerada obrigatória, vedando a opção
+  do segurado pela regra definitiva mesmo quando mais favorável. Útil como
+  fundamento histórico adicional para a posição final do Tema 1102, mas
+  não dispensa a leitura direta da tese fixada nos embargos de declaração
+  de 26/11/2025 daquele tema.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0070_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
 ## Tema 1125 — Cômputo de auxílio-doença intercalado para fins de carência (NÃO é a revisão da vida toda)
 
 - **Processo paradigma:** RE 1.298.832.
@@ -205,6 +275,48 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 - **Fonte:** https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1125
   e https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=460856
 - **Data de consulta:** 21/09/2026.
+
+## Tema 88 — Art. 29, §5º, da Lei 8.213/1991 não se aplica à transformação direta de auxílio-doença em aposentadoria por invalidez (distinto do Tema 1125, acima)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0088_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Atenção à distinção com o Tema 1125, acima:** o Tema
+> 1125 trata do cômputo, para fins de **carência**, do período de
+> auxílio-doença intercalado com atividade laborativa; o Tema 88, abaixo,
+> trata de regra de **cálculo do valor (RMI)** da aposentadoria por
+> invalidez quando esta sucede diretamente ao auxílio-doença, sem
+> intercalação com atividade — são precedentes distintos sobre o mesmo
+> binômio auxílio-doença/aposentadoria por invalidez, e não devem ser
+> confundidos.
+
+- **Processo paradigma:** RE 583.834 (origem: RS).
+- **Relator:** Min. Ayres Britto.
+- **Partes:** RECTE. Instituto Nacional do Seguro Social — INSS.
+- **Data do julgamento de mérito:** 21/09/2011, Tribunal Pleno, por
+  unanimidade, deu provimento ao recurso do INSS.
+- **Objeto:** possibilidade, ou não, de aplicação do art. 29 da Lei
+  8.213/1991 (redação da Lei 9.876/1999) — que determina que o valor do
+  auxílio-doença seja considerado salário-de-contribuição para efeito de
+  cálculo da aposentadoria por invalidez — a benefícios concedidos antes
+  da vigência da Lei 9.876/1999.
+- **Tese firmada:** "Em razão do caráter contributivo do regime geral de
+  previdência (Constituição Federal, art. 201, caput), o art. 29, § 5º, da
+  Lei nº 8.213/1991 não se aplica à transformação de auxílio-doença em
+  aposentadoria por invalidez, mas apenas a aposentadorias por invalidez
+  precedidas de períodos de auxílio-doença intercalados com intervalos de
+  atividade, sendo válido o art. 36, § 7º, do Decreto nº 3.048/1999
+  **[DISPOSITIVO A CONFIRMAR NA BASE** — número exato do artigo do
+  Decreto 3.048/1999 não conferido nesta tarefa nos arquivos desta base**]**,
+  mesmo após a Lei nº 9.876/1999."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** direta para o cálculo da RMI de aposentadoria por
+  invalidez originada de auxílio-doença sem intercalação com atividade —
+  tema central para a skill `calculo-tempo-contribuicao` sempre que o
+  benefício anterior do segurado for auxílio-doença.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0088_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
 
 ## Tema 1231 — RPV municipal (SEM relação com aposentadoria especial ou qualquer matéria previdenciária)
 
@@ -506,6 +618,107 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   processual de portal.stf.jus.br, extraída em 16/10/2026).
 - **Data de consulta:** 16/10/2026.
 
+### Tema 3 — Inconstitucionalidade dos prazos de 10 anos de decadência e prescrição das contribuições à Seguridade Social (origem da Súmula Vinculante 8)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0003_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Fecha pendência registrada desde a Sessão de
+> 23/09/2026** ("incorporar formalmente... Súmula Vinculante 8 do STF (Lei
+> 8.212/91, arts. 45-46)", ver `CLAUDE.md`) — este é o Tema de repercussão
+> geral de origem dessa súmula.
+
+- **Processo paradigma:** RE 559.943 (origem: RS).
+- **Relator:** Min. Cármen Lúcia.
+- **Data do julgamento de mérito:** 11/06/2008 (mérito) e 12/06/2008
+  (modulação), Tribunal Pleno. Decisão de mérito: "O Tribunal, por
+  unanimidade e nos termos do voto da relatora, conheceu do recurso
+  extraordinário e a ele negou provimento, declarando a
+  inconstitucionalidade dos artigos 45 e 46 da Lei nº 8.212/1991, e do
+  parágrafo único do artigo 5º do Decreto-Lei nº 1.569/1977."
+- **Tese firmada (texto idêntico ao da Súmula Vinculante 8 do STF):** "São
+  inconstitucionais o parágrafo único do artigo 5º do Decreto-Lei
+  1.569/1977 e os artigos 45 e 46 da Lei 8.212/1991, que tratam de
+  prescrição e decadência de crédito tributário."
+- **Modulação de efeitos:** por maioria, vencido o Ministro Marco Aurélio,
+  efeitos ex nunc aplicáveis somente a ações de repetição de indébito
+  ajuizadas depois de 12/06/2008, não abrangendo questionamentos e
+  processos já em curso naquela data.
+- **Embargos de declaração** (opostos por Novoquim Indústrias Químicas
+  Ltda): não conhecidos por unanimidade em 06/11/2014.
+- **Trânsito em julgado:** não localizado expressamente no material desta
+  tarefa — **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** o próprio STF classifica o tema como "DIREITO
+  TRIBUTÁRIO" (prescrição/decadência de crédito tributário), mas o objeto
+  é diretamente o custeio da Seguridade Social: este é o precedente de
+  origem da Súmula Vinculante 8, já referida (sem entrada própria até
+  aqui) na nota ao art. 45-46 da Lei 8.212/1991 na Sessão de 23/09/2026 —
+  confirma que o prazo de 10 anos desses dispositivos é inconstitucional,
+  aplicando-se em seu lugar os prazos de 5 anos do CTN (arts. 173 e 174),
+  já referidos em `leis-ordinarias/lei-8.212-1991.md`.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0003_pagina.html` e
+  `STF_RG_TEMA_0003_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+### Tema 20 — Base de cálculo da contribuição patronal: incidência sobre ganhos habituais do empregado (Lei 8.212/1991, art. 22, I)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0020_pagina.html` em 16/10/2026.
+
+- **Processo paradigma:** RE 565.160 (origem: SC).
+- **Relator:** Min. Marco Aurélio.
+- **Data do julgamento:** 29/03/2017, Tribunal Pleno, por unanimidade.
+- **Tese firmada:** "A contribuição social a cargo do empregador incide
+  sobre ganhos habituais do empregado, quer anteriores ou posteriores à
+  Emenda Constitucional nº 20/1998."
+- **Trânsito em julgado:** 31/08/2017.
+- **Objeto:** alcance da expressão "folha de salários" (Constituição
+  Federal, art. 195, I) e constitucionalidade do art. 22, I, da Lei
+  8.212/1991 (redação da Lei 9.876/1999) — contribuição social sobre o
+  total das remunerações pagas, devidas ou creditadas a qualquer título.
+- **Relevância:** companheiro dos Temas 166 e 281 já nesta base (mesma
+  seção de custeio da Lei 8.212/1991) — fixa que a base de cálculo da
+  contribuição patronal inclui qualquer ganho habitual do empregado, a
+  qualquer título. Contrastar com o Tema 72, a seguir, que exclui dessa
+  base o salário-maternidade por sua natureza de benefício previdenciário
+  (não remuneração habitual pelo trabalho).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0020_pagina.html` e
+  `STF_RG_TEMA_0020_ACORDAO_1.pdf`.
+- **Data de consulta:** 16/10/2026.
+
+### Tema 72 — Inconstitucionalidade da contribuição previdenciária patronal sobre o salário-maternidade
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0072_pagina.html` em 16/10/2026.
+
+- **Processo paradigma:** RE 576.967 (origem: PR).
+- **Relator:** Min. Luís Roberto Barroso.
+- **Data do julgamento de mérito:** 05/08/2020, Tribunal Pleno (Sessão
+  Virtual), por maioria — "deu provimento ao recurso extraordinário, para
+  declarar, incidentalmente, a inconstitucionalidade da incidência de
+  contribuição previdenciária sobre o salário-maternidade."
+- **Tese firmada:** "É inconstitucional a incidência de contribuição
+  previdenciária a cargo do empregador sobre o salário maternidade."
+- **Objeto:** art. 28, § 2º, I, da Lei 8.212/1991 e dispositivo
+  correspondente do Decreto nº 3.048/1999 (regulamento) —
+  **[DISPOSITIVO A CONFIRMAR NA BASE** — número exato do artigo do
+  Decreto 3.048/1999 não conferido nesta tarefa nos arquivos desta
+  base**]**.
+- **Embargos de declaração:** rejeitados por unanimidade em 29/03/2021
+  (Sessão Virtual de 19 a 26/03/2021) — pretensão de ampliar a tese a
+  outras contribuições (salário-educação, Sistema S, INCRA) não acolhida,
+  mas a natureza de benefício previdenciário do salário-maternidade
+  restou incontroversa nos votos.
+- **Trânsito em julgado:** 02/06/2021.
+- **Relevância:** direta — fundamenta a exclusão do salário-maternidade
+  da base de cálculo da contribuição patronal, por sua natureza de
+  benefício previdenciário (não remuneração/ganho habitual do trabalho,
+  ao contrário do que fixa o Tema 20, acima).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0072_pagina.html` e
+  `STF_RG_TEMA_0072_ACORDAO_1.pdf`/`ACORDAO_2.pdf` (pasta pessoal da
+  usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
 ---
 
 ## Tema 503 — Desaposentação (inviabilidade sem lei específica)
@@ -563,6 +776,69 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5732688&numeroProcesso=1221630&classeProcesso=RE&numeroTema=1091.
 - **Data de consulta:** 21/09/2026 (fonte secundária) e 16/10/2026 (fonte
   oficial).
+
+---
+
+## Tema 76 — Aplicação imediata do novo teto do RGPS (Emendas Constitucionais 20/1998 e 41/2003) a benefícios já concedidos e limitados ao teto anterior
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0076_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026.
+
+- **Processo paradigma:** RE 564.354 (origem: RS).
+- **Relator:** Min. Cármen Lúcia.
+- **Partes:** RECTE. Instituto Nacional do Seguro Social — INSS; RECDO.
+  Luiz Fernandes dos Santos.
+- **Data do julgamento de mérito:** 08/09/2010, Tribunal Pleno, por
+  maioria, vencido o Ministro Dias Toffoli.
+- **Objeto:** aplicação, ou não, do novo limite dos valores dos
+  benefícios (teto) fixado pelas Emendas Constitucionais nº 20/1998 (art.
+  14) e nº 41/2003 (art. 5º) aos benefícios concedidos anteriormente à
+  vigência dessas emendas — conhecido na prática como "revisão do
+  teto"/"buraco negro" do RGPS.
+- **Tese firmada:** "Não ofende o ato jurídico perfeito a aplicação
+  imediata do art. 14 da Emenda Constitucional 20/1998 e do art. 5º da
+  Emenda Constitucional 41/2003 aos benefícios previdenciários limitados
+  a teto do regime geral de previdência estabelecido antes da vigência
+  dessas normas, de modo a que passem a observar o novo teto
+  constitucional."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** direta para pedidos de revisão de RMI de benefícios
+  concedidos sob tetos anteriores (antes de 1998/2003) — autoriza o
+  segurado a pedir a readequação de sua renda mensal ao teto vigente em
+  cada época, sem que isso configure ofensa ao ato jurídico perfeito.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0076_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 89 — Auxílio-reclusão: a renda a considerar é a do segurado recluso, não a de seus dependentes
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0089_pagina.html` em 16/10/2026.
+
+- **Processo paradigma:** RE 587.365 (origem: MG).
+- **Relator:** Min. Ricardo Lewandowski.
+- **Data do julgamento de mérito:** 25/03/2009, Tribunal Pleno, por
+  maioria, vencidos os Ministros Cezar Peluso, Eros Grau e Celso de
+  Mello.
+- **Objeto:** definir, para fins de concessão do auxílio-reclusão, se a
+  renda a ser considerada é a do próprio segurado recluso ou a de seus
+  dependentes.
+- **Tese firmada:** "Segundo decorre do art. 201, IV, da Constituição
+  Federal, a renda do segurado preso é a que deve ser utilizada como
+  parâmetro para a concessão do auxílio-reclusão e não a de seus
+  dependentes."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** direta — fixa, de forma vinculante, o critério de renda
+  do auxílio-reclusão (benefício listado entre os trabalhados pelo
+  escritório, conforme `practice-profile.md`): é a renda do segurado
+  recluso — e não a de seus dependentes — que deve ser confrontada com o
+  limite legal de baixa renda para a concessão do benefício.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0089_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
 
 ---
 
