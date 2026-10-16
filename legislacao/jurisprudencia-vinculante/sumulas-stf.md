@@ -15,6 +15,11 @@
 > **Data de consulta (item 13, "Lote 3"):** 16/10/2026, mesmo dia e mesmo
 > método do Lote 2 (páginas oficiais `portal.stf.jus.br`, desta vez para
 > as Súmulas Vinculantes 22 a 42) — ver seção própria abaixo.
+> **Data de consulta (itens 14-15, "Lote 4"):** 16/10/2026, mesmo dia e
+> mesmo método dos Lotes 2 e 3 (páginas oficiais `portal.stf.jus.br`,
+> desta vez para a Súmula Vinculante 30 — nova tentativa — e para as
+> Súmulas Vinculantes 44 a 63, encerrando a campanha de incorporação das
+> 63 Súmulas Vinculantes do STF) — ver seção própria abaixo.
 > **Antes de citar qualquer súmula abaixo em petição, parecer ou recurso,
 > confira a redação exata em portal.stf.jus.br.**
 
@@ -442,6 +447,128 @@ repita a suposição errada — no mesmo espírito da correção já feita para
 
 ---
 
+## Lote 4 (16/10/2026) — Súmula Vinculante 30 (nova tentativa) e Súmulas Vinculantes 44 a 63
+
+> **Mesmo método dos Lotes 2 e 3:** leitura direta das páginas oficiais
+> `portal.stf.jus.br/jurisprudencia/sumariosumulas.asp` para a Súmula
+> Vinculante 30 (nova tentativa — ver abaixo) e para cada uma das Súmulas
+> Vinculantes 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58,
+> 59, 60, 61, 62 e 63 (arquivos HTML salvos na pasta pessoal da usuária no
+> Google Drive, não é upload de terceiro). Marcação de proveniência:
+> `[FONTE OFICIAL — PÁGINA DO STF NA BASE]`.
+> **SV 30 — nova tentativa:** a página oficial consultada nesta sessão
+> (arquivo diferente do consultado no Lote 3, de fato disponível na pasta
+> do Drive) **continua informando "A Súmula Vinculante 30 está pendente de
+> publicação"**, sem qualquer texto de enunciado. Mantém-se sem entrada e
+> sem contagem como descarte por irrelevância — é a última verificação
+> prevista para esta campanha; fica como pendência estrutural (não é mais
+> uma lacuna de pesquisa desta base, é a própria súmula que ainda não foi
+> publicada pelo STF) a ser reconferida em consulta futura, fora desta
+> campanha.
+> **Critério de incorporação:** idêntico ao dos Lotes 2 e 3 (ver nota
+> acima do Lote 2). Este é o **último lote da campanha de incorporação das
+> 63 Súmulas Vinculantes do STF** — ver seção de encerramento ao final
+> deste arquivo.
+> **Resultado: 2 incorporadas (SV 47 e SV 53) e 18 descartadas por
+> irrelevância** (SV 44, 45, 46, 48, 49, 50, 51, 52, 54, 55, 56, 57, 58,
+> 59, 60, 61, 62 e 63) — ver tabela "Resumo do que foi descartado" abaixo
+> para o motivo de cada uma.
+
+## 14. Súmula Vinculante 47 (STF)
+
+- **Texto:** "Os honorários advocatícios incluídos na condenação ou
+  destacados do montante principal devido ao credor consubstanciam verba
+  de natureza alimentar cuja satisfação ocorrerá com a expedição de
+  precatório ou requisição de pequeno valor, observada ordem especial
+  restrita aos créditos dessa natureza."
+- **Precedente representativo / Tema de Repercussão Geral:** RE 564.132,
+  red. p/ o ac. min. Cármen Lúcia, Plenário, j. 30-10-2014, DJE 27 de
+  10-2-2015, Tema 18.
+- **Fundamento:** a verba honorária (de sucumbência) tem natureza
+  alimentar e autonomia em relação ao crédito principal do exequente —
+  titulares diversos (advogado x parte) —, podendo ser executada e paga
+  de forma destacada/fracionada, sem caracterizar a fraude à ordem
+  cronológica de precatórios vedada pelo art. 100, § 8º (originariamente
+  § 4º), da Constituição Federal, desde que o fracionamento ocorra antes
+  da expedição do ofício requisitório.
+- **Limitações de alcance, confirmadas por jurisprudência posterior do
+  próprio STF (não estender por analogia):**
+  - Uma decisão monocrática (Rcl 23.886 AgR, 2016) afirmou que a SV 47
+    "não alcança os honorários contratuais" quando quem pretende o
+    recebimento destacado não integrou o acordo; outra decisão
+    monocrática posterior (RE 917.665, 2015 — anterior, mas cronologia
+    da publicação do enunciado é de 2015) afirma que o entendimento da
+    súmula "alcança os honorários contratuais". **Divergência entre
+    decisões monocráticas não resolvida nesta pesquisa —
+    [A CONFIRMAR NA FONTE OFICIAL]** antes de invocar a SV 47 para
+    honorários puramente contratuais (não de sucumbência) em caso
+    concreto.
+  - A SV 47 **não trata de ordem de preferência entre créditos tributários
+    e honorários alimentares** — fixa apenas a natureza alimentar e a
+    possibilidade de fracionamento da execução (Rcl 30.833; Rcl 27.651).
+- **Relevância para Direito Previdenciário: direta — honorários
+  advocatícios de sucumbência em ações previdenciárias contra o INSS.**
+  Quando a condenação do INSS é satisfeita via precatório ou RPV (mesmo
+  regime da Súmula Vinculante 17, item 11 acima), a SV 47 garante ao
+  escritório o direito de executar e receber os honorários de forma
+  destacada e autônoma em relação ao crédito do cliente/segurado, com
+  natureza alimentar e sujeitos à ordem especial restrita aos créditos
+  dessa natureza (precatórios alimentares, à frente dos comuns — art.
+  100, §§ 1º e 2º, da Constituição Federal — **[DISPOSITIVO A CONFIRMAR
+  NA BASE]**, a CF ainda não documenta o art. 100 nesta base de
+  legislação).
+- **Fonte:** portal.stf.jus.br/jurisprudencia/sumariosumulas.asp (Súmula
+  Vinculante 47). **[FONTE OFICIAL — PÁGINA DO STF NA BASE]**
+- **Data de publicação do enunciado:** DJE de 2-6-2015.
+- **Data de consulta:** 16/10/2026.
+
+## 15. Súmula Vinculante 53 (STF)
+
+- **Texto:** "A competência da Justiça do Trabalho prevista no art. 114,
+  VIII, da Constituição Federal alcança a execução de ofício das
+  contribuições previdenciárias relativas ao objeto da condenação
+  constante das sentenças que proferir e acordos por ela homologados."
+- **Precedente representativo / Tema de Repercussão Geral:** RE 569.056,
+  voto do rel. min. Menezes Direito, Plenário, j. 11-9-2008, DJE 236 de
+  12-12-2008, Tema 36.
+- **Tese de Repercussão Geral (mais precisa que o enunciado da súmula —
+  fixa também o limite negativo):** "A competência da Justiça do Trabalho
+  prevista no art. 114, VIII, da Constituição Federal alcança somente a
+  execução das contribuições previdenciárias relativas ao objeto da
+  condenação constante das sentenças que proferir, não abrangida a
+  execução de contribuições previdenciárias atinentes ao vínculo de
+  trabalho reconhecido na decisão, mas sem condenação ou acordo quanto ao
+  pagamento das verbas salariais que lhe possam servir como base de
+  cálculo."
+- **Fundamento:** a execução de ofício pela Justiça do Trabalho pressupõe
+  título executivo — sentença condenatória ao pagamento de verba salarial
+  (ou acordo homologado nesse sentido). Sentença meramente declaratória
+  de vínculo empregatício, sem condenação a verba salarial que sirva de
+  base de cálculo, não constitui título executivo para a contribuição
+  previdenciária correspondente.
+- **Relevância para Direito Previdenciário: direta — delimita a
+  competência (Justiça do Trabalho × Secretaria Especial da Receita
+  Federal do Brasil) para a execução/lançamento das contribuições
+  previdenciárias decorrentes de reconhecimento de vínculo empregatício
+  em reclamação trabalhista.** Matéria recorrente quando o escritório
+  precisa, para fins de tempo de contribuição/averbação junto ao INSS, de
+  vínculo empregatício reconhecido judicialmente na Justiça do Trabalho
+  (ex.: trabalho sem registro em CTPS). A SV 53 esclarece que, fora do
+  objeto da condenação trabalhista (pagamento de verbas salariais), a
+  cobrança/lançamento da contribuição correspondente ao período
+  reconhecido cabe à Receita Federal, não à Justiça do Trabalho.
+- **Ressalva de alcance, confirmada por jurisprudência posterior do
+  próprio STF (não estender por analogia):** a SV 53 **não trata do termo
+  inicial de juros de mora/correção monetária** sobre a contribuição
+  decorrente de condenação trabalhista — matéria estranha ao seu objeto
+  (Rcl 26.671 AgR).
+- **Fonte:** portal.stf.jus.br/jurisprudencia/sumariosumulas.asp (Súmula
+  Vinculante 53). **[FONTE OFICIAL — PÁGINA DO STF NA BASE]**
+- **Data de publicação do enunciado:** DJE de 23-6-2015.
+- **Data de consulta:** 16/10/2026.
+
+---
+
 ## Notas de verificação — correção monetária
 
 Não foi localizada, na pesquisa realizada, nenhuma súmula do STF
@@ -492,3 +619,65 @@ A súmula pertinente a esse tema é do STJ (Súmula 148 — ver
 | SV 40 | Contribuição confederativa sindical só é exigível dos filiados ao sindicato respectivo (**[DISPOSITIVO A CONFIRMAR NA BASE]**) | Direito sindical/trabalhista, sem relação com contribuição previdenciária (que é compulsória por lei, não associativa) |
 | SV 41 | O serviço de iluminação pública não pode ser remunerado mediante taxa | Direito tributário municipal, sem relação previdenciária |
 | SV 42 | Inconstitucionalidade de vincular reajuste de vencimentos de servidores estaduais/municipais a índices federais | Direito administrativo de servidor público (RPPS estadual/municipal), sem relação com RGPS |
+| SV 30 | Página oficial do STF consultada novamente (Lote 4, arquivo diferente do Lote 3) continua informando "pendente de publicação" — sem texto do enunciado disponível na fonte | Não avaliada por falta de texto; verificação repetida nesta campanha sem sucesso — fica como pendência estrutural (não é lacuna desta base, é a própria súmula ainda não publicada), não contada como descarte por irrelevância |
+| SV 44 | Só por lei se pode sujeitar a exame psicotécnico a habilitação de candidato a cargo público | Direito administrativo (concurso público), sem relação previdenciária |
+| SV 45 | Competência constitucional do Tribunal do Júri prevalece sobre foro por prerrogativa de função estabelecido só pela Constituição Estadual | Direito processual penal/constitucional, sem relação previdenciária |
+| SV 46 | Definição dos crimes de responsabilidade e das respectivas normas de processo e julgamento é competência legislativa privativa da União | Direito constitucional/administrativo, sem relação previdenciária |
+| SV 48 | É legítima a cobrança do ICMS, na entrada de mercadoria importada, no momento do desembaraço aduaneiro | Direito tributário estadual (ICMS), sem relação com contribuição previdenciária |
+| SV 49 | Ofende a livre concorrência lei municipal que impede a instalação de estabelecimentos comerciais do mesmo ramo em determinada área | Direito econômico/urbanístico municipal, sem relação previdenciária |
+| SV 50 | Norma legal que altera prazo de recolhimento de obrigação tributária não se sujeita ao princípio da anterioridade | Princípio tributário genérico — embora em tese aplicável também a contribuições previdenciárias (CF, art. 195, § 6º), os precedentes da própria súmula não tratam de contribuição previdenciária, sem vínculo específico com a prática do escritório |
+| SV 51 | Reajuste de 28,86% (Leis 8.622/1993 e 8.627/1993) estende-se aos servidores civis do Poder Executivo | Direito administrativo de servidor público (RPPS/militar), sem relação com RGPS |
+| SV 52 | Imunidade de IPTU de imóvel de entidade do art. 150, VI, "c", CF, mesmo alugado a terceiros, se a renda for aplicada nas finalidades institucionais | Direito tributário municipal (IPTU), sem relação com contribuição previdenciária |
+| SV 54 | Medida provisória não apreciada pelo Congresso podia, até a EC 32/2001, ser reeditada dentro do prazo de 30 dias, mantidos os efeitos desde a primeira edição | Direito constitucional (processo legislativo), sem relação previdenciária |
+| SV 55 | O direito ao auxílio-alimentação não se estende aos servidores inativos | Direito administrativo de servidor público (RPPS), sem relação com RGPS |
+| SV 56 | Falta de estabelecimento penal adequado não autoriza a manutenção do condenado em regime prisional mais gravoso | Direito penal/execução penal, sem relação previdenciária |
+| SV 57 | Imunidade tributária do art. 150, VI, "d", CF aplica-se ao livro eletrônico (e-book) e aos e-readers exclusivos | Direito tributário (imunidade de livros), sem relação previdenciária |
+| SV 58 | Inexiste direito a crédito presumido de IPI relativo à entrada de insumos isentos, de alíquota zero ou não tributáveis | Direito tributário (IPI), sem relação com contribuição previdenciária |
+| SV 59 | É impositiva a fixação do regime aberto e a substituição da pena no tráfico privilegiado, sem vetores negativos na dosimetria | Direito penal, sem relação previdenciária |
+| SV 60 | Pedido/judicialização de fármacos na rede pública deve observar os 3 acordos interfederativos homologados pelo STF (Tema 1.234) | Direito à saúde/SUS — área distinta da prática previdenciária do escritório (benefícios do RGPS, não fornecimento de medicamentos pelo SUS) |
+| SV 61 | Concessão judicial de medicamento registrado na ANVISA mas não incorporado ao SUS deve observar o Tema 6 (RE 566.471) | Direito à saúde/SUS, mesma ressalva do item anterior |
+| SV 62 | É legítima a revogação, por lei ordinária, da isenção de COFINS prevista na Lei Complementar 70/1991, art. 6º, II — **[DISPOSITIVO A CONFIRMAR NA BASE]** quanto ao artigo exato da lei revogadora | Direito tributário federal (COFINS de sociedades profissionais), sem relação com contribuição previdenciária |
+| SV 63 | O tráfico privilegiado (Lei 11.343/2006, art. 33, § 4º) não configura crime hediondo | Direito penal, sem relação previdenciária |
+
+---
+
+## Encerramento da campanha de Súmulas Vinculantes (16/10/2026)
+
+**Esta é a conclusão da campanha de 3 lotes, no mesmo dia, para incorporar
+à base as Súmulas Vinculantes do STF ainda não cobertas.** Resumo
+estatístico final (universo: as **63 Súmulas Vinculantes** editadas pelo
+STF até a data desta consulta):
+
+| Categoria | Quantidade | Quais |
+|---|---|---|
+| **Total de Súmulas Vinculantes existentes** | 63 | SV 1 a SV 63 |
+| **Incorporadas com entrada completa** | 9 | SV 2, 8, 17, 21, 28, 33, 43, 47 e 53 |
+| **Descartadas por irrelevância à prática previdenciária** | 53 | todas as demais, exceto a SV 30 — ver tabela "Resumo do que foi descartado" acima para o motivo individual de cada uma |
+| **Pendentes (sem enunciado publicado pelo STF)** | 1 | SV 30 — verificada duas vezes nesta campanha (Lote 3 e Lote 4), em ambas a página oficial do STF informa "pendente de publicação" |
+
+**Verificação de consistência:** 9 + 53 + 1 = 63. ✓
+
+**Distribuição por lote desta campanha (todos em 16/10/2026, exceto os
+itens 1-9, que já constavam da base desde 21/09/2026 com método distinto —
+ver nota no topo deste arquivo):**
+- Pré-existentes (21/09/2026, método WebSearch): SV 2, 33, 43 (3 incorporadas).
+- Lote 2 (SV 1, 3 a 21): 3 incorporadas (SV 8, 17, 21), 17 descartadas.
+- Lote 3 (SV 22 a 42, exceto 33 já coberta): 1 incorporada (SV 28), 18
+  descartadas, 1 pendente (SV 30, primeira verificação).
+- Lote 4 (SV 30 — segunda verificação — e SV 44 a 63): 2 incorporadas
+  (SV 47, SV 53), 18 descartadas, SV 30 confirmada ainda pendente.
+
+**Nota metodológica final:** a partir do Lote 2, todo enunciado foi
+conferido diretamente contra a página oficial `portal.stf.jus.br`
+(`[FONTE OFICIAL — PÁGINA DO STF NA BASE]`), fornecida pela usuária a
+partir de sua pasta pessoal do Google Drive — não por WebSearch/memória.
+O critério de incorporação (matéria de Direito Previdenciário do RGPS, ou
+diretamente relevante à prática/processo do escritório — decadência/
+prescrição tributária, competência de Juizado Especial Federal, execução
+contra a Fazenda Pública/INSS, recurso administrativo, honorários de
+sucumbência pagos via precatório etc.) foi aplicado de forma uniforme nos
+Lotes 2, 3 e 4. **Antes de citar qualquer Súmula Vinculante deste arquivo
+em petição, parecer ou recurso real, confira a redação exata e a
+situação de trânsito em julgado/vigência em portal.stf.jus.br** — esta
+base documenta o enunciado e precedentes representativos, não substitui
+a consulta direta à fonte oficial no momento do uso.
