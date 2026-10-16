@@ -433,6 +433,50 @@
 > processual-administrativa (prescrição de improbidade administrativa de
 > ex-procurador do INSS, sem mérito previdenciário próprio — Tema 1199) —
 > ver o relatório da tarefa para o detalhamento de cada descarte.
+>
+> **Lote 12, mesmo método (16/10/2026):** processados mais 19 Temas (1223,
+> 1224, 1225, 1226, 1228, 1233, 1248, 1254, 1271, 1274, 1276, 1278, 1280,
+> 1293, 1294, 1295, 1298, 1300 e 1301). **7 são efetivamente
+> previdenciários (RGPS)** e foram incorporados como entradas próprias,
+> todas marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 1223** (custeio — inconstitucionalidade do Decreto 3.048/1999 e
+> da Portaria MPAS 1.135/2001 por alterarem, sem lei, a base de cálculo da
+> contribuição previdenciária de transportadores autônomos), **Tema 1294**
+> e **Tema 1295** (custeio, **ambos SEM repercussão geral** — contribuição
+> patronal sobre a bolsa de jovem aprendiz e natureza da remuneração da
+> empregada gestante afastada durante a pandemia da COVID-19,
+> respectivamente), **Tema 1225** (benefícios — termo inicial do
+> auxílio-acidente decorrente de auxílio-doença, **SEM repercussão
+> geral**, remete ao Tema 862/STJ e tangencia o Tema 350 já nesta base), e
+> **Tema 1300** (de altíssima relevância prática — confirma a
+> constitucionalidade do cálculo diferenciado do art. 26, § 2º, III, da EC
+> 103/2019 para a aposentadoria por incapacidade permanente por doença
+> grave, contagiosa ou incurável, mesmo quando a incapacidade é constatada
+> **após** a Reforma da Previdência; julgado por maioria em 18/12/2025,
+> com trânsito em julgado em 18/04/2026). **Dois temas incorporados ainda
+> SEM julgamento de mérito** (repercussão geral já reconhecida, mas sem
+> tese final — status registrado explicitamente na própria entrada, para
+> acompanhamento): **Tema 1271** (exclusão da criança/adolescente sob
+> guarda do rol de dependentes do RGPS pelo art. 23, § 6º, da EC
+> 103/2019 — com **Suspensão Nacional** de processos já determinada pelo
+> relator em 21/01/2025) e **Tema 1274** (contribuição previdenciária a
+> cargo da **empregada** sobre o salário-maternidade, distinta do Tema 72
+> já nesta base, que trata da contribuição **patronal**). **Os outros 12
+> temas foram verificados e descartados**: a maioria é RPPS de servidor
+> público/militar estadual, municipal ou federal, ou matéria puramente
+> administrativa de servidor (Temas 1224, 1226, 1233, 1248, 1254, 1276,
+> 1293 e 1298 — este último, apesar de mencionar "pensão previdenciária",
+> é pensão **militar**, classificada pela própria página oficial como
+> "Direito Administrativo | Militar | Pensão"), previdência complementar
+> privada (Tema 1280 — PIS/COFINS sobre entidades fechadas de previdência
+> complementar), matéria trabalhista/educacional sem vínculo com o RGPS
+> (Tema 1301 — abono com sobras do FUNDEB), benefício pago pelo FAT/Caixa
+> a pescador artesanal e não regido pela Lei 8.213/1991 (Tema 1228 —
+> mesmo padrão já aplicado ao Tema 1159 no Lote 11) e complementação de
+> aposentadoria de servidor municipal por legislação local, **sem
+> repercussão geral** (Tema 1278 — mesmo padrão já aplicado ao Tema 870
+> no Lote 8) — ver o relatório da tarefa para o detalhamento de cada
+> descarte.
 
 ---
 
@@ -3554,6 +3598,266 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   devolução de valores ou inscritos em dívida ativa com base em processos
   antigos.
 - **Fonte:** Google Drive, `STF_RG_TEMA_1222_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1223 — Custeio: inconstitucionalidade do Decreto nº 3.048/1999 e da Portaria MPAS nº 1.135/2001 por alterarem, sem lei, a base de cálculo da contribuição do transportador autônomo
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1223_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 12.
+
+- **Leading case:** RE 1.381.261 (origem: RS, via REsp 1.929.497/STJ).
+- **Relator:** Min. Dias Toffoli.
+- **Repercussão geral:** **Sim** — reconhecida com reafirmação de
+  jurisprudência em 06/08/2022, Plenário Virtual, por unanimidade.
+- **Objeto:** à luz do art. 150, I, da Constituição Federal (reserva
+  legal), a possibilidade de o Decreto nº 3.048/1999 e a Portaria MPAS nº
+  1.135/2001 alterarem a base de cálculo da contribuição previdenciária
+  incidente sobre a remuneração paga ou creditada a transportadores
+  autônomos (segurados contribuintes individuais).
+- **Tese:** "São inconstitucionais o Decreto nº 3.048/99 e a Portaria
+  MPAS nº 1.135/01 no que alteraram a base de cálculo da contribuição
+  previdenciária incidente sobre a remuneração paga ou creditada a
+  transportadores autônomos, devendo o reconhecimento da
+  inconstitucionalidade observar os princípios da congruência e da
+  devolutividade."
+- **Publicação do acórdão, DJE:** 11/10/2022.
+- **Trânsito em julgado:** 10/11/2022.
+- **Modulação de efeitos:** não identificada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** custeio — relevante sempre que o cálculo de
+  contribuições retroativas de um transportador autônomo (contribuinte
+  individual) usar, como base normativa, o Decreto 3.048/1999 ou a
+  Portaria MPAS 1.135/2001 para fixar a base de cálculo de sua
+  contribuição (e não a legislação em sentido estrito).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1223_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1225 — Termo inicial do auxílio-acidente decorrente da cessação do auxílio-doença (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1225_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 12.
+> Incorporado pelo critério refinado nos Lotes 9-11: SEM repercussão
+> geral, mas genuinamente Direito Previdenciário (benefício por
+> incapacidade do RGPS, Lei 8.213/1991).
+
+- **Leading case:** RE 1.382.897 (origem: SP, via REsp 1.729.555/STJ).
+- **Relator(a):** Ministro Presidente (à época da análise de repercussão
+  geral).
+- **Repercussão geral:** **NÃO reconhecida** — decisão de 13/08/2022,
+  Plenário Virtual, por unanimidade, por se tratar de matéria
+  infraconstitucional.
+- **Objeto:** à luz dos arts. 2º e 5º, XXXV, da Constituição Federal,
+  acórdão do STJ que, ao julgar o Tema 862 (recurso especial repetitivo),
+  fixou o termo inicial do auxílio-acidente no dia seguinte ao da
+  cessação do auxílio-doença que lhe deu origem, e considerou, como termo
+  inicial do benefício quando inexistirem auxílio-doença prévio e
+  requerimento administrativo do auxílio-acidente, a data da citação do
+  INSS — em aparente contraste com a tese do **Tema 350** já nesta base
+  (RE 631.240, prévio requerimento administrativo).
+- **Tese:** "É infraconstitucional, a ela se aplicando os efeitos da
+  ausência de repercussão geral, a controvérsia relativa à definição do
+  termo inicial do auxílio-acidente decorrente da cessação do
+  auxílio-doença, na forma dos artigos 23 e 86, § 2º, da Lei 8.213/1991."
+- **Trânsito em julgado:** 15/09/2022.
+- **Relevância:** mantém no STJ (Tema 862, ainda não incorporado a esta
+  base como entrada própria) a palavra final sobre a data de início do
+  auxílio-acidente — diretamente aplicável ao cálculo de valores
+  retroativos desse benefício.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1225_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1271 — Exclusão da criança e do adolescente sob guarda do rol de dependentes do RGPS pela EC 103/2019 (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1271_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 12.
+> **Atenção: o mérito ainda não foi julgado** — esta entrada documenta o
+> status processual nesta data; confira o andamento atualizado em
+> portal.stf.jus.br antes de qualquer uso em petição.
+
+- **Leading case:** RE 1.442.021.
+- **Relator:** Min. André Mendonça.
+- **Repercussão geral:** **Sim** — reconhecida em 18/09/2023, Plenário
+  Virtual, por unanimidade.
+- **Objeto:** à luz dos arts. 2º, 60, § 4º, e 201 da Constituição Federal
+  e do art. 23, § 6º, da EC 103/2019, se a exclusão da criança e do
+  adolescente sob guarda do rol de dependentes do segurado do RGPS viola
+  os princípios da igualdade, da proibição do retrocesso e da proteção
+  integral de crianças e adolescentes.
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]`. Última movimentação localizada:
+  parecer da Procuradoria-Geral da República pelo não provimento do
+  recurso (15/04/2026), autos conclusos ao Relator em 16/04/2026.
+- **Suspensão Nacional:** determinada pelo Relator em 21/01/2025 (decisão
+  monocrática, ofício circular) — processos sobre a mesma controvérsia
+  tramitando no país devem estar/ter estado sobrestados a partir dessa
+  data até o julgamento do mérito.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** altíssima e urgente — qualquer caso do escritório
+  envolvendo menor sob guarda como dependente para fins de pensão por
+  morte ou auxílio-reclusão pode estar sujeito a sobrestamento por força
+  da Suspensão Nacional; verificar o andamento deste tema antes de
+  protocolar ou prosseguir em ação sobre a matéria.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1271_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1274 — Contribuição previdenciária a cargo da empregada sobre o salário-maternidade (MÉRITO AINDA NÃO JULGADO; distinto do Tema 72)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1274_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 12.
+> **Atenção: o mérito ainda não foi julgado** — não confundir com o
+> **Tema 72** já nesta base (contribuição **patronal** sobre o
+> salário-maternidade, declarada inconstitucional). Este Tema 1274 trata
+> da contribuição a cargo da própria **empregada** (segurada).
+
+- **Leading case:** RE 1.455.643.
+- **Relator(a):** Min. Cármen Lúcia.
+- **Repercussão geral:** **Sim** — reconhecida em 23/09/2023, Plenário
+  Virtual, por unanimidade (o Min. André Mendonça não se manifestou).
+- **Objeto:** à luz dos arts. 195, I e II, e 201, § 7º, I, § 11 e § 14, da
+  Constituição Federal, a validade constitucional da incidência de
+  contribuição previdenciária a cargo da empregada sobre o
+  salário-maternidade pago pela Previdência Social.
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]`. Última movimentação localizada:
+  manifestação da PGR (29/11/2024), autos conclusos ao Relator em
+  22/03/2026; há notícia de amicus curiae admitidos no processo.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** afeta diretamente o valor líquido do salário-maternidade
+  recebido pela segurada empregada; aguardar julgamento antes de orientar
+  clientes sobre eventual restituição de valores retidos.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1274_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1294 — Custeio: incidência de contribuição patronal e de contribuições a terceiros sobre a bolsa de jovem aprendiz (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1294_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 12.
+> Incorporado pelo critério refinado nos Lotes 9-11: SEM repercussão
+> geral, mas genuinamente custeio do RGPS (base de cálculo da
+> contribuição patronal, Lei 8.212/1991).
+
+- **Leading case:** RE 1.468.898.
+- **Relator(a):** Ministro Presidente (à época da análise de repercussão
+  geral).
+- **Repercussão geral:** **NÃO reconhecida** — decisão de 16/03/2024,
+  Plenário Virtual, por unanimidade (a Min. Cármen Lúcia não se
+  manifestou), por se tratar de matéria infraconstitucional.
+- **Objeto:** à luz dos arts. 5º, II; 149; 150, I; 195, I; 212; 227; e
+  240 da Constituição Federal, se o valor pago a título de bolsa ao
+  jovem aprendiz deve integrar a base de cálculo da contribuição
+  previdenciária patronal e das contribuições destinadas a terceiros.
+- **Tese:** "É infraconstitucional a controvérsia sobre a incidência de
+  contribuição previdenciária patronal e de contribuições destinadas a
+  terceiros sobre a bolsa de jovem aprendiz."
+- **Trânsito em julgado:** 03/04/2024.
+- **Relevância:** custeio — agrupado ao bloco de temas sobre natureza
+  jurídica de verbas para incidência da contribuição patronal (art. 22,
+  I, Lei 8.212/1991) já nesta base (**Tema 1100**, SEM repercussão
+  geral).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1294_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1295 — Natureza da remuneração paga à empregada gestante afastada durante a pandemia da COVID-19 (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1295_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 12.
+> Incorporado pelo critério refinado nos Lotes 9-11: SEM repercussão
+> geral, mas genuinamente custeio/salário-maternidade do RGPS.
+
+- **Leading case:** RE 1.472.734.
+- **Relator(a):** Ministro Presidente (à época da análise de repercussão
+  geral).
+- **Repercussão geral:** **NÃO reconhecida** — decisão de 23/03/2024,
+  Plenário Virtual, por unanimidade (o Min. Nunes Marques não se
+  manifestou), por se tratar de matéria infraconstitucional.
+- **Objeto:** à luz dos arts. 37; 195, § 5º; e 201 da Constituição
+  Federal, se a remuneração paga à empregada gestante afastada do
+  trabalho no período emergencial da pandemia do coronavírus (regime da
+  Lei 14.151/2021 **[DISPOSITIVO A CONFIRMAR NA BASE — norma ainda não
+  incorporada a esta base como entrada própria]**) tem natureza de
+  salário-maternidade, para fins de compensação com as contribuições
+  devidas pelo empregador.
+- **Tese:** "É infraconstitucional a controvérsia sobre a natureza da
+  remuneração paga à empregada gestante afastada das atividades de
+  trabalho durante a emergência de saúde pública do COVID/19 para fins de
+  compensação com as contribuições devidas pelo empregador."
+- **Trânsito em julgado:** 27/04/2024.
+- **Relevância:** residual/histórica, mas de interesse para empregadores
+  que ainda discutam compensação de contribuições do período pandêmico;
+  mantém a matéria no âmbito infraconstitucional (TRFs/STJ).
+- **Fonte:** Google Drive, `STF_RG_TEMA_1295_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1300 — Constitucionalidade do cálculo da aposentadoria por incapacidade permanente por doença grave, contagiosa ou incurável pelo art. 26, § 2º, III, da EC 103/2019, mesmo quando a incapacidade é constatada após a Reforma da Previdência
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1300_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 12.
+> Tema de altíssima relevância prática — julgamento de mérito recente e
+> favorável à aplicação da regra de cálculo da EC 103/2019, já comentada
+> em `emendas-constitucionais/ec-103-2019.md` desta base.
+
+- **Leading case:** RE 1.469.150 (origem: Justiça Federal de 1º Grau no
+  Paraná).
+- **Relator:** Min. Luís Roberto Barroso.
+- **Repercussão geral:** **Sim**.
+- **Objeto:** à luz do art. 5º da Constituição Federal e do art. 26, §
+  2º, III, da EC 103/2019, a incidência da forma de cálculo ali prevista
+  para o benefício de aposentadoria por incapacidade permanente
+  decorrente de doença grave, contagiosa ou incurável, quando a
+  incapacidade é constatada **após** a edição da Emenda Constitucional
+  103/2019.
+- **Julgamento de mérito:** 18/12/2025, Tribunal Pleno (Sessão
+  Extraordinária). Decisão (texto oficial): "O Tribunal, por maioria,
+  apreciando o tema 1.300 da repercussão geral, a) deu provimento ao
+  recurso extraordinário, para, reformando o acórdão de origem, julgar
+  improcedente o pedido inicial, invertendo-se a condenação nos ônus da
+  sucumbência; b) não fixou honorários recursais, diante do provimento do
+  recurso; c) julgou prejudicados os embargos de declaração opostos
+  contra o acórdão que reconheceu a repercussão geral; e d) fixou a
+  seguinte tese (...). Tudo nos termos do voto do Ministro Luís Roberto
+  Barroso (Relator), vencidos os Ministros Flávio Dino, Edson Fachin
+  (Presidente), Alexandre de Moraes, Dias Toffoli e Cármen Lúcia.
+  Redigirá o acórdão o Ministro Cristiano Zanin (art. 38, IV, b, do
+  Regimento Interno do STF)."
+- **Tese:** "É constitucional o pagamento do benefício de aposentadoria
+  por incapacidade permanente nos termos fixados pelo art. 26, § 2º, III,
+  da Emenda Constitucional nº 103/2019 para os casos em que a
+  incapacidade para o trabalho seja constatada posteriormente à Reforma
+  da Previdência."
+- **Publicação do acórdão, DJE:** divulgado em 09/04/2026, publicado em
+  10/04/2026.
+- **Trânsito em julgado:** 18/04/2026.
+- **Modulação de efeitos:** não identificada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Observação sobre a votação:** a decisão foi tomada **por maioria**,
+  com redação do acórdão atribuída a Ministro distinto do Relator (Min.
+  Cristiano Zanin) embora o resultado tenha seguido o voto do Relator —
+  **a composição exata e o significado processual dessa atribuição não
+  foram aprofundados nesta tarefa** `[A CONFIRMAR NA FONTE OFICIAL]`;
+  reproduzido aqui o texto oficial literal da decisão, sem interpretação.
+- **Relevância:** altíssima — tema central para a skill
+  `calculo-previdenciario` e para `analise-arquivo-medico` sempre que o
+  benefício envolver aposentadoria por incapacidade permanente derivada
+  de doença grave, contagiosa ou incurável (rol do art. 151 da Lei
+  8.213/1991 **[DISPOSITIVO A CONFIRMAR NA BASE]**), especialmente
+  quando a incapacidade for constatada após 13/11/2019 (vigência da EC
+  103/2019): o cálculo diferenciado do art. 26, § 2º, III, da EC
+  103/2019 é constitucional e aplicável mesmo nesses casos.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1300_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
