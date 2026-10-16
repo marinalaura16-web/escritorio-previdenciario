@@ -502,12 +502,60 @@ Artigos-chave (numeração **corrigida** após a pesquisa de 24/09/2026):
   - BPC/LOAS: a IN 128/2022 não regula o benefício em detalhe — art. 670 apenas
     remete a aplicação subsidiária até norma específica
   - Arts. 340 e 346: Prazo de 30 dias para novo requerimento de benefício por incapacidade
-  - Art. 576-A: Vedação de novo requerimento enquanto houver processo em curso (alterado pela IN 208/2026)
+  - Art. 576-A: Vedação de novo requerimento enquanto houver processo em curso —
+    **redação dada pela IN PRES/INSS nº 203/2026** (ver abaixo e
+    `instrucoes-normativas/in-203-2026.md`), posteriormente também
+    alterada/excepcionada pela IN 208/2026 para benefícios por incapacidade
 - IN PRES/INSS 141/2022
 - IN PRES/INSS 176/2024
 - IN PRES/INSS 195/2025
+- **IN PRES/INSS 198/2025** (consolidada com alterações da IN 210/2026) —
+  Resumo em `instrucoes-normativas/in-198-2025.md` (**novo, 16/10/2026**).
+  **Não trata de direito previdenciário material** — é norma de gestão de
+  pessoas interna ao INSS (avaliação de desempenho no estágio probatório de
+  servidores nomeados após 7/02/2025). Não altera a IN 128/2022.
+  `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 200/2026** — Resumo em `instrucoes-normativas/in-200-2026.md`
+  (**novo, 16/10/2026**). Altera a **IN PRES/INSS nº 186/2025** (fluxo de
+  consulta/contestação/restituição de descontos associativos — norma ainda
+  **não presente nesta base**), não a IN 128/2022: prorroga o prazo de
+  funcionamento dos canais de atendimento (art. 2º, §4º) para 20/03/2026.
+  Tema ligado à Lei 15.327/2026 (vedação de descontos associativos), já na
+  base. `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 201/2026** — Resumo em `instrucoes-normativas/in-201-2026.md`
+  (**novo, 16/10/2026**). **Não trata de direito previdenciário material** —
+  altera a IN nº 58/PRES/INSS/2012 (GDASS, gratificação de desempenho de
+  servidores da Carreira do Seguro Social). Não altera a IN 128/2022.
+  `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 202/2026** — Resumo em `instrucoes-normativas/in-202-2026.md`
+  (**novo, 16/10/2026**). Altera novamente a **IN PRES/INSS nº 186/2025**
+  (mesmo processo administrativo da IN 200/2026): nova prorrogação do art.
+  2º, §4º, para 20/06/2026, e novo art. 8º, §1º (arquivamento do
+  procedimento por inércia do beneficiário em 30 dias). Não altera a IN
+  128/2022. `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 203/2026** — Resumo em `instrucoes-normativas/in-203-2026.md`
+  (**novo, 16/10/2026**). **Única, entre as 5 INs processadas em 16/10/2026,
+  que efetivamente altera a IN 128/2022**: nova redação do **art. 576-A**
+  (vedação de novo requerimento da mesma espécie de benefício com processo
+  em curso), com §§1º-2º novos (definição de "processo pendente" pelo prazo
+  recursal; exceção para pedido de revisão). Revoga também a Resolução nº
+  438/PRES/INSS, de 03/09/2014 (norma não presente nesta base). Nota de
+  cruzamento adicionada em `in-128-2022.md`. `[FONTE OFICIAL — HTML/PDF DOU
+  NA BASE]`.
 - IN PRES/INSS 208/2026 — Afasta aplicação automática do art. 576-A para benefícios por incapacidade
+  (texto da própria IN 208/2026 ainda não lido nesta base — ver ressalva em
+  `in-203-2026.md` sobre a relação exata com a redação dada pela IN 203/2026)
 - IN PRES/INSS 212/2026
+
+**Nota (16/10/2026):** das 274 normas do lote bruto em `legislacao/
+dou-inss-bruto/`, 5 Instruções Normativas (198/2025, 200/2026, 201/2026,
+202/2026 e 203/2026) foram processadas nesta sessão, cada uma com arquivo
+próprio acima. **Confirmado por leitura: nem toda IN do lote altera a IN
+128/2022** — das 5, só a 203/2026 o faz; 200/2026 e 202/2026 alteram a IN
+186/2025 (fora da base); 198/2025 e 201/2026 são normas de pessoal, sem
+relação com direito previdenciário material. As demais ~269 normas do lote
+(outras INs, Portarias, Resoluções, Leis, Decretos) **permanecem não
+processadas** — ver `legislacao/dou-inss-bruto/` para o inventário bruto.
 
 ## 7. Portarias (2026)
 - Portaria Interministerial MPS/MF 13/2026
