@@ -116,6 +116,33 @@
 > competência de TJ para questão previdenciária dentro de processo de
 > perda de patente militar, matéria processual/castrense) — ver o
 > relatório da tarefa para o detalhamento de cada descarte.
+>
+> **Lote 4, mesmo dia (16/10/2026):** processados mais 19 Temas de
+> repercussão geral do STF (números 0359, 0363, 0364, 0368, 0369, 0388,
+> 0396, 0397, 0405, 0406, 0407, 0411, 0414, 0425, 0431, 0439, 0445, 0452 e
+> 0453), a partir da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html`). **Apenas 2 desses 19 temas são
+> efetivamente previdenciários (RGPS)** e foram incorporados como entradas
+> próprias, marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 388** (auxílio-acidente — veda a aplicação retroativa do
+> coeficiente de cálculo da Lei 9.032/1995 a benefícios concedidos antes
+> de sua vigência, mesma lógica do Tema 165 já nesta base) e **Tema 414**
+> (competência — ações acidentárias contra o INSS tramitam na Justiça
+> Comum Estadual, não na Justiça Federal). **Os outros 17 temas foram
+> verificados e descartados**, pelo mesmo padrão já identificado nos lotes
+> anteriores: a maioria é RPPS de servidor público estadual/municipal ou
+> entidade paraestatal (Temas 359, 396, 397, 407, 411, 431, 439, 445),
+> Direito Tributário geral sem relação com o RGPS/custeio (Temas 363, 364,
+> 368, 369), previdência complementar privada (Tema 452), matéria
+> estranha ao Direito Previdenciário (Tema 453 — foro de magistrado
+> aposentado), e três temas em que o STF **não reconheceu repercussão
+> geral** (sem tese vinculante, apesar de o objeto tangenciar o RGPS —
+> mesmo critério já aplicado ao Tema 320 no Lote 3): Tema 405 (conversão de
+> tempo especial em comum após 28/05/1998), Tema 406 (recálculo da RMI com
+> renúncia aos salários-de-contribuição de menor valor) e Tema 425
+> (restituição de verba alimentar paga por erro da Administração, de
+> alcance mais amplo que o RGPS) — ver o relatório da tarefa para o
+> detalhamento de cada descarte.
 
 ---
 
@@ -1269,6 +1296,87 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   como precedente sobre a base de cálculo da contribuição patronal;
   pouco provável de ter aplicação prática em casos atuais do escritório.
 - **Fonte:** Google Drive, `STF_RG_TEMA_0344_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 388 — Revisão de auxílio-acidente concedido antes da Lei nº 9.032/1995 (mesma lógica do Tema 165, para outro benefício)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0388_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026, Lote 4. Mesma lógica já registrada no **Tema 165** (acima
+> nesta base) para pensão por morte — aqui aplicada ao **auxílio-acidente**:
+> não é possível aplicar retroativamente o novo coeficiente de cálculo da
+> Lei 9.032/1995 a benefícios concedidos antes de sua vigência.
+
+- **Processo paradigma:** RE 613.033 (origem: SP).
+- **Relator:** Min. Dias Toffoli.
+- **Objeto:** possibilidade, ou não, de revisão do auxílio-acidente
+  concedido antes da entrada em vigor da Lei nº 9.032/1995, com base no
+  novo coeficiente de cálculo estabelecido por essa norma.
+- **Data do julgamento/reafirmação de jurisprudência:** 15/04/2011,
+  Plenário Virtual — "O Tribunal reconheceu a existência de repercussão
+  geral da questão constitucional suscitada e, no mérito, reafirmou a
+  jurisprudência dominante sobre a matéria. Não se manifestaram os
+  Ministros Cezar Peluso e Cármen Lúcia."
+- **Tese firmada:** "É inviável a aplicação retroativa da majoração
+  prevista na Lei nº 9.032/1995 aos benefícios de auxílio-acidente
+  concedidos em data anterior à sua vigência."
+- **Trânsito em julgado:** registrado em 16/08/2011, com data de trânsito
+  em 20/06/2011 (andamento da página oficial).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** direta — mesmo raciocínio do Tema 165 (pensão por morte),
+  agora para auxílio-acidente; favorável ao INSS nesse ponto específico
+  (limita pretensões de revisão de benefícios antigos com o coeficiente da
+  Lei 9.032/1995). Útil para `analise-indeferimento` sempre que o cliente
+  pretender reajustar auxílio-acidente anterior a 1995 pelo novo
+  coeficiente.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0388_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 414 — Competência da Justiça Comum Estadual (não da Justiça Federal) para ações acidentárias contra o INSS
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0414_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026, Lote 4. **Nota de enquadramento:** é um tema de natureza
+> processual (competência), não de mérito do benefício — mas incorporado
+> porque define, de forma direta e vinculante, em qual Justiça o escritório
+> deve propor ações de benefícios por acidente de trabalho contra o INSS
+> (ponto prático de toda petição acidentária, não uma questão de
+> competência genérica desvinculada de matéria previdenciária).
+
+- **Processo paradigma:** RE 638.483 (origem: PE).
+- **Relator:** Ministro Presidente (à época do reconhecimento da
+  repercussão geral/reafirmação de jurisprudência — nome próprio não
+  identificado nesta tarefa).
+- **Objeto:** competência, ou não, da Justiça Federal para julgar causas
+  relativas ao restabelecimento de benefícios previdenciários decorrentes
+  de acidente de trabalho, à luz do art. 109, I, da Constituição Federal.
+- **Data do julgamento/reafirmação de jurisprudência:** 10/06/2011,
+  Plenário Virtual — "O Tribunal reconheceu a existência de repercussão
+  geral da questão constitucional suscitada, vencido o Ministro Luiz Fux
+  e, no mérito, reafirmou a jurisprudência dominante sobre a matéria,
+  vencidos os Ministros Ayres Britto e Marco Aurélio. Não se manifestaram
+  os Ministros Cármen Lúcia e Joaquim Barbosa."
+- **Tese firmada:** "Compete à Justiça Comum Estadual julgar as ações
+  acidentárias que, propostas pelo segurado contra o Instituto Nacional do
+  Seguro Social (INSS), visem à prestação de benefícios relativos a
+  acidentes de trabalho."
+- **Trânsito em julgado:** registrado em 27/06/2013, com data de trânsito
+  em 12/09/2011 (andamento da página oficial).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** direta para a prática — ações de benefícios acidentários
+  (auxílio-acidente, aposentadoria/auxílio por incapacidade decorrente de
+  acidente de trabalho, pensão por morte acidentária) propostas pelo
+  segurado contra o INSS tramitam na Justiça Comum Estadual, não na
+  Justiça Federal, por força desta tese (exceção à regra geral do art. 109,
+  I, da Constituição Federal, que atribuiria competência à Justiça
+  Federal por a União/INSS figurar como parte). Erro de endereçamento da
+  petição inicial nesse ponto pode gerar extinção/remessa e perda de
+  tempo processual — conferir sempre antes de protocolar ação acidentária.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0414_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
