@@ -503,9 +503,11 @@ Artigos-chave (numeração **corrigida** após a pesquisa de 24/09/2026):
     remete a aplicação subsidiária até norma específica
   - Arts. 340 e 346: Prazo de 30 dias para novo requerimento de benefício por incapacidade
   - Art. 576-A: Vedação de novo requerimento enquanto houver processo em curso —
-    **redação dada pela IN PRES/INSS nº 203/2026** (ver abaixo e
-    `instrucoes-normativas/in-203-2026.md`), posteriormente também
-    alterada/excepcionada pela IN 208/2026 para benefícios por incapacidade
+    redação dada pela IN PRES/INSS nº 203/2026, **substituída por completo**
+    (posterior) pela IN PRES/INSS nº 208/2026, que manteve a vedação geral e
+    a exceção do pedido de revisão e acrescentou a exceção do benefício por
+    incapacidade (regido pelos próprios arts. 340/346) — ver abaixo e
+    `instrucoes-normativas/in-203-2026.md` / `in-208-2026.md`
 - IN PRES/INSS 141/2022
 - IN PRES/INSS 176/2024
 - IN PRES/INSS 195/2025
@@ -534,28 +536,90 @@ Artigos-chave (numeração **corrigida** após a pesquisa de 24/09/2026):
   procedimento por inércia do beneficiário em 30 dias). Não altera a IN
   128/2022. `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
 - **IN PRES/INSS 203/2026** — Resumo em `instrucoes-normativas/in-203-2026.md`
-  (**novo, 16/10/2026**). **Única, entre as 5 INs processadas em 16/10/2026,
-  que efetivamente altera a IN 128/2022**: nova redação do **art. 576-A**
-  (vedação de novo requerimento da mesma espécie de benefício com processo
-  em curso), com §§1º-2º novos (definição de "processo pendente" pelo prazo
-  recursal; exceção para pedido de revisão). Revoga também a Resolução nº
-  438/PRES/INSS, de 03/09/2014 (norma não presente nesta base). Nota de
-  cruzamento adicionada em `in-128-2022.md`. `[FONTE OFICIAL — HTML/PDF DOU
-  NA BASE]`.
-- IN PRES/INSS 208/2026 — Afasta aplicação automática do art. 576-A para benefícios por incapacidade
-  (texto da própria IN 208/2026 ainda não lido nesta base — ver ressalva em
-  `in-203-2026.md` sobre a relação exata com a redação dada pela IN 203/2026)
-- IN PRES/INSS 212/2026
+  (**novo, 16/10/2026**). Altera a **IN 128/2022**: nova redação do **art.
+  576-A** (vedação de novo requerimento da mesma espécie de benefício com
+  processo em curso), com §§1º-2º novos (definição de "processo pendente"
+  pelo prazo recursal; exceção para pedido de revisão) — **redação depois
+  substituída por completo pela IN 208/2026** (ver abaixo). Revoga também a
+  Resolução nº 438/PRES/INSS, de 03/09/2014 (norma não presente nesta
+  base). Nota de cruzamento adicionada em `in-128-2022.md`. `[FONTE OFICIAL
+  — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 204/2026** — Resumo em `instrucoes-normativas/in-204-2026.md`
+  (**novo, 16/10/2026**). Altera a **IN PRES/INSS nº 138/2022** (crédito
+  consignado bancário, fora da base), não a IN 128/2022: limite de 108
+  parcelas (art. 5º, VI) e prorrogação do início do desconto por até 3
+  meses (art. 5º, §16, novo); revoga o art. 12, caput, IV. `[FONTE OFICIAL
+  — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 205/2026** — Resumo em `instrucoes-normativas/in-205-2026.md`
+  (**novo, 16/10/2026**, versão republicada). **Não trata de direito
+  previdenciário material** — altera a IN PRES/INSS nº 140/2022 (Programa
+  de Estágio de Estudantes do INSS): exigências de curso de proteção de
+  dados e Termo de Confidencialidade (TCMS) para acesso a sistemas. Não
+  altera a IN 128/2022. `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 206/2026** — Resumo em `instrucoes-normativas/in-206-2026.md`
+  (**novo, 16/10/2026**, versão retificada). **Não trata de direito
+  previdenciário material** — IN nova e autônoma que disciplina a
+  Gratificação por Encargo de Curso ou Concurso (GECC) de servidores do
+  INSS. Não altera a IN 128/2022. `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 207/2026** — Resumo em `instrucoes-normativas/in-207-2026.md`
+  (**novo, 16/10/2026**). Altera novamente a **IN PRES/INSS nº 138/2022**
+  (mesmo processo da IN 204/2026), não a IN 128/2022: biometria com prova
+  de vivacidade para autorizar consignado no Meu INSS (art. 5º, IX), limite
+  específico de desconto do BPC (art. 5º, §12) e fluxo de avaliação da
+  proposta em 5 dias (art. 5º, §§17-19, novos). `[FONTE OFICIAL — HTML/PDF
+  DOU NA BASE]`.
+- **IN PRES/INSS 208/2026** — Resumo em `instrucoes-normativas/in-208-2026.md`
+  (**novo, 16/10/2026**). Altera a **IN 128/2022**: publicada em 20/05/2026,
+  **posterior** à IN 203/2026 — **substitui por completo** o art. 576-A
+  (dado pela IN 203/2026 um mês antes), com novo caput e parágrafo único de
+  dois incisos (I — pedido de revisão, repete a exceção da IN 203; **II —
+  benefício por incapacidade, exceção nova**, regida pelos arts. 340/346 da
+  própria IN 128/2022). Confirma e precisa, com texto oficial, o achado
+  antes só de fonte secundária. `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 210/2026** — Resumo em `instrucoes-normativas/in-210-2026.md`
+  (**novo, 16/10/2026**). **Não trata de direito previdenciário material** —
+  altera a IN PRES/INSS nº 198/2025 (estágio probatório de servidores do
+  INSS), já consolidada em `in-198-2025.md`. Não altera a IN 128/2022.
+  `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 211/2026** — Resumo em `instrucoes-normativas/in-211-2026.md`
+  (**novo, 16/10/2026**). **Não trata de direito previdenciário material** —
+  IN nova e autônoma sobre cessão de uso de imóveis do INSS a terceiros.
+  Não altera a IN 128/2022. `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 212/2026** — Resumo em `instrucoes-normativas/in-212-2026.md`
+  (**novo, 16/10/2026**). Altera a **IN 128/2022** em **12 artigos**
+  distintos (184 §10; 216 V/§§1º-2º; 223 §2º-I/§3º; 339 §3º; 354 §1º; 355
+  §1º-II; 369-A novo; 514 I; 532 §4º; 566 §9º; 574 §4º-II; 600 parágrafo
+  único; 604 §3º) — período de graça, tempo de contribuição com alíquota
+  reduzida, PBC, auxílio por incapacidade temporária, auxílio-acidente,
+  pensão por morte (filho nascido após o óbito), contagem recíproca, fase
+  processual (procuração/advocacia, suspensão de prazos, desistência) e
+  manutenção de benefícios. Nenhuma sobreposição com o art. 576-A (INs
+  203/208). `[FONTE OFICIAL — HTML/PDF DOU NA BASE]`.
+- **IN PRES/INSS 213/2026** — Resumo em `instrucoes-normativas/in-213-2026.md`
+  (**novo, 16/10/2026**). Altera a **IN PRES/INSS nº 138/2022** (mesmo
+  processo das INs 204/2026 e 207/2026), não a IN 128/2022: portabilidade
+  biométrica (art. 5º, §§20-21), bloqueio de 90 dias do consignado a partir
+  da concessão do benefício (art. 8º, §1º) e interrupção de descontos por
+  falta de documentação da consignatária (art. 23-A, novo). **Correção de
+  escopo:** apesar do tema comum "proteção ao consignado do INSS", esta IN
+  **não trata de desconto associativo/sindical** (Lei 15.327/2026, Bloco
+  1) — é crédito consignado bancário, mecanismo distinto; nota de
+  cruzamento registrada em `lei-15.327-2026.md`. `[FONTE OFICIAL — HTML/PDF
+  DOU NA BASE]`.
 
 **Nota (16/10/2026):** das 274 normas do lote bruto em `legislacao/
-dou-inss-bruto/`, 5 Instruções Normativas (198/2025, 200/2026, 201/2026,
-202/2026 e 203/2026) foram processadas nesta sessão, cada uma com arquivo
-próprio acima. **Confirmado por leitura: nem toda IN do lote altera a IN
-128/2022** — das 5, só a 203/2026 o faz; 200/2026 e 202/2026 alteram a IN
-186/2025 (fora da base); 198/2025 e 201/2026 são normas de pessoal, sem
-relação com direito previdenciário material. As demais ~269 normas do lote
-(outras INs, Portarias, Resoluções, Leis, Decretos) **permanecem não
-processadas** — ver `legislacao/dou-inss-bruto/` para o inventário bruto.
+dou-inss-bruto/`, 14 Instruções Normativas (198/2025, 200/2026, 201/2026,
+202/2026, 203/2026, 204/2026, 205/2026, 206/2026, 207/2026, 208/2026,
+210/2026, 211/2026, 212/2026 e 213/2026) foram processadas até agora, cada
+uma com arquivo próprio acima. **Confirmado por leitura: nem toda IN do
+lote altera a IN 128/2022** — das 14, só 203/2026, 208/2026 e 212/2026 o
+fazem; 200/2026 e 202/2026 alteram a IN 186/2025 (fora da base); 204/2026,
+207/2026 e 213/2026 alteram a IN 138/2022 (crédito consignado, fora da
+base); 198/2025, 201/2026, 205/2026, 206/2026, 210/2026 e 211/2026 são
+normas de pessoal/gestão administrativa interna do INSS, sem relação com
+direito previdenciário material. As demais ~260 normas do lote (outras
+INs, Portarias, Resoluções, Leis, Decretos) **permanecem não processadas**
+— ver `legislacao/dou-inss-bruto/` para o inventário bruto.
 
 ## 7. Portarias (2026)
 - Portaria Interministerial MPS/MF 13/2026

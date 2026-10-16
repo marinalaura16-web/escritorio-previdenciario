@@ -116,6 +116,35 @@ automático sem antes confirmar o texto legal.**
 
 ---
 
+## ⚠️ Nota de cruzamento (16/10/2026) — INs PRES/INSS que regulamentam crédito consignado (IN 138/2022)
+
+Processadas nesta data: **IN PRES/INSS 204/2026, 207/2026 e 213/2026**
+(resumos em `instrucoes-normativas/in-204-2026.md`, `in-207-2026.md` e
+`in-213-2026.md`). As três alteram a **IN PRES/INSS nº 138/2022** (crédito
+consignado bancário descontado em benefícios do INSS) — norma ainda **não
+presente nesta base** como arquivo próprio. Temas tocados: limite de 108
+parcelas e prorrogação do início do desconto (IN 204); biometria com prova
+de vivacidade para autorização no Meu INSS, limite específico de desconto
+do BPC e fluxo de avaliação da proposta em 5 dias (IN 207); portabilidade
+biométrica, bloqueio de 90 dias a partir da concessão do benefício e
+interrupção de descontos por falta de documentação da consignatária (IN
+213).
+
+**Correção de escopo relevante:** uma leitura anterior desta tarefa
+presumia que a IN 213/2026 regulamentaria especificamente a **vedação de
+descontos associativos** (Bloco 1 abaixo). **Não é o caso** — as três INs
+(204, 207 e 213) tratam exclusivamente de **crédito consignado bancário**
+(empréstimo), mecanismo **distinto** da mensalidade associativa/sindical.
+Nenhuma delas cita o art. 115 da Lei 8.213/91 nem menciona entidade
+associativa ou sindical. O regulamento administrativo do desconto
+associativo (consulta/contestação/restituição) está na **IN PRES/INSS nº
+186/2025**, alterada pelas INs 200/2026 e 202/2026 (ver `INDICE.md`) — essa
+sim é a norma correlata ao Bloco 1 desta Lei, mas também **não está
+presente nesta base** como arquivo próprio. **Nenhuma pendência deste
+arquivo (numeração exata de artigo, data de vigência, texto do art. 115)
+foi resolvida por esta nota** — ela apenas corrige a atribuição temática
+das INs de crédito consignado, sem alterar o conteúdo dos blocos abaixo.
+
 ## Bloco 3 — Regras para Crédito Consignado
 
 Reconstrução (boa convergência — migalhas.com.br, garantedireito.com.br,
