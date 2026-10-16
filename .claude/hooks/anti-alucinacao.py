@@ -56,6 +56,38 @@ MAPA_NORMAS = {
     "LEI 8.742": ["leis-ordinarias/lei-8.742-1993.md"],
     "LEI 13.846": ["leis-ordinarias/lei-13.846-2019.md"],
     "DECRETO 6.214": ["decretos/decreto-6.214-2007.md"],
+    # Normas CRPS e Portarias adicionadas em 16/10/2026 (tarefa de
+    # processamento do lote dou-inss-bruto/ sobre CRPS e as duas Portarias
+    # ja citadas de fonte secundaria no CLAUDE.md). O Regimento Interno do
+    # CRPS (RICRPS) e citado por extenso ("Regimento Interno do CRPS") ou
+    # pela sigla "RICRPS" -- ver chaves abaixo e a extensao do _NORMA mais
+    # adiante neste arquivo.
+    "REGIMENTO INTERNO DO CRPS": ["crps/regimento-interno-crps-2026.md"],
+    "RICRPS": ["crps/regimento-interno-crps-2026.md"],
+    "IN CRPS": [
+        "crps/in-crps-mps-2-2026.md",
+        "crps/in-crps-mps-6-2026.md",
+        "crps/in-crps-mps-8-9-2026.md",
+    ],
+    "PORTARIA CRPS": [
+        "crps/portaria-crps-mps-357-2026.md",
+        "crps/portaria-crps-mps-494-2026.md",
+        "crps/portarias-crps-composicoes-adjuntas-2026.md",
+    ],
+    # Chaves "oficiais" sugeridas na tarefa (mantidas por legibilidade,
+    # ainda que o texto literal "PORTARIA DIRBEN 1.347"/"PORTARIA
+    # INTERMINISTERIAL 13" nao seja, por si so, um substring contiguo do
+    # que _NORMA tende a extrair de uma citacao real -- por isso as chaves
+    # alternativas abaixo, construidas a partir do trecho que o regex de
+    # fato captura, garantem o casamento funcional):
+    "PORTARIA DIRBEN 1.347": ["portarias/portaria-dirben-1347-2026.md"],
+    "PORTARIA INTERMINISTERIAL 13": [
+        "portarias/portaria-interministerial-13-2026.md"
+    ],
+    "PORTARIA DIRBEN": ["portarias/portaria-dirben-1347-2026.md"],
+    "PORTARIA INTERMINISTERIAL": [
+        "portarias/portaria-interministerial-13-2026.md"
+    ],
 }
 
 # Observacao sobre fontes PDF (achado do teste de orquestracao de
@@ -141,7 +173,17 @@ _NORMA = (
     r'|LEI\s+(?:n[º°o]\.?\s*)?[\d.]+(?:/\d{2,4})?'
     r'|DECRETO\s+(?:n[º°o]\.?\s*)?[\d.]+(?:/\d{2,4})?'
     r'|EC\s+(?:n[º°o]\.?\s*)?\d+(?:/\d{2,4})?'
+    r'|IN\s+CRPS(?:/MPS)?\s+(?:n[º°o]\.?\s*)?\d+(?:/\d{2,4})?'
     r'|IN\s+\d+(?:/\d{2,4})?'
+    # Portaria (simples, interministerial ou do CRPS): "PORTARIA [INTER-
+    # MINISTERIAL] <ORGAO[/ORGAO]> nº N[.NNN]" -- achado do processamento
+    # do lote dou-inss-bruto/ em 16/10/2026 (CRPS, Portaria DIRBEN 1.347 e
+    # Portaria Interministerial MPS/MF 13).
+    r'|PORTARIA\s+(?:INTERMINISTERIAL\s+)?[A-Z]+(?:/[A-Z]+)?\s+(?:n[º°o]\.?\s*)?[\d.]+(?:/\d{2,4})?'
+    # Regimento Interno do CRPS (RICRPS), por extenso ou por sigla --
+    # mesmo achado de 16/10/2026 (Portaria MPS 125/2026).
+    r'|REGIMENTO\s+INTERNO(?:\s+DO)?\s+CRPS'
+    r'|RICRPS'
     r')'
 )
 _SUFIXO_ARTIGO = (
@@ -191,6 +233,22 @@ def rodar_testes():
         ("Lei 8.213/1991, art. 52", "LEI 8.213/1991", "52"),
         ("Decreto nº 3.048, art. 305", "DECRETO Nº 3.048", "305"),
         ("art. 20, § 2º, II, da EC 103", "EC 103", "20"),
+        # Formatos novos (CRPS e Portarias), adicionados no processamento
+        # do lote dou-inss-bruto/ em 16/10/2026. Mesma observacao do
+        # bloco acima: [DISPOSITIVO A CONFIRMAR] so para o hook nao se
+        # autobloquear ao validar esta propria edicao.
+        (
+            "Portaria DIRBEN/INSS nº 1.347, art. 5º",
+            "PORTARIA DIRBEN/INSS Nº 1.347",
+            "5",
+        ),
+        (
+            "Portaria Interministerial MPS/MF nº 13, art. 7º",
+            "PORTARIA INTERMINISTERIAL MPS/MF Nº 13",
+            "7",
+        ),
+        ("art. 86 do Regimento Interno do CRPS", "REGIMENTO INTERNO DO CRPS", "86"),
+        ("IN CRPS/MPS nº 2, art. 17", "IN CRPS/MPS Nº 2", "17"),
     ]
     todos_ok = True
     print("Testes de extrair_citacoes():")

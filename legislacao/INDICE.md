@@ -9,6 +9,7 @@
 6. Instruções Normativas do INSS
 7. Portarias
 8. Jurisprudência vinculante
+9. Normas do CRPS (Regimento Interno, Instruções Normativas e Portarias)
 
 ## 1. Constituição Federal
 Arquivo: constituicao/cf-1988-seguridade-social.md
@@ -622,17 +623,40 @@ INs, Portarias, Resoluções, Leis, Decretos) **permanecem não processadas**
 — ver `legislacao/dou-inss-bruto/` para o inventário bruto.
 
 ## 7. Portarias (2026)
-- Portaria Interministerial MPS/MF 13/2026
-  - Reajuste de 3,90% a partir de 01/01/2026
-  - Teto previdenciário: R$ 8.475,55
+- **Portaria Interministerial MPS/MF nº 13, de 09/01/2026** —
+  `portarias/portaria-interministerial-13-2026.md` (**novo, 16/10/2026**).
+  **✅ CONFIRMADO POR FONTE OFICIAL EM 16/10/2026** (HTML do DOU na base —
+  `legislacao/dou-inss-bruto/2026-01/`):
+  - Reajuste de 3,90% a partir de 01/01/2026 (benefícios com DIB a partir
+    de 01/2025; DIB anterior segue tabela escalonada do Anexo I, de 0,21%
+    a 3,90% conforme o mês)
+  - Teto previdenciário: R$ 8.475,55 — **e piso: R$ 1.621,00** (não citado
+    na versão anterior deste índice)
   - Salário-família: R$ 67,54 (remuneração até R$ 1.980,38)
-  - Faixas: 7,5% / 9% / 12% / 14%
+  - Faixas de contribuição do empregado/doméstico/avulso: 7,5% / 9% / 12% / 14%
+  - Revoga a Portaria Interministerial MPS/MF nº 6/2025.
+  - Ver o arquivo para auxílio-reclusão, demais benefícios de valor fixo,
+    multas do RPS e tabela RPPS da União (Anexo III), não detalhados aqui.
 
-- Portaria DIRBEN/INSS 1.347/2026
-  - Cadastro biométrico obrigatório para benefícios requeridos a partir de 21/11/2025
-  - Prazo de 30 dias para regularização
-  - Isenções: 80+ anos, áreas de difícil acesso
-  - Exceções: auxílio-doença, auxílio-acidente, pensão por morte, salário-maternidade, aposentadoria por incapacidade permanente
+- **Portaria DIRBEN/INSS nº 1.347, de 18/06/2026** —
+  `portarias/portaria-dirben-1347-2026.md` (**novo, 16/10/2026**).
+  **✅ CONFIRMADO POR FONTE OFICIAL EM 16/10/2026**, com uma correção de
+  escopo:
+  - Cadastro biométrico obrigatório para benefícios requeridos a partir de
+    21/11/2025 (BPC-LOAS tem marco próprio e anterior: 01/09/2024)
+  - Não comprovação em 30 dias da exigência caracteriza **desistência do
+    pedido** (não "regularização" em sentido amplo)
+  - Isenções: 80+ anos; áreas de difícil acesso; **e também** migrantes/
+    refugiados/apátridas; residentes no exterior; impossibilidade de
+    deslocamento por mais de 30 dias por saúde/deficiência (rol mais
+    amplo do que o registrado antes neste índice)
+  - **Correção: a exceção por espécie de benefício é "salário-maternidade,
+    benefício por incapacidade e pensão por morte" (art. 4º, VI) — a
+    versão anterior deste índice citava, incorretamente, "auxílio-doença,
+    auxílio-acidente [...] e aposentadoria por incapacidade permanente"
+    como itens separados; o texto oficial não exclui "auxílio-acidente"
+    da biometria e usa o termo guarda-chuva "benefício por incapacidade"
+    (cobre temporária e permanente), não dois itens distintos.**
 
 ## 8. Jurisprudência Vinculante
 - Súmulas STF — jurisprudencia-vinculante/sumulas-stf.md
@@ -715,6 +739,50 @@ INs, Portarias, Resoluções, Leis, Decretos) **permanecem não processadas**
 - `tabelas/FONTES.md` — fontes oficiais, critério de qual índice usar (CJF x
   INSS), referência para conferência manual e instruções de validação
 
+## 10. Normas do CRPS — Regimento Interno, Instruções Normativas e Portarias (2026)
+
+**Novo, 16/10/2026** — processamento do lote `legislacao/dou-inss-bruto/`
+relativo ao Conselho de Recursos da Previdência Social (CRPS), motivado
+pela lacuna "Regimento Interno do CRPS ausente da base", citada
+repetidamente em `CLAUDE.md` (Sessão de 15/10/2026, Blocos 10-11) e nos
+casos de teste `2026-TESTE-001`/`2026-TESTE-002`.
+
+- **⭐ `crps/regimento-interno-crps-2026.md`** — Regimento Interno do CRPS
+  (RICRPS), aprovado pela **Portaria MPS nº 125, de 26/01/2026** (Anexo,
+  155 artigos), em vigor desde ~05/02/2026 (7 dias úteis após a
+  publicação). **Resolve a lacuna**: prazo recursal de 30 dias (art. 77),
+  regras de intimação/ciência (arts. 79-80), desistência recursal (art.
+  85) e, sobretudo, **renúncia tácita ao recurso administrativo pela
+  propositura de ação judicial com objeto idêntico (art. 86 —
+  fundamento citado pelo próprio Regimento: art. 126, § 3º, da Lei
+  8.213/1991 `[DISPOSITIVO A CONFIRMAR NA BASE — art. 126 da Lei
+  8.213/1991 ainda não consta do resumo lei-8.213-1991.md]`)**. Revoga a
+  Portaria MTP nº 4.061/2022 (Regimento anterior). **Pendência:** duas
+  portarias que alteraram este Regimento depois de sua edição — Portaria
+  MPS nº 235/2026 e Portaria MPS nº 462/2026 — não foram lidas nesta
+  tarefa (não estavam no lote fornecido).
+- `crps/in-crps-mps-2-2026.md` — altera a IN CRPS nº 1/2022 (governança de
+  conselheiros: recondução, recurso interno de mandato, prova médica
+  recursal); baixa relevância para o segurado.
+- `crps/in-crps-mps-6-2026.md` — altera a IN CRPS nº 1/2022, art. 87-D,
+  § 1º, II (prova de incapacidade em período posterior à cessação do
+  benefício); relevância média em recursos sobre benefício por
+  incapacidade.
+- `crps/in-crps-mps-8-9-2026.md` — consolida a IN CRPS nº 8/2026 (original
+  e republicação, com divergência real de valores entre as duas) e a IN
+  CRPS nº 9/2026 (revoga a IN 8/2026); matéria de jeton/gratificação de
+  conselheiro, sem relevância para o segurado.
+- `crps/portaria-crps-mps-357-2026.md` — **suspensão dos prazos recursais
+  no CRPS entre 27/01/2026 e 01/02/2026** (migração tecnológica do CV3),
+  com retomada da contagem pelo saldo de dias. Relevante para checar
+  tempestividade de recursos com ciência nesse período.
+- `crps/portaria-crps-mps-494-2026.md` — institui as "Sessões de
+  Julgamento Itinerantes" do CRPS; não altera rito, prazo ou competência.
+- `crps/portarias-crps-composicoes-adjuntas-2026.md` — consolida as
+  Portarias CRPS/MPS nº 984, 991 e 1.115/2026 (desativação de composições
+  adjuntas de Juntas de Recursos em MG, DF e SP/Bauru); puramente
+  administrativo, sem relevância para o segurado.
+
 ## Pendências desta base
 1. Textos integrais (.html/.pdf) da maioria das normas ainda não populados.
    Exceções parciais, ambas **a partir de fontes secundárias/reconstrução
@@ -762,7 +830,18 @@ INs, Portarias, Resoluções, Leis, Decretos) **permanecem não processadas**
    8.212/91) e o decreto 6.214/2007 completado além do já coberto nesta
    sessão. O **Decreto 10.410/2020 (RPPS) não será populado** — ver seção
    5 acima, "não incorporado por despriorização".
-2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente
+2. Portarias de 2026 e Súmulas ainda não incorporadas individualmente.
+   **Atualização de 16/10/2026:** duas portarias já citadas de fonte
+   secundária no `CLAUDE.md` — Portaria Interministerial MPS/MF nº
+   13/2026 e Portaria DIRBEN/INSS nº 1.347/2026 — foram **confirmadas por
+   fonte oficial** (HTML do DOU na base) e documentadas em
+   `portarias/portaria-interministerial-13-2026.md` e
+   `portarias/portaria-dirben-1347-2026.md`; ver seção 7 acima para o
+   detalhamento e as correções de escopo encontradas. Também nesta data,
+   processado o lote de normas do CRPS (Regimento Interno + 2 INs + 5
+   Portarias) — ver seção 10 acima. As demais ~250 normas do lote bruto em
+   `legislacao/dou-inss-bruto/` (outras Portarias DIRBEN, Portarias
+   Conjuntas, Leis, etc.) **permanecem não processadas individualmente**.
 3. `tabelas/inpc-historico.csv` e `tabelas/tetos-rgps-historico.csv` já
    populados (ver `tabelas/FONTES.md` para fontes e datas de download)
 4. Jurisprudência a incorporar formalmente à base vinculante (identificada
