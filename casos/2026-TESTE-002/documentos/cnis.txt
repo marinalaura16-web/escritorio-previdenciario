@@ -1,0 +1,25 @@
+[CASO SIMULADO - DADOS FICTICIOS PARA TESTE DO SISTEMA - NAO E CLIENTE REAL]
+
+CNIS - Cadastro Nacional de Informacoes Sociais
+Nome: MARIA TESTE DA CONCEICAO
+CPF: 111.222.333-44
+NIT: 222.33344.55-6
+Data de nascimento: 15/03/1971
+Data de emissao do extrato: 20/08/2026
+
+Vinculos:
+01) EMPREGADORA DOMESTICA PESSOA FISICA (CPF 555.666.777-88) - categoria empregada domestica
+    Admissao: 03/2016
+    Demissao: 10/2016
+    Municipio: Recife/PE
+    Remuneracao media: 1 salario-minimo/mes
+    Recolhimentos: regulares no periodo, sem indicador de pendencia
+
+Observacao do extrato: nao constam outros vinculos, contribuicoes como
+contribuinte individual/facultativa, nem indicadores de atividade rural
+(segurada especial nao tem obrigacao de contribuicao mensal sobre o RGPS
+pela atividade rural em regime de economia familiar, salvo sobre a
+comercializacao da producao - Lei 8.212/1991, art. 25).
+
+Nenhum beneficio previdenciario ativo ou cessado consta para esta
+requerente.

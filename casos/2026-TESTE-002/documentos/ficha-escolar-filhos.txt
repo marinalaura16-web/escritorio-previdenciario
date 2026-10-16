@@ -1,0 +1,23 @@
+[CASO SIMULADO - DADOS FICTICIOS PARA TESTE DO SISTEMA - NAO E CLIENTE REAL]
+
+ESCOLA MUNICIPAL SAO JOSE DA ZONA RURAL - VITORIA DE SANTO ANTAO/PE
+FICHA DE MATRICULA DE ALUNO (arquivo historico)
+
+Aluno: JOSE TESTE DOS SANTOS FILHO
+Data de nascimento: 10/04/1991
+Ano letivo: 1998 (3a serie do ensino fundamental)
+Endereco: Sitio Boa Esperanca, Zona Rural, Vitoria de Santo Antao/PE
+Nome do pai: Jose Teste dos Santos - Profissao: Agricultor
+Nome da mae: Maria Teste da Conceicao - Profissao: Agricultora/Do lar
+
+---
+
+ESCOLA MUNICIPAL SAO JOSE DA ZONA RURAL - VITORIA DE SANTO ANTAO/PE
+FICHA DE MATRICULA DE ALUNO (arquivo historico)
+
+Aluna: MARIA TESTE DOS SANTOS DA CONCEICAO FILHA
+Data de nascimento: 22/01/1994
+Ano letivo: 2001 (2a serie do ensino fundamental)
+Endereco: Sitio Boa Esperanca, Zona Rural, Vitoria de Santo Antao/PE
+Nome do pai: Jose Teste dos Santos - Profissao: Agricultor
+Nome da mae: Maria Teste da Conceicao - Profissao: Agricultora/Do lar

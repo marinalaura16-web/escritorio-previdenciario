@@ -1,0 +1,37 @@
+[CASO SIMULADO - DADOS FICTICIOS PARA TESTE DO SISTEMA - NAO E CLIENTE REAL]
+
+RESUMO DE NOTAS FISCAIS DE PRODUTOR RURAL (BLOCO DO PRODUTOR)
+Titular do bloco: JOSE TESTE DOS SANTOS, CPF 222.333.444-55
+Inscricao Estadual de Produtor Rural: PE-998877-6
+Imovel: Sitio Boa Esperanca, Zona Rural, Vitoria de Santo Antao/PE
+(as notas sao emitidas em nome do marido, titular formal do bloco de
+produtor; a autora figura como integrante do nucleo familiar que explora
+o imovel em regime de economia familiar, conforme declaracao sindical e
+prova testemunhal a produzir)
+
+Amostragem de vendas de producao agricola constantes do talonario
+(nao e a listagem completa, apenas amostra representativa por decada):
+
+- 14/05/1991 - venda de feijao e milho - Feira Livre de Vitoria de Santo
+  Antao - CPF comprador nao identificado (feira livre)
+- 22/08/1998 - venda de mandioca e hortalicas - Associacao de
+  Agricultores de Vitoria de Santo Antao
+- 10/03/2005 - venda de producao mista (feijao, milho, mandioca) -
+  CEASA-PE
+- 19/09/2011 - venda de hortalicas - Feira Livre de Vitoria de Santo
+  Antao
+- 03/02/2016 - venda de producao mista - CEASA-PE (ultima nota antes do
+  periodo de estiagem e do afastamento temporario da autora para
+  trabalho urbano)
+- 14/11/2016 - venda de hortalicas - Feira Livre de Vitoria de Santo
+  Antao (retomada da producao apos o periodo de estiagem)
+- 08/06/2019 - venda de producao mista - CEASA-PE
+- 25/04/2023 - venda de hortalicas - Associacao de Agricultores de
+  Vitoria de Santo Antao
+- 12/07/2026 - venda de producao mista - CEASA-PE (nota mais recente,
+  anterior ao requerimento administrativo de 20/08/2026)
+
+Observacao: o talonario fisico completo, com todas as notas do periodo de
+1985 a 2026, nao foi digitalizado neste resumo; recomenda-se juntada do
+talonario integral ou de copia autenticada antes do protocolo de qualquer
+peca.

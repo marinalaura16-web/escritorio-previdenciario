@@ -1,0 +1,25 @@
+[CASO SIMULADO - DADOS FICTICIOS PARA TESTE DO SISTEMA - NAO E CLIENTE REAL]
+
+INSTITUTO NACIONAL DO SEGURO SOCIAL
+COMUNICACAO DE DECISAO
+
+NB: 987.654.321-0
+Especie: 41 - Aposentadoria por Idade (Trabalhador Rural)
+Nome do requerente: MARIA TESTE DA CONCEICAO
+CPF: 111.222.333-44
+Data do requerimento (DER): 20/08/2026
+Data da decisao: 25/09/2026
+
+DECISAO: INDEFERIDO
+
+Motivo: Nao restou comprovado o exercicio de atividade rural, em regime de
+economia familiar, de forma ininterrupta, no periodo de carencia imediatamente
+anterior ao requerimento (180 meses). Consta do CNIS da requerente vinculo
+empregaticio urbano (CNPJ 22.333.444/0001-55, categoria empregada domestica)
+no periodo de 03/2016 a 10/2016, o que descaracteriza a qualidade de segurada
+especial a partir dessa data. Considerando-se apenas o periodo posterior ao
+referido vinculo urbano (11/2016 a 08/2026), a requerente conta com
+aproximadamente 117 (cento e dezessete) meses de efetivo exercicio de
+atividade rural, numero insuficiente para completar os 180 meses exigidos.
+
+Servico de Analise de Beneficios - INSS

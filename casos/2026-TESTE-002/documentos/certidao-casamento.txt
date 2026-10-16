@@ -1,0 +1,22 @@
+[CASO SIMULADO - DADOS FICTICIOS PARA TESTE DO SISTEMA - NAO E CLIENTE REAL]
+
+CARTORIO DE REGISTRO CIVIL DE VITORIA DE SANTO ANTAO - PE
+CERTIDAO DE CASAMENTO
+
+Livro B-45, Folha 112, Termo 8.901
+
+Contraentes:
+JOSE TESTE DOS SANTOS, brasileiro, lavrador, nascido em 02/06/1968,
+filho de Antonio Teste dos Santos e Maria Jose dos Santos, residente no
+Sitio Boa Esperanca, Zona Rural, Vitoria de Santo Antao/PE.
+
+MARIA TESTE DA CONCEICAO, brasileira, lavradora, nascida em 15/03/1971,
+filha de Severino Jose da Conceicao e Josefa Maria da Conceicao,
+residente no mesmo endereco.
+
+Data do casamento: 18/11/1989
+
+Regime de bens: comunhao parcial de bens.
+
+Observacoes: profissao de ambos os conjuges declarada como "lavrador" /
+"lavradora" na epoca do ato, conforme consta do livro de registro.

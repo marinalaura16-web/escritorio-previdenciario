@@ -1,0 +1,21 @@
+[CASO SIMULADO - DADOS FICTICIOS PARA TESTE DO SISTEMA - NAO E CLIENTE REAL]
+
+CERTIFICADO DE CADASTRO DE IMOVEL RURAL (CCIR) - INCRA
+Codigo do imovel: 123.456.789.012-3
+Nome do imovel: Sitio Boa Esperanca
+Municipio: Vitoria de Santo Antao/PE
+Titular do cadastro: JOSE TESTE DOS SANTOS, CPF 222.333.444-55
+
+Area total do imovel: 20,0 hectares
+Area do modulo fiscal do municipio (referencia INCRA): 14,0 hectares
+Classificacao fundiaria: Pequena Propriedade (ate 4 modulos fiscais) -
+area equivalente a aproximadamente 1,43 modulo fiscal
+
+Numero de empregados permanentes registrados: nenhum (exploracao em
+regime de economia familiar, sem empregados permanentes - uso eventual
+de mao de obra de terceiros em regime de mutirao/ajuda mutua em epoca de
+colheita, conforme declaracao sindical)
+
+Documento Informativo de ITR (Imposto Territorial Rural) mais recente:
+exercicio 2025, titular Jose Teste dos Santos, situacao: regular, sem
+pendencias.
