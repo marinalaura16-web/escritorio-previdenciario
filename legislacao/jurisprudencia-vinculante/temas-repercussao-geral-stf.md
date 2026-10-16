@@ -45,6 +45,43 @@
 > servidor público, Direito Tributário geral sem relação com o RGPS, ou
 > competência processual) — não receberam entrada própria neste arquivo;
 > ver o relatório da tarefa para o detalhamento de cada descarte.
+>
+> **Lote 2, mesmo dia (16/10/2026):** processados mais 19 Temas de
+> repercussão geral do STF (números 0100, 0110, 0128, 0133, 0143, 0149,
+> 0153, 0160, 0162, 0163, 0165, 0173, 0189, 0190, 0197, 0199, 0202, 0204 e
+> 0215), a partir da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html` e, quando disponível, `_ACORDAO_N.pdf`).
+> **4 desses 19 temas são efetivamente previdenciários (RGPS)** e foram
+> incorporados como entradas próprias, todas marcadas
+> `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`: **Tema 165** (pensão
+> por morte — veda a revisão de benefício anterior à Lei 9.032/1995 com o
+> novo coeficiente de cálculo dessa lei), **Tema 173** (BPC/LOAS —
+> estrangeiros residentes no País são beneficiários, agrupado com o
+> Tema 27) e **Temas 202 e 204** (custeio — Lei 8.212/1991, arts. 25 e
+> 22, § 1º, agrupados com os Temas 166/281/32/3/20/72 já existentes).
+> **Os outros 15 temas foram verificados e descartados**, pelo mesmo
+> padrão já identificado no lote anterior — a maioria é RPPS de servidor
+> público/militar ou previdência complementar privada (Temas 153, 160,
+> 162, 163, 189, 190, 199), Direito Processual Civil/competência (Temas
+> 100, 128, 149), Direito Tributário geral sem relação com o RGPS (Temas
+> 110, 215), Direito Civil/do Trabalho sem relação com benefício do RGPS
+> (Temas 143, 197), e dois temas sem repercussão geral reconhecida e sem
+> tese de mérito própria sobre o RGPS (Temas 133 e 199, já contado acima)
+> — ver o relatório da tarefa para o detalhamento de cada descarte.
+> **Achado a registrar:** o Tema 202 declarou inconstitucional a redação
+> do **art. 25 da Lei 8.212/1991** dada pela **Lei 8.540/1992**
+> (contribuição do empregador rural pessoa física sobre a receita bruta
+> da comercialização de sua produção, por ausência de lei complementar);
+> o conteúdo hoje registrado em `leis-ordinarias/lei-8.212-1991.md` para
+> o art. 25 (segurado especial, alíquotas 1,2%/0,1%, "constitucionalidade
+> confirmada") parece referir-se a uma **redação posterior e distinta**
+> (após a EC 20/1998 e a Lei 10.256/2001, que deram amparo constitucional
+> expresso a essa contribuição substitutiva) — **`[A CONFIRMAR NA FONTE
+> OFICIAL]`** a linha exata de redações do art. 25 e se as duas conclusões
+> (uma inconstitucional, a vigente constitucional) realmente coexistem
+> sem contradição; não alterado nesta tarefa por estar fora do escopo
+> (arquivo da Lei 8.212/1991), só sinalizado aqui e na entrada do Tema 202
+> abaixo.
 
 ---
 
@@ -416,6 +453,38 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
 - **Data de consulta:** 21/09/2026 (fonte secundária) e 16/10/2026 (fonte
   oficial).
 
+## Tema 173 — BPC/LOAS: estrangeiros residentes no País são beneficiários da assistência social do art. 203, V, CF
+
+> **`[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`** — conferido contra
+> `STF_RG_TEMA_0173_pagina.html` e `STF_RG_TEMA_0173_ACORDAO_1.pdf`
+> (Google Drive, pasta pessoal da usuária) em 16/10/2026. Agrupado aqui
+> com o Tema 27 (acima), por tratar do mesmo benefício (BPC/LOAS).
+
+- **Processo paradigma:** RE 587.970 (origem: SP).
+- **Relator:** Min. Marco Aurélio.
+- **Partes:** RECTE. Instituto Nacional do Seguro Social — INSS; RECDO.
+  Felícia Mazzitello Albanese.
+- **Data do julgamento de mérito:** 20/04/2017, Tribunal Pleno, por
+  unanimidade.
+- **Objeto:** possibilidade, ou não, de conceder a estrangeiros
+  residentes no Brasil o benefício assistencial de prestação continuada
+  previsto no art. 203, V, da Constituição Federal.
+- **Tese firmada:** "Os estrangeiros residentes no País são beneficiários
+  da assistência social prevista no artigo 203, inciso V, da Constituição
+  Federal, uma vez atendidos os requisitos constitucionais e legais."
+- **Trânsito em julgado:** 12/10/2017 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Relevância:** direta — amplia o universo de beneficiários do BPC a
+  estrangeiros residentes no Brasil (não só brasileiros natos e
+  naturalizados), desde que atendidos os demais requisitos legais
+  (deficiência/idade e critério de renda, art. 20 da Lei 8.742/1993, já
+  tratado nesta base). Relevante para clientes estrangeiros residentes
+  que o escritório venha a atender.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0173_pagina.html` e
+  `STF_RG_TEMA_0173_ACORDAO_1.pdf` (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
 ---
 
 ## Recursos Extraordinários com Repercussão Geral — Custeio (Lei 8.212/1991)
@@ -719,6 +788,91 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
+### Tema 202 — Inconstitucionalidade da contribuição do empregador rural pessoa física sobre a receita bruta da comercialização (art. 25 da Lei 8.212/91, redação da Lei 8.540/92)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0202_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Ver o alerta no topo deste arquivo:** a redação do
+> art. 25 aqui declarada inconstitucional (Lei 8.540/1992) parece ser
+> **anterior e distinta** da redação hoje registrada em
+> `leis-ordinarias/lei-8.212-1991.md` para o mesmo artigo (que descreve o
+> regime pós-EC 20/1998 e Lei 10.256/2001, tratado como constitucional) —
+> `[A CONFIRMAR NA FONTE OFICIAL]` a linha exata das redações sucessivas.
+
+- **Processo paradigma:** RE 596.177 (origem: RS).
+- **Relator:** Min. Ricardo Lewandowski.
+- **Partes:** RECTE. Adolfo Angelo Marzari Junior; RECDO. União.
+- **Data do julgamento de mérito:** 01/08/2011, Tribunal Pleno, por
+  unanimidade — deu provimento ao recurso extraordinário.
+- **Objeto:** constitucionalidade, ou não, do art. 25 da Lei nº 8.212/91,
+  na redação dada pela Lei nº 8.540/1992, que instituiu contribuição a
+  ser recolhida pelo empregador rural pessoa física sobre a receita bruta
+  proveniente da comercialização de sua produção.
+- **Tese firmada:** "É inconstitucional a contribuição, a ser recolhida
+  pelo empregador rural pessoa física, incidente sobre a receita bruta
+  proveniente da comercialização de sua produção, prevista no art. 25 da
+  Lei 8.212/1991, com a redação dada pelo art. 1º da Lei 8.540/1992."
+- **Embargos de declaração** (opostos pela União): acolhidos em parte,
+  por unanimidade, em 17/10/2013, apenas para excluir fundamento da
+  ementa (ofensa ao art. 150, II, CF), sem alteração do resultado nem da
+  tese.
+- **Trânsito em julgado:** 09/12/2013 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Relevância:** companheiro dos Temas 166/281/32/3/20/72 já nesta base
+  (mesma linha de custeio da Lei 8.212/1991, declarando inconstitucional
+  fonte de custeio por ausência de lei complementar, art. 195, § 4º, c/c
+  art. 154, I, da CF) — mas **atenção à ressalva de redação** no alerta
+  acima: confirmar se a contribuição hoje exigida do produtor rural/
+  segurado especial (regime pós-EC 20/1998) é a mesma matéria ou uma
+  redação sucessiva já reformulada antes de aplicar esta tese a um caso
+  atual.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0202_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+### Tema 204 — Constitucionalidade da alíquota adicional de 2,5% sobre a folha de salários de instituições financeiras (art. 22, § 1º, da Lei 8.212/91)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0204_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Pendência residual:** o § 1º do art. 22 da Lei
+> 8.212/1991 ainda não está registrado em
+> `leis-ordinarias/lei-8.212-1991.md` (o arquivo cobre o art. 22, mas não
+> confirmadamente este parágrafo) — não alterado nesta tarefa, por estar
+> fora do escopo (arquivo de jurisprudência, não de legislação).
+
+- **Processo paradigma:** RE 598.572 (origem: SP).
+- **Relator:** Min. Edson Fachin.
+- **Partes:** RECTE. Banco Dibens S/A; RECDO. União.
+- **Data do julgamento de mérito:** 30/03/2016, Tribunal Pleno, por
+  unanimidade — negou provimento ao recurso extraordinário.
+- **Objeto:** constitucionalidade, ou não, da contribuição adicional de
+  2,5% sobre a folha de salários, instituída pelo art. 22, § 1º, da Lei
+  nº 8.212/91, devida por bancos comerciais, bancos de investimento,
+  bancos de desenvolvimento, caixas econômicas, sociedades de crédito,
+  financiamento e investimento, sociedades de crédito imobiliário,
+  sociedades corretoras e demais entidades financeiras equiparáveis, após
+  a Emenda Constitucional nº 20/1998.
+- **Tese firmada:** "É constitucional a previsão legal de diferenciação
+  de alíquotas em relação às contribuições previdenciárias incidentes
+  sobre a folha de salários de instituições financeiras ou de entidades a
+  elas legalmente equiparáveis, após a edição da Emenda Constitucional nº
+  20/1998."
+- **Embargos de declaração** (opostos pelo Banco Dibens S/A): rejeitados
+  por maioria, vencido o Ministro Marco Aurélio, em sessão virtual de
+  30/09/2016 a 06/10/2016 (julgamento publicado em 07/10/2016).
+- **Trânsito em julgado:** 29/11/2016 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Relevância:** companheiro dos demais temas de custeio da Lei
+  8.212/1991 já nesta base — mas, diferentemente dos Temas 166/202 (que
+  invalidaram a fonte de custeio), este tema é **favorável à validade**
+  da alíquota diferenciada, por fundamento distinto (diferenciação de
+  alíquota dentro da própria contribuição sobre folha de salários, já
+  prevista no texto constitucional desde a redação original do art. 195,
+  I, não nova fonte de custeio).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0204_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
 ---
 
 ## Tema 503 — Desaposentação (inviabilidade sem lei específica)
@@ -837,6 +991,45 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   recluso — e não a de seus dependentes — que deve ser confrontada com o
   limite legal de baixa renda para a concessão do benefício.
 - **Fonte:** Google Drive, `STF_RG_TEMA_0089_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 165 — Pensão por morte: veda-se a revisão de benefício anterior à Lei 9.032/1995 com o novo coeficiente de cálculo dessa lei
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0165_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. O campo "Relator(a)" da própria página oficial traz só
+> "MINISTRO PRESIDENTE" (sem nome próprio) — identificado, pelo andamento
+> processual da mesma página (questão de ordem de 22/04/2009), como o
+> Min. Gilmar Mendes, Presidente do STF naquela data.
+
+- **Processo paradigma:** RE 597.389 (origem: SP).
+- **Relator:** Min. Gilmar Mendes (Presidente do STF à época do
+  julgamento).
+- **Partes:** RECTE. Instituto Nacional do Seguro Social — INSS; RECDO.
+  Maria da Guia Rodrigues de Almeida.
+- **Objeto:** possibilidade, ou não, de revisão de pensão por morte
+  concedida antes da entrada em vigor da Lei nº 9.032/1995, com base no
+  coeficiente de cálculo estabelecido por essa norma.
+- **Data do julgamento/reafirmação de jurisprudência:** 22/04/2009,
+  Tribunal Pleno, por unanimidade — questão de ordem proposta pelo
+  Relator, Ministro Gilmar Mendes (Presidente), reconhecendo a
+  repercussão geral e reafirmando a jurisprudência da Corte, dando
+  provimento ao recurso extraordinário do INSS e determinando a
+  devolução, aos tribunais de origem, dos recursos e agravos pendentes
+  sobre o mesmo tema.
+- **Tese firmada:** "A revisão de pensão por morte e demais benefícios,
+  constituídos antes da entrada em vigor da Lei 9.032/1995, não pode ser
+  realizada com base em novo coeficiente de cálculo estabelecido no
+  referido diploma legal."
+- **Trânsito em julgado:** 02/09/2009 (certidão de trânsito em julgado
+  constante da página oficial).
+- **Relevância:** direta — veda a aplicação retroativa do(s) coeficiente
+  (s) de cálculo trazido(s) pela Lei 9.032/1995 a pensões por morte e
+  demais benefícios já constituídos antes de sua vigência; favorável ao
+  INSS nesse ponto específico (limita pretensões de revisão de benefícios
+  antigos com base na lei posterior).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0165_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
