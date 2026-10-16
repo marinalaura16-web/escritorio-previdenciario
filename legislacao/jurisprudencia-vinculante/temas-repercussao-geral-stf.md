@@ -262,6 +262,58 @@
 > (incidência de contribuição sobre aviso prévio indenizado) e Tema 766
 > (requisitos para concessão de auxílio-doença) — ver o relatório da
 > tarefa para o detalhamento de cada descarte.
+>
+> **Lote 8, 16/10/2026:** processados mais 19 Temas de repercussão geral
+> do STF (números 0773, 0794, 0799, 0805, 0807, 0812, 0813, 0820, 0824,
+> 0833, 0840, 0852, 0870, 0888, 0893, 0901, 0908, 0911 e 0923), a partir
+> da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html` e, quando disponível, `_ACORDAO_N.pdf`).
+> **Apenas 3 desses 19 temas são efetivamente previdenciários (RGPS) com
+> mérito e tese próprios** e foram incorporados como entradas próprias,
+> marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`: **Tema 820**
+> (competência — ações previdenciárias movidas por segurado tramitam na
+> Justiça Comum quando não há Vara Federal na Comarca do domicílio do
+> segurado, art. 109, § 3º, CF — mesma lógica de competência do Tema 414
+> já nesta base, mas para benefícios previdenciários em geral, não só
+> acidentárias), **Tema 833** (custeio — constitucionalidade da expressão
+> "de forma não cumulativa" do caput do art. 20 da Lei 8.212/1991, que
+> disciplina o cálculo da contribuição do segurado empregado/avulso,
+> agrupado ao bloco de custeio já existente) e **Tema 840**
+> (aposentadoria de ex-combatente da 2ª Guerra Mundial — a expressão
+> "serviço efetivo, em qualquer regime jurídico" do art. 53, V, do ADCT
+> não inclui tempo fictício; tema de relevância prática residual/
+> histórica, mas genuinamente previdenciário e com mérito julgado,
+> distinto do Tema 320 — já descartado no Lote 3 por falta de
+> repercussão geral reconhecida). **Os outros 16 temas foram verificados
+> e descartados:** um foi cancelado pelo próprio STF antes do julgamento
+> de mérito (**Tema 794**, RE 700.164, retirado do Plenário Virtual por
+> ordem do relator em 20/02/2015); a maioria tangencia o RGPS mas o STF
+> **não reconheceu repercussão geral** — "matéria infraconstitucional" ou
+> reexame de fatos/provas, sem tese vinculante (mesmo critério já
+> aplicado em lotes anteriores): Tema 799 (devolução de valores recebidos
+> por antecipação de tutela revogada em benefício previdenciário), Tema
+> 805 (efeitos financeiros retroativos de revisão de benefício), Tema 807
+> (BPC — reexame de prova sobre preenchimento dos requisitos, Súmula
+> 279/STF), Tema 812 (honorários advocatícios em ações previdenciárias —
+> Súmula 111/STJ), Tema 824 (índice de reajuste de benefício
+> previdenciário), Tema 852 (caracterização de especialidade do labor
+> para aposentadoria especial — matéria fático-probatória), Tema 893
+> (critério de cálculo da aposentadoria proporcional, art. 53 da Lei
+> 8.213/1991) e Tema 908 (natureza jurídica de verbas para incidência de
+> contribuição previdenciária do segurado — férias, aviso prévio, 13º,
+> auxílio-doença, horas extras); três são RPPS de servidor público
+> estadual/municipal (Temas 813, 888 e 901 — este último sobre o momento
+> de cessação do abono de permanência, art. 40, § 19, CF); dois tratam de
+> matéria estranha ao RGPS clássico — complementação municipal de
+> aposentadoria de servidora (Tema 870) e Gratificação Especial de
+> Localidade de servidor público federal transformada em VPNI (Tema
+> 773); e dois são Direito Tributário geral sem relação com o custeio do
+> RGPS (Tema 911 — IRPJ/CSLL sobre créditos escriturais de PIS/COFINS — e
+> Tema 923 — efeitos da inconstitucionalidade da contribuição do
+> empregador rural pessoa física sobre compensação/restituição, matéria
+> conexa ao art. 25 da Lei 8.212/1991 já tratado nos Temas 202/669, mas
+> aqui sem tese própria, só efeitos infraconstitucionais) — ver o
+> relatório da tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -2196,6 +2248,168 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   lacunas de detalhamento nesta base).
 - **Fonte:** Google Drive, `STF_RG_TEMA_0772_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 820 — Competência: ações previdenciárias movidas por segurado tramitam na Justiça Comum quando não há Vara Federal na Comarca do domicílio do segurado
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0820_pagina.html` e `_ACORDAO_1.pdf`/`_ACORDAO_2.pdf`
+> (Google Drive, pasta pessoal da usuária) em 16/10/2026. **Mesma lógica
+> de competência do Tema 414** já nesta base (ações acidentárias na
+> Justiça Comum Estadual), mas aqui para ações previdenciárias em geral
+> movidas por segurado, com fundamento no art. 109, § 3º, da CF.
+
+- **Processo paradigma:** RE 860.508 (origem: SP).
+- **Relator:** Min. Marco Aurélio.
+- **Partes:** RECTE. Ministério Público Federal; RECDO. Maria Capelari;
+  INTDO. Instituto Nacional do Seguro Social — INSS.
+- **Repercussão geral reconhecida:** 04/06/2015 (RE 860.508 RG). O
+  Tribunal, por unanimidade, reconheceu a existência de repercussão
+  geral da questão constitucional (alcance dos arts. 105, I, "d", e 108,
+  I, "e", e do art. 109, § 3º, da CF, quanto à competência para
+  processar e julgar conflitos entre juizado especial federal e juízo
+  estadual no exercício de competência federal delegada).
+- **Julgamento de mérito:** 08/03/2021, Plenário, sessão virtual de
+  26/02 a 05/03/2021, presidida pelo Ministro Luiz Fux, por unanimidade,
+  nos termos do voto do relator: proveu o recurso extraordinário e
+  declarou competente, para julgar a ação movida pelo segurado, o
+  Juizado Especial Federal de Botucatu (31ª Subseção da Seção Judiciária
+  de São Paulo). Houve pedido de vista do Ministro Alexandre de Moraes
+  em sessão virtual anterior (25/09 a 02/10/2020).
+- **Tese firmada (Tema 820):** "A competência prevista no § 3º do
+  artigo 109 da Constituição Federal, da Justiça comum, pressupõe
+  inexistência de Vara Federal na Comarca do domicílio do segurado."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Modulação de efeitos:** não localizada —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** central para definir o foro correto de ajuizamento de
+  ações previdenciárias contra o INSS movidas por segurados residentes
+  em comarca sem Vara Federal — nesses casos, cabe à Justiça Estadual
+  (competência federal delegada), não à seção/subseção judiciária
+  federal mais próxima. Complementa, para benefícios previdenciários em
+  geral, a mesma lógica já fixada pelo Tema 414 (específico para ações
+  acidentárias).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0820_pagina.html`,
+  `STF_RG_TEMA_0820_ACORDAO_1.pdf` (acórdão de mérito, 08/03/2021) e
+  `STF_RG_TEMA_0820_ACORDAO_2.pdf` (decisão de reconhecimento de
+  repercussão geral, 04/06/2015) (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 833 — Custeio: constitucionalidade da expressão "de forma não cumulativa" do caput do art. 20 da Lei 8.212/1991 (cálculo da contribuição do segurado empregado e do trabalhador avulso)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0833_pagina.html` e `_ACORDAO_1.pdf`/`_ACORDAO_2.pdf`/
+> `_ACORDAO_3.pdf` (Google Drive, pasta pessoal da usuária) em
+> 16/10/2026. Agrupado ao bloco de custeio (Lei 8.212/1991) já existente
+> nesta base (Temas 166/281/32/3/20/72/202/204/470/651/669/691/709/723).
+
+- **Processo paradigma:** RE 852.796 (origem: RS).
+- **Relator:** Min. Dias Toffoli.
+- **Partes:** RECTE. União; RECDO. Flavio Nelson Keller.
+- **Repercussão geral reconhecida:** 14/08/2015 (RE 852.796 RG), por
+  unanimidade — "A matéria envolvendo a constitucionalidade da expressão
+  'de forma não cumulativa' constante no caput do art. 20 da Lei nº
+  8.212/91 (...) possui viés constitucional e repercussão geral, pois
+  concerne a afronta aos princípios da capacidade contributiva, da
+  proporcionalidade e da isonomia."
+- **Julgamento de mérito:** 17/05/2021, sessão virtual do Plenário de 07
+  a 14/05/2021, por unanimidade, nos termos do voto do relator: deu
+  provimento ao recurso extraordinário e restabeleceu a sentença,
+  declarando incidentalmente a constitucionalidade da expressão "de
+  forma não cumulativa" do caput do art. 20 da Lei nº 8.212/1991.
+- **Tese firmada (Tema 833):** "É constitucional a expressão 'de forma
+  não cumulativa' constante do caput do art. 20 da Lei nº 8.212/91."
+- **Embargos de declaração:** opostos pela parte vencida pedindo
+  modulação de efeitos; **rejeitados em 04/10/2021** (sessão virtual de
+  24/09 a 01/10/2021), por unanimidade — "Não se vislumbram razões para
+  se modularem os efeitos do acórdão embargado."
+- **Modulação de efeitos:** **não acolhida** (ver embargos acima) — a
+  decisão produz efeitos desde o julgamento de mérito, sem modulação.
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Objeto:** a contribuição previdenciária do segurado empregado
+  (inclusive o doméstico) e do trabalhador avulso, vinculados ao RGPS, é
+  calculada "de forma não cumulativa" — alíquotas progressivas aplicadas
+  por faixa de salário-de-contribuição (progressividade simples, não
+  progressividade gradual) — sem violar capacidade contributiva,
+  proporcionalidade ou isonomia, e sem configurar confisco.
+- **Relevância:** fundamenta a constitucionalidade da própria
+  sistemática de cálculo da contribuição do segurado empregado/avulso
+  hoje vigente, que segue a mesma lógica da tabela de alíquotas
+  progressivas já citada nas "Atualizações Legislativas" deste
+  `CLAUDE.md` (Portaria Interministerial MPS/MF 13/2026) — útil em
+  eventual questionamento de segurado sobre a progressividade da
+  alíquota de contribuição.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0833_pagina.html`,
+  `STF_RG_TEMA_0833_ACORDAO_1.pdf` (embargos de declaração, 04/10/2021),
+  `STF_RG_TEMA_0833_ACORDAO_2.pdf` (mérito, 17/05/2021) e
+  `STF_RG_TEMA_0833_ACORDAO_3.pdf` (reconhecimento de repercussão geral,
+  14/08/2015) (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 840 — Aposentadoria de ex-combatente da 2ª Guerra Mundial: a expressão "serviço efetivo, em qualquer regime jurídico" (art. 53, V, do ADCT) não inclui tempo fictício
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0840_pagina.html` e `_ACORDAO_1.pdf` a `_ACORDAO_5.pdf`
+> (Google Drive, pasta pessoal da usuária) em 16/10/2026. **Distinto do
+> Tema 320** (pensão especial de ex-combatente, já descartado no Lote 3
+> desta base por falta de repercussão geral reconhecida) — este Tema 840
+> teve mérito efetivamente julgado, com tese própria. Tema de relevância
+> prática residual/histórica em 2026 (regime especialíssimo da Lei
+> 3.501/1958, aplicável a um universo reduzido e decrescente de
+> segurados), mas genuinamente previdenciário, por isso incorporado.
+
+- **Processo paradigma:** RE 683.621 (origem: RS).
+- **Relator:** Min. Marco Aurélio.
+- **Partes:** RECTE./EMBTE. Viviam Netto Valls e outros (sucessores, nos
+  embargos posteriores); RECDO./EMBDO./AGDO. Instituto Nacional do
+  Seguro Social — INSS.
+- **Objeto:** possibilidade de computar tempo fictício (fator
+  multiplicador de 1,5, art. 7º da Lei 3.501/1958) para alcançar os 25
+  anos de "serviço efetivo" exigidos pelo art. 53, V, do ADCT, para fins
+  de conversão de aposentadoria de aeronauta em benefício de
+  ex-combatente da 2ª Guerra Mundial.
+- **Julgamento de mérito:** 05/10/2020, sessão virtual do Plenário de
+  25/09 a 02/10/2020, presidida pelo Ministro Luiz Fux, por unanimidade,
+  nos termos do voto do relator: conheceu do recurso extraordinário e
+  desproveu-o.
+- **Tese firmada (Tema 840) — ementa do acórdão de mérito:** "A
+  expressão 'serviço efetivo, em qualquer regime jurídico', considerado
+  o teor do artigo 53 do Ato das Disposições Constitucionais
+  Transitórias, não engloba tempo ficto." (Os embargos de declaração
+  posteriores, de 01/03/2021, referem-se à tese com a variante "não
+  aproveita [tempo ficto]" — mesmo sentido; a redação literal exata do
+  trecho final da tese nos embargos fica **[A CONFIRMAR NA FONTE
+  OFICIAL]**.)
+- **Embargos de declaração:** opostos pelos sucessores da parte
+  (falecida), alegando omissão quanto a direito adquirido; **rejeitados
+  em 01/03/2021** (sessão virtual de 19 a 26/02/2021), por unanimidade —
+  sem vício (omissão, contradição, obscuridade ou erro material) a
+  sanar.
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  **[A CONFIRMAR NA FONTE OFICIAL]**.
+- **Modulação de efeitos:** não localizada —
+  **[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]**.
+- **Relevância:** aplicável apenas à conversão/cálculo de benefício de
+  segurados ex-combatentes da 2ª Guerra Mundial (regime especialíssimo,
+  Lei 3.501/1958 e art. 53 do ADCT) — **não se aplica** ao cômputo de
+  tempo fictício no RGPS em geral. Relevância prática residual em 2026,
+  dado o número reduzido e decrescente de beneficiários remanescentes;
+  mantido nesta base por ser tema previdenciário com mérito efetivamente
+  julgado (ao contrário do Tema 320, já descartado).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0840_pagina.html` e
+  `STF_RG_TEMA_0840_ACORDAO_1.pdf` a `STF_RG_TEMA_0840_ACORDAO_5.pdf`
+  (pasta pessoal da usuária, parentId
+  `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
 ---
