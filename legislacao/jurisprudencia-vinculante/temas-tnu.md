@@ -436,6 +436,491 @@ sem fixar tese própria).
   `TNU_TEMA_187_AFETACAO_...pdf` e `TNU_TEMA_187_ACORDAO_...pdf` (acórdão
   de 21/02/2019).
 
+## 15. Tema 188 (TNU) — Contribuinte individual: ausência de EPI eficaz não afasta aposentadoria especial, com exceções
+
+- **Questão afetada:** se o segurado contribuinte individual (sem
+  subordinação a empregador) pode ter reconhecida atividade especial
+  mesmo sem uso de EPI eficaz, à luz da Súmula 62 da TNU.
+- **Status: JULGADO.** Afetado em 27/08/2018. Embargos de declaração do
+  INSS rejeitados por unanimidade em 14/02/2020.
+- **Tese fixada:** "Após 03/12/1998, para o segurado contribuinte
+  individual, não é possível o reconhecimento de atividade especial em
+  virtude da falta de utilização de equipamento de proteção individual
+  (EPI) eficaz, salvo nas hipóteses de: (a) exposição ao agente físico
+  ruído acima dos limites legais; (b) exposição a agentes nocivos
+  reconhecidamente cancerígenos, constantes do Grupo 1 da lista da
+  LINACH; ou (c) demonstração com fundamento técnico de inexistência, no
+  caso concreto, de EPI apto a elidir a nocividade da exposição ao
+  agente agressivo a que se submeteu o segurado."
+- **Relatora dos embargos:** Juíza Federal Polyana Falcão Brito.
+  Relator(a) do acórdão de mérito original: `[A CONFIRMAR NA FONTE
+  OFICIAL]` — não localizado nos arquivos disponíveis (só a afetação e o
+  acórdão de embargos foram lidos; a tese é citada e confirmada no
+  relatório dos embargos).
+- **Processo paradigma:** PEDILEF 5000075-62.2017.4.04.7128 (origem: RS).
+- **Relevância:** direta — tempo especial de contribuintes individuais
+  (autônomos, pequenos empresários) expostos a agentes nocivos, com
+  marco temporal de 03/12/1998 e exceções de ruído/cancerígenos/EPI
+  comprovadamente inapto.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_188_AFETACAO_...pdf` (afetação de 27/08/2018) e
+  `TNU_TEMA_188_ACORDAO_...pdf` (acórdão de embargos de 14/02/2020).
+
+## 16. Tema 195 (TNU) — Compensação integral de valores recebidos administrativamente com benefício inacumulável concedido judicialmente
+
+- **Questão afetada:** qual o critério para a compensação, no cálculo
+  das parcelas atrasadas de benefício concedido judicialmente, dos
+  valores já recebidos administrativamente a título de outro benefício
+  inacumulável no mesmo período (compensação integral x só das
+  diferenças).
+- **Status: JULGADO.** Afetado em 26/10/2018. Julgado por maioria em
+  18/09/2020 (desempate pelo Ministro Presidente Antonio Carlos
+  Ferreira). Embargos de declaração da parte autora rejeitados por
+  unanimidade em 25/02/2021.
+- **Tese fixada:** "No cálculo das parcelas atrasadas do benefício
+  concedido judicialmente, devem ser compensados todos os valores
+  recebidos em período concomitante em razão de benefício inacumulável,
+  sendo que a compensação deve se dar pelo total dos valores recebidos,
+  não se podendo gerar saldo negativo para o segurado."
+- **Relatora:** Juíza Federal Isadora Segalla Afanasieff. Vencidos, no
+  mérito, os Juízes Federais Bianor Arruda Bezerra Neto, Jairo Schafer,
+  Polyana Brito, Fábio Souza e Erivaldo Ribeiro (que davam provimento
+  para compensar só as diferenças mês a mês).
+- **Processo paradigma:** PEDILEF 5068010-43.2016.4.04.7100 (origem:
+  RS), julgado em conjunto com o PEDILEF 5042553-09.2016.4.04.7100
+  (mesmo Tema).
+- **Relevância:** direta — liquidação de sentença quando o segurado já
+  recebeu, no mesmo período, outro benefício inacumulável pela via
+  administrativa (ex.: auxílio-doença x aposentadoria por tempo de
+  contribuição), tema recorrente em cumprimento de sentença contra o
+  INSS.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_195_ACORDAO_...pdf` (voto vencedor, voto divergente e voto de
+  desempate, acórdão de 18/09/2020) e `TNU_TEMA_195_ACORDAO_
+  ...VINCTEMA195EDCL...pdf` (embargos de declaração de 25/02/2021).
+
+## 17. Tema 197 (TNU) — DESAFETADO: opção pelo benefício mais vantajoso concedido administrativamente no curso de ação judicial
+
+- **Questão afetada:** tendo em vista o julgamento do Tema 503 do STF
+  (desaposentação), definir se é possível receber valores atrasados de
+  benefício concedido judicialmente quando, no curso do processo, a
+  parte obteve, administrativamente, benefício mais vantajoso.
+- **Status: DESAFETADO, sem tese própria da TNU.** Por decisão unânime
+  de 15/09/2022, a TNU desafetou o Tema 197 e negou seguimento ao
+  PEDILEF, por entender que a questão foi dirimida pelo **Tema 1018 do
+  STJ** (recurso repetitivo).
+- **Tese aplicável (Tema 1018/STJ, citada no acórdão de desafetação):**
+  "O Segurado tem direito de opção pelo benefício mais vantajoso
+  concedido administrativamente, no curso de ação judicial em que se
+  reconheceu benefício menos vantajoso. Em cumprimento de sentença, o
+  segurado possui o direito à manutenção do benefício previdenciário
+  concedido administrativamente no curso da ação judicial e,
+  concomitantemente, à execução das parcelas do benefício reconhecido na
+  via judicial, limitadas à data de implantação daquele conferido na via
+  administrativa." `[JURISPRUDÊNCIA A CONFIRMAR — Tema 1018/STJ ainda não
+  incorporado a esta base]`.
+- **Consequência prática:** não citar "Tema 197 da TNU" como precedente
+  com tese própria vinculante — a matéria está resolvida pelo Tema
+  1018/STJ, favorável ao segurado.
+- **Relatora:** Juíza Federal Lilian Oliveira da Costa Tourinho.
+- **Processo paradigma:** PEDILEF 5009835-98.2017.4.04.7204 (origem:
+  SC).
+- **Relevância:** indireta, mas útil — evita citar um "Tema 197 da TNU"
+  inexistente como tese própria.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_197_AFETACAO_...pdf` (afetação de 24/03/2019) e
+  `TNU_TEMA_197_ACORDAO_...pdf` (acórdão de desafetação de 15/09/2022).
+
+## 18. Tema 198 (TNU) — Enquadramento por categoria profissional via analogia (períodos anteriores a 29/04/1995)
+
+- **Questão afetada:** sobre a necessidade, ou não, de prova do
+  exercício de atividade em condições de insalubridade/periculosidade/
+  penosidade quando a qualificação jurídica da atividade como especial
+  decorre do emprego de analogia com ocupações listadas nos Decretos
+  53.831/1964 e 83.080/1979 (enquadramento por categoria profissional,
+  até 28/04/1995).
+- **Status: JULGADO.** Afetado por unanimidade em 21/11/2018. Julgado
+  por maioria em 22/08/2019 (vencido em parte o Juiz Federal Atanair
+  Nasser Lopes).
+- **Tese fixada:** "No período anterior a 29/04/1995, é possível
+  fazer-se a qualificação do tempo de serviço como especial a partir do
+  emprego da analogia, em relação às ocupações previstas no Decreto nº
+  53.831/64 e no Decreto nº 83.080/79. Nesse caso, necessário que o
+  órgão julgador justifique a semelhança entre a atividade do segurado e
+  a atividade paradigma, de modo a concluir que são exercidas nas mesmas
+  condições de insalubridade, periculosidade ou penosidade. A
+  necessidade de prova pericial, ou não, deve ser decidida no caso
+  concreto."
+- **Relator:** Juiz Federal Bianor Arruda Bezerra Neto.
+- **Processo paradigma:** PEDILEF 0502252-37.2017.4.05.8312 (origem:
+  PE) — marroeiro/marteleiro equiparado por analogia a perfurador
+  (Decreto 83.080/79, item 2.3.4).
+- **Relevância:** direta — reconhecimento de tempo especial por
+  enquadramento de categoria profissional em período remoto, quando a
+  atividade exercida não consta literalmente do rol dos Decretos
+  53.831/1964 e 83.080/1979, mas é análoga a uma atividade listada
+  (exige fundamentação da semelhança caso a caso, não é presunção
+  automática).
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_198_AFETACAO_...pdf` (extrato de ata de 21/11/2018) e
+  `TNU_TEMA_198_ACORDAO_...pdf` (acórdão de mérito de 22/08/2019).
+
+## 19. Tema 200 (TNU) — Prescrição de diferenças de RMI por verbas reconhecidas em reclamação trabalhista
+
+- **Questão afetada:** definir os critérios de contagem do prazo
+  prescricional da pretensão ao recebimento de diferenças decorrentes de
+  revisão de renda mensal inicial (RMI) em virtude de verbas salariais
+  reconhecidas em reclamação trabalhista.
+- **Status: JULGADO.** Afetado por unanimidade em 12/12/2018. Julgado em
+  09/12/2020. Embargos de declaração do INSS rejeitados por unanimidade
+  em 28/04/2021.
+- **Tese fixada:** "Na pretensão ao recebimento de diferenças
+  decorrentes de revisão de renda mensal inicial em virtude de verbas
+  salariais reconhecidas em reclamação trabalhista, a prescrição
+  quinquenal deve ser contada retroativamente da data do ajuizamento da
+  ação previdenciária, não fluindo no período de tramitação da ação
+  trabalhista, enquanto não definitivamente reconhecido o direito e não
+  homologados os cálculos de liquidação." Fundamento: teoria da actio
+  nata — o direito só "nasce" (e a prescrição só corre) quando os
+  valores devidos puderem ser efetivamente apurados.
+- **Relatora:** Juíza Federal Susana Sbrogio Galia.
+- **Processo paradigma:** PEDILEF 5002165-21.2017.4.04.7103 (origem:
+  RS).
+- **Relevância:** direta e favorável ao segurado — ações de revisão de
+  RMI fundadas em verbas salariais (ex.: horas extras, adicionais)
+  reconhecidas em reclamação trabalhista posterior à concessão do
+  benefício; afasta a contagem da prescrição quinquenal (Lei 8.213/1991,
+  art. 103, parágrafo único) durante a tramitação da reclamatória.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_200_ACORDAO_...pdf` (extrato de ata de afetação de
+  12/12/2018) e `TNU_TEMA_200_ACORDAO_...TEMA200embargos...pdf` (acórdão
+  de embargos de 28/04/2021, que reproduz a tese e a fundamentação do
+  julgamento de mérito de 09/12/2020).
+
+## 20. Tema 201 (TNU) — Auxílio-acidente não é devido ao contribuinte individual
+
+- **Questão afetada:** saber se é devido o benefício de auxílio-acidente
+  ao contribuinte individual.
+- **Status: JULGADO.** Afetado por unanimidade em 12/12/2018. Julgado
+  por unanimidade em 09/10/2019. Embargos de declaração da parte autora
+  rejeitados por unanimidade em 19/06/2020.
+- **Tese fixada:** "O contribuinte individual não faz jus ao
+  auxílio-acidente, diante de expressa exclusão legal" (Lei 8.213/1991,
+  art. 18, § 1º, que restringe o auxílio-acidente aos segurados dos
+  incisos I, II, VI e VII do art. 11 — empregado, empregado doméstico,
+  avulso e segurado especial). Fundamento: o STF já decidiu que a
+  matéria é infraconstitucional (ARE 1.205.722 e RE 1.111.004); não há
+  ofensa à isonomia, dado o regime de trabalho distinto do contribuinte
+  individual (que não recolhe para o SAT/RAT e assume o risco integral
+  de sua atividade).
+- **Relatora:** Juíza Federal Taís Vargas Ferracini de Campos Gurgel.
+- **Processo paradigma:** PEDILEF 0002245-25.2016.4.03.6330 (origem:
+  SP).
+- **Relevância:** direta, mas desfavorável ao segurado — relevante para
+  a triagem de viabilidade: pedidos de auxílio-acidente de contribuintes
+  individuais (autônomos, pequenos empresários) devem ser descartados de
+  plano por esse fundamento, salvo questionamento da própria
+  classificação do segurado.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_201_AFETACAO_...pdf` (afetação de 12/12/2018),
+  `TNU_TEMA_201_ACORDAO_...pdf` (acórdão de mérito de 09/10/2019) e
+  `TNU_TEMA_201_ACORDAO_...TEMA201pdf.pdf` (acórdão de embargos de
+  19/06/2020).
+
+## 21. Tema 202 (TNU) — Cálculo do salário-maternidade da segurada desempregada em período de graça, com último vínculo como empregada
+
+- **Questão afetada:** saber qual a regra aplicável para o cálculo da
+  renda mensal do salário-maternidade devido à segurada que, à época do
+  fato gerador do benefício, se encontre em período de graça, com
+  última vinculação ao RGPS na qualidade de segurada empregada.
+- **Status: JULGADO.** Julgado por unanimidade em 23/05/2019.
+- **Tese fixada:** "O cálculo da renda mensal do salário-maternidade
+  devido à segurada que, à época do fato gerador da benesse, se encontre
+  no período de graça, com última vinculação ao RGPS na qualidade de
+  segurada empregada, deve observar a regra contida no artigo 73, inciso
+  III, da Lei nº 8.213/91" (1/12 da soma dos 12 últimos salários de
+  contribuição, em período não superior a 15 meses) — e não a regra do
+  art. 72 da mesma Lei (remuneração integral), exclusiva da segurada
+  empregada/avulsa em atividade. Fundamento: analogia com a regra do
+  art. 71-B, § 2º, III, da Lei 8.213/1991 (salário-maternidade pago ao
+  cônjuge/companheiro sobrevivente desempregado em período de graça).
+- **Relator:** Juiz Federal José Francisco Andreotti Spizzirri.
+- **Processo paradigma:** PEDILEF 5075016-04.2016.4.04.7100 (origem:
+  RS).
+- **Relevância:** direta — cálculo de RMI do salário-maternidade em
+  casos de segurada desempregada, mas ainda em período de graça (Lei
+  8.213/1991, art. 15), tema recorrente que impacta diretamente o valor
+  do benefício.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivo
+  `TNU_TEMA_202_ACORDAO_...pdf` (acórdão de mérito de 23/05/2019).
+
+## 22. Tema 203 (TNU) — Divisor mínimo da regra de transição (art. 3º, § 2º, da Lei 9.876/1999) não precisa corresponder a percentual mínimo do número de contribuições
+
+- **Questão afetada:** para fins de interpretação da regra do art. 3º,
+  § 2º, da Lei 9.876/1999 (regra de transição do fator previdenciário,
+  aplicável a quem já era filiado ao RGPS antes da vigência dessa lei),
+  saber se o divisor utilizado no cálculo do salário de benefício
+  precisa corresponder a um percentual mínimo equivalente ao número de
+  contribuições efetivamente vertidas.
+- **Status: JULGADO.** Julgado por maioria em 16/10/2020 (vencidos os
+  Juízes Federais Fabio de Souza Silva, Isadora Segalla Afanasieff, Luis
+  Eduardo Bianchi Cerqueira e Polyana Falcão Brito).
+- **Tese fixada:** "Para fins de interpretação da regra constante do
+  art. 3º, § 2º, da Lei nº 9.876/99, aplicável aos segurados filiados à
+  Previdência Social até o dia anterior à data de sua publicação, o
+  divisor a ser utilizado para o cálculo do salário-de-benefício não
+  precisa corresponder a um percentual, no mínimo, equivalente ao número
+  de contribuições vertidas." **Nota:** o extrato de ata grafa a norma,
+  em um trecho, como "Lei nº 9.876/98" — `[ERRO MATERIAL NO PRÓPRIO
+  ACÓRDÃO — a lei correta, citada corretamente no resto do documento, é
+  a Lei nº 9.876/1999]`.
+- **Relator:** Juiz Federal Bianor Arruda Bezerra Neto.
+- **Processo paradigma:** PEDILEF 0004024-81.2011.4.01.3311 (origem:
+  BA). Fundamento invocado: REsp 1.062.809/SC (STJ).
+- **Relevância:** direta e de alto impacto no cálculo de RMI — tese
+  desfavorável ao segurado quanto ao divisor mínimo da regra de
+  transição da Lei 9.876/1999, tema central da skill
+  `calculo-tempo-contribuicao`/`calculo-previdenciario` para quem se
+  filiou antes de 29/11/1999.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_203_ACORDAO_...EXTRATODEATA...pdf` (extrato de ata do
+  julgamento de mérito de 16/10/2020) e `TNU_TEMA_203_AFETACAO_...pdf`
+  (decisão de afetação).
+
+## 23. Tema 204 (TNU) — Pensão por morte ao marido não inválido mesmo com óbito da instituidora anterior à CF/1988 (cancela o Tema 116)
+
+- **Questão afetada:** saber se é possível a concessão de pensão por
+  morte ao marido não inválido, na hipótese de óbito da esposa/
+  instituidora em data anterior a 05/10/1988 — revisão do Tema 116 da
+  própria TNU.
+- **Status: JULGADO.** Julgado por unanimidade em 18/09/2020 (o Juiz
+  Federal Ivanir Cesar Ireno Junior ressalvou entendimento pessoal).
+  Embargos de declaração do INSS rejeitados por unanimidade em
+  25/02/2021.
+- **Tese fixada:** "É possível a concessão de pensão por morte ao marido
+  não inválido ainda que o óbito da instituidora tenha ocorrido
+  anteriormente ao advento da Constituição Federal de 1988" — **cancela
+  o Tema 116 da TNU** (que exigia invalidez do marido para óbitos
+  anteriores a 1988). Fundamento: jurisprudência consolidada do STF de
+  que a exigência de invalidez do marido viola a isonomia (CF, art. 5º,
+  I), aplicável retroativamente mesmo a óbitos sob a Constituição de
+  1967/EC 1/1969 (RE 880.521-AgR, RE 439.484-AgR, ARE 699.199-AgR, entre
+  outros).
+- **Relatora:** Juíza Federal Isadora Segalla Afanasieff.
+- **Processo paradigma:** PEDILEF 0501742-39.2017.4.05.8501 (origem:
+  SE).
+- **Relevância:** direta — pensão por morte rural/urbana de óbitos
+  antigos (regime da Lei 3.807/1960, Decreto 89.312/1984 — CLPS, ou
+  legislação rural anterior), tema que pode reabrir discussão sobre
+  pensões historicamente negadas a maridos/viúvos não inválidos.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_204_ACORDAO_...pdf` (acórdão de mérito de 18/09/2020) e
+  `TNU_TEMA_204_ACORDAO_...TEMA204EDCL...pdf` (acórdão de embargos de
+  25/02/2021).
+
+## 24. Tema 205 (TNU) — Rol de agentes biológicos do Anexo IV do Decreto 3.048/1999 é meramente exemplificativo
+
+- **Questão afetada:** saber se é possível o enquadramento de atividade
+  como especial por exposição a agentes biológicos quando os serviços
+  prestados não são aqueles descritos no Anexo IV do Decreto 3.048/1999
+  (ex.: ambiente hospitalar, animais infectados, cadáveres, esgoto).
+- **Status: JULGADO.** Julgado por unanimidade em 12/03/2020.
+- **Tese fixada:** "a) para reconhecimento da natureza especial de tempo
+  laborado em exposição a agentes biológicos não é necessário o
+  desenvolvimento de uma das atividades arroladas nos Decretos de
+  regência, sendo referido rol meramente exemplificativo; b) entretanto,
+  é necessária a comprovação em concreto do risco de exposição a
+  microorganismos ou parasitas infectocontagiosos, ou ainda suas
+  toxinas, em medida denotativa de que o risco de contaminação em seu
+  ambiente de trabalho era superior ao risco em geral, devendo, ainda,
+  ser avaliado, de acordo com a profissiografia, se tal exposição tem um
+  caráter indissociável da produção do bem ou da prestação do serviço,
+  independentemente de tempo mínimo de exposição durante a jornada
+  (Tema 211/TNU)."
+- **Relatora:** Juíza Federal Taís Vargas Ferracini de Campos Gurgel.
+- **Processo paradigma:** PEDILEF 0500012-70.2015.4.05.8013 (origem:
+  AL) — técnico de manutenção exposto a bactérias/fungos/protozoários
+  fora de ambiente hospitalar típico.
+- **Relevância:** direta e de alta relevância — amplia o reconhecimento
+  de tempo especial por agentes biológicos além do rol literal do Anexo
+  IV do Decreto 3.048/1999 (já parcialmente documentado nesta base, com
+  o código 3.0.1 confirmado em sessão anterior e usado em
+  `casos/2026-001/`), desde que comprovado o risco aumentado de
+  contágio. Expressamente articulado com o Tema 211/TNU (entrada
+  seguinte).
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivo
+  `TNU_TEMA_205_ACORDAO_...pdf` (acórdão de mérito de 12/03/2020).
+
+## 25. Tema 208 (TNU) — PPP: necessidade de indicar responsável técnico e formas de suprir a omissão
+
+- **Questão afetada:** saber se é necessária a indicação, no PPP, do
+  profissional habilitado para registro de condições ambientais e
+  monitoração biológica, para fins de reconhecimento da atividade como
+  especial.
+- **Status: JULGADO, com tese retificada em embargos de declaração.**
+  Julgamento de mérito por unanimidade em 20/11/2020. Embargos de
+  declaração do IBDP (amicus curiae) julgados por maioria em 21/06/2021
+  (voto vencido do relator original, prevalecendo o voto do Juiz Federal
+  Ivanir Cesar Ireno Junior).
+- **Tese fixada (redação final, pós-embargos):** "1. Para a validade do
+  Perfil Profissiográfico Previdenciário (PPP) como prova do tempo
+  trabalhado em condições especiais nos períodos em que há exigência de
+  preenchimento do formulário com base em Laudo Técnico das Condições
+  Ambientais de Trabalho (LTCAT), é necessária a indicação do
+  responsável técnico pelos registros ambientais para a totalidade dos
+  períodos informados, sendo dispensada a informação sobre monitoração
+  biológica. 2. A ausência total ou parcial da indicação no PPP pode ser
+  suprida pela apresentação de LTCAT ou por elementos técnicos
+  equivalentes, cujas informações podem ser estendidas para período
+  anterior ou posterior à sua elaboração, desde que acompanhados da
+  declaração do empregador ou comprovada por outro meio a inexistência
+  de alteração no ambiente de trabalho ou em sua organização ao longo do
+  tempo." (A redação original, de 20/11/2020, condicionava a suprição
+  exclusivamente à declaração do empregador — os embargos tornaram
+  exemplificativo o meio de prova e explicitaram que a exigência de
+  responsável técnico vale para a totalidade dos períodos informados no
+  PPP.)
+- **Relator do acórdão de mérito original:** Juiz Federal Atanair Nasser
+  Ribeiro Lopes. Relator para o acórdão de embargos: Juiz Federal Ivanir
+  Cesar Ireno Junior.
+- **Processo paradigma:** PEDILEF 0500940-26.2017.4.05.8312 (origem:
+  PE).
+- **Base normativa citada:** Lei 8.213/1991, art. 58 (laudo técnico/
+  LTCAT); art. 261 da IN 77/2015 (substitutos do LTCAT, declaração de
+  extemporaneidade/similaridade) — `[DISPOSITIVO A CONFIRMAR NA BASE]`,
+  pois a IN 77/2015 ainda não está documentada nesta base de legislação
+  (distinta da IN 128/2022, já incorporada); Súmula 68 da TNU (laudo não
+  contemporâneo é apto à comprovação) — conferir se já consta em
+  `sumulas-tnu.md`.
+- **Relevância:** direta e de altíssima aplicação prática — um dos
+  temas mais recorrentes de prova de tempo especial (PPP sem indicação
+  de responsável técnico para todo o período, LTCAT extemporâneo), com
+  regra probatória detalhada e favorável à flexibilização da prova em
+  benefício do segurado.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_208_ACORDAO_...Tema208pdf.pdf` (acórdão de mérito de
+  20/11/2020) e `TNU_TEMA_208_ACORDAO_...TEMA208embargos...pdf` (acórdão
+  de embargos de declaração de 21/06/2021, com tese retificada).
+
+## 26. Tema 210 (TNU) — Tempo especial por exposição à eletricidade (tensão superior a 250V): habitualidade e permanência não exigem exposição contínua
+
+- **Questão afetada:** saber se, para o reconhecimento de tempo especial
+  pela exposição nociva ao agente físico eletricidade, há necessidade de
+  comprovar a habitualidade e a permanência, e em que medida (exposição
+  durante toda a jornada?).
+- **Status: JULGADO.** Julgado por unanimidade em 12/12/2019. Embargos
+  de declaração do INSS rejeitados por unanimidade em 12/03/2020.
+- **Tese fixada:** "Para aplicação do artigo 57, § 3º, da Lei nº
+  8.213/91 à tensão elétrica superior a 250 V, exige-se a probabilidade
+  da exposição ocupacional, avaliando-se, de acordo com a
+  profissiografia, o seu caráter indissociável da produção do bem ou da
+  prestação do serviço, independente de tempo mínimo de exposição
+  durante a jornada." Ou seja: não é necessário comprovar exposição
+  durante toda a jornada — basta que o risco de exposição a tensão
+  superior a 250V seja inerente/indissociável da atividade exercida.
+- **Relator:** Juiz Federal Bianor Arruda Bezerra Neto.
+- **Processo paradigma:** PEDILEF 0501567-42.2017.4.05.8405 (origem:
+  RN) — eletricista/técnico de manutenção.
+- **Relevância:** direta — tempo especial por exposição a eletricidade,
+  agente de natureza "perigosa" (risco de dano por contato único, não
+  por exposição lenta e gradual como ruído/calor), com critério de
+  habitualidade/permanência mais flexível que o aplicável a agentes
+  insalubres.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_210_ACORDAO_...pdf` (acórdão de mérito de 12/12/2019) e
+  `TNU_TEMA_210_ACORDAO_...TEMA210pdf.pdf` (acórdão de embargos de
+  12/03/2020).
+
+## 27. Tema 211 (TNU) — Tempo especial por agentes biológicos: habitualidade e permanência não exigem exposição durante toda a jornada
+
+- **Questão afetada:** saber se, para o reconhecimento de tempo especial
+  pela exposição nociva aos agentes biológicos mencionados na
+  legislação previdenciária, há necessidade de comprovar a habitualidade
+  e a permanência, e em que termos.
+- **Status: JULGADO.** Julgado por unanimidade em 12/12/2019 (mesma
+  sessão do Tema 210, mesmo relator).
+- **Tese fixada:** "Para aplicação do artigo 57, § 3º, da Lei nº
+  8.213/91 a agentes biológicos, exige-se a probabilidade da exposição
+  ocupacional, avaliando-se, de acordo com a profissiografia, o seu
+  caráter indissociável da produção do bem ou da prestação do serviço,
+  independente de tempo mínimo de exposição durante a jornada."
+  Fundamento: para agentes biológicos, a especialidade se justifica pelo
+  risco de contaminação, não pelo efetivo desgaste por exposição
+  prolongada — dispensando-se a exigência de exposição durante toda a
+  jornada.
+- **Relator:** Juiz Federal Bianor Arruda Bezerra Neto.
+- **Processo paradigma:** PEDILEF 0501219-30.2017.4.05.8500 (origem:
+  SE) — técnico de manutenção exposto a bactérias/fungos/protozoários/
+  vírus/bacilos.
+- **Relevância:** direta e de alta relevância — complementa o Tema 205
+  (rol exemplificativo do Anexo IV do Decreto 3.048/1999): fixa, além
+  disso, o critério de habitualidade/permanência específico para
+  agentes biológicos (expressamente citado e aplicado na fundamentação
+  do próprio Tema 205, acima). Tema confirmadamente convergente com a
+  prática já documentada em `casos/2026-001/` (Anexo IV, código 3.0.1).
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivo
+  `TNU_TEMA_211_ACORDAO_...pdf` (acórdão de mérito de 12/12/2019).
+
+## 28. Tema 213 (TNU) — Critérios de aferição da eficácia do EPI para fins de aposentadoria especial
+
+- **Questão afetada:** saber quais são os critérios de aferição da
+  eficácia do Equipamento de Proteção Individual (EPI) na análise do
+  direito à aposentadoria especial ou à conversão de tempo especial em
+  comum — em especial, se a mera informação de "EPI eficaz" no PPP, sem
+  detalhamento, é suficiente para afastar a especialidade.
+- **Status: JULGADO, com tese retificada antes do acórdão final.**
+  Afetado por maioria em 27/06/2019 (vencidos 2 juízes quanto à
+  admissão). Julgado por maioria em 19/06/2020 (vencidos os Juízes
+  Federais Bianor Arruda Bezerra Neto e Atanair Nasser Lopes), com voto
+  do relator retificado na própria sessão em relação ao voto anterior de
+  14/02/2020. Embargos de declaração do INSS (alegando dupla omissão)
+  rejeitados por unanimidade em 25/02/2021.
+- **Tese fixada:** "I - A informação no Perfil Profissiográfico
+  Previdenciário (PPP) sobre a existência de equipamento de proteção
+  individual (EPI) eficaz pode ser fundamentadamente desafiada pelo
+  segurado perante a Justiça Federal, desde que exista impugnação
+  específica do formulário na causa de pedir, onde tenham sido
+  motivadamente alegados: (i) a ausência de adequação ao risco da
+  atividade; (ii) a inexistência ou irregularidade do certificado de
+  conformidade; (iii) o descumprimento das normas de manutenção,
+  substituição e higienização; (iv) a ausência ou insuficiência de
+  orientação e treinamento sobre o uso adequado, guarda e conservação;
+  ou (v) qualquer outro motivo capaz de conduzir à conclusão da
+  ineficácia do EPI. II - Considerando que o EPI apenas obsta a
+  concessão do reconhecimento do trabalho em condições especiais quando
+  for realmente capaz de neutralizar o agente nocivo, havendo
+  divergência real ou dúvida razoável sobre a sua real eficácia,
+  provocadas por impugnação fundamentada e consistente do segurado, o
+  período trabalhado deverá ser reconhecido como especial." A TNU
+  afastou a exigência de impugnação administrativa prévia (reconhecida
+  como praticamente impossível na prática), bastando que a impugnação
+  específica do PPP conste da causa de pedir na ação judicial.
+- **Relator:** Juiz Federal Fábio de Souza Silva.
+- **Processo paradigma:** PEDILEF 0004439-44.2010.4.03.6318 (origem:
+  SP) — exposição a tintas/agentes químicos, com PPP informando "EPI
+  eficaz" sem detalhamento, inclusive sem indicação de Certificado de
+  Aprovação (CA).
+- **Jurisprudência citada:** NR-6 (requisitos de eficácia do EPI); STF,
+  ARE 664.335/SC (repercussão geral, Rel. Min. Luiz Fux, j. 04/12/2014),
+  citado como tendo fixado que o direito à aposentadoria especial
+  pressupõe a efetiva exposição a agente nocivo e que, para o ruído, a
+  declaração de EPI eficaz no PPP não descaracteriza a especialidade —
+  `[JURISPRUDÊNCIA A CONFIRMAR — verificar se este ARE já consta nesta
+  base como Tema de Repercussão Geral do STF, com o número de Tema
+  correto]`; STF, Tema 350 (prévio requerimento administrativo, já na
+  base) — citado e depois afastado como fundamento para exigir
+  impugnação administrativa prévia.
+- **Relevância:** direta e de altíssima aplicação prática — define como
+  e quando o segurado pode contestar em juízo a informação de "EPI
+  eficaz" do PPP (a impugnação específica deve constar da petição
+  inicial, com motivos concretos), tema central em praticamente toda
+  ação de aposentadoria especial/conversão de tempo especial.
+- **Fonte:** `[FONTE OFICIAL — ACÓRDÃO/AFETAÇÃO TNU NA BASE]` — arquivos
+  `TNU_TEMA_213_AFETACAO_...pdf` (afetação de 27/06/2019),
+  `TNU_TEMA_213_ACORDAO_...pdf` (acórdão de mérito de 19/06/2020, com
+  voto retificado) e `TNU_TEMA_213_ACORDAO_...TEMA213EDCL...pdf`
+  (acórdão de embargos de declaração de 25/02/2021).
+
 ---
 
 ## Temas verificados e descartados (não previdenciários/RGPS)
@@ -446,6 +931,44 @@ sem fixar tese própria).
   (Lei do Serviço Militar). Matéria de direito administrativo-militar,
   sem qualquer relação com benefícios, custeio ou segurados do RGPS — não
   incorporado.
+- **Tema 207 (TNU)** — Pensão por morte a filha maior solteira ou
+  divorciada de servidor público federal falecido sob a égide da Lei nº
+  3.373/1958 (regime de pensão civil e militar federal anterior ao RJU
+  — Lei 8.112/1990). Tese fixada pela TNU: "não é necessária a
+  comprovação da dependência econômica para a concessão e manutenção de
+  pensão a filha maior solteira ou divorciada de instituidor falecido
+  sob a égide da Lei nº 3.373/1958." Matéria de regime próprio de
+  previdência/pensão civil e militar federal (RPPS), não RGPS —
+  consistente com a decisão já registrada nesta base (Sessão de
+  23/09/2026, sobre o Decreto 10.410/2020) de não incorporar matéria de
+  RPPS, por o escritório atuar em RGPS — não incorporado. Processo
+  paradigma: PEDILEF 0511642-85.2017.4.05.8100 (origem: CE).
+
+## Pendências desta apuração (Lote 2, 16/10/2026)
+
+- **Precedentes externos citados, ainda não incorporados a esta base:**
+  Tema 1018 do STJ (convergência com o Tema 197, desafetado — ver
+  acima); Súmula 68 da TNU (citada nos Temas 208 e 213 — conferir se já
+  consta em `sumulas-tnu.md`); IN 77/2015 (citada no Tema 208 como base
+  normativa dos substitutos do LTCAT — ainda não documentada nesta base,
+  distinta da IN 128/2022); STF, ARE 664.335/SC sobre EPI eficaz (citado
+  no Tema 213 — conferir o número do Tema de Repercussão Geral
+  correspondente e se já está incorporado a
+  `jurisprudencia-vinculante/temas-repercussao-geral-stf.md`).
+- **Achado de nomeação incorreta de arquivo na pasta do Google Drive:**
+  o arquivo `TNU_TEMA_207_ACORDAO_05250487620174058100pdf.pdf` (dentro
+  da busca pelo Tema 207) contém, na realidade, o acórdão do **Tema 216**
+  (aluno-aprendiz — exigência de retribuição pecuniária à conta do
+  Orçamento, a título de contraprestação por labor na execução de bens/
+  serviços para terceiros), não do Tema 207. Não processado nesta
+  tarefa (Tema 216 está fora do escopo dos 15 Temas deste lote) — fica
+  registrado para quando o Tema 216 for processado em lote futuro, para
+  não reaproveitar esse arquivo como se fosse do Tema 207 nem deixar de
+  processar o Tema 216 por achá-lo "já coberto".
+- **Erro material identificado e não corrigido na fonte primária:** o
+  extrato de ata do Tema 203 grafa a norma, em um trecho, como "Lei nº
+  9.876/98" — a lei correta é a **Lei nº 9.876/1999** (assim tratada
+  corretamente no resto do mesmo documento e no processo).
 
 ## Pendências desta apuração (Lote 1, 16/10/2026)
 
