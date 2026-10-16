@@ -3861,6 +3861,345 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
+> **Lote 13, mesmo método (16/10/2026):** processados mais 19 Temas (1307,
+> 1309, 1312, 1329, 1335, 1336, 1353, 1355, 1358, 1359, 1362, 1370, 1390,
+> 1397, 1399, 1414, 1415, 1421 e 1423). **7 são efetivamente
+> previdenciários (RGPS)** e foram incorporados como entradas próprias,
+> todas marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 1329** (EC 103/2019, art. 17 — complementação de contribuição
+> previdenciária após a Emenda para enquadramento em regra de transição,
+> **MÉRITO AINDA NÃO JULGADO**, com **Suspensão Nacional** determinada),
+> **Tema 1353** (auxílio-doença para segurada em gestação de alto risco
+> sem cumprimento de carência, **MÉRITO AINDA NÃO JULGADO**), **Tema
+> 1362** (aposentadoria rural por idade — tamanho da propriedade não
+> descaracteriza, por si só, o regime de economia familiar do segurado
+> especial, **SEM repercussão geral**), **Tema 1370** (violência
+> doméstica — benefício pago pelo INSS à segurada afastada por medida
+> protetiva da Lei Maria da Penha, análogo ao auxílio por incapacidade
+> temporária, com mérito julgado e embargos de declaração acolhidos sem
+> efeitos infringentes para esclarecimentos), **Tema 1414** (cômputo de
+> tempo de atividade rural exercido por pessoa com menos de 12 anos à
+> época do serviço, **SEM repercussão geral**), **Tema 1415** (custeio —
+> incidência de contribuição previdenciária patronal sobre vale-transporte
+> e auxílio-alimentação descontados do empregado, **MÉRITO AINDA NÃO
+> JULGADO**, agrupado ao bloco de custeio já existente) e **Tema 1421**
+> ("limbo trabalhista-previdenciário" — competência e termo inicial do
+> período de graça do art. 15, II, da Lei 8.213/1991 quando o empregador
+> não permite o retorno ao trabalho após a cessação do auxílio por
+> incapacidade temporária, **MÉRITO AINDA NÃO JULGADO**). **Os outros 12
+> temas foram verificados e descartados**: a maioria é RPPS de servidor
+> público municipal/estadual ou matéria de pessoal de servidor/empregado
+> público sem concessão de benefício do RGPS (Temas 1307 — paridade de
+> aposentadoria especial de policial civil —, 1312, 1358, 1359 e 1390 —
+> aposentadoria compulsória de empregado público aos 75 anos, art. 201,
+> § 16, CF, matéria de desligamento/pessoal, não de benefício do RGPS),
+> Direito Tributário geral sem relação com o custeio do RGPS (Tema 1309 —
+> PIS/COFINS sobre receitas financeiras de reservas técnicas de
+> seguradoras), matéria processual civil/administrativa sem mérito
+> previdenciário próprio (Tema 1335 — incidência da taxa SELIC sobre
+> precatórios da Fazenda Pública em geral, apesar de citar o art. 201,
+> § 4º, CF de passagem; Tema 1355 — legitimidade extraordinária de
+> federação sindical), Direito do Trabalho sem relação com benefício do
+> RGPS (Tema 1336 — manutenção de plano de saúde de aposentado de estatal
+> privatizada), RPPS militar (Tema 1397 — contribuição de pensão militar
+> de policiais do Distrito Federal), matéria estranha à Lei 8.213/1991
+> (Tema 1399 — prescrição de pedidos de auxílio emergencial da pandemia,
+> instituído por medida provisória distinta do RGPS) e previdência
+> complementar privada (Tema 1423 — isonomia de gênero em plano de
+> previdência complementar fechado, PREVI/Banco do Brasil) — ver o
+> relatório da tarefa para o detalhamento de cada descarte.
+
+## Tema 1329 — Possibilidade de complementação de contribuição previdenciária para enquadramento na regra de transição do art. 17 da EC 103/2019 (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1329_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 13.
+> **Atenção: o mérito ainda não foi julgado** e há **Suspensão Nacional**
+> determinada — confira o andamento atualizado em portal.stf.jus.br antes
+> de qualquer uso em petição.
+
+- **Leading case:** RE 1.508.285 (origem: RS).
+- **Relator:** Min. Alexandre de Moraes.
+- **Repercussão geral:** **Sim** — reconhecida em 04/10/2024, Plenário
+  Virtual, por maioria, vencido o Min. Edson Fachin (tanto quanto ao
+  mérito da questão quanto ao reconhecimento da repercussão geral).
+- **Objeto:** à luz do art. 5º, XXXVI, da Constituição Federal e dos
+  arts. 3º e 17 da EC 103/2019, a possibilidade de recolhimento de
+  contribuição previdenciária **após** a edição da EC 103/2019 para
+  enquadramento na regra de transição do art. 17, que exige tempo mínimo
+  de contribuição "até a data de entrada em vigor" da Emenda.
+- **Embargos de declaração:** opostos pelo INSS, rejeitados por
+  unanimidade em 24/02/2025 (sem efeitos infringentes) — o INSS alegava
+  obscuridade/contradição quanto ao conceito de "indenização
+  previdenciária" e omissão quanto à suspensão de processos; o STF
+  afastou ambos os vícios.
+- **Suspensão Nacional:** sinalizada na própria página processual do
+  tema (indicador "Suspensão Nacional" ativo) — processos sobre a mesma
+  controvérsia tramitando no país podem estar sobrestados; confirmar
+  abrangência e data exatas na fonte oficial antes de prosseguir em ação
+  sobre a matéria.
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]` — até o momento só houve o
+  reconhecimento da repercussão geral e a rejeição dos embargos de
+  declaração contra esse reconhecimento.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** diretamente aplicável a qualquer caso em que o cliente
+  pretenda complementar (indenizar) contribuições previdenciárias já
+  após 13/11/2019 para alcançar o tempo mínimo exigido pela regra de
+  transição por pontos do art. 17 da EC 103/2019 (já documentada em
+  `emendas-constitucionais/ec-103-2019.md`) — verificar se há
+  sobrestamento do caso concreto antes de orientar o cliente.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1329_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1353 — Auxílio-doença para segurada em gestação de alto risco independentemente de carência (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1353_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 13.
+> **Atenção: o mérito ainda não foi julgado.**
+
+- **Leading case:** RE 1.455.046 (origem: RS).
+- **Relator:** Min. Gilmar Mendes.
+- **Repercussão geral:** **Sim** — reconhecida em 11/11/2024, Plenário
+  Virtual, por maioria, vencido o Min. Edson Fachin (quanto ao mérito e
+  quanto ao reconhecimento da repercussão geral).
+- **Objeto:** à luz dos arts. 2º, 194, III, e 201 da Constituição
+  Federal, se é possível conceder auxílio-doença a segurada em gestação
+  de alto risco sem o cumprimento de período de carência, apesar de não
+  haver previsão em lista de patologias que autorizam a isenção,
+  invocando-se a proteção constitucional à maternidade e à infância —
+  mesmo fundamento já usado pelo STF nas ADIs 2.110 e 5.938 (ambas
+  citadas no acórdão de reconhecimento da repercussão geral, a primeira
+  já referida em `Tema 1102` desta base).
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]` — até o momento só houve o
+  reconhecimento da repercussão geral.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** direta para a triagem de pedidos de auxílio-doença de
+  gestantes em alto risco quando a carência (Lei 8.213/1991, art. 25, I
+  `[DISPOSITIVO A CONFIRMAR NA BASE]`) não estiver cumprida — aguardar o
+  julgamento do mérito antes de fundamentar uma tese de dispensa de
+  carência exclusivamente neste precedente.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1353_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1362 — Tamanho da propriedade rural não descaracteriza, por si só, o regime de economia familiar do segurado especial (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1362_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 13.
+> Incorporado pelo critério refinado nos Lotes 9-12: SEM repercussão
+> geral, mas genuinamente Direito Previdenciário (segurado especial do
+> RGPS, Lei 8.213/1991 e Lei 11.718/2008).
+
+- **Leading case:** RE 1.512.490 (origem: PR, via REsp 1.869.455/STJ —
+  recurso repetitivo do STJ, CPC, art. 1.036).
+- **Relator:** Ministro Presidente (à época da análise de repercussão
+  geral).
+- **Repercussão geral:** **NÃO reconhecida** — decisão de 29/11/2024,
+  Plenário Virtual, por unanimidade (não se manifestou o Min. Cristiano
+  Zanin), por se tratar de matéria infraconstitucional e fática.
+- **Objeto:** se o trabalhador rural com área superior a 4 módulos
+  fiscais pode ser qualificado como segurado especial da Previdência
+  Social após a edição da Lei nº 11.718/2008 — tese do STJ (recurso
+  repetitivo) afirmando que "o tamanho da propriedade não descaracteriza,
+  por si só, o regime de economia familiar, caso estejam comprovados os
+  demais requisitos legais para a concessão da aposentadoria por idade
+  rural".
+- **Tese do STF:** "É infraconstitucional a controvérsia sobre o tamanho
+  da propriedade rural descaracterizar, por si só, o regime de economia
+  familiar para a concessão de aposentadoria por idade rural."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** mantém como palavra final a tese do STJ (recurso
+  repetitivo) que favorece o segurado especial com propriedade maior que
+  4 módulos fiscais, desde que comprovados os demais requisitos do
+  regime de economia familiar (Lei 8.213/1991, art. 11, VII
+  `[DISPOSITIVO A CONFIRMAR NA BASE]`, e Lei 11.718/2008) — útil para
+  afastar indeferimentos do INSS fundados isoladamente no tamanho do
+  imóvel rural.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1362_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1370 — Afastamento remunerado por violência doméstica: natureza jurídica da prestação e responsabilidade pelo custeio
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1370_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 13.
+
+- **Leading case:** RE 1.520.468 (origem: PR).
+- **Relator:** Min. Flávio Dino.
+- **Repercussão geral:** **Sim** — reconhecida em 14/02/2025, Plenário
+  Virtual, por unanimidade (não se manifestou o Min. André Mendonça).
+- **Objeto:** a natureza jurídica (previdenciária ou assistencial) e a
+  responsabilidade pelo ônus remuneratório decorrente da manutenção do
+  vínculo trabalhista de mulheres vítimas de violência doméstica quando
+  necessário o afastamento do trabalho por até 6 meses, em razão de
+  medida protetiva do art. 9º, § 2º, II, da Lei Maria da Penha (Lei nº
+  11.340/2006), incluindo a competência do juízo criminal para
+  determinar o afastamento remunerado (inclusive dirigindo a medida ao
+  INSS).
+- **Julgamento de mérito:** 16/12/2025, Plenário, recurso extraordinário
+  **desprovido** — fixada divisão de responsabilidade: (i) primeiros 15
+  dias de afastamento a cargo do empregador; (ii) a partir do 16º dia,
+  prestação análoga ao auxílio por incapacidade temporária
+  (auxílio-doença), a cargo do INSS quando a mulher for segurada do
+  RGPS; (iii) competência da Justiça Estadual (juízo criminal) para
+  determinar a medida, inclusive dirigida ao INSS, por analogia; (iv)
+  competência da Justiça Federal para eventual ação regressiva do INSS
+  contra o agressor, com base no art. 120, II, da Lei 8.213/1991.
+- **Embargos de declaração do INSS:** acolhidos **sem efeitos
+  infringentes**, em 01/06/2026, só para esclarecer e reformular dois
+  subitens da tese: (1) **não incide contribuição previdenciária** sobre
+  a prestação paga pelo INSS (Lei 8.212/1991, art. 28, § 9º, "a"); o
+  período é computado como tempo de contribuição sem ônus à segurada
+  (Lei 8.213/1991, art. 55, II); (2) para mulher **não segurada** do
+  RGPS, a prestação tem natureza **assistencial** — benefício eventual
+  da assistência social (Lei 8.742/1993, art. 22), com custeio e
+  execução a cargo dos Estados, do Distrito Federal e dos Municípios
+  (descentralização do SUAS), cabendo ao juízo estadual definir o ente
+  responsável no caso concreto.
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]` (os embargos de declaração
+  de 01/06/2026 são posteriores à data de consulta de muitas normas
+  desta base; confirmar na fonte oficial antes de citar).
+- **Relevância:** direta sempre que uma cliente segurada do RGPS for
+  afastada do trabalho por medida protetiva da Lei Maria da Penha — o
+  benefício pago pelo INSS a partir do 16º dia é análogo ao auxílio por
+  incapacidade temporária, sem incidência de contribuição previdenciária
+  e sem exigência de carência; cruzar com `lei-8.742-1993.md` (art. 22)
+  quando a cliente não for segurada do RGPS.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1370_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1414 — Cômputo de tempo de atividade rural exercido por pessoa com menos de 12 anos (SEM repercussão geral)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1414_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 13.
+> Incorporado pelo critério refinado nos Lotes 9-12: SEM repercussão
+> geral, mas genuinamente Direito Previdenciário (tempo rural para
+> benefício do RGPS) — relacionado, sem se confundir, com o **Tema
+> 1362**, acima (tamanho da propriedade) e com o **Tema 219/TNU**, citado
+> no próprio acórdão como já tendo admitido a averbação de tempo rural
+> sob 12 anos.
+
+- **Leading case:** ARE 1.531.515 (origem: RS).
+- **Relator:** Ministro Presidente (à época da análise de repercussão
+  geral).
+- **Repercussão geral:** **NÃO reconhecida** — decisão de 08/08/2025,
+  Plenário Virtual, por unanimidade, por se tratar de matéria
+  infraconstitucional e fática.
+- **Objeto:** se o tempo de atividade rural exercido por pessoa com
+  menos de 12 anos de idade à época do serviço pode ser computado para a
+  concessão de benefício previdenciário — no caso concreto, a Turma
+  Recursal negou o cômputo por entender necessário comprovar a
+  indispensabilidade do trabalho infantil para a subsistência do grupo
+  familiar, apesar de a TNU (Tema 219) já admitir, em tese, a
+  averbação de tempo rural sob 12 anos.
+- **Tese:** "É infraconstitucional e fática a controvérsia sobre o
+  preenchimento de requisitos para o cômputo de tempo de serviço para
+  fins de concessão de benefício previdenciário."
+- **Trânsito em julgado:** não localizado no material desta tarefa —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** mantém no âmbito infraconstitucional (TNU, Tema 219,
+  ainda não incorporado a esta base como entrada própria) a palavra
+  final sobre o cômputo de tempo rural de menores de 12 anos — a
+  admissibilidade em tese não dispensa a prova da indispensabilidade do
+  trabalho à subsistência do grupo familiar, conforme o caso concreto
+  julgado neste tema.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1414_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1415 — Custeio: incidência de contribuição previdenciária patronal sobre vale-transporte e auxílio-alimentação descontados do empregado (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1415_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 13.
+> **Atenção: o mérito ainda não foi julgado.** Agrupado ao bloco de
+> custeio da Lei 8.212/1991 já existente nesta base (Temas 166, 281, 32,
+> 3, 20, 72, 202, 204, 302, 344, 470, 651, 669, 723, 833, 985, 1048, 1100,
+> 1109, 1110, 1135, 1186, 1221, 1223 e 1294/1295).
+
+- **Leading case:** ARE 1.370.843 (origem: SC).
+- **Relator:** Min. André Mendonça.
+- **Repercussão geral:** **Sim** — reconhecida em 18/08/2025, Plenário.
+  Histórico processual extenso: o recurso foi inicialmente desprovido por
+  agravo interno (27/04/2022) com fundamento no Tema 1.100 já nesta base
+  (infraconstitucionalidade), depois os embargos de declaração do
+  contribuinte foram acolhidos com efeitos infringentes (06/06/2022) para
+  determinar nova distribuição do feito; um segundo agravo interno, já
+  sob a relatoria do Min. André Mendonça, reverteu o entendimento
+  (16/06/2025) para afastar o óbice da infraconstitucionalidade,
+  culminando no reconhecimento da repercussão geral em 18/08/2025.
+- **Objeto:** à luz dos arts. 150 e 195, I, "a", da Constituição Federal,
+  a amplitude do conceito constitucional de "rendimentos do trabalho"
+  como fundamento de validade para a incidência da contribuição
+  previdenciária patronal sobre as parcelas de vale-transporte e de
+  auxílio-alimentação pagas pelo empregador e descontadas do empregado
+  (coparticipação) — distinto do Tema 1.100 (habitualidade genérica de
+  verbas, já nesta base) por tratar especificamente dessas duas verbas.
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]` — até o momento só houve o
+  reconhecimento da repercussão geral.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** custeio — relevante para empregadores-clientes que
+  descontam vale-transporte e auxílio-alimentação de empregados e
+  questionam a incidência da contribuição patronal (Lei 8.212/1991, art.
+  22, I) sobre essas parcelas; aguardar o julgamento do mérito antes de
+  orientar sobre eventual compensação/restituição.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1415_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+## Tema 1421 — "Limbo trabalhista-previdenciário": competência e termo inicial do período de graça (MÉRITO AINDA NÃO JULGADO)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_1421_pagina.html` (Google Drive, pasta pessoal da usuária,
+> parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`) em 16/10/2026, Lote 13.
+> **Atenção: o mérito ainda não foi julgado** — tema de altíssima
+> relevância prática (o chamado "limbo previdenciário"); confira o
+> andamento atualizado em portal.stf.jus.br antes de qualquer uso em
+> petição.
+
+- **Leading case:** RE 1.460.766 (origem: RN).
+- **Relator:** Min. Gilmar Mendes.
+- **Repercussão geral:** **Sim** — reconhecida em 05/09/2025, Plenário
+  Virtual, por unanimidade.
+- **Objeto:** no caso de segurado beneficiário de auxílio por
+  incapacidade temporária que, mesmo após autorização do INSS e cessação
+  do benefício, não retorna ao exercício de suas atividades laborais por
+  decisão do empregador (por entendê-lo ainda incapacitado) — a chamada
+  situação de "limbo trabalhista-previdenciário": (a) definição da
+  competência constitucional (Justiça do Trabalho, art. 114, I e VIII,
+  CF, ou Justiça Federal comum) para processar e julgar a causa; e (b)
+  definição do início do período de graça do art. 15, II, da Lei
+  8.213/1991 — se desde a cessação do benefício pelo INSS ou desde a
+  rescisão efetiva do contrato de trabalho. A tese da TNU, na origem,
+  fixou que a qualidade de segurado se mantém até a rescisão contratual,
+  que é quando se inicia a contagem do período de graça.
+- **Status processual em 16/10/2026: mérito AINDA NÃO JULGADO**
+  `[AGUARDANDO JULGAMENTO DO MÉRITO]` — até o momento só houve o
+  reconhecimento da repercussão geral.
+- **Tese:** ainda não fixada — `[AGUARDANDO JULGAMENTO DO MÉRITO]`.
+- **Relevância:** altíssima — tema central sempre que um cliente, após
+  alta do INSS (cessação de auxílio por incapacidade temporária), não
+  for readmitido ao trabalho por decisão do próprio empregador: a
+  definição da competência (Justiça do Trabalho x Federal) e do termo
+  inicial do período de graça do art. 15, II, da Lei 8.213/1991 afeta
+  diretamente a manutenção da qualidade de segurado e a viabilidade de
+  novos benefícios nesse intervalo; aguardar o julgamento do mérito antes
+  de definir o foro de ajuizamento.
+- **Fonte:** Google Drive, `STF_RG_TEMA_1421_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
 ---
 
 ## Ações Diretas de Inconstitucionalidade (NÃO são Temas de Repercussão Geral — categoria processual diferente)
