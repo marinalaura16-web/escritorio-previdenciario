@@ -12,6 +12,9 @@
 > abaixo. Método diferente: leitura direta das páginas oficiais
 > `portal.stf.jus.br` (arquivo HTML fornecido pela usuária), marcadas
 > `[FONTE OFICIAL — PÁGINA DO STF NA BASE]`.
+> **Data de consulta (item 13, "Lote 3"):** 16/10/2026, mesmo dia e mesmo
+> método do Lote 2 (páginas oficiais `portal.stf.jus.br`, desta vez para
+> as Súmulas Vinculantes 22 a 42) — ver seção própria abaixo.
 > **Antes de citar qualquer súmula abaixo em petição, parecer ou recurso,
 > confira a redação exata em portal.stf.jus.br.**
 
@@ -354,6 +357,91 @@ repita a suposição errada — no mesmo espírito da correção já feita para
 
 ---
 
+## Lote 3 (16/10/2026) — Súmulas Vinculantes 22 a 42
+
+> **Mesmo método do Lote 2:** leitura direta das páginas oficiais
+> `portal.stf.jus.br/jurisprudencia/sumariosumulas.asp` para cada uma das
+> Súmulas Vinculantes 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35,
+> 36, 37, 38, 39, 40, 41 e 42 (arquivos HTML salvos na pasta pessoal da
+> usuária no Google Drive, não é upload de terceiro). Marcação de
+> proveniência: `[FONTE OFICIAL — PÁGINA DO STF NA BASE]`. **SV 33 não foi
+> reprocessada** — já constava da base desde o Lote 1 (item 8 acima). **SV
+> 28 foi citada no Lote 2 como "tema correlato" à SV 21 mas não havia sido
+> processada** — processada normalmente aqui.
+> **SV 30:** a própria página oficial consultada informa que "A Súmula
+> Vinculante 30 está pendente de publicação" — sem enunciado disponível na
+> fonte. Não é possível avaliar relevância previdenciária sem o texto;
+> por isso **não recebeu entrada e não foi contada entre os descartes por
+> irrelevância** — fica como pendência de verificação em lote futuro,
+> quando/se o enunciado for publicado.
+> **Critério de incorporação:** idêntico ao dos Lotes 1 e 2 (ver nota
+> acima do Lote 2).
+> **Resultado: 1 incorporada (SV 28) e 18 descartadas por irrelevância**
+> (SV 22, 23, 24, 25, 26, 27, 29, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41 e
+> 42) — ver tabela "Resumo do que foi descartado" abaixo para o motivo de
+> cada uma.
+
+## 13. Súmula Vinculante 28 (STF)
+
+- **Texto:** "É inconstitucional a exigência de depósito prévio como
+  requisito de admissibilidade de ação judicial na qual se pretenda
+  discutir a exigibilidade de crédito tributário."
+- **Precedentes representativos:** ADI 1.074, rel. min. Eros Grau,
+  Plenário, j. 28-3-2007, DJE 23 de 25-5-2007 (declarou inconstitucional,
+  em controle abstrato, o dispositivo de lei ordinária federal que
+  condicionava a propositura de ações sobre créditos tributários a
+  depósito prévio — **[DISPOSITIVO A CONFIRMAR NA BASE]** quanto ao número
+  exato do artigo e da lei, não documentados em `legislacao/`); RE
+  640.905, rel. min. Luiz Fux, Plenário, j. 15-12-2016, DJE 18 de
+  1º-2-2018 — Tema 573 de Repercussão Geral (tese distinta, sobre
+  restrição de ingresso em parcelamento de dívida instituído por portaria,
+  não sobre admissibilidade de ação).
+- **Fundamento:** o depósito prévio como condição de admissibilidade da
+  ação judicial que discute a exigibilidade de crédito tributário
+  consubstancia barreira inconstitucional ao acesso ao Poder Judiciário
+  (direito de petição e inafastabilidade da jurisdição, **[DISPOSITIVO A
+  CONFIRMAR NA BASE]** quanto ao inciso exato da Constituição Federal).
+  Mesma lógica de fundo da Súmula Vinculante 21 (item 12 acima), mas para
+  o processo **judicial**, não o administrativo — a própria página
+  oficial da SV 28 remete à SV 21 ("Vide Súmula Vinculante 21").
+- **Limitação de alcance, confirmada por jurisprudência posterior do
+  próprio STF (não estender por analogia) — relevante para a atuação do
+  escritório em execução fiscal de contribuições previdenciárias:**
+  - A SV 28 **não afasta a exigência de garantia do juízo nos embargos à
+    execução fiscal**, prevista na Lei de Execuções Fiscais
+    (**[DISPOSITIVO A CONFIRMAR NA BASE]** — Lei 6.830/1980, ainda não
+    documentada em `legislacao/`). O STF distingue expressamente: a SV 28
+    trata do depósito como requisito para a ação ser processada **antes**
+    do ajuizamento da execução fiscal (judicialização do próprio
+    lançamento/inadimplemento); a garantia do juízo nos embargos a uma
+    execução fiscal já ajuizada é etapa distinta, regida por lei ordinária
+    não alcançada pela súmula (Rcl 32.139 ED, rel. min. Gilmar Mendes,
+    dec. monocrática, j. 17-12-2018, DJE 272 de 19-12-2018; Rcl 19.724
+    AgR, voto do rel. min. Luiz Fux, 1ª T, j. 17-3-2015, DJE 64 de
+    7-4-2015; Rcl 20.617 AgR, rel. min. Roberto Barroso, 1ª T, j.
+    2-2-2016, DJE 34 de 24-2-2016).
+  - Também não se aplica ao depósito/preparo recursal do processo civil
+    comum (**[DISPOSITIVO A CONFIRMAR NA BASE]** — CPC/2015, ainda não
+    documentado em `legislacao/`) — tratado como garantia de
+    juízo/pressuposto processual distinto da admissibilidade da ação
+    original (Rcl 29.926, rel. min. Alexandre de Moraes, dec. monocrática,
+    j. 14-6-2018, DJE 121 de 19-6-2018).
+- **Relevância para Direito Previdenciário: direta**, para a defesa de
+  segurado/empresa em ação judicial (anulatória/declaratória de débito,
+  ou embargos à execução, nos limites da ressalva acima) que discuta a
+  exigibilidade de contribuição previdenciária cobrada pela União/INSS —
+  tributo, mesmo fundamento de natureza da Súmula Vinculante 8 (item 10
+  acima). Garante que o cliente não pode ser impedido de ajuizar a ação
+  só por não ter feito depósito prévio do valor questionado. **Atenção à
+  ressalva:** não dispensa a garantia do juízo já exigida especificamente
+  nos embargos à execução fiscal propriamente dita.
+- **Fonte:** portal.stf.jus.br/jurisprudencia/sumariosumulas.asp (Súmula
+  Vinculante 28). **[FONTE OFICIAL — PÁGINA DO STF NA BASE]**
+- **Data de publicação do enunciado:** DJE de 17-2-2010.
+- **Data de consulta:** 16/10/2026.
+
+---
+
 ## Notas de verificação — correção monetária
 
 Não foi localizada, na pesquisa realizada, nenhuma súmula do STF
@@ -385,3 +473,22 @@ A súmula pertinente a esse tema é do STJ (Súmula 148 — ver
 | SV 18 | Dissolução de casamento no curso do mandato não afasta inelegibilidade | Direito eleitoral, sem relação previdenciária |
 | SV 19 | Taxa de coleta/remoção de lixo é constitucional | Direito tributário municipal, sem relação previdenciária |
 | SV 20 | Gratificação de Desempenho (GDATA) devida a inativos — pontuação específica de lei de 2002 | Vantagem específica de servidor público federal (RPPS), sem relação com RGPS |
+| SV 22 | Competência da Justiça do Trabalho para ações de indenização por dano moral/patrimonial de acidente de trabalho, empregado x empregador | Competência cível trabalhista; não trata de benefício do RGPS — a própria jurisprudência citada na página oficial confirma que a ação regressiva do INSS contra o empregador, com base na Lei de Benefícios (**[DISPOSITIVO A CONFIRMAR NA BASE]**), continua na Justiça comum, fora do alcance desta SV |
+| SV 23 | Competência da Justiça do Trabalho para ação possessória (interdito proibitório) decorrente de greve | Direito do trabalho/processual civil, sem relação previdenciária |
+| SV 24 | Não se tipifica crime material contra a ordem tributária antes do lançamento definitivo do tributo (Lei 8.137/1990) | Direito penal tributário, sem relação previdenciária |
+| SV 25 | Ilicitude da prisão civil do depositário infiel, qualquer que seja a modalidade de depósito | Direito civil/processual penal, sem relação previdenciária |
+| SV 26 | Inconstitucionalidade do regime integralmente fechado para progressão em crime hediondo | Direito penal, sem relação previdenciária |
+| SV 27 | Competência da Justiça Estadual para causas entre consumidor e concessionária de telefonia (sem a ANATEL como litisconsorte) | Direito do consumidor/telecomunicações, sem relação previdenciária |
+| SV 29 | Constitucionalidade de taxa que usa elemento da base de cálculo de imposto, sem identidade integral entre as bases | Direito tributário geral (taxas administrativas), sem relação específica com contribuições previdenciárias |
+| SV 30 | Página oficial do STF consultada informa "pendente de publicação" — sem texto do enunciado disponível na fonte | Não avaliada por falta de texto; fica como pendência de verificação em lote futuro (não contada como descarte por irrelevância) |
+| SV 31 | Inconstitucionalidade do ISS sobre operações de locação de bens móveis | Direito tributário municipal, sem relação previdenciária |
+| SV 32 | Não incidência do ICMS sobre alienação de salvados de sinistro por seguradoras | Direito tributário estadual, matéria de seguradoras privadas, sem relação com o INSS |
+| SV 34 | Extensão da Gratificação de Desempenho de Atividade de Seguridade Social e do Trabalho (GDASST) a inativos com paridade | Gratificação de servidor público federal (RPPS) — inclusive de quadros do próprio MPS/INSS como empregador, não benefício do segurado do RGPS |
+| SV 35 | A homologação de transação penal prevista em lei especial não faz coisa julgada material (**[DISPOSITIVO A CONFIRMAR NA BASE]**) | Direito penal/processual penal, sem relação previdenciária |
+| SV 36 | Competência da Justiça Federal para falsificação de CIR/CHA expedidas pela Marinha | Direito penal, sem relação previdenciária |
+| SV 37 | O Judiciário não pode aumentar vencimentos de servidor público sob fundamento de isonomia | Direito administrativo de servidor público (RPPS), sem relação com benefício do RGPS |
+| SV 38 | Competência do Município para fixar horário de funcionamento de estabelecimento comercial | Direito administrativo municipal, sem relação previdenciária |
+| SV 39 | Competência privativa da União para legislar sobre vencimentos das polícias civil/militar e bombeiros do DF | Direito administrativo/constitucional, sem relação previdenciária |
+| SV 40 | Contribuição confederativa sindical só é exigível dos filiados ao sindicato respectivo (**[DISPOSITIVO A CONFIRMAR NA BASE]**) | Direito sindical/trabalhista, sem relação com contribuição previdenciária (que é compulsória por lei, não associativa) |
+| SV 41 | O serviço de iluminação pública não pode ser remunerado mediante taxa | Direito tributário municipal, sem relação previdenciária |
+| SV 42 | Inconstitucionalidade de vincular reajuste de vencimentos de servidores estaduais/municipais a índices federais | Direito administrativo de servidor público (RPPS estadual/municipal), sem relação com RGPS |
