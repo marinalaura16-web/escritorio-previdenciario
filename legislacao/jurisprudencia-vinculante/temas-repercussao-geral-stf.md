@@ -143,6 +143,41 @@
 > (restituição de verba alimentar paga por erro da Administração, de
 > alcance mais amplo que o RGPS) — ver o relatório da tarefa para o
 > detalhamento de cada descarte.
+>
+> **Lote 5, mesmo dia (16/10/2026):** processados mais 19 Temas de
+> repercussão geral do STF (números 0457, 0459, 0466, 0467, 0470, 0482,
+> 0494, 0505, 0515, 0516, 0522, 0524, 0526, 0529, 0549, 0553, 0555, 0566 e
+> 0568), a partir da mesma pasta pessoal do Google Drive (arquivos
+> `STF_RG_TEMA_NNNN_pagina.html`). **Apenas 5 desses 19 temas são
+> efetivamente previdenciários (RGPS)** e foram incorporados como entradas
+> próprias, marcadas `[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]`:
+> **Tema 470** (custeio — contribuição adicional de 2,5% sobre a folha de
+> salários de instituições financeiras, já antes da EC 20/1998, sob a Lei
+> 7.787/1989, predecessora do dispositivo da Lei 8.212/1991 julgado pelo
+> Tema 204 já nesta base), **Tema 522** (contagem recíproca de tempo de
+> contribuição entre administração pública e atividade privada), **Tema
+> 526** e **Tema 529** (pensão por morte — concubinato e uniões
+> concomitantes, respectivamente, ambos vedando o reconhecimento de
+> direitos previdenciários a relação paralela a casamento/união estável
+> preexistente) e **Tema 555** (aposentadoria especial — o fornecimento de
+> EPI eficaz descaracteriza a especialidade, exceto quanto a ruído acima
+> dos limites de tolerância; tema de altíssima relevância prática, já
+> tangenciado pelo caso real `casos/2026-001/` do escritório). **Os outros
+> 14 temas foram verificados e descartados:** RPPS de servidor público ou
+> militar estadual (Temas 457, 467, 524, 553 e 566), previdência
+> complementar privada (Tema 466), Direito Tributário geral sem relação
+> direta com o RGPS/custeio — COFINS (Temas 515 e 516), matéria processual
+> civil/trabalhista sem mérito previdenciário próprio — coisa julgada sobre
+> reajuste remuneratório (URP), competência da Justiça do Trabalho para
+> executar contribuições sociais e intimação pessoal de procuradores
+> federais em JEFs (Temas 494, 505 e 549), e três temas em que o STF **não
+> reconheceu repercussão geral** (sem tese vinculante, apesar de o objeto
+> tangenciar o RGPS — mesmo critério já aplicado aos Temas 320/405/406/425
+> nos lotes anteriores): Tema 459 (imunidade tributária de entidade
+> beneficente), Tema 482 (contribuição previdenciária sobre os 15 primeiros
+> dias de auxílio-doença pago pelo empregador) e Tema 568 (equivalência
+> entre o teto do salário-de-contribuição e a RMI) — ver o relatório da
+> tarefa para o detalhamento de cada descarte.
 
 ---
 
@@ -1377,6 +1412,242 @@ especial — ver seção final). Documentar isso aqui, explicitamente, é a
   petição inicial nesse ponto pode gerar extinção/remessa e perda de
   tempo processual — conferir sempre antes de protocolar ação acidentária.
 - **Fonte:** Google Drive, `STF_RG_TEMA_0414_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 470 — Contribuição adicional de 2,5% sobre a folha de salários de instituições financeiras, antes da EC 20/1998 (Lei 7.787/1989) — antecedente histórico do Tema 204
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0470_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Dispositivo a confirmar:** o art. 3º, § 2º, da Lei
+> 7.787/1989 (lei predecessora da Lei 8.212/1991, substituída por esta a
+> partir de 1991) não está incorporado a esta base de legislação —
+> `[DISPOSITIVO A CONFIRMAR NA BASE]`.
+
+- **Processo paradigma:** RE 599.309.
+- **Relator:** Min. Ricardo Lewandowski.
+- **Objeto:** constitucionalidade, à luz dos artigos 5º, caput e I; 145,
+  § 1º; 150, II; 194, V; 195, I e § 5º, da Constituição Federal, da
+  contribuição adicional de 2,5% sobre a folha de salários, instituída
+  pelo art. 3º, § 2º, da Lei 7.787/1989 — `[DISPOSITIVO A CONFIRMAR NA
+  BASE]` —, a ser paga por bancos comerciais, bancos de investimentos,
+  bancos de desenvolvimento, caixas econômicas, sociedades de crédito,
+  financiamento e investimento, sociedades de crédito imobiliário,
+  sociedades corretoras, distribuidoras de títulos e valores mobiliários,
+  empresas de arrendamento mercantil, cooperativas de crédito, empresas de
+  seguros privados e de capitalização, agentes autônomos de seguros
+  privados e de crédito e entidades de previdência privada abertas e
+  fechadas, em período **anterior** à Emenda Constitucional 20/1998.
+- **Repercussão geral reconhecida:** 27/08/2011, Plenário Virtual (não se
+  manifestaram os Ministros Gilmar Mendes, Joaquim Barbosa, Celso de Mello
+  e Cármen Lúcia).
+- **Data do julgamento de mérito:** 06/06/2018, Tribunal Pleno, por
+  maioria — negou provimento ao recurso, vencido o Ministro Marco
+  Aurélio (também na fixação da tese). Ausentes, justificadamente, os
+  Ministros Celso de Mello, Luiz Fux e Roberto Barroso; neste julgamento,
+  também o Ministro Gilmar Mendes. Presidiu a Ministra Cármen Lúcia.
+- **Tese firmada:** "É constitucional a contribuição adicional de 2,5%
+  (dois e meio por cento) sobre a folha de salários instituída para as
+  instituições financeiras e assemelhadas pelo art. 3º, § 2º, da Lei
+  7.787/1989 — `[DISPOSITIVO A CONFIRMAR NA BASE]` —, mesmo considerado o
+  período anterior à Emenda Constitucional 20/1998."
+- **Trânsito em julgado:** 04/02/2020 (certidão constante da página
+  oficial, baixa definitiva registrada em 03/03/2020).
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** antecedente histórico direto do **Tema 204** já nesta
+  base (Lei 8.212/1991, art. 22, § 1º) — mesma matéria de fundo
+  (diferenciação de alíquota da contribuição patronal sobre folha de
+  salários para instituições financeiras), mas sob a lei anterior (Lei
+  7.787/1989) e para o período **anterior** à EC 20/1998. Os dois temas
+  juntos cobrem toda a linha do tempo da validade dessa contribuição
+  adicional perante clientes que sejam instituições financeiras ou
+  equiparadas (hipótese pouco comum na carteira típica de pessoa física do
+  escritório, mas relevante se o escritório vier a atuar para alguma
+  dessas entidades em disputa de custeio).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0470_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 522 — Contagem recíproca do tempo de contribuição entre administração pública e atividade privada
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0522_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026.
+
+- **Processo paradigma:** RE 650.851 (origem: SP).
+- **Relator:** Min. Gilmar Mendes.
+- **Objeto:** possibilidade, ou não, de legislação local impor restrições
+  à contagem recíproca do tempo de contribuição na administração pública
+  e na atividade privada, para fins de concessão de aposentadoria, à luz
+  do art. 202, § 2º, da Constituição Federal, com redação **anterior** à
+  Emenda Constitucional nº 20/1998.
+- **Data do julgamento de mérito:** 01/10/2014, Tribunal Pleno, por
+  unanimidade — reconheceu a existência de repercussão geral, reafirmou a
+  jurisprudência da Corte e deu parcial provimento ao recurso. Ausente,
+  justificadamente, o Ministro Ricardo Lewandowski (Presidente).
+- **Tese firmada:** "A imposição de restrições, por legislação local, à
+  contagem recíproca do tempo de contribuição na administração pública e
+  na atividade privada para fins de concessão de aposentadoria viola o
+  art. 202, § 2º, da Constituição Federal, com redação anterior à EC
+  20/98."
+- **Trânsito em julgado:** 06/02/2015.
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** direta para a prática de cálculo previdenciário
+  (`calculo-previdenciario`) em casos de averbação de tempo de serviço
+  público (RPPS) para fins de aposentadoria no RGPS, ou vice-versa: veda
+  que lei estadual/municipal imponha restrições à contagem recíproca entre
+  os dois regimes, além das já previstas na legislação federal. Útil como
+  fundamento quando o INSS (ou um órgão de RPPS) recusar a averbação de
+  tempo com base em norma local restritiva.
+- **Fonte:** Google Drive, `STF_RG_TEMA_0522_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 526 — Concubinato de longa duração não gera efeitos previdenciários (pensão por morte)
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0526_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Atenção:** o objeto deste tema é distinto do Tema 529
+> (abaixo) — este trata de concubinato (relação com pessoa já casada),
+> aquele trata de união estável e relação homoafetiva **concomitantes**
+> entre si.
+
+- **Processo paradigma:** RE 883.168 (origem: RS).
+- **Relator:** Min. Dias Toffoli.
+- **Objeto:** possibilidade, ou não, de reconhecimento de direitos
+  previdenciários (pensão por morte) à pessoa que manteve, durante longo
+  período e com aparência familiar, união com outra pessoa casada, à luz
+  dos artigos 201, V, e 226, § 3º, da Constituição Federal (este último
+  — `[DISPOSITIVO A CONFIRMAR NA BASE]`, por estar fora do Título VIII,
+  escopo de `constituicao/cf-1988-seguridade-social.md`).
+- **Data do julgamento de mérito:** 03/08/2021, Tribunal Pleno, Sessão
+  Virtual, por maioria — deu provimento ao recurso extraordinário,
+  vencido o Ministro Edson Fachin.
+- **Tese firmada:** "É incompatível com a Constituição Federal o
+  reconhecimento de direitos previdenciários (pensão por morte) à pessoa
+  que manteve, durante longo período e com aparência familiar, união com
+  outra casada, porquanto o concubinato não se equipara, para fins de
+  proteção estatal, às uniões afetivas resultantes do casamento e da
+  união estável."
+- **Embargos de declaração:** rejeitados por unanimidade, Sessão Virtual
+  de 04/03/2022 a 11/03/2022 (julgamento em 14/03/2022).
+- **Trânsito em julgado:** 02/04/2022.
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** direta — pensão por morte; afasta a pretensão de
+  reconhecimento de união estável/dependência previdenciária por quem se
+  relacionou com pessoa casada (concubinato), ainda que de longa duração e
+  com aparência familiar. Tema complementar ao Tema 529 (abaixo).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0526_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 529 — União estável e relação homoafetiva concomitantes: impossibilidade de reconhecimento simultâneo e rateio de pensão por morte
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0529_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. Ver nota de distinção em relação ao Tema 526, acima.
+
+- **Processo paradigma:** ARE 1.045.273 (origem: SE).
+- **Relator:** Min. Alexandre de Moraes.
+- **Objeto:** possibilidade, ou não, de reconhecimento jurídico de união
+  estável e de relação homoafetiva concomitantes, com o consequente
+  rateio de pensão por morte, à luz dos artigos 1º, III; 3º, IV; e 5º, I,
+  da Constituição Federal — dispositivos fora do Título VIII (escopo de
+  `constituicao/cf-1988-seguridade-social.md`), citados aqui apenas por
+  extenso.
+- **Data do julgamento de mérito:** 21/12/2020, Tribunal Pleno, Sessão
+  Virtual, por maioria — negou provimento ao recurso extraordinário,
+  vencidos os Ministros Edson Fachin, Roberto Barroso, Rosa Weber, Cármen
+  Lúcia e Marco Aurélio.
+- **Tese firmada:** "A preexistência de casamento ou de união estável de
+  um dos conviventes, ressalvada a exceção do artigo 1.723, § 1º, do
+  Código Civil, impede o reconhecimento de novo vínculo referente ao
+  mesmo período, inclusive para fins previdenciários, em virtude da
+  consagração do dever de fidelidade e da monogamia pelo ordenamento
+  jurídico-constitucional brasileiro."
+- **Embargos de declaração** (dois opostos, julgados em conjunto):
+  rejeitados por maioria, Sessão Virtual de 23/04/2021 a 30/04/2021
+  (julgamento em 03/05/2021), vencidos os Ministros Roberto Barroso, Rosa
+  Weber e Nunes Marques.
+- **Trânsito em julgado:** 29/05/2021.
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** direta — pensão por morte; veda o rateio simultâneo do
+  benefício entre união estável/casamento preexistente e relação
+  homoafetiva concomitante, ressalvada a separação de fato nos termos do
+  art. 1.723, § 1º, do Código Civil. Tema complementar ao Tema 526
+  (acima): ambos recusam proteção previdenciária dupla/simultânea a
+  relações concorrentes com vínculo preexistente, por fundamentos
+  próximos (fidelidade e monogamia).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0529_pagina.html` (pasta pessoal
+  da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
+- **Data de consulta:** 16/10/2026.
+
+---
+
+## Tema 555 — Equipamento de Proteção Individual (EPI) e descaracterização do tempo de serviço especial para aposentadoria especial
+
+> **[FONTE OFICIAL — PÁGINA PROCESSUAL STF NA BASE]** — conferido contra
+> `STF_RG_TEMA_0555_pagina.html` (Google Drive, pasta pessoal da usuária)
+> em 16/10/2026. **Tema de altíssima relevância prática** para a
+> aposentadoria especial (Lei 8.213/1991, arts. 57-58; Decreto 3.048/1999,
+> arts. 64-70, já nesta base) — distinto da questão da idade mínima
+> julgada pela ADI 6309/DF (também já nesta base): este tema trata da
+> eficácia do EPI/exposição a ruído, não de idade mínima.
+
+- **Processo paradigma:** ARE 664.335.
+- **Relator:** Min. Luiz Fux.
+- **Objeto:** possibilidade, ou não, de o fornecimento de Equipamento de
+  Proteção Individual (EPI), informado no Perfil Profissiográfico
+  Previdenciário (PPP), descaracterizar o tempo de serviço especial para
+  aposentadoria, à luz do § 5º do art. 195 e do § 1º e do caput do art.
+  201 da Constituição Federal.
+- **Repercussão geral reconhecida:** 15/06/2012, Plenário Virtual, por
+  maioria, vencidos os Ministros Marco Aurélio, Cezar Peluso, Gilmar
+  Mendes e Ricardo Lewandowski (não se manifestaram os Ministros Joaquim
+  Barbosa e Cármen Lúcia).
+- **Data do julgamento de mérito:** 04/12/2014 (sessão do Plenário de
+  04/12/2014, com reajuste de voto do Relator) — por unanimidade, negou
+  provimento ao recurso extraordinário; na fixação da primeira tese, por
+  maioria, vencido o Ministro Marco Aurélio (que só votou quanto ao
+  desprovimento); na fixação da segunda tese (ruído), por maioria,
+  vencidos os Ministros Marco Aurélio e Teori Zavascki.
+- **Teses firmadas:**
+  - **I** — "O direito à aposentadoria especial pressupõe a efetiva
+    exposição do trabalhador a agente nocivo à sua saúde, de modo que, se
+    o EPI for realmente capaz de neutralizar a nocividade não haverá
+    respaldo constitucional à aposentadoria especial."
+  - **II** — "Na hipótese de exposição do trabalhador a ruído acima dos
+    limites legais de tolerância, a declaração do empregador, no âmbito
+    do Perfil Profissiográfico Previdenciário (PPP), no sentido da
+    eficácia do Equipamento de Proteção Individual – EPI, não
+    descaracteriza o tempo de serviço especial para aposentadoria."
+- **Trânsito em julgado:** 04/03/2015.
+- **Modulação de efeitos:** não localizada no material disponível —
+  `[NÃO LOCALIZADO NO MATERIAL DISPONÍVEL]`.
+- **Relevância:** máxima para a prática de aposentadoria especial do
+  escritório — fundamenta diretamente a tese de que (i) o uso de EPI
+  comum não afasta, por si só, a especialidade do tempo quando o agente
+  nocivo é **ruído** acima do limite de tolerância (a declaração de
+  eficácia do EPI no PPP, nesse caso específico, não descaracteriza o
+  tempo especial), e (ii) para os demais agentes nocivos, a eficácia real
+  e comprovada do EPI pode afastar a especialidade. Ponto de atenção para
+  `calculo-previdenciario` e `triagem-previdenciaria` ao avaliar PPPs com
+  informação de EPI: verificar sempre se o agente é ruído (Tese II, EPI
+  não descaracteriza) ou outro agente nocivo (Tese I, depende da eficácia
+  comprovada).
+- **Fonte:** Google Drive, `STF_RG_TEMA_0555_pagina.html` (pasta pessoal
   da usuária, parentId `1zph4tm4QR02Do1i4x9NORHXqRUEWhl0x`).
 - **Data de consulta:** 16/10/2026.
 
